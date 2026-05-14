@@ -6,12 +6,15 @@
 }
 
 @theme {
+  --color-black: #000000;
   --color-blue: #1E738E;
   --color-dark-blue: #0D1E2F;
   --color-dark-grey: #2b2b2b;
   --color-light-blue: #D7E8F7;
+  --color-logo-blue: #003660;
+  --color-logo-yellow: #FDB714;
   --color-yellow: #F4C430;
-  --color-white: #FFFFFF;
+  --color-white: #FDFFFF;
   --font-manrope: var(--font-manrope);
   --font-yeseva: var(--font-yeseva);
 }
