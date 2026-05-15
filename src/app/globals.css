@@ -6,17 +6,19 @@
 }
 
 @theme {
+  --color-primary: #003660;
+  --color-secondary: #FDB714;
   --color-black: #000000;
-  --color-blue: #1E738E;
-  --color-dark-blue: #0D1E2F;
-  --color-dark-grey: #2b2b2b;
-  --color-light-blue: #D7E8F7;
-  --color-logo-blue: #003660;
-  --color-logo-yellow: #FDB714;
-  --color-yellow: #F4C430;
   --color-white: #FDFFFF;
-  --font-manrope: var(--font-manrope);
-  --font-yeseva: var(--font-yeseva);
+  
+
+  --font-primary: var(--font-manrope);
+  --font-secondary: var(--font-yeseva);
+
+  --border-green: #40AE2A;
+  --border-blue: #01A9E2;
+  --border-orange: #EE5200;
+  --border-magenta: #D60058;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,8 +26,4 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-
 }
