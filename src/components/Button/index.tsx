@@ -21,7 +21,7 @@ const Button = ({theme, size}: ButtonProp) => {
 
   if (theme === 'transparent') {
     text = 'text-secondary'
-    border = 'border-secondary border-1 border-solid'
+    border = 'border-secondary border border-solid'
   }
 
   if (size === 'large') {
