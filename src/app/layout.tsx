@@ -1,17 +1,16 @@
-import type { Metadata } from "next";
-import { Manrope, Yeseva_One } from "next/font/google";
+import type { Metadata } from "next"
+import localFont from 'next/font/local'
 import "./globals.css";
 
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
+const manrope = localFont({
+  src: '../../public/fonts/Manrope-VariableFont_wght.woff2',
+  variable: '--font-manrope',
 });
 
-const yesevaOne = Yeseva_One({
-  weight: "400",
-  variable: "--font-yeseva",
-  subsets: ["latin"],
-}); 
+const yesevaOne = localFont({
+  src: '../../public/fonts/YesevaOne-Regular.woff2',
+  variable: '--font-yeseva',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",

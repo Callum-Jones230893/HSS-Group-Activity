@@ -11,14 +11,14 @@
   --color-black: #000000;
   --color-white: #FDFFFF;
   
-
+  --color-blue: #01A9E2;
+  --color-green: #40AE2A;
+  --color-orange: #EE5200;
+  --color-magenta: #D60058;
+  
   --font-primary: var(--font-manrope);
   --font-secondary: var(--font-yeseva);
 
-  --border-green: #40AE2A;
-  --border-blue: #01A9E2;
-  --border-orange: #EE5200;
-  --border-magenta: #D60058;
 }
 
 @media (prefers-color-scheme: dark) {
