@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next"
+import localFont from 'next/font/local'
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const manrope = localFont({
+  src: '../../public/fonts/Manrope-VariableFont_wght.woff2',
+  variable: '--font-manrope',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const yesevaOne = localFont({
+  src: '../../public/fonts/YesevaOne-Regular.woff2',
+  variable: '--font-yeseva',
 });
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {children}
