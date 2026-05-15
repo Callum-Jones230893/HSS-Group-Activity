@@ -15,7 +15,7 @@
   --color-green: #40AE2A;
   --color-orange: #EE5200;
   --color-magenta: #D60058;
-  
+
   --font-primary: var(--font-manrope);
   --font-secondary: var(--font-yeseva);
 
@@ -26,4 +26,13 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
 }
