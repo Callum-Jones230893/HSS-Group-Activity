@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import localFont from 'next/font/local'
 import "./globals.css";
+import Navigation from '@/components/Navigation';
 
 const manrope = localFont({
   src: '../../public/fonts/Manrope-VariableFont_wght.woff2',
@@ -28,6 +29,7 @@ export default function RootLayout({
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Navigation />
         {children}
       </body>
     </html>
