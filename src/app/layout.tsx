@@ -1,15 +1,15 @@
-import type { Metadata } from "next"
-import localFont from 'next/font/local'
+import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const manrope = localFont({
-  src: '../../public/fonts/Manrope-VariableFont_wght.woff2',
-  variable: '--font-manrope',
+  src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
+  variable: "--font-manrope",
 });
 
 const yesevaOne = localFont({
-  src: '../../public/fonts/YesevaOne-Regular.woff2',
-  variable: '--font-yeseva',
+  src: "../../public/fonts/YesevaOne-Regular.woff2",
+  variable: "--font-yeseva",
 });
 
 export const metadata: Metadata = {
@@ -28,7 +28,9 @@ export default function RootLayout({
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/* <Header /> */}
         {children}
+        {/* <Footer /> */}
       </body>
     </html>
   );
