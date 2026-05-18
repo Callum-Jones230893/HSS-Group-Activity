@@ -1,0 +1,69 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+
+const Navigation = () => {
+  const [openMore, setOpenMore] = useState<boolean>(false);
+  const [hamburger, setHamburger] = useState<boolean>(false);
+
+  const navItems: { name: string; link: string }[] = [
+    { name: "Become a scout", link: "#becomeascout" },
+    { name: "Become a leader", link: "#becomealeader" },
+    { name: "Reserve a camp", link: "#reserveacamp" },
+    { name: "Contact us", link: "#contactus" },
+    { name: "About us", link: "#aboutus" },
+  ];
+
+  const moreMenu: { name: string; link: string }[] = [
+    { name: "Activities", link: "/activities" },
+    { name: "History of HSS", link: "/history" },
+    { name: "Safety of HSS", link: "/safety" },
+  ];
+
+  return (
+    <nav className="relative font-primary text-primary w-full md:max-w-4/5 md:mx-auto">
+      <div className="flex justify-end md:hidden" onClick={() => setHamburger(prev => !prev)}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <path
+            d="M6 24H42M6 12H42M6 36H42"
+            stroke="#1E1E1E"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div className={`${hamburger ? "flex" : "hidden"} absolute w-full flex-col items-center gap-2 bg-white py-4
+        md:static md:flex md:flex-row md:justify-center md:bg-transparent md:py-0`}>
+        {navItems.map((item, index) => (
+          <Link href={item.link} key={index} className="w-full text-center">
+            <span className="text-[19px] w-full">{item.name}</span>
+          </Link>
+        ))}
+        <div className="relative flex flex-col items-center w-full">
+          <button
+            type="button"
+            onClick={() => setOpenMore(prev => !prev)}
+            className="flex items-center justify-center gap-1">
+            <span className="text-[19px] w-full">More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
+            </svg>
+          </button>
+          {openMore && (
+            <div className="flex w-full flex-col md:absolute md:left-0 md:top-full">
+              {moreMenu.map((item, index) => (
+                <Link href={item.link} key={index} className="w-full text-center">
+                  <p className="w-full">{item.name}</p>
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navigation;
