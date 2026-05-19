@@ -13,9 +13,10 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       bg-no-repeat
       bg-cover
       bg-position-[-120px_center]
+      min-h-213
       md:bg-center
-      md:min-h-120">
-      <div className="flex flex-col items-center justify-center w-65.75 md:w-188 mx-auto md:grow">
+      md:min-h-241.25">
+      <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-24 md:w-188 mx-auto">
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
         <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-8 text-center">{title}</h1>
         <div className="flex flex-col md:flex-row md:mt-8">
