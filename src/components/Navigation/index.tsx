@@ -56,7 +56,7 @@ const Navigation = () => {
             </svg>
           </button>
           {openMore && (
-            <div className="bg-white flex w-full flex-col gap-4  top-12 md:absolute md:left-0 md:pb-4">
+            <div className="bg-white flex w-full flex-col gap-4 top-12 md:absolute md:left-0 md:pb-4">
               {moreMenu.map((item, index) => (
                 <Link href={item.link} key={index} className="w-full text-end md:text-center">
                   <p className="w-full">{item.name}</p>
