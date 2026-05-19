@@ -39,7 +39,7 @@ const Navigation = () => {
         bg-white py-4
         absolute w-3/4 right-0 pr-4 h-screen flex-col items-center gap-8 overflow-hidden overscroll-none
         md:h-auto md:w-full md:gap-2
-        md:static md:flex md:flex-row md:justify-center md:bg-transparent md:py-0  md:overflow-visible`}>
+        md:static md:flex md:flex-row md:justify-center md:overflow-visible`}>
         {navItems.map((item, index) => (
           <Link href={item.link} key={index} className="w-full text-end md:text-center">
             <span className="text-[19px] w-full">{item.name}</span>
@@ -49,14 +49,14 @@ const Navigation = () => {
           <button
             type="button"
             onClick={() => setOpenMore(prev => !prev)}
-            className="flex md:items-center justify-center gap-1">
+            className="flex md:items-center justify-center">
             <span className="text-[19px] w-full">More</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
               <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
             </svg>
           </button>
           {openMore && (
-            <div className="flex w-full flex-col md:absolute md:left-0 md:top-full z-10">
+            <div className="bg-white flex w-full flex-col gap-4  top-12 md:absolute md:left-0 md:pb-4">
               {moreMenu.map((item, index) => (
                 <Link href={item.link} key={index} className="w-full text-end md:text-center">
                   <p className="w-full">{item.name}</p>
