@@ -3,14 +3,14 @@ import Image from "next/image";
 const QRCode = () => {
   return (
     <>
-      <div className=" relative w-full lg:w-[1730px] lg:h-[444px] overflow-hidden">
+      <div className=" relative w-full md:w-[1730px] md:h-[444px] overflow-hidden">
         <Image
           src="/images/footer_background.png"
           alt="Footer Background"
           width={4032}
           height={3024}
           loading="eager"
-          className="w-full h-64 lg:w-[1730px] lg:h-[444px] "
+          className="w-full h-64 md:w-[1730px] md:h-[444px] "
         />
         <div className="absolute inset-0 flex items-center justify-center  ">
           <svg
