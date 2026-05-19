@@ -13,11 +13,12 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       bg-no-repeat
       bg-cover
       bg-position-[-120px_center]
-      md:bg-center">
-      <div className="flex flex-col items-center justify-center mt-20.75 w-65.75 md:mt-36 md:w-188 mx-auto">
+      md:bg-center
+      md:min-h-120">
+      <div className="flex flex-col items-center justify-center w-65.75 md:w-188 mx-auto md:grow">
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
         <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-8 text-center">{title}</h1>
-        <div className="flex flex-col md:flex-row md:mt-20">
+        <div className="flex flex-col md:flex-row md:mt-8">
           <button className="bg-secondary p-2 m-4">BUTTON PLACEHOLDER</button>
           <button className="bg-secondary p-2 m-4">BUTTON PLACEHOLDER</button>
         </div>
