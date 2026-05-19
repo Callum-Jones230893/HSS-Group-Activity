@@ -23,7 +23,7 @@ const Navigation = () => {
 
   return (
     <nav className="relative font-primary text-primary w-full md:max-w-4/5 md:mx-auto">
-      <div className="flex justify-end md:hidden" onClick={() => setHamburger(prev => !prev)}>
+      <div className="flex justify-end m-4 md:hidden" onClick={() => setHamburger(prev => !prev)}>
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
           <path
             d="M6 24H42M6 12H42M6 36H42"
@@ -34,27 +34,31 @@ const Navigation = () => {
           />
         </svg>
       </div>
-      <div className={`${hamburger ? "flex" : "hidden"} absolute w-full flex-col items-center gap-2 bg-white py-4
+      <div
+        className={`${hamburger ? "flex" : "hidden"}
+        bg-white py-4
+        absolute w-3/4 right-0 pr-4 h-screen flex-col items-center gap-8
+        md:h-auto md:w-full  md:gap-2
         md:static md:flex md:flex-row md:justify-center md:bg-transparent md:py-0`}>
         {navItems.map((item, index) => (
-          <Link href={item.link} key={index} className="w-full text-center">
+          <Link href={item.link} key={index} className="w-full text-end md:text-center">
             <span className="text-[19px] w-full">{item.name}</span>
           </Link>
         ))}
-        <div className="relative flex flex-col items-center w-full">
+        <div className="relative flex flex-col items-end md:items-center w-full">
           <button
             type="button"
             onClick={() => setOpenMore(prev => !prev)}
-            className="flex items-center justify-center gap-1">
+            className="flex md:items-center justify-center gap-1">
             <span className="text-[19px] w-full">More</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
               <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
             </svg>
           </button>
           {openMore && (
-            <div className="flex w-full flex-col md:absolute md:left-0 md:top-full">
+            <div className="flex w-full flex-col md:absolute md:left-0 md:top-full z-10">
               {moreMenu.map((item, index) => (
-                <Link href={item.link} key={index} className="w-full text-center">
+                <Link href={item.link} key={index} className="w-full text-end md:text-center">
                   <p className="w-full">{item.name}</p>
                 </Link>
               ))}
