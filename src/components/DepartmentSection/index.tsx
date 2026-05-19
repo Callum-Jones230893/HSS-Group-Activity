@@ -29,7 +29,7 @@ const DeparmentPage = ({
   return (
     <section className="w-full font-primary">
       <div className="bg-primary">
-        <div className="max-w-432 mx-auto px-4 md:px-36.75 pt-6 pb-10 md:py-20 flex flex-col md:flex-row gap-2 md:gap-2 md:items-center">
+        <div className="max-w-432 mx-auto px-4 md:px-36.75 pt-6 pb-10 md:py-20 flex flex-col md:flex-row gap-2 md:items-center">
           <div className="flex-1 flex flex-col gap-6 text-white md:max-w-175">
             <h1 className="text-[32px] md:text-[53px]">
               Hässelby Strands Sjöscoutkår
@@ -46,7 +46,6 @@ const DeparmentPage = ({
               alt={departmentName}
               width={471}
               height={471}
-              priority
               className="object-cover w-117.75 h-117.75"
             />
           </div>
@@ -56,20 +55,17 @@ const DeparmentPage = ({
       <div className="bg-primary/5">
         <div className="max-w-432 mx-auto px-4 md:px-36.75 py-10 md:py-20">
           <div className="bg-white rounded-2xl p-4 flex flex-col md:flex-row gap-4 md:gap-2.5 max-w-347.75 mx-auto">
-            <div className="shrink-0">
-              <Image
-                src={icon}
-                alt={departmentName}
-                width={244}
-                height={244}
-                className="object-contain w-29.5 h-29.5 md:h-56 md:w-56"
-              />
-            </div>
+            <Image
+              src={icon}
+              alt={departmentName}
+              width={244}
+              height={244}
+              className="object-contain w-29.5 h-29.5 md:h-56 md:w-56"
+            />
 
             <div className="flex-1 flex flex-col md:max-w-225">
               <h2 className="text-primary font-extralight text-[20px] md:text-[24px] mb-4">
-                {departmentName}
-                <span> - {age}</span>
+                {departmentName} - {age}
               </h2>
 
               <p className="text-[18px] font-light md:text-[24px] mb-8">
@@ -83,7 +79,7 @@ const DeparmentPage = ({
                   alt={leader.name}
                   width={76}
                   height={76}
-                  className="rounded-full object-cover w-19 h-19 shrink-0"
+                  className="rounded-full object-cover shrink-0"
                 />
 
                 <div className="flex flex-col gap-1">
