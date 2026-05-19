@@ -7,7 +7,7 @@ type Leader = {
   avatar: string;
 };
 
-type DeparmentPageProps = {
+type DepartmentPageProps = {
   departmentName: string;
   age: string;
   icon: string;
@@ -17,7 +17,7 @@ type DeparmentPageProps = {
   leader: Leader;
 };
 
-const DeparmentPage = ({
+const DepartmentPage = ({
   departmentName,
   age,
   icon,
@@ -25,7 +25,7 @@ const DeparmentPage = ({
   image,
   description,
   leader,
-}: DeparmentPageProps) => {
+}: DepartmentPageProps) => {
   return (
     <section className="w-full font-primary">
       <div className="bg-primary">
@@ -39,16 +39,13 @@ const DeparmentPage = ({
               Become a scout Placeholder
             </button>
           </div>
-
-          <div className="hidden md:block rounded-2xl overflow-hidden shrink-0">
-            <Image
-              src={image}
-              alt={departmentName}
-              width={471}
-              height={471}
-              className="object-cover w-117.75 h-117.75"
-            />
-          </div>
+          <Image
+            src={image}
+            alt={departmentName}
+            width={471}
+            height={471}
+            className="hidden md:block object-cover w-117.75 h-117.75 rounded-2xl"
+          />
         </div>
       </div>
 
@@ -79,7 +76,7 @@ const DeparmentPage = ({
                   alt={leader.name}
                   width={76}
                   height={76}
-                  className="rounded-full object-cover shrink-0"
+                  className="rounded-full object-cover"
                 />
 
                 <div className="flex flex-col gap-1">
@@ -103,4 +100,4 @@ const DeparmentPage = ({
   );
 };
 
-export default DeparmentPage;
+export default DepartmentPage;
