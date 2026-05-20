@@ -36,11 +36,11 @@ const callToActionData = [scout, leader, cabin, partner]
 
 const ScoutPage = () => {
   return (
-    <>
+    <div className="mx-auto">
       {callToActionData.map((item, index) => 
         <CallToActionCard key={index} item={item} />
       )}
-    </>
+    </div>
   )
 }
 
