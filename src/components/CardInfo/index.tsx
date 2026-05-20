@@ -11,8 +11,7 @@ type CardInfoProps = {
 const CardInfo = ({title, date, description }: CardInfoProps) => {
     return (
         <>
-        {/* the cards */} 
-        <div className=" sm:ml-[20] bg-background font-primary rounded-xl ">
+        <div className=" md:ml-[20] bg-background font-primary rounded-xl ">
             <div className=" font-primary rounded-xl">
                 <Image
                     src="/images/006.png"

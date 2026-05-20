@@ -45,8 +45,7 @@ const Cards = () => {
     return (
         <>
             <div className="h-screen">
-                {/* background box  */}
-                <div className="p-[16] gap-2 rounded-[8] w-full md:gap-4"> {/*sm:max-w-xl sm:mx-auto*/}
+                <div className="p-[16] gap-2 rounded-[8] w-full md:gap-4">
                         <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-2">
                             {data.map((dataItem, index) => (
                                 <CardInfo
