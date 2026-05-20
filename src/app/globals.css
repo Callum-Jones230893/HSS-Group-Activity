@@ -20,14 +20,17 @@
   --font-secondary: var(--font-yeseva);
 
   --text-title: 28px;
+  --text-title-md: 44px;
   --text-title-spacing: ;
   --text-title-weight: 600;
 
   --text-subtitle: 24px;
+  --text-subtitle-md: 36px;
   --text-subtitle-spacing: ;
   --text-subtitle-weight: 200;
 
   --text-paragraph: 18px;
+  --text-paragraph-md: 24px;
   --text-paragraph-spacing: 1%;
   --text-paragraph-weight: 300;
 }
