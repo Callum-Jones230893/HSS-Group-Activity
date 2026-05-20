@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 
 import Button from "@/components/Button";
 import Hero from "@/components/Hero";
+import ScoutPage from "@/components/ScoutPage";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       {/* <HeroMain /> */}
 
       {/* <IntroSection /> */}
-
+      <ScoutPage />
       {/* <AboutUsSection /> */}
 
       {/* <DepartmentSection /> */}
