@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import QRCode from "@/components/Footer-QRCode";
@@ -7,9 +9,13 @@ import QRCode from "@/components/Footer-QRCode";
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
   variable: "--font-manrope",
+  src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
+  variable: "--font-manrope",
 });
 
 const yesevaOne = localFont({
+  src: "../../public/fonts/YesevaOne-Regular.woff2",
+  variable: "--font-yeseva",
   src: "../../public/fonts/YesevaOne-Regular.woff2",
   variable: "--font-yeseva",
 });
