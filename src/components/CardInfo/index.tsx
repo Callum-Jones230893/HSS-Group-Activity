@@ -1,25 +1,40 @@
-import react from 'react'
-import Link from 'next/link'
+import react from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 type CardInfoProps = {
-    image: string,
-   title: string,
-   date: string,
-   description: string,
+    title: string;
+    date: string;
+    description: string;
+};
 
-}
+const CardInfo = ({title, date, description }: CardInfoProps) => {
+    return (
+        <>
+        {/* the cards */}
+        <div className="flex justify-between gap-4 flex-col sm:flex-row sm:justify-self-center sm:ml-[20] bg-amber-300 font-primary rounded-xl">
+            <div className="bg-blue-200 font-primary rounded-xl">
+                <Image
+                    src="/images/006.png"
+                    alt="grey haired woman with her back towards the camera and a blonde looking at her"
+                    width={326}
+                    height={217}
+                    loading="eager"
+                    className="rounded-t-xl"
+                />
+                <div className="h-[277] pt-[16] pl-[16] pr-[16] w-[326]">
+                    <h2 className="font-semibold text-primary py-[7]">{title}</h2>
+                    <p className="font-medium py-[7] text-primary">{date}</p>
+                    <p className="h-[69] text-[#5c5c5c] text-sm w-[229]">{description}</p>
+                        <div className="flex h-[83] py-[24] gap-[13]">
+                            <p className=" bg-amber-300  h-[35] rounded-full py-[7] px-[25] text-primary text-center w-[136]">Ansök här</p>     {/* button */}
+                            <Link href={""} className="decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2">Read More</Link>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </>
+    );
+};
 
-const CardInfo = ({image, title, date, description}:CardInfoProps) => {
-    return <>
-    <div>
-        <img>{image}</img>
-        <h2>{title}</h2>
-        <p>{date}</p>
-        <p>{description}</p>
-        {/* btn component */}
-        {/* <Link>{Read more</Link> */}
-    </div>
-    </>
-}
-
-export default CardInfo
+export default CardInfo;
