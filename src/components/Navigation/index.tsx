@@ -44,7 +44,7 @@ const Navigation = () => {
       <div
         className={`${hamburger ? "flex" : "hidden"}
         bg-white py-4
-        absolute w-3/4 right-0 pr-4 h-screen flex-col items-center gap-8 overflow-hidden overscroll-none
+        absolute w-3/4 right-0 pr-4 h-screen flex-col items-center gap-8 overflow-hidden overscroll-none z-15
         md:h-auto md:w-full md:gap-2
         md:static md:flex md:flex-row md:justify-center md:overflow-visible`}>
         {navItems.map((item, index) => (
