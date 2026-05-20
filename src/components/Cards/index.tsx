@@ -31,6 +31,13 @@ const data:Test[] = [
         "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
         image: "../../../public/images/006.png",
     },
+    {
+        title: "Håll ut 2026 storvallens fjällstugor, Storlien",
+        date: "Datum: 5-20 Juli 2026",
+        description:
+        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
+        image: "../../../public/images/006.png",
+    },
     
 ];
 
@@ -39,8 +46,8 @@ const Cards = () => {
         <>
             <div className="h-screen">
                 {/* background box  */}
-                <div className="p-[16] rounded-[8] w-full md:gap-y-4"> {/*sm:max-w-xl sm:mx-auto*/}
-                        <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-y-2">
+                <div className="p-[16] gap-2 rounded-[8] w-full md:gap-4"> {/*sm:max-w-xl sm:mx-auto*/}
+                        <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-2">
                             {data.map((dataItem, index) => (
                                 <CardInfo
                                     key={index}
