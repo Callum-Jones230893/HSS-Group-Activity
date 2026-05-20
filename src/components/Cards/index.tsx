@@ -37,17 +37,16 @@ const data:Test[] = [
 const Cards = () => {
     return (
         <>
-            <div className="flex flex-row">
+            <div className="h-screen">
                 {/* background box  */}
-                <div className="flex flex-row justify-between h-124 p-[16] rounded-[8] w-full sm:flex-col"> {/*sm:max-w-xl sm:mx-auto*/}
-                        <div className="h-[496] w-[326]  md:max-w-2xl gap-2">
+                <div className="p-[16] rounded-[8] w-full md:gap-y-4"> {/*sm:max-w-xl sm:mx-auto*/}
+                        <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-y-2">
                             {data.map((dataItem, index) => (
                                 <CardInfo
                                     key={index}
                                     title={dataItem.title}
                                     date={dataItem.date}
-                                    description={dataItem.description}
-                                />
+                                    description={dataItem.description}/>
                             ))}
                         </div>
                 </div>

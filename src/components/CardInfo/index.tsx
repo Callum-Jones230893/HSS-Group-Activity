@@ -11,8 +11,8 @@ type CardInfoProps = {
 const CardInfo = ({title, date, description }: CardInfoProps) => {
     return (
         <>
-        {/* the cards */}
-        <div className="flex justify-between gap-4 flex-col sm:flex-row sm:justify-self-center sm:ml-[20] bg-amber-300 font-primary rounded-xl">
+        {/* the cards */} 
+        <div className=" sm:ml-[20] bg-amber-300 font-primary rounded-xl ">
             <div className="bg-blue-200 font-primary rounded-xl">
                 <Image
                     src="/images/006.png"
