@@ -28,7 +28,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         </div>
       </div>
       <Image src={item.image} alt={item.title} width="400" height="300" 
-        className="w-100 h-75 object-cover rounded-sm mt-10 md:mx-22.25 md:w-150 md:h-137.5"
+        className="w-100 h-75 object-cover rounded-lg mt-10 md:mx-22.25 md:w-150 md:h-137.5"
       />
     </div>
   )
