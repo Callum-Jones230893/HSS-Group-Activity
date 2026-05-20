@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navigation = () => {
   const [openMore, setOpenMore] = useState<boolean>(false);
@@ -11,6 +12,13 @@ const Navigation = () => {
   const menuRef = useClickAway<HTMLDivElement>(() => {
     setHamburger(false);
   });
+
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setHamburger(false);
+    setOpenMore(false);
+  }, [pathname]);
 
   useEffect(() => {
     document.body.style.overflow = hamburger ? "hidden" : "unset";
