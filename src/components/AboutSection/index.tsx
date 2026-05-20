@@ -177,7 +177,7 @@ const AboutSection = () => {
         {FEATURES_DATA.map((card, index) => (
           <div
             key={index}
-            className="w-full max-w-[288px] h-[208px] lg:h-[319px] px-3.5 lg:px-6 py-4 lg:py-6 bg-primary/10 rounded-[10.43px] lg:rounded-2xl flex flex-col justify-center items-center gap-1.5 lg:gap-2.5 transition-all hover:-translate-y-1"
+            className="w-full max-w-[288px] h-[208px] lg:h-[319px] px-3.5 lg:px-6 py-4 lg:py-6 bg-primary/10 rounded-[10.43px] lg:rounded-2xl flex flex-col justify-center items-center gap-1.5 lg:gap-2.5 transition-all"
           >
             <div className="size-24 lg:size-36 flex justify-center items-center">
               {card.icon}
