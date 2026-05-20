@@ -15,11 +15,11 @@ const Navigation = () => {
   }, [hamburger]);
 
   const navItems: { name: string; link: string }[] = [
-    { name: "Become a scout", link: "#becomeascout" },
-    { name: "Become a leader", link: "#becomealeader" },
-    { name: "Reserve a camp", link: "#reserveacamp" },
-    { name: "Contact us", link: "#contactus" },
-    { name: "About us", link: "#aboutus" },
+    { name: "Become a scout", link: "/becomeascout" },
+    { name: "Become a leader", link: "/becomealeader" },
+    { name: "Reserve a camp", link: "/reserveacamp" },
+    { name: "Contact us", link: "/contactus" },
+    { name: "About us", link: "/aboutus" },
   ];
 
   const moreMenu: { name: string; link: string }[] = [
