@@ -1,18 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Navigation = () => {
   const [openMore, setOpenMore] = useState<boolean>(false);
   const [hamburger, setHamburger] = useState<boolean>(false);
 
+  useEffect(() => {
+    document.body.style.overflow = hamburger ? "hidden" : "unset";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [hamburger]);
+
   const navItems: { name: string; link: string }[] = [
-    { name: "Become a scout", link: "#becomeascout" },
-    { name: "Become a leader", link: "#becomealeader" },
-    { name: "Reserve a camp", link: "#reserveacamp" },
-    { name: "Contact us", link: "#contactus" },
-    { name: "About us", link: "#aboutus" },
+    { name: "Become a scout", link: "/becomeascout" },
+    { name: "Become a leader", link: "/becomealeader" },
+    { name: "Reserve a camp", link: "/reserveacamp" },
+    { name: "Contact us", link: "/contactus" },
+    { name: "About us", link: "/aboutus" },
   ];
 
   const moreMenu: { name: string; link: string }[] = [
