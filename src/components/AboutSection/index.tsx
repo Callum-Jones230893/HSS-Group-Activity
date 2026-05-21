@@ -142,7 +142,7 @@ const AboutSection = () => {
         <div className="flex-1 flex flex-col justify-bet items-start gap-3.5 max-w-[745px]">
           <p className="text-primweenary text-5xl font-normal">Om HSS</p>
 
-          <div className="max-w-[674px] text-primary text-[18px] tracking-[1%] pb-9">
+          <div className="max-w-[674px] text-primary text-[18px] md:text-[24px] tracking-[1%] pb-9">
             <p>
               Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
               ungdomsverksamhet med fokus på scouting och båtliv. Vi är
@@ -160,7 +160,7 @@ const AboutSection = () => {
           </div>
 
           <div className="w-full max-w-[720px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start gap-6 mt-auto">
-            <p className="text-primary text-[18px] tracking-[1%] ">
+            <p className="text-primary text-[18px] md:text-[24px] tracking-[1%] ">
               Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig
               lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har
               omkring 130 glada medlemmar, äger fem segelbåtar, tio
