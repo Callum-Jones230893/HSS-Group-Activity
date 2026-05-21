@@ -4,7 +4,7 @@ import Navigation from "../Navigation";
 
 const Header = () => {
   return (
-    <header className="p-4 bg-white">
+    <header className=" bg-white flex items-center ">
       <Link href="/">
         <Image
           src="/images/hss_logo.png"
