@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className=" bg-white flex items-center ">
+    <header className=" bg-white flex items-center justify-center lg:w-5/6 lg:mx-auto">
       <Link href="/" className="shrink-0 p-4">
         <Image
           src="/images/hss_logo.png"
