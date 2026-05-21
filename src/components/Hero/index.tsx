@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../Button";
 
 type HeroProps = {
   title: string;
@@ -18,10 +19,10 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       md:min-h-241.25">
       <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-24 md:w-188 mx-auto">
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
-        <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-8 text-center">{title}</h1>
-        <div className="flex flex-col md:flex-row md:mt-8">
-          <button className="bg-secondary p-2 m-4">BUTTON PLACEHOLDER</button>
-          <button className="bg-secondary p-2 m-4">BUTTON PLACEHOLDER</button>
+        <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">{title}</h1>
+        <div className="flex flex-col font-primary gap-4 my-4 md:flex-row md:my-8 md:gap-8">
+          <Button content={"Become a scout"} theme={"yellow"} size={"large"} />
+          <Button content={"Become a leader"} theme={"transparent"} size={"large"} />
         </div>
       </div>
       <Image
