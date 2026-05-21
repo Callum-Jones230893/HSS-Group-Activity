@@ -32,7 +32,7 @@ const NavMenu = () => {
         {openMore && (
           <div className="bg-white flex flex-col gap-4 top-12 justify-center items-center md:absolute md:pb-4 md:-left-10">
             {moreMenu.map((item, index) => (
-              <Link href={item.link} key={index} className="w-37.5 justify-center items-center">
+              <Link href={item.link} key={index} className="w-37.5 justify-center items-center" onClick={() => setOpenMore(false)}>
                 <p className="w-full text-center">{item.name}</p>
               </Link>
             ))}
