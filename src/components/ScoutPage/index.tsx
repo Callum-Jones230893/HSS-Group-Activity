@@ -49,7 +49,7 @@ const callToActionData: CallToAction[] = [scout, leader, cabin, partner]
 
 const ScoutPage = () => {
   return (
-    <div className="mx-auto w-full">
+    <div className="w-full flex flex-col items-center">
       {callToActionData.map((item, index) => 
         <CallToActionCard key={index} item={item} />
       )}
