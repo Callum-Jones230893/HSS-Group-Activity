@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 import AboutSection from "@/components/AboutSection";
-
 import Button from "@/components/Button";
 import Hero from "@/components/Hero";
 import ScoutPage from "@/components/ScoutPage";
-=======
-import ScoutPage from "@/components/ScoutPage";
-import Button from "@/components/Button";
->>>>>>> feature/008-scout-page
 
 export default function Home() {
   return (
@@ -34,7 +28,6 @@ export default function Home() {
       {/* <ContactUsSection /> */}
 
       <AboutSection />
-      <Button theme="transparent" size="large" />
     </>
   );
 }
