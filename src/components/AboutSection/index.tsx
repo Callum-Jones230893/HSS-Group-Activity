@@ -127,7 +127,7 @@ const FEATURES_DATA: FeatureItem[] = [
 
 const AboutSection = () => {
   return (
-    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-12 lg:px-[151px] mt-[15px] font-primary overflow-none">
+    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-12 lg:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
       <div className="flex flex-col lg:flex-row items-stretch gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
         <div className="w-full lg:w-[610px] h-96 lg:h-[901px] relative  rounded-lg overflow-none">
           <Image
