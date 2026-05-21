@@ -1,9 +1,26 @@
-import Button from "@/components/Button";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
     <>
-      <Button content="Heyo" theme="yellow" size="large" />
+      <h1 className="text-yellow font-yeseva">Hello World except Claudia</h1>
+      {/* <HeroMain /> */}
+
+      {/* <IntroSection /> */}
+
+      {/* <AboutUsSection /> */}
+
+      {/* <DepartmentSection /> */}
+
+      {/* <ActivitySection /> */}
+
+      {/* <BecomeLeaderSection /> */}
+
+      {/* <RentCampSection /> */}
+
+      {/* <ContactUsSection /> */}
+
+      <AboutSection />
     </>
   );
 }
