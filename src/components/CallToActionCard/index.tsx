@@ -17,10 +17,10 @@ type CallToActionProps = {
 
 const CallToActionCard = ({item}: CallToActionProps) => {
   return (
-    <div className="flex flex-col max-w-9/10 mx-auto min-h-223.25 text-primary font-primary p-4 lg:flex-row 
-      lg:max-w-387.25 lg:h-186 lg:mx-14.75 lg:my-17 lg:justify-center lg:odd:flex-row-reverse"
+    <div className="flex flex-col max-w-9/10 mx-auto min-h-223.25 text-primary font-primary p-4 lg:mb-10 xl:flex-row 
+      xl:max-w-387.25 xl:h-186 xl:mx-14.75 xl:my-10 xl:justify-center xl:odd:flex-row-reverse"
     >
-      <div className="flex flex-col min-h-109.5 md:flex-col lg:w-163.25 lg:h-162.5 lg:mx-22.5">
+      <div className="flex flex-col justify-between min-h-109.5 md:flex-col xl:w-163.25 lg:h-162.5 lg:mx-22.5">
         <h4 className="text-[24px] font-semibold lg:text-[36px]">{item.title}</h4>
         <h2 className="text-black text-[28px] lg:text-[44px]">{item.subtitle}</h2>
         <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
@@ -31,9 +31,11 @@ const CallToActionCard = ({item}: CallToActionProps) => {
           </div>
         </div>
       </div>
-      <Image src={item.image} alt={item.title} width="400" height="300" 
-        className="w-100 h-75 mx-auto object-cover rounded-lg mt-10 lg:mx-22.25 md:w-150 md:h-137.5"
-      />
+      <div className="flex items-center justify-center mt-10 lg:h-162.5 lg:my-auto">
+        <Image src={item.image} alt={item.title} width="400" height="300" 
+          className="w-100 h-75 mx-auto object-cover rounded-lg lg:mx-22.25 md:w-150 md:h-137.5"
+        />
+      </div>
     </div>
   )
 }
