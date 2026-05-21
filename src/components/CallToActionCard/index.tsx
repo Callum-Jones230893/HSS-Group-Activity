@@ -25,7 +25,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <h2 className="text-black text-[28px] md:text-[44px]">{item.subtitle}</h2>
         <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 md:text-[24px]">{item.description}</p>
         <div className="flex justify-between items-center md:pb-17 text-[20px] md:text-[24px]">
-          <Button></Button>
+          <Button content={item.button} theme="yellow" size="large" />
           <Link href="" className="flex items-center w-37 h-16.25">{item.link}</Link>
         </div>
       </div>
