@@ -21,10 +21,10 @@ const CallToActionCard = ({item}: CallToActionProps) => {
       lg:max-w-387.25 lg:h-186 lg:mx-14.75 lg:my-17 lg:justify-center lg:odd:flex-row-reverse"
     >
       <div className="flex flex-col min-h-109.5 md:flex-col lg:w-163.25 lg:h-162.5 lg:mx-22.5">
-        <h4 className="text-[24px] font-semibold md:text-[36px]">{item.title}</h4>
-        <h2 className="text-black text-[28px] md:text-[44px]">{item.subtitle}</h2>
-        <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 md:text-[24px]">{item.description}</p>
-        <div className="flex justify-between items-center md:pb-17 text-[20px] md:text-[24px]">
+        <h4 className="text-[24px] font-semibold lg:text-[36px]">{item.title}</h4>
+        <h2 className="text-black text-[28px] lg:text-[44px]">{item.subtitle}</h2>
+        <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
+        <div className="flex justify-between items-center md:pb-17 text-[20px] lg:text-[24px]">
           <Button content={item.button} theme="yellow" size="large" />
           <div>
             <Link href="" className="w-37 h-16.25">{item.link}</Link>
