@@ -1,9 +1,10 @@
 type ButtonProp = {
+  content: string
   theme: string
   size: string
 }
 
-const Button = ({theme, size}: ButtonProp) => {
+const Button = ({content, theme, size}: ButtonProp) => {
   let text = ''
   let bg = ''
   let border = ''
@@ -34,7 +35,7 @@ const Button = ({theme, size}: ButtonProp) => {
 
   return (
     <>
-      <button className={`w-fit ${text} ${bg} ${border} ${dimensions}`}>hello</button>
+      <button className={`w-fit ${text} ${bg} ${border} ${dimensions}`}>{content}</button>
     </>
   )
 }
