@@ -13,6 +13,7 @@ const Header = () => {
         className="w-13 h-13 m-4 md:w-17 md:h-17"
       />
       <Navigation />
+      
     </header>
   );
 };
