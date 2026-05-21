@@ -1,11 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
+import Button from "@/components/Button"
 
 type CallToAction = {
   title: string
   subtitle: string
   description: string
   image: string
+  button: string
   link: string
 }
 
@@ -23,7 +25,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <h2 className="text-black text-[28px] md:text-[44px]">{item.subtitle}</h2>
         <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 md:text-[24px]">{item.description}</p>
         <div className="flex justify-between items-center md:pb-17 text-[20px] md:text-[24px]">
-          <p>PlaceHolder</p>
+          <Button></Button>
           <Link href="" className="flex items-center w-37 h-16.25">{item.link}</Link>
         </div>
       </div>
