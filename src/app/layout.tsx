@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
-import FooterSocialMedia from "@/components/FooterSocialMedia";
+import FooterSocialMedia from '@/components/FooterSocialMedia';
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
