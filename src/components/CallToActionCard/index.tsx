@@ -31,9 +31,9 @@ const CallToActionCard = ({item}: CallToActionProps) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-10 lg:mt-15">
+      <div className="flex justify-center mt-10 mx-auto lg:mt-15 lg:mx-auto md:w-150 md:h-137.5">
         <Image src={item.image} alt={item.title} width="400" height="300" 
-          className="w-100 h-75 mx-auto object-cover rounded-lg lg:mx-22.25 md:w-150 md:h-137.5"
+          className="w-100 h-75 mx-auto object-cover rounded-lg md:w-full md:h-full"
         />
       </div>
     </div>
