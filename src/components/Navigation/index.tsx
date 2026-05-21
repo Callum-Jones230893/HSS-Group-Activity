@@ -28,8 +28,8 @@ const Navigation = () => {
   return (
     <nav className="relative font-primary text-primary w-full md:max-w-4/5 md:mx-auto">
       <div ref={menuRef}>
-        <div className="flex justify-end m-4 md:hidden" onClick={() => setHamburger(prev => !prev)}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <div className="flex justify-end m-4 md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" onClick={() => setHamburger(prev => !prev)}>
             <path
               d="M6 24H42M6 12H42M6 36H42"
               stroke="#1E1E1E"
