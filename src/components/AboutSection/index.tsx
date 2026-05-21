@@ -127,9 +127,9 @@ const FEATURES_DATA: FeatureItem[] = [
 
 const AboutSection = () => {
   return (
-    <section className="w-full max-w-[1728px] mx-auto bg-white md:bg-white py-10 md:py-[74px] px-4 md:px-12 md:px-[151px] mt-[15px] font-primary overflow-none">
-      <div className="flex flex-col md:flex-row items-stretch gap-10 md:gap-20 mb-16 md:mb-[94px]">
-        <div className="w-full md:w-[610px] h-96 md:h-[901px] relative  rounded-lg overflow-none">
+    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-12 lg:px-[151px] mt-[15px] font-primary overflow-none">
+      <div className="flex flex-col lg:flex-row items-stretch gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
+        <div className="w-full lg:w-[610px] h-96 lg:h-[901px] relative  rounded-lg overflow-none">
           <Image
             src="/images/image43.png"
             alt="about us"
@@ -139,10 +139,10 @@ const AboutSection = () => {
           />
         </div>
 
-        <div className="flex-1 flex flex-col justify-bet items-start gap-3.5 max-w-[745px]">
+        <div className="flex-1 flex flex-col justify-center items-center gap-3.5 max-w-[1200px]">
           <p className="text-primweenary text-5xl font-normal">Om HSS</p>
 
-          <div className="max-w-[674px] text-primary text-[18px] md:text-[24px] tracking-[1%] pb-9">
+          <div className="max-w-[674px] text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
             <p>
               Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
               ungdomsverksamhet med fokus på scouting och båtliv. Vi är
@@ -160,7 +160,7 @@ const AboutSection = () => {
           </div>
 
           <div className="w-full max-w-[720px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start gap-6 mt-auto">
-            <p className="text-primary text-[18px] md:text-[24px] tracking-[1%] ">
+            <p className="text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
               Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig
               lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har
               omkring 130 glada medlemmar, äger fem segelbåtar, tio
@@ -177,21 +177,21 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-20 items-center justify-start mt-12">
+      <div className=" w-full grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-20 items-center justify-center mt-12">
         {FEATURES_DATA.map((card, index) => (
           <div
             key={index}
-            className="w-full max-w-[288px] h-[208px] md:h-[319px] px-3.5 md:px-6 py-4 md:py-6 bg-primary/10 rounded-[10.43px] md:rounded-2xl flex flex-col justify-center items-center gap-1.5 md:gap-2.5 transition-all"
+            className="max-w-[500px] w-full  h-[208px] lg:h-[319px] px-3.5 lg:px-6 py-4 lg:py-6 bg-primary/10 rounded-[10.43px] lg:rounded-2xl flex flex-col justify-center items-center gap-1.5 lg:gap-2.5 transition-all"
           >
-            <div className="size-24 md:size-36 flex justify-center items-center">
+            <div className="size-24 lg:size-36 flex justify-center items-center">
               {card.icon}
             </div>
 
             <div className="text-center flex flex-col justify-center items-center">
-              <p className="text-primary text-xl md:text-3xl font-bold tracking-tight leading-tight">
+              <p className="text-primary text-xl lg:text-3xl font-bold tracking-tight leading-tight">
                 {card.title}
               </p>
-              <p className="text-primary text-xl md:text-3xl font-extralight tracking-tight leading-tight">
+              <p className="text-primary text-xl lg:text-3xl font-extralight tracking-tight leading-tight">
                 {card.subtitle}
               </p>
             </div>
