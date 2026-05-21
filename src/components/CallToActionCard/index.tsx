@@ -17,7 +17,7 @@ type CallToActionProps = {
 
 const CallToActionCard = ({item}: CallToActionProps) => {
   return (
-    <div className="flex flex-col max-w-9/10 mx-auto min-h-223.25 text-primary font-primary p-4 lg:mb-10 xl:flex-row 
+    <div className="flex flex-col max-w-9/10 mx-auto h-fit text-primary font-primary p-4 odd: lg:mb-10 xl:flex-row 
       xl:max-w-387.25 xl:h-186 xl:mx-14.75 xl:my-10 lg:justify-center lg:item-center xl:even:flex-row-reverse"
     >
       <div className="flex flex-col justify-between min-h-109.5 md:flex-col xl:w-163.25 lg:justify-evenly lg:h-162.5 lg:mx-22.5">
