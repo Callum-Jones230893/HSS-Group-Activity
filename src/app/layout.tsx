@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import localFont from 'next/font/local'
 import "./globals.css";
 import Header from "@/components/Header";
+import FooterNav from '@/components/FooterNav';
 
 const manrope = localFont({
   src: '../../public/fonts/Manrope-VariableFont_wght.woff2',
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <FooterNav />
       </body>
     </html>
   );

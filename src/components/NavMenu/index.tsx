@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from "react";
 import { useClickAway } from '@uidotdev/usehooks';
 import Link from "next/link";
@@ -13,25 +15,25 @@ const NavMenu = () => {
   return (
     <>
       {navItems.map((item, index) => (
-        <Link href={item.link} key={index} className="w-full text-end md:text-center">
+        <Link href={item.link} key={index} className="w-full text-center">
           <span className="text-[19px] w-full">{item.name}</span>
         </Link>
       ))}
-      <div ref={moreMenuRef} className="relative flex flex-col items-end md:items-center w-full">
+      <div ref={moreMenuRef} className="relative flex flex-col w-full">
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex md:items-center justify-center">
-          <span className="text-[19px] w-full cursor-pointer">More</span>
+          className="flex items-center justify-center w-full">
+          <span className="text-[19px] cursor-pointer">More</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
           </svg>
         </button>
         {openMore && (
-          <div className="bg-white flex w-full flex-col gap-4  top-12 md:absolute md:left-0 md:pb-4">
+          <div className="bg-white flex flex-col gap-4 top-12 w-full justify-center items-center md:absolute md:left-0 md:pb-4">
             {moreMenu.map((item, index) => (
-              <Link href={item.link} key={index} className="w-full text-end md:text-center">
-                <p className="w-full">{item.name}</p>
+              <Link href={item.link} key={index} className="w-full justify-center items-center">
+                <p className="w-full text-center">{item.name}</p>
               </Link>
             ))}
           </div>
