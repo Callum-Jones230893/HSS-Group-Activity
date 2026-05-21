@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Navigation from "../Navigation";
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
           className="w-13 h-13 md:w-17 md:h-17"
         />
       </Link>
+      <Navigation />
     </header>
   );
 };
