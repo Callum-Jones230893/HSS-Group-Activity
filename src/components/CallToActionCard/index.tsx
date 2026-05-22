@@ -24,7 +24,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <h4 className="text-[24px] font-semibold lg:text-[36px]">{item.title}</h4>
         <h2 className="text-black text-[28px] lg:text-[44px]">{item.subtitle}</h2>
         <p className="my-5 text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
-        <div className="flex gap-10 items-center md:pb-17 text-[16px] lg:text-[24px]">
+        <div className="flex gap-10 items-center md:pb-17 text-[16px] lg:text-[20px]">
           <Button content={item.button} theme="yellow" size="large" />
           <div>
             <Link href="" className="w-37 h-16.25">{item.link}</Link>
