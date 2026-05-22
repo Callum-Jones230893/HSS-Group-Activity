@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import DepartmentSelection from "@/components/DepartmentSelection";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
 
       {/* <AboutUsSection /> */}
 
-      {/* <DepartmentSection /> */}
+      <DepartmentSelection />
 
       {/* <ActivitySection /> */}
 
@@ -20,7 +21,7 @@ export default function Home() {
 
       {/* <ContactUsSection /> */}
 
-      <AboutSection />
+      {/* <AboutSection /> */}
     </>
   );
 }

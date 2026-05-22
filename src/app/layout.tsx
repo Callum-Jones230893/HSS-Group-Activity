@@ -32,9 +32,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
-        <footer>
-          <QRCode />
-        </footer>
+        {/* <footer> */}
+          {/* <QRCode /> */}
+        {/* </footer> */}
       </body>
     </html>
   );
