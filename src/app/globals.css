@@ -18,8 +18,6 @@
 
   --font-primary: var(--font-manrope);
   --font-secondary: var(--font-yeseva);
-
-  --breakpoint-custom-mba: 1300px;
 }
 
 @media (prefers-color-scheme: dark) {
