@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className=" bg-white flex items-center justify-center lg:w-5/6 lg:mx-auto">
-      <Link href="/" className="shrink-0 p-4">
+    <header className=" bg-white flex items-center justify-center md:py-4 lg:p-11.25 lg:w-5/6 lg:mx-auto">
+      <Link href="/" className="shrink-0 pl-4">
         <Image
           src="/images/hss_logo.png"
           alt="HSS Logo"

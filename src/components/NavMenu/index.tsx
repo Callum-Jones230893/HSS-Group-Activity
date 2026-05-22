@@ -16,7 +16,7 @@ const NavMenu = () => {
     <>
       {navItems.map((item, index) => (
         <Link href={item.link} key={index} className="w-full lg:w-auto text-center">
-          <span className="text-[19px] w-full">{item.name}</span>
+          <span className="text-[16px] w-full">{item.name}</span>
         </Link>
       ))}
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
@@ -24,16 +24,16 @@ const NavMenu = () => {
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer">
-          <span className="text-[19px]">More</span>
+          <span className="text-[16px]">More</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
           </svg>
         </button>
         {openMore && (
-          <div className="bg-white flex flex-col gap-4 top-12 justify-center items-center lg:absolute lg:pb-4 lg:-left-10">
+          <div className="bg-white flex flex-col gap-8 top-8 justify-center items-center lg:absolute lg:p-10 lg:-left-12">
             {moreMenu.map((item, index) => (
-              <Link href={item.link} key={index} className="w-37.5 justify-center items-center" onClick={() => setOpenMore(false)}>
-                <p className="w-full text-center">{item.name}</p>
+              <Link href={item.link} key={index} className="w-26 justify-center items-center" onClick={() => setOpenMore(false)}>
+                <p className="w-full text-left">{item.name}</p>
               </Link>
             ))}
           </div>
