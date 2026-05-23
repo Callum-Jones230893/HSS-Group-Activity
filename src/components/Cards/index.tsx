@@ -1,6 +1,4 @@
-import react from "react";
 import CardInfo from "../CardInfo";
-import image from "../../../public/images/006.png";
 
 type Test = {
     title: string;
@@ -46,15 +44,15 @@ const Cards = () => {
         <>
             <div className="h-screen">
                 <div className="p-[16] gap-2 rounded-[8] w-full md:gap-4">
-                        <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-2">
-                            {data.map((dataItem, index) => (
-                                <CardInfo
-                                    key={index}
-                                    title={dataItem.title}
-                                    date={dataItem.date}
-                                    description={dataItem.description}/>
-                            ))}
-                        </div>
+                    <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-2">
+                        {data.map((dataItem, index) => (
+                            <CardInfo
+                            key={index}
+                            title={dataItem.title}
+                            date={dataItem.date}
+                            description={dataItem.description}/>
+                        ))}
+                    </div>
                 </div>
             </div>
         </>
