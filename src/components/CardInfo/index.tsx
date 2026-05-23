@@ -18,7 +18,8 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                         width={326}
                         height={217}
                         loading="eager"
-                        className="rounded-t-xl"/>
+                        className="rounded-t-xl"
+                    />
                     <div className="h-[277] pt-[16] pl-[16] pr-[16] w-[326]">
                         <h2 className="font-semibold text-primary py-[7]">
                             {title}
@@ -26,7 +27,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                         <p className="font-medium py-[7] text-primary">
                             {date}
                         </p>
-                        <p className="h-[69] text-[#5c5c5c] text-sm w-[229]">
+                        <p className="h-[69] text-[#5c5c5c] text-md w-[229]">
                             {description}
                         </p>
                         <div className="flex h-[83] py-[24] gap-[13]">
@@ -36,7 +37,8 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                             {/* button here */}
                             <Link
                                 href={""}
-                                className="decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2">
+                                className="decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2"
+                            >
                                 Read More
                             </Link>
                         </div>
