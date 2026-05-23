@@ -1,4 +1,3 @@
-import react from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -34,7 +33,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                             <p className=" bg-amber-300  h-[35] rounded-full py-[7] px-[25] text-primary text-center w-[136]">
                                 Ansök här
                             </p>{" "}
-                            {/* button */}
+                            {/* button here */}
                             <Link
                                 href={""}
                                 className="decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2">
