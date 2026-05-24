@@ -1,6 +1,33 @@
 {
   "home": {
-
+    "becomeascout": {
+      "title": "Become a member",
+      "subtitle": "OF OUR ADVENTURE GROUP OF FRIENDS",
+      "description": "",
+      "button": "Become a scout",
+      "link": "Read more"
+    },
+    "becomealeader": {
+      "title": "Become a leader",
+      "subtitle": "IN SCOUTING TROUPE WITH POWER",
+      "description": "",
+      "button": "Become a leader",
+      "link": "Read more"
+    },
+    "rentacabin": {
+      "title": "Rent a cozy cabin",
+      "subtitle": "TO EXPLORE THE FREEDOM OF NATURE",
+      "description": "",
+      "button": "Rent a cabin",
+      "link": "Read more"
+    },
+    "becomeapartner": {
+      "title": "Become a partner",
+      "subtitle": "WITH OUR PRIDE OF NEXT LEADERS",
+      "description": "",
+      "button": "Become a partner",
+      "link": "Read more"
+    }
   },
   "aboutus": {
     "title": "About us",
@@ -46,17 +73,52 @@
   "activities": {
 
   },
+  "safetyguidelines": {
+    "title": "Safety and general guidelines for scouts",
+    "descriptionOne": "",
+    "descriptionTwo": "",
+    "policyOne": {
+      "title": "HSS life jacket policy",
+      "description": ""
+    },
+    "policyTwo":{
+      "title": "HSS label system",
+      "description": ""
+    },
+    "policyThree": {
+      "title": "HSS safe meeting policy",
+      "description": ""
+    },
+    "policyFour": { 
+      "title": "Our photo policy",
+      "description": ""
+    }
+  },
   "contactus": {
-
+    "title": "Contact us",
+    "subtitle": "Here's how to get in touch with us",
+    "fieldOne": "Full name",
+    "fieldTwo": "Message to us",
+    "fieldThree": "Email",
+    "button": "Submit"
   },
   "becomeascout": {
 
   },
   "becomealeader": {
-
+    "title": "",
+    "subtitle": "",
+    "button": "",
+    "descriptionOne": "",
+    "descriptionTwo": "",
+    "reviewOne": "",
+    "reviewTwo": ""
   },
   "reserveacamp": {
 
+  },
+  "becomeapartner": {
+    
   },
   "navbar": {
     "becomeascout": "Become a scout",
