@@ -35,7 +35,9 @@ const Button = ({content, theme, size}: ButtonProp) => {
 
   return (
     <>
-      <button className={`w-fit ${text} ${bg} ${border} ${dimensions}`}>{content}</button>
+      <button className={`w-fit ${text} ${bg} ${border} ${dimensions}`}>
+        {content}
+      </button>
     </>
   )
 }
