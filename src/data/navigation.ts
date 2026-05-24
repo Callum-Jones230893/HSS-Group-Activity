@@ -11,3 +11,6 @@ export const moreMenu: { name: string; link: string }[] = [
   { name: "History of HSS", link: "/history" },
   { name: "Safety of HSS", link: "/safety" },
 ];
+
+
+// change names to match .json
