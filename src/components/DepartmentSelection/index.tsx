@@ -8,6 +8,7 @@ type DepartmentItem = {
   text: string
   border: string
   outline: string
+  shadow: string
 }
 
 const DepartmentData: DepartmentItem[] = [
@@ -18,7 +19,8 @@ const DepartmentData: DepartmentItem[] = [
     image: "/images/department1.png",
     text: "text-lime-600",
     border: "lg:border-lime-600/50",
-    outline: "outline-lime-600/50"
+    outline: "outline-lime-600/50",
+    shadow: "hover:shadow-lime-600/50"
   },
   {
     title: "Kaparna - ",
@@ -27,7 +29,8 @@ const DepartmentData: DepartmentItem[] = [
     image: "/images/department2.png",
     text: "text-sky-500",
     border: "lg:border-sky-500",
-    outline: "outline-sky-500"
+    outline: "outline-sky-500",
+    shadow: "hover:shadow-sky-500"
   },
   {
     title: "Konvojen - ",
@@ -36,7 +39,8 @@ const DepartmentData: DepartmentItem[] = [
     image: "/images/department3.png",
     text: "text-orange-600",
     border: "lg:border-orange-600",
-    outline: "outline-orange-600"
+    outline: "outline-orange-600",
+    shadow: "hover:shadow-orange-600"
   },
   {
     title: "Utmanare - ",
@@ -45,7 +49,8 @@ const DepartmentData: DepartmentItem[] = [
     image: "/images/department4.png",
     text: "text-pink-700",
     border: "lg:border-pink-700",
-    outline: "outline-pink-700"
+    outline: "outline-pink-700",
+    shadow: "hover:shadow-pink-700"
   },
   // {
   //   title: "",
@@ -54,7 +59,8 @@ const DepartmentData: DepartmentItem[] = [
   //   image: "/images/department5.png",
     // text: "",
     // border: "",
-    // outline: ""
+    // outline: "",
+    // shadow: ""
   // }
 ] 
 
