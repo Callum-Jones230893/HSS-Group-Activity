@@ -1,0 +1,119 @@
+"use client";
+
+import React, { useState } from "react";
+
+type LocationItem = {
+  id: string;
+  title: string;
+  description: string;
+  lat: number;
+  lng: number;
+};
+
+const locationsData: LocationItem[] = [
+  {
+    id: "myset",
+    title: "Hajkstugan Myset",
+    description: "Between Kyrkhamn and Gåseborg.",
+    lat: 59.39712767997542,
+    lng: 17.769832196692757,
+  },
+  {
+    id: "ruffen",
+    title: "Student union room Ruffen:",
+    description: "Hässelby strandbad",
+    lat: 59.36328435188759,
+    lng: 17.822173946489528,
+  },
+  {
+    id: "shipyard",
+    title: "The Shipyard",
+    description: "The IRS is located on the Canaan Road to the Canaan bath.",
+    lat: 59.34847,
+    lng: 17.662799,
+  },
+  {
+    id: "boat-club",
+    title: "Boat club",
+    description:
+      "HSBK is located at the bottom of Sparrisbacken, Hässelby Strand.",
+    lat: 59.357539,
+    lng: 17.834306,
+  },
+];
+
+const GoogleMapLocation = () => {
+  const [selectLoctioan, setSelectLoctioan] = useState<LocationItem>(
+    locationsData[0],
+  );
+  const googleMap = `https://maps.google.com/maps?q=${selectLoctioan.lat},${selectLoctioan.lng}&z=15&output=embed`;
+
+  return (
+    <div className="w-full bg-primary flex justify-center items-center min-h-screen">
+      <div className="w-full max-w-6xl bg-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8">
+        <div className="w-full lg:w-1/2 flex flex-col justify-between">
+          <div>
+            <div className="mb-8">
+              <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
+                EPost
+              </h4>
+              <a
+                href="mailto:info@planb.rehab"
+                className="text-primary text-lg  font-primary  leading-8 tracking-tight"
+              >
+                info@planb.rehab
+              </a>
+            </div>
+
+            <div className="mb-4">
+              <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
+                Locations
+              </h4>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6">
+              {locationsData.map((loc) => {
+                const isActive = selectLoctioan.id === loc.id;
+                return (
+                  <button
+                    key={loc.id}
+                    onClick={() => setSelectLoctioan(loc)}
+                    className="text-left cursor-pointer   "
+                  >
+                    <h5
+                      className={`text-primary text-lg  font-primary leading-8 tracking-tight ${
+                        isActive ? " font-bold" : " font-normal"
+                      }`}
+                    >
+                      {loc.title}
+                    </h5>
+                    <p className="text-primary  text-sm font-extralight  font-['Manrope'] leading-6 tracking-tight mb-1">
+                      {loc.description}
+                      <span>
+                        ({loc.lat.toFixed(2)}, {loc.lng.toFixed(2)})
+                      </span>
+                    </p>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full lg:w-1/2 h-[350px] md:h-auto min-h-[400px]  overflow-hidden relative bg-white">
+          <iframe
+            key={selectLoctioan.id}
+            title={`Map pointing to ${selectLoctioan.title}`}
+            src={googleMap}
+            className="w-full h-full border-0 absolute inset-0"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default GoogleMapLocation;
