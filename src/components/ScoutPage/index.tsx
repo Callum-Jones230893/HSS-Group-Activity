@@ -14,7 +14,7 @@ const scout: CallToAction = {
   subtitle: "I VÅR SCOUTKÅR!",
   description: "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
   image: "/images/001.jpg",
-  button: "Become a scout",
+  button: "Bli scout",
   link: "Read more"
 }
 
@@ -23,8 +23,8 @@ const leader: CallToAction = {
   subtitle: "AV VÅRT SCOUTTEAM",
   description: "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
   image: "/images/002.png",
-  button: "Become a leader",
-  link: "Read more"
+  button: "Bli ledare",
+  link: "Läs mer"
 }
 
 const cabin: CallToAction = {
@@ -32,8 +32,8 @@ const cabin: CallToAction = {
   subtitle: "ATT UTFORSKA NATURENS FRIHET",
   description: "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
   image: "/images/003.png",
-  button: "Rent a cabin",
-  link: "Read more"
+  button: "Hyr stuga",
+  link: "Läs mer"
 }
 
 const partner: CallToAction = {
@@ -41,8 +41,8 @@ const partner: CallToAction = {
   subtitle: "MED VÅR STOLTHET ÖVER NÄSTA LEDARE",
   description: "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
   image: "/images/004.png",
-  button: "Become a partner",
-  link: "Read more"
+  button: "Bli partner",
+  link: "Läs mer"
 }
 
 const callToActionData: CallToAction[] = [scout, leader, cabin, partner]
