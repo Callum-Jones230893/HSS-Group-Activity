@@ -1,16 +1,21 @@
-'use client'
+"use client";
 
 import { useState } from "react";
-import { useClickAway } from '@uidotdev/usehooks';
+import { useClickAway } from "@uidotdev/usehooks";
 import Link from "next/link";
 import { navItems, moreMenu } from "@/data/navigation";
 
-const NavMenu = () => {
+type DropdownProp = {
+  color: string;
+  textColor: string
+};
+
+const NavMenu = ({ color, textColor }: DropdownProp) => {
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
-    setOpenMore(false)
-  })
+    setOpenMore(false);
+  });
 
   return (
     <>
@@ -30,9 +35,14 @@ const NavMenu = () => {
           </svg>
         </button>
         {openMore && (
-          <div className="bg-white flex flex-col gap-8 top-8 justify-center items-center lg:absolute lg:p-10 lg:-left-12">
+          <div
+            className={`${color} ${textColor} flex flex-col gap-8 top-8 justify-center items-center lg:absolute lg:p-10 lg:-left-12`}>
             {moreMenu.map((item, index) => (
-              <Link href={item.link} key={index} className="w-26 justify-center items-center" onClick={() => setOpenMore(false)}>
+              <Link
+                href={item.link}
+                key={index}
+                className="w-26 justify-center items-center"
+                onClick={() => setOpenMore(false)}>
                 <p className="w-full text-left">{item.name}</p>
               </Link>
             ))}
