@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FooterLogo = () => {
   return (
-    <div className="bg-primary flex flex-col text-center items-center pt-5 pr-4 pb-10 pl-4 gap-8">
+    <div className="bg-primary flex flex-col text-center items-center pt-5 pb-10 gap-8 lg:pt-20 lg:pb-20">
       <Image
         src="/images/hss_logo.png"
         alt="HSS Logo"
