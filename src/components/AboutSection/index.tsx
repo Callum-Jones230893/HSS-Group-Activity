@@ -9,8 +9,8 @@ type FeatureItem = {
 
 const FEATURES_DATA: FeatureItem[] = [
   {
-    title: "Safe team",
-    subtitle: "and respect",
+    title: "tryggt",
+    subtitle: "och respektfullt",
     icon: (
       <svg
         viewBox="0 0 139 139"
@@ -28,8 +28,8 @@ const FEATURES_DATA: FeatureItem[] = [
     ),
   },
   {
-    title: "Adventure",
-    subtitle: "and exploration",
+    title: "Äventyr",
+    subtitle: "och utforskning",
     icon: (
       <svg
         width="139"
@@ -62,8 +62,8 @@ const FEATURES_DATA: FeatureItem[] = [
     ),
   },
   {
-    title: "Community",
-    subtitle: "and teamwork",
+    title: "Gemenskap",
+    subtitle: "och samarbete",
     icon: (
       <svg
         viewBox="0 0 139 139"
@@ -105,8 +105,8 @@ const FEATURES_DATA: FeatureItem[] = [
     ),
   },
   {
-    title: "Environmental",
-    subtitle: "and stewardship",
+    title: "Miljövetenhet",
+    subtitle: "och förvaltning",
     icon: (
       <svg
         viewBox="0 0 139 139"
@@ -140,7 +140,7 @@ const AboutSection = () => {
         </div>
 
         <div className="flex-1 flex flex-col justify-center items-center gap-3.5 max-w-[1200px]">
-          <p className="text-primweenary text-5xl font-normal">Om HSS</p>
+          <p className="text-primary text-5xl font-normal">Om HSS</p>
 
           <div className="max-w-[674px] text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
             <p>
@@ -170,7 +170,7 @@ const AboutSection = () => {
 
             <div className="py-5 flex flex-col justify-center items-start gap-10">
               <button className="w-[248px] h-[59.6px] px-8 py-3.5 bg-secondary text-primary text-xl font-light rounded-[32.93px] leading-7">
-                See more our boats
+                Se våra båtar
               </button>
             </div>
           </div>
