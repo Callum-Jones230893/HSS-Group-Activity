@@ -52,22 +52,22 @@ const DepartmentData: DepartmentItem[] = [
     outline: "outline-pink-700",
     shadow: "hover:shadow-pink-700"
   },
-  // {
-  //   title: "",
-  //   subtitle: "",
-  //   description: "",
-  //   image: "/images/department5.png",
-    // text: "",
-    // border: "",
-    // outline: "",
-    // shadow: ""
-  // }
+  {
+    title: "Familjescouting",
+    subtitle: "",
+    description: "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
+    image: "/images/department5.png",
+    text: "text-primary",
+    border: "lg:border-primary",
+    outline: "outline-primary",
+    shadow: "hover:shadow-primary"
+  }
 ] 
 
 const DepartmentSelection = () => {
   return (
     <section className="my-22">
-      <div className="flex flex-col w-9/10 lg:w-7/10 mx-auto">
+      <div className="flex flex-col w-9/10 lg:w-7/10 mx-auto text-pri">
         {DepartmentData.map((item, index) => 
           <DepartmentCards key={index} item={item} />
         )}
