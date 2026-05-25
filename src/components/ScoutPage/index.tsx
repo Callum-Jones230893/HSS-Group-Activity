@@ -11,7 +11,7 @@ type CallToAction = {
 
 const scout: CallToAction = {
   title: "Bli scout",
-  subtitle: "I VÅR SCOUTKÅR!",
+  subtitle: "I VÅR SCOUTKÅR",
   description: "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
   image: "/images/001.jpg",
   button: "Bli scout",
