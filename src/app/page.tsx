@@ -9,7 +9,6 @@ export default function Home() {
         subtitle="Äventyr och kompisar!"
         title="Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
       />
-      <h1 className="text-yellow font-yeseva">Hello World except Claudia</h1>
       {/* <HeroMain /> */}
 
       {/* <IntroSection /> */}
