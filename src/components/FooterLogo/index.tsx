@@ -9,9 +9,9 @@ const FooterLogo = () => {
         width={103}
         height={103}
         loading="eager"
-        className="w-19 h-19 md:w-25.75 md:h-25.75"
+        className="w-19 h-19 lg:w-25.75 lg:h-25.75"
       />
-      <h3 className="font-secondary text-secondary text-[28px] md:text-[32px]">
+      <h3 className="font-secondary text-secondary text-[28px] lg:text-[32px]">
         Tillsammans kan vi göra mer!
       </h3>
       <p className="max-w-162 font-primary text-[18px] text-white font-light">
