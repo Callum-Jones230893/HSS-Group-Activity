@@ -7,7 +7,7 @@ import { navItems, moreMenu } from "@/data/navigation";
 
 type DropdownProp = {
   color: string;
-  textColor: string
+  textColor: string;
 };
 
 const NavMenu = ({ color, textColor }: DropdownProp) => {
@@ -30,7 +30,13 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer">
           <span className="text-[16px]">Mer</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            className={`transition-transform duration-200 ${openMore ? "rotate-180" : "rotate-0"}`}>
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
           </svg>
         </button>
