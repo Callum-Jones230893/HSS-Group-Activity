@@ -11,9 +11,9 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
     
     return (
         <>  
-        <div className=" flex lg:flex-row lg:p-[16] lg:gap-[1] lg:rounded-[8] lg:w-8/10 md:gap-[1] ">
-            <div className="flex flex-row md:justify-center md:m-auto bg-background font-primary rounded-xl">
-                <div className="lg:flex lg:grow lg:flex-col w-[326] flex-col grow font-primary rounded-xl">
+        <div className=" flex lg:flex-row lg:p-[16] lg:gap-[1] lg:rounded-[8] lg:w-8/10 md:gap-[28]">
+            <div className="flex flex-row md:justify-center md:m-auto bg-[#ffffff] font-primary rounded-xl w-[326]">
+                <div className="lg:flex lg:grow lg:flex-col flex-col grow font-primary rounded-xl  w-full max-w-432  ">
                     <Image
                         src="/images/006.png"
                         alt="grey haired woman with her back towards the camera and a blonde looking at her"
