@@ -20,7 +20,7 @@ const scout: CallToAction = {
 
 const leader: CallToAction = {
   title: "Bli en ledare",
-  subtitle: "AV VÅRT SCOUTTEAM",
+  subtitle: "I VÅRT SCOUTLAG",
   description: "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
   image: "/images/002.png",
   button: "Bli ledare",
