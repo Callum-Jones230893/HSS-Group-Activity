@@ -13,9 +13,10 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       className="flex flex-col items-center justify-between
       bg-[url('/images/hero_background.png')]
       bg-no-repeat
-      bg-cover
-      bg-position-[-120px_center]
+      bg-position-[-455px_-300px]
+      min-h-220
       md:bg-center
+      md:bg-cover
       md:min-h-175">
       <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-15 md:w-188 mx-auto">
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
