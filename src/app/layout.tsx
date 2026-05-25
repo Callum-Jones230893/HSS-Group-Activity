@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
-import QRCode from "@/components/Footer-QRCode";
+import FooterHero from "@/components/Footer-Hero";
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
@@ -33,7 +33,7 @@ export default function RootLayout({
         <Header />
         {children}
         <footer>
-          <QRCode />
+          <FooterHero />
         </footer>
       </body>
     </html>
