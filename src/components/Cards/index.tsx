@@ -26,35 +26,36 @@ const data:Test[] = [
         title: "Håll ut 2026 storvallens fjällstugor, Storlien",
         date: "Datum: 5-20 Juli 2026",
         description:
-        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
+        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...iorgnireognrkgmjireogjmioregkjmirkmokrfmvkowmnwofvnmwksovfgrwoifkvdnogf",
         image: "../../../public/images/006.png",
     },
     {
         title: "Håll ut 2026 storvallens fjällstugor, Storlien",
         date: "Datum: 5-20 Juli 2026",
         description:
-        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
+        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...dfiognhdrkighndruighnouridhfgiosnrnneonekhnfpoeiwfjepwojf",
         image: "../../../public/images/006.png",
-    },
-    
+    },               
 ];
 
 const Cards = () => {
+    const maxChar = (description: string) =>
+        description.substring(0, 105) + (description.length > 105 ? "..." : "");
+    
     return (
         <>
-            <div className="h-screen">
-                <div className="p-[16] gap-2 rounded-[8] w-full md:gap-4">
-                    <div className="grid grid-flow-row justify-items-center gap-4 md:grid-flow-col md:gap-2">
+            <div className="">
+                    <div className="grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-[28] md:grid-cols-1 ">
                         {data.map((dataItem, index) => (
                             <CardInfo
                             key={index}
                             title={dataItem.title}
                             date={dataItem.date}
-                            description={dataItem.description}/>
+                            description={maxChar(dataItem.description)}
+                            />
                         ))}
                     </div>
                 </div>
-            </div>
         </>
     );
 };

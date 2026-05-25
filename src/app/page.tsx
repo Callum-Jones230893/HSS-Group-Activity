@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import Cards from '@/components/Cards'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       {/* <RentCampSection /> */}
 
       {/* <ContactUsSection /> */}
+      <Cards/>
 
       <AboutSection />
     </>
