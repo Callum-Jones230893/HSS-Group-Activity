@@ -24,7 +24,7 @@ const NavMenu = () => {
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer">
-          <span className="text-[16px]">More</span>
+          <span className="text-[16px]">Mer</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
           </svg>
