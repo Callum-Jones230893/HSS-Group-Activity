@@ -22,11 +22,11 @@ const Hero = ({ subtitle, title }: HeroProps) => {
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
         <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">{title}</h1>
         <div className="flex flex-col font-primary gap-4 my-4 md:flex-row md:my-8 md:gap-8">
-          <Link href="/becomeascout" className='cursor-pointer'>
-            <Button content={"Become a scout"} theme={"yellow"} size={"large"} />
+          <Link href="/becomeascout">
+            <Button content={"Bli scout"} theme={"yellow"} size={"large"} />
           </Link>
-          <Link href="/becomealeader" className='cursor-pointer'>
-            <Button content={"Become a leader"} theme={"transparent"} size={"large"} />
+          <Link href="/becomealeader">
+            <Button content={"Bli ledare"} theme={"transparent"} size={"large"} />
           </Link>
         </div>
       </div>
