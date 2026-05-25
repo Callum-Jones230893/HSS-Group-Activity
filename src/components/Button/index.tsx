@@ -35,7 +35,7 @@ const Button = ({content, theme, size}: ButtonProp) => {
 
   return (
     <>
-      <button className={`flex flex-col item-center justify-center cursor-pointer text-[16px] md:text-[20px] w-fit ${text} ${bg} ${border} ${dimensions}`}>{content}</button>
+      <button className={`flex flex-col item-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit ${text} ${bg} ${border} ${dimensions}`}>{content}</button>
     </>
   )
 }
