@@ -26,14 +26,14 @@ const data:Test[] = [
         title: "Håll ut 2026 storvallens fjällstugor, Storlien",
         date: "Datum: 5-20 Juli 2026",
         description:
-        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...iorgnireognrkgmjireogjmioregkjmirkmokrfmvkowmnwofvnmwksovfgrwoifkvdnogf",
+        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
         image: "../../../public/images/006.png",
     },
     {
         title: "Håll ut 2026 storvallens fjällstugor, Storlien",
         date: "Datum: 5-20 Juli 2026",
         description:
-        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...dfiognhdrkighndruighnouridhfgiosnrnneonekhnfpoeiwfjepwojf",
+        "Under arrangemanget kommer fjällen var vår bas och en stor del av arrangemanget kommer vara utomhus...",
         image: "../../../public/images/006.png",
     },               
 ];
@@ -41,11 +41,11 @@ const data:Test[] = [
 const Cards = () => {
     const maxChar = (description: string) =>
         description.substring(0, 105) + (description.length > 105 ? "..." : "");
-    
+
     return (
         <>
-            <div className="">
-                    <div className="grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-[28] md:grid-cols-1 ">
+            <div className="flex justify-center">
+                    <div className="grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-[28px] md:grid-cols-1 content-center ">
                         {data.map((dataItem, index) => (
                             <CardInfo
                             key={index}
