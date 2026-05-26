@@ -42,9 +42,9 @@ const Navigation = () => {
         <div
           className={`${hamburger ? "flex" : "hidden"}
         bg-white py-4
-        absolute w-2/3 md:w-1/2 right-0 pr-4 lg:pr-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none z-15
-        lg:h-auto lg:w-full lg:gap-2 lg:static lg:flex lg:flex-row lg:justify-between lg:items-center lg:overflow-visible`}>
-          <NavMenu />
+        absolute w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none z-15
+        lg:h-auto lg:w-full lg:gap-1 lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:overflow-visible`}>
+          <NavMenu color={"bg-white"} textColor={"text-primary"}/>
         </div>
       </div>
     </nav>
