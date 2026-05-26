@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import FooterHero from "@/components/Footer-Hero";
 import FooterLogo from "@/components/FooterLogo";
+import FooterCopyright from '@/components/FooterCopyright';
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
@@ -26,16 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
         <footer>
           <FooterLogo />
           <FooterHero />
+          <FooterCopyright />
         </footer>
       </body>
     </html>
