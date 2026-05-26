@@ -1,10 +1,15 @@
 export type InstagramType = {
   timestamp: string
   permalink: string
-  media: string
+  mediaUrl: string
   caption: string
   prunedCaption: string
   mentions: string[]
+  sizes: {
+    small: {
+      mediaUrl: string
+    }
+  }
 }
 
 export async function instagramApi(): Promise<InstagramType[]> {
