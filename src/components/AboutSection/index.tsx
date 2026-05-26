@@ -127,22 +127,22 @@ const FEATURES_DATA: FeatureItem[] = [
 
 const AboutSection = () => {
   return (
-    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-12 lg:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row items-stretch gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
-        <div className="w-full lg:w-[610px] h-96 lg:h-[901px] relative  rounded-lg overflow-none">
+    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
+      <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
+        <div className="w-full lg:w-[45%]   aspect-3/4  lg:h-[1020px] relative  rounded-lg overflow-none">
           <Image
             src="/images/image43.png"
             alt="about us"
             fill
-            priority
+            sizes="(max-width:1024px) 100vw, 50vw"
             className="object-cover object-center rounded-lg"
           />
         </div>
 
-        <div className="flex-1 flex flex-col justify-center items-center gap-3.5 max-w-[1200px]">
+        <div className="flex-1 flex flex-col justify-center items-between max-w-[750px]">
           <p className="text-primary text-5xl font-normal">Om HSS</p>
 
-          <div className="max-w-[674px] text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
+          <div className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
             <p>
               Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
               ungdomsverksamhet med fokus på scouting och båtliv. Vi är
@@ -150,7 +150,6 @@ const AboutSection = () => {
               Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges
               största ungdomsorganisationer.
             </p>
-            <br />
             <p>
               Målet med vår verksamhet är att ge barn och ungdomar möjligheten
               att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och -
@@ -159,7 +158,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-[720px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start gap-6 mt-auto">
+          <div className="w-full max-w-[750px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
             <p className="text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
               Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig
               lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har
