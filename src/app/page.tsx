@@ -11,8 +11,6 @@ export default function Home() {
 
       {/* <AboutUsSection /> */}
 
-      <DepartmentSelection />
-
       {/* <ActivitySection /> */}
 
       {/* <BecomeLeaderSection /> */}
