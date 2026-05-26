@@ -20,7 +20,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
   return (
     <>
       {navItems.map((item, index) => (
-        <Link href={item.link} key={index} className="w-full lg:w-auto text-center md:hover:scale-110">
+        <Link href={item.link} key={index} className="w-full lg:w-auto text-center md:hover:scale-110 transition duration-300 ease-in-out">
           <span className="text-[16px] w-full">{item.name}</span>
         </Link>
       ))}
@@ -28,7 +28,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110">
+          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110 transition duration-300 ease-in-out">
           <span className="text-[16px]">Mer</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
             height="30"
             viewBox="0 0 30 30"
             fill="none"
-            className={`transition-transform duration-200 ${openMore ? "rotate-180" : "rotate-0"}`}>
+            className={`transition-transform duration-350 ${openMore ? "rotate-180" : "rotate-0"}`}>
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
           </svg>
         </button>
@@ -47,7 +47,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
               <Link
                 href={item.link}
                 key={index}
-                className="w-26 justify-center items-center md:hover:scale-110"
+                className="w-26 justify-center items-center md:hover:scale-110 transition duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
                 <p className="w-full text-left">{item.name}</p>
               </Link>
