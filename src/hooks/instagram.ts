@@ -31,5 +31,3 @@ export async function instagramApi(): Promise<InstagramType[]> {
     return []
   }
 }
-
-// const feed = await instagramPosts()
