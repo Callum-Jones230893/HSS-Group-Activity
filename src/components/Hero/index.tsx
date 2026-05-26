@@ -11,11 +11,12 @@ const Hero = ({ subtitle, title }: HeroProps) => {
   return (
     <div
       className="flex flex-col items-center justify-between
-      bg-[url('/images/hero_background.png')]
+      bg-[url('/images/hero_background_mobile.png')]
       bg-no-repeat
       bg-cover
       bg-position-[20%_center]
       min-h-187.5
+      md:bg-[url('/images/hero_background.png')]
       md:bg-position-[center_center]
       md:min-h-170
       2xl:min-h-210">
