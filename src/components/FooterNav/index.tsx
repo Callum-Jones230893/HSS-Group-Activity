@@ -1,13 +1,11 @@
-import NavMenu from '../NavMenu';
+import NavMenu from "../NavMenu";
 
 const FooterNav = () => {
   return (
-    <div className='py-10'>
-      <div className='flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8'>
-        <NavMenu />
-      </div>
+    <div className="bg-primary text-secondary py-20 flex flex-col gap-4 md:flex-row md:gap-8">
+      <NavMenu />
     </div>
-  )
-}
+  );
+};
 
-export default FooterNav
+export default FooterNav;
