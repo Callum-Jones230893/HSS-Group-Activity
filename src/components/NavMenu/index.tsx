@@ -36,8 +36,8 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
             height="30"
             viewBox="0 0 30 30"
             fill="none"
-            className={`transition-transform duration-350 ${openMore ? "rotate-180" : "rotate-0"}`}>
-            <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="#003660" />
+            className={`transition-transform duration-350 ${openMore ? "rotate-180" : "rotate-0"} ${textColor}`}>
+            <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="currentColor" />
           </svg>
         </button>
         {openMore && (
