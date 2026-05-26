@@ -127,7 +127,7 @@ const FEATURES_DATA: FeatureItem[] = [
 
 const AboutSection = () => {
   return (
-    <section className="w-full max-w-[1728px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
+    <section className="w-full max-w-[1730px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
       <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
         <div className="w-full lg:w-[45%]   aspect-3/4  lg:h-[1020px] relative  rounded-lg overflow-none">
           <Image
@@ -167,7 +167,7 @@ const AboutSection = () => {
               scoutstuga.
             </p>
 
-            <div className="py-5 flex flex-col justify-center items-start gap-10">
+            <div className=" flex flex-col justify-center items-start gap-10">
               <button className="w-[248px] h-[59.6px] px-8 py-3.5 bg-secondary text-primary text-xl font-light rounded-[32.93px] leading-7">
                 Se våra båtar
               </button>
