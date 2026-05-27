@@ -64,7 +64,6 @@ const DepartmentData: DepartmentItem[] = [
   }
 ] 
 
-
 const DepartmentSelection = () => {
   return (
     <section className="my-22">
