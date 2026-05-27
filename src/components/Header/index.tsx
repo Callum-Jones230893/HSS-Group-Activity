@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className=" bg-white flex items-center justify-center md:py-4 lg:p-11.25 lg:w-5/6 lg:mx-auto">
-      <Link href="/" className="shrink-0 pl-4">
+    <header className=" bg-white flex items-center justify-center lg:w-5/6 lg:mx-auto pt-12 lg:pt-0">
+      <Link href="/" className="shrink-0 p-4">
         <Image
           src="/images/hss_logo.png"
           alt="HSS Logo"
@@ -16,6 +16,19 @@ const Header = () => {
         />
       </Link>
       <Navigation />
+      <a
+        href="https://www.scouterna.se/"
+        target="_blank"
+        className="flex items-center gap-2.5 p-2.5 bg-[#EAEAEA] rounded-bl-[10px] absolute top-0 right-0"
+      >
+        <Image
+          src="/images/scouterna_logo.png"
+          alt="scouterna logo"
+          width={105}
+          height={23}
+          className="w-22.5 h-4.75 lg:w-26.25 lg:h-5.75"
+        />
+      </a>
     </header>
   );
 };
