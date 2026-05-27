@@ -10,8 +10,6 @@ import FooterCopyright from "@/components/FooterCopyright";
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
   variable: "--font-manrope",
-  src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
-  variable: "--font-manrope",
 });
 
 const yesevaOne = localFont({
