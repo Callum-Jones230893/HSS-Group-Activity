@@ -50,7 +50,7 @@ const GoogleMapLocation = () => {
 
   return (
     <div className="w-full bg-primary flex justify-center items-center min-h-screen">
-      <div className="w-full max-w-6xl bg-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8">
+      <div className="w-full max-w-[1535px] lg:max-h-[578px] bg-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-1/2 flex flex-col justify-between">
           <div>
             <div className="mb-8">
@@ -67,7 +67,7 @@ const GoogleMapLocation = () => {
 
             <div className="mb-4">
               <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
-                Locations
+                Hitta till oss
               </h4>
             </div>
 
@@ -80,15 +80,17 @@ const GoogleMapLocation = () => {
                     onClick={() => setSelectLoctioan(loc)}
                     className="text-left cursor-pointer   "
                   >
-                    <h5
+                    <p
                       className={`text-primary text-lg  font-primary leading-8 tracking-tight ${
-                        isActive ? " font-bold" : " font-normal"
+                        isActive
+                          ? " font-bold shadow-lg bg-primary/5 rounded-2xl py-2 px-2"
+                          : " font-normal"
                       }`}
                     >
-                      {loc.title}
-                    </h5>
-                    <p className="text-primary  text-sm font-extralight  font-['Manrope'] leading-6 tracking-tight mb-1">
+                      <h5>{loc.title}</h5>
+
                       {loc.description}
+
                       <span>
                         ({loc.lat.toFixed(2)}, {loc.lng.toFixed(2)})
                       </span>
@@ -105,8 +107,10 @@ const GoogleMapLocation = () => {
             key={selectLoctioan.id}
             title={`Map pointing to ${selectLoctioan.title}`}
             src={googleMap}
-            className="w-full h-full border-0 absolute inset-0"
+            className="w-full h-full border-0 absolute inset-0 rounded-lg"
             allowFullScreen
+            width="684"
+            height="474"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
