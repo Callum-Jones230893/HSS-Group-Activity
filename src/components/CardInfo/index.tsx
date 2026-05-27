@@ -11,7 +11,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
   return (
     <>
       <div className=" flex lg:flex-row lg:p-4 lg:gap-[1] lg:rounded-[8] lg:w-full md:w-[326] md:gap-[28]">
-        <div className="max-w-75 md:flex flex-row lg:max-w-9/10 md:justify-center md:m-auto bg-[#ffffff] font-primary rounded-xl ">
+        <div className="max-w-75 md:flex flex-row  md:justify-center md:m-auto bg-[#ffffff] font-primary rounded-xl ">
           <section className="lg:flex lg:grow lg:flex-col flex-col grow font-primary rounded-xl w-full max-w-432  ">
             <Image
               src="/images/006.png"
