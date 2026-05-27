@@ -1,5 +1,4 @@
 import AboutSection from "@/components/AboutSection";
-import TestDisplayCard from "@/components/TestDisplayCard";
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
       {/* <RentCampSection /> */}
 
       {/* <ContactUsSection /> */}
-    <TestDisplayCard />
+
       <AboutSection />
     </>
   );
