@@ -27,6 +27,7 @@ const Navigation = () => {
 
   return (
     <nav className="relative font-primary text-primary w-full lg:max-w-4/5 lg:mx-auto" >
+      {hamburger && <div className='fixed inset-0 bg-primary/70 lg:hidden backdrop-blur-sm' />}
       <div ref={menuRef}>
         <div className="flex justify-end m-4 lg:hidden">
           <svg
@@ -35,6 +36,7 @@ const Navigation = () => {
             height="48"
             viewBox="0 0 48 48"
             fill="none"
+            className='z-999'
             onClick={() => setHamburger(prev => !prev)}>
             <path
               d="M6 24H42M6 12H42M6 36H42"
@@ -47,8 +49,8 @@ const Navigation = () => {
         </div>
         <div
           className={`${hamburger ? "flex" : "hidden"}
-        bg-white py-4
-        absolute w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none
+        bg-white
+        fixed top-0 pt-30 w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none
         lg:h-auto lg:w-full lg:gap-1 lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:overflow-visible`}>
           <NavMenu color={"bg-white"} textColor={"text-primary"} />
         </div>
