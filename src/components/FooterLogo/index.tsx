@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Button from "../Button";
+import Link from "next/link";
 
 const FooterLogo = () => {
   return (
-    <div className="bg-primary flex flex-col text-center items-center pt-5 pb-10 gap-8 lg:pt-20 lg:pb-20">
+    <div className="bg-primary flex flex-col text-center items-center pt-5 pb-10 gap-8 lg:pt-20 lg:pb-20 px-7">
       <Image
         src="/images/hss_logo.png"
         alt="HSS Logo"
@@ -18,9 +20,9 @@ const FooterLogo = () => {
         Scouterna ger barn och unga från alla delar av samhället chansen att
         uppleva äventyr tillsammans och växa som individer.
       </p>
-      <button className="w-fit p-4 bg-secondary text-primary rounded-full">
-        Become a scout Placeholder
-      </button>
+     <Link href="/becomeascout">
+     <Button content={"Bli scout"} theme={"yellow"} size={"large"} />
+     </Link>
     </div>
   );
 };
