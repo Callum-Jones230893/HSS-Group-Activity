@@ -9,7 +9,7 @@ type FeatureItem = {
 
 const FEATURES_DATA: FeatureItem[] = [
   {
-    title: "tryggt",
+    title: "Tryggt",
     subtitle: "och respektfullt",
     icon: (
       <svg
