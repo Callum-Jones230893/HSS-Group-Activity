@@ -8,9 +8,11 @@ import { navItems, moreMenu } from "@/data/navigation";
 type DropdownProp = {
   color: string;
   textColor: string;
+  hamburger: boolean;
+  closeHamburger: (hamburger: boolean) => void;
 };
 
-const NavMenu = ({ color, textColor }: DropdownProp) => {
+const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) => {
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
@@ -20,8 +22,13 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
   return (
     <>
       {navItems.map((item, index) => (
-        <Link href={item.link} key={index} className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full">{item.name}</span>
+        <Link
+          href={item.link}
+          key={index}
+          className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
+          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger(false)}>
+            {item.name}
+          </span>
         </Link>
       ))}
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
@@ -49,7 +56,11 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
                 key={index}
                 className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
-                <p className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-left">{item.name}</p>
+                <p
+                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-left"
+                  onClick={() => closeHamburger(false)}>
+                  {item.name}
+                </p>
               </Link>
             ))}
           </div>
