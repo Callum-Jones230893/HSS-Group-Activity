@@ -8,6 +8,10 @@ type CardInfoProps = {
 };
 
 const CardInfo = ({ title, date, description }: CardInfoProps) => {
+
+  const maxChar = (description: string) =>
+    description.substring(0, 105) + (description.length > 105 ? "..." : "");
+
   return (
     <>
       <div className="flex lg:flex-row lg:p-4 lg:gap-[1] lg:rounded-[8] md:gap-[28]">
@@ -25,7 +29,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
               <h2 className="font-semibold text-primary py-[7]">{title}</h2>
               <p className="font-medium py-[7] text-primary">{date}</p>
               <p className="flex lg:grow lg:overflow-order text-[#5c5c5c] text-md w-full">
-                {description}
+                {maxChar(description)}
               </p>
               <div className="flex lg:flex-start lg:flex-row py-[24] w-full gap-[13]">
                 <p className=" bg-secondary h-[35] rounded-full py-[7] px-[25] text-primary text-center w-[136]">
