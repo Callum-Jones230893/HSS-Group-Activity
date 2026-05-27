@@ -87,9 +87,9 @@ const GoogleMapLocation = () => {
                           : " font-normal"
                       }`}
                     >
-                      <h5>{loc.title}</h5>
+                      <span className="font-bold"> {loc.title}</span>
 
-                      {loc.description}
+                      <p>{loc.description}</p>
 
                       <span>
                         ({loc.lat.toFixed(2)}, {loc.lng.toFixed(2)})
