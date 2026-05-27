@@ -21,7 +21,7 @@ const DepartmentCards = ({item}: DepartmentItemProps) => {
     <div className={`item-start xl:flex flex-col xl:flex-row xl:items-center rounded-lg xl:rounded-2xl lg:border-l-[3px] 
       lg:border-r-[0.50px] lg:border-t-[0.50px] lg:border-b-[3px] ${item.border} mb-21.75 font-primary text-lg xl:text-2xl p-8
       outline-[0.50px] outline-offset-[-0.50px] ${item.outline} inline-flex shadow-none transition duration-300 
-      hover:shadow-sm ${item.shadow} hover:scale-102 cursor-pointer`}
+      hover:shadow-sm ${item.shadow} hover:scale-102 cursor-pointer bg-[#ffffff]`}
     >
       <div className="flex min-w-7/10 xl:min-w-[20%]">
         <Image src={item.image} width="400" height="400" alt={item.title} loading="eager" className="size-28.5 xl:size-60 rounded-2xl"/>
