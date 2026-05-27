@@ -21,7 +21,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
     <>
       {navItems.map((item, index) => (
         <Link href={item.link} key={index} className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px] w-full">{item.name}</span>
+          <span className="text-[16px] md:text-[20px] w-full">{item.name}</span>
         </Link>
       ))}
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
@@ -29,7 +29,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px]">Mer</span>
+          <span className="text-[16px] md:text-[20px]">Mer</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -49,7 +49,7 @@ const NavMenu = ({ color, textColor }: DropdownProp) => {
                 key={index}
                 className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
-                <p className="w-full text-left">{item.name}</p>
+                <p className="text-[16px] md:text-[20px] w-full text-left">{item.name}</p>
               </Link>
             ))}
           </div>
