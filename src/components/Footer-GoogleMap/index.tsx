@@ -83,7 +83,7 @@ const GoogleMapLocation = () => {
                     onClick={() => setSelectLoctioan(loc)}
                     className="text-left cursor-pointer   "
                   >
-                    <p
+                    <div
                       className={`text-primary text-lg  font-primary leading-8 tracking-tight ${
                         isActive
                           ? " font-bold shadow-lg bg-primary/5 rounded-2xl py-2 px-2"
@@ -97,7 +97,7 @@ const GoogleMapLocation = () => {
                       <span>
                         ({loc.lat.toFixed(2)}, {loc.lng.toFixed(2)})
                       </span>
-                    </p>
+                    </div>
                   </button>
                 );
               })}
