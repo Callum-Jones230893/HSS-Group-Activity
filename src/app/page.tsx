@@ -13,8 +13,6 @@ export default function Home() {
       <ScoutPage />
       {/* <AboutUsSection /> */}
 
-      {/* <DepartmentSection /> */}
-
       {/* <ActivitySection /> */}
 
       {/* <BecomeLeaderSection /> */}
@@ -23,7 +21,7 @@ export default function Home() {
 
       {/* <ContactUsSection /> */}
 
-      <AboutSection />
+      {/* <AboutSection /> */}
     </>
   );
 }
