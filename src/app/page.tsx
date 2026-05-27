@@ -20,7 +20,7 @@ export default function Home() {
       {/* <RentCampSection /> */}
 
       {/* <ContactUsSection /> */}
-    <TestDisplayCard />
+      <TestDisplayCard />
       <AboutSection />
     </>
   );

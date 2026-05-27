@@ -12,7 +12,7 @@ export type InstagramType = {
   }
 }
 
-export async function instagramApi(): Promise<InstagramType[]> {
+export const instagramApi = async (): Promise<InstagramType[]> => {
   try {
     const response = await fetch(`https://feeds.behold.so/bL8BpV4aqEvuArQToGd0`, { 
       next: {

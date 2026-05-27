@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { instagramApi } from "@/hooks/instagram"
+import { instagramApi } from "@/utils/instagramFetch"
 
 const feed = await instagramApi()
 
