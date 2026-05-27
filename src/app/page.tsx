@@ -14,8 +14,6 @@ export default function Home() {
 
       {/* <AboutUsSection /> */}
 
-      {/* <DepartmentSection /> */}
-
       {/* <ActivitySection /> */}
 
       {/* <BecomeLeaderSection /> */}
