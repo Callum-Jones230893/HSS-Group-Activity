@@ -58,11 +58,12 @@ const Cards = () => {
 
   return (
     <>
-      <div className="flex flex-col max-w-[1728] lg:mx-auto justify-center litems-center md:max-w-295 bg-[#0036600F] rounded-[12] m-3.75 lg:pb-[42] lg:pt-[42] lg:px-[12] lg:lg:py-[74] px-1 p-7.5 lg:max-w-9/10 ">
+    <div className="bg-[#0036600F] flex flex-col lg:max-w-9/10 lg:mx-auto rounded-[12] justify-center items-center md:max-w-180">
+      <div className=" m-3.75 lg:pb-[42] lg:pt-[42] lg:px-[12] lg:py-[74] px-1 p-7.5 ">
         <h2 className="text-[#053a60] max-w-[1452] font-primary md:text-4xl text-[26px] text-light text-center lg:text-left lg:pl-8 pt-2 mb-4 md:text-center ">
           Tidigare Event Inom HSS
         </h2>
-        <div className="grid lg:grid-cols-3 items-center lg:gap-3  gap-y-7 gap-x-2  justify-center md:margin-auto">
+        <div className="grid lg:grid-cols-3 items-center lg:gap-3 gap-y-7 gap-x-2 justify-center md:margin-auto">
           {data.map((dataItem, index) => (
             <CardInfo
               key={index}
@@ -73,6 +74,7 @@ const Cards = () => {
           ))}
         </div>
       </div>
+    </div>
     </>
   );
 };

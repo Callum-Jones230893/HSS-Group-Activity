@@ -10,7 +10,7 @@ type CardInfoProps = {
 const CardInfo = ({ title, date, description }: CardInfoProps) => {
   return (
     <>
-      <div className=" flex lg:flex-row lg:p-4 lg:gap-[1] lg:rounded-[8] lg:w-full md:w-[326] md:gap-[28]">
+      <div className="flex lg:flex-row lg:p-4 lg:gap-[1] lg:rounded-[8] md:gap-[28]">
         <div className="max-w-75 md:flex flex-row  md:justify-center md:m-auto bg-[#ffffff] font-primary rounded-xl ">
           <section className="lg:flex lg:grow lg:flex-col flex-col grow font-primary rounded-xl w-full max-w-432  ">
             <Image
@@ -36,7 +36,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                   href={""}
                   className="flex lg:flex-start decoration-1 px-[10] py-[7] text-primartext-center underline underline-offset-2"
                 >
-                  Read More
+                  Läs Mer
                 </Link>
               </div>
             </div>
