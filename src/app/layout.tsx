@@ -38,12 +38,10 @@ export default function RootLayout({
         <footer>
           <FooterLogo />
           <FooterHero />
+          <GoogleMapLocation />
           <FooterCopyright />
         </footer>
       </body>
-      <footer>
-        <GoogleMapLocation />
-      </footer>
     </html>
   );
 }
