@@ -24,7 +24,7 @@ const DepartmentCards = ({item}: DepartmentItemProps) => {
       hover:shadow-sm ${item.shadow} hover:scale-102 cursor-pointer bg-[#ffffff]`}
     >
       <div className="flex min-w-7/10 xl:min-w-[20%]">
-        <Image src={item.image} width="400" height="400" alt={item.title} loading="eager" className="size-28.5 xl:size-60 rounded-2xl"/>
+        <Image src={item.image} width="400" height="400" alt={item.title} loading="eager" className="size-28.5 xl:size-60 rounded-2xl overflow-hidden"/>
       </div>
       <div className="flex flex-col my-3 xl:mx-11.5 justify-evenly">
         <div className="flex items-center gap-1.5">
