@@ -5,7 +5,11 @@ import { useClickAway } from "@uidotdev/usehooks";
 import { usePathname } from "next/navigation";
 import NavMenu from "../NavMenu";
 
-const Navigation = () => {
+type NavOrderProp = {
+  className?: string
+}
+
+const Navigation = ({className}:NavOrderProp) => {
   const [hamburger, setHamburger] = useState<boolean>(false);
 
   const menuRef = useClickAway<HTMLDivElement>(() => {
@@ -26,7 +30,7 @@ const Navigation = () => {
   }, [hamburger]);
 
   return (
-    <nav className="relative font-primary text-primary w-full lg:max-w-4/5 lg:mx-auto" >
+    <nav className={`relative font-primary  text-primary lg:w-2/3 lg:mx-auto ${className}`}>
       {hamburger && <div className='fixed inset-0 bg-primary/70 lg:hidden backdrop-blur-sm' />}
       <div ref={menuRef}>
         <div className="flex justify-end m-4 lg:hidden">
@@ -50,8 +54,8 @@ const Navigation = () => {
         <div
           className={`${hamburger ? "flex" : "hidden"}
         bg-white
-        fixed top-0 pt-30 w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none lg:pt-0
-        lg:h-auto lg:w-full lg:gap-1 lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:overflow-visible`}>
+        fixed top-0 pt-30 pb-10 w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-y-auto overscroll-none lg:pt-0
+        lg:h-auto lg:w-full lg:gap-1 lg:pb-0 lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:overflow-visible`}>
           <NavMenu color={"bg-white"} textColor={"text-primary"} hamburger={hamburger} closeHamburger={setHamburger} />
         </div>
       </div>
