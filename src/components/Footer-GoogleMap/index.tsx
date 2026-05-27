@@ -14,29 +14,32 @@ const locationsData: LocationItem[] = [
   {
     id: "myset",
     title: "Hajkstugan Myset",
-    description: "Between Kyrkhamn and Gåseborg.",
+    description:
+      "Vår mysiga stuga i skogen som används för övernattningar, hajk och landbaserade aktiviteter.",
     lat: 59.39712767997542,
     lng: 17.769832196692757,
   },
   {
     id: "ruffen",
-    title: "Student union room Ruffen:",
-    description: "Hässelby strandbad",
+    title: "Studentkårsrummet",
+    description:
+      "Detta är vår huvudsakliga plats vid vattnet, där vi håller våra veckomöten.",
     lat: 59.36328435188759,
     lng: 17.822173946489528,
   },
   {
     id: "shipyard",
-    title: "The Shipyard",
-    description: "The IRS is located on the Canaan Road to the Canaan bath.",
+    title: "Varvet",
+    description:
+      "Detta är vårt båtvarv där vi utför underhåll, reparationer och vinterförvaring. ",
     lat: 59.34847,
     lng: 17.662799,
   },
   {
     id: "boat-club",
-    title: "Boat club",
+    title: "Båtklubben",
     description:
-      "HSBK is located at the bottom of Sparrisbacken, Hässelby Strand.",
+      "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret.",
     lat: 59.357539,
     lng: 17.834306,
   },
