@@ -56,7 +56,7 @@ const DepartmentData: DepartmentItem[] = [
     title: "Familjescouting",
     subtitle: "",
     description: "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
-    image: "/images/department5.jpeg",
+    image: "/images/department5.png",
     text: "text-[#652482]",
     border: "lg:border-[#652482]",
     outline: "outline-[#652482]",
