@@ -50,7 +50,7 @@ const Navigation = () => {
         <div
           className={`${hamburger ? "flex" : "hidden"}
         bg-white
-        fixed top-0 pt-30 w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none
+        fixed top-0 pt-30 w-2/3 md:w-1/2 right-0 h-screen flex-col items-end gap-8 overflow-hidden overscroll-none lg:pt-0
         lg:h-auto lg:w-full lg:gap-1 lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:overflow-visible`}>
           <NavMenu color={"bg-white"} textColor={"text-primary"} />
         </div>
