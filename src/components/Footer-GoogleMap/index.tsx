@@ -53,7 +53,7 @@ const GoogleMapLocation = () => {
 
   return (
     <div className="w-full bg-primary flex justify-center items-center min-h-screen">
-      <div className="w-full max-w-[1535px] lg:max-h-[578px] mx-[28px] lg:mx[128px] bg-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8">
+      <div className="w-full max-w-[1535px] lg:max-h-[578px] mx-[28px] lg:mx[128px] my-[16px] lg:my-[52px] bg-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-1/2 flex flex-col justify-between">
           <div>
             <div className="mb-8">
