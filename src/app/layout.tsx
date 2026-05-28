@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import GoogleMapLocation from "@/components/Footer-GoogleMap";
-import QRCode from "@/components/Footer-QRCode";
+import FooterHero from "@/components/Footer-Hero";
 import FooterCopyright from "@/components/FooterCopyright";
 
 const manrope = localFont({
@@ -35,7 +35,7 @@ export default function RootLayout({
         <Header />
         {children}
         <footer>
-          <QRCode />
+          <FooterHero />
           <GoogleMapLocation />
           <FooterCopyright />
         </footer>
