@@ -23,6 +23,14 @@ const TestingHoverEffects = () => {
           scale
         </button>
       </div>
+      <div className="flex gap-4">
+        <button className="w-fit text-primary bg-secondary h-[53px] px-[29px] py-[12px] rounded-[30px] cursor-pointer hover:drop-shadow-xl/25 transition-transform duration-300 ease-in-out">
+          shadow
+        </button>
+        <button className="w-fit text-primary border-secondary border border-solid h-[53px] px-[29px] py-[12px] rounded-[30px] cursor-pointer hover:drop-shadow-xl/25 transition-transform duration-300 ease-in-out">
+          shadow
+        </button>
+      </div>
     </div>
   );
 };
