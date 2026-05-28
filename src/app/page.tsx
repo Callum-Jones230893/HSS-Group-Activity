@@ -10,7 +10,7 @@ export default function Home() {
       <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
 
-      {/* <IntroSection /> */}
+      <ScoutPage />
 
       {/* <AboutUsSection /> */}
 
@@ -22,7 +22,6 @@ export default function Home() {
 
       {/* <ContactUsSection /> */}
 
-      <ScoutPage />
       <AboutSection />
     </>
   );
