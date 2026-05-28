@@ -54,7 +54,7 @@ const Navigation = ({ className }: NavOrderProp) => {
         </div>
         <div className={`
           fixed top-0 right-0 h-screen w-2/3 md:w-1/2 bg-white
-          flex flex-col items-end gap-8 overflow-y-auto overscroll-none pt-30 pb-10
+          flex flex-col items-end gap-8 overflow-y-auto overscroll-none pt-30 pb-30
           transition-all duration-500 ease-in-out
           ${hamburger ? "translate-x-0 opacity-100" : "translate-x-full opacity-0 pointer-events-none"}
           lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center
