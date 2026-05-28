@@ -15,8 +15,8 @@ const Header = () => {
           className="w-13 h-13 md:w-17 md:h-17"
         />
       </Link>
-      <Navigation className="order-3 md:order-2" />
-      <div className="order-2 md:order-3 lg:pr-35 grow text-right lg:grow-0">LANG</div>
+      <Navigation className="order-3 lg:order-2" />
+      <div className="order-2 lg:order-3 lg:pr-35 grow text-right lg:grow-0">LANG</div>
       <a
         href="https://www.scouterna.se/"
         target="_blank"
