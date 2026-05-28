@@ -12,7 +12,7 @@ const Header = () => {
           width={68}
           height={68}
           loading="eager"
-          className="w-13 h-13 md:w-17 md:h-17 lg:ml-30"
+          className="w-13 h-13 md:w-17 md:h-17"
         />
       </Link>
       <Navigation className="order-3 lg:order-2" />
