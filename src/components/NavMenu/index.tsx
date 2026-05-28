@@ -25,7 +25,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
         <Link
           href={item.link}
           key={index}
-          className="w-full lg:w-auto text-center md:border-b-[3px] md:border-transparent md:hover:border-secondary duration-300">
+          className="w-full lg:w-auto text-center lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
           <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger(false)}>
             {item.name}
           </span>
@@ -35,7 +35,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:border-b-[3px] md:border-transparent md:hover:border-secondary duration-300">
+          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
           <span className="text-[16px] md:text-[20px] lg:text-[16px]">Mer</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
