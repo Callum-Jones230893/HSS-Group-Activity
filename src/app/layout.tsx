@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex flex-col">
         <Header />
         {children}
         <footer>
