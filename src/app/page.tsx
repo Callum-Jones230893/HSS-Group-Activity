@@ -9,8 +9,8 @@ export default function Home() {
       <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
 
-      {/* <IntroSection /> */}
       <ScoutPage />
+
       {/* <AboutUsSection /> */}
 
       {/* <ActivitySection /> */}
@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* <ContactUsSection /> */}
 
-      {/* <AboutSection /> */}
+      <AboutSection />
     </>
   );
 }
