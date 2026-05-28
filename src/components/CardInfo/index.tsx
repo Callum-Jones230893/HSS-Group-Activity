@@ -38,7 +38,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
                 {/* button here */}
                 <Link
                   href={""}
-                  className="flex lg:flex-start decoration-1 px-[10] py-[7] text-primartext-center underline underline-offset-2"
+                  className="flex lg:flex-start decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2"
                 >
                   Läs Mer
                 </Link>
