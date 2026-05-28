@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/Header";
-import QRCode from "@/components/Footer-QRCode";
 import TestingHoverEffects from '@/components/TestingHoverEffects';
 
 const manrope = localFont({
