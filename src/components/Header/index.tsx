@@ -18,6 +18,19 @@ const Header = () => {
       </Link>
       <Navigation className="order-3 lg:order-2" />
       <div className='order-2 lg:order-3 lg:pr-35 grow text-right lg:grow-0'>LANG</div>
+      <a
+        href="https://www.scouterna.se/"
+        target="_blank"
+        className="flex items-center gap-2.5 p-2.5 bg-[#EAEAEA] rounded-bl-[10px] absolute top-0 right-0"
+      >
+        <Image
+          src="/images/scouterna_logo.png"
+          alt="scouterna logo"
+          width={105}
+          height={23}
+          className="w-22.5 h-4.75 lg:w-26.25 lg:h-5.75"
+        />
+      </a>
     </header>
   );
 };
