@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import GoogleMapLocation from "@/components/Footer-GoogleMap";
 import FooterHero from "@/components/Footer-Hero";
 import FooterCopyright from "@/components/FooterCopyright";
+import FooterLogo from "@/components/FooterLogo";
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <Header />
         {children}
         <footer>
+          <FooterLogo />
           <FooterHero />
           <GoogleMapLocation />
           <FooterCopyright />
