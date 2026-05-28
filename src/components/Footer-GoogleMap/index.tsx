@@ -58,7 +58,7 @@ const GoogleMapLocation = () => {
           <div>
             <div className="mb-8">
               <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
-                EPost
+                Epost
               </h4>
               <a
                 href="mailto:info@planb.rehab"
