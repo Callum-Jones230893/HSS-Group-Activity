@@ -57,7 +57,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
                 className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
                 <p
-                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-left"
+                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
                   onClick={() => closeHamburger(false)}>
                   {item.name}
                 </p>
