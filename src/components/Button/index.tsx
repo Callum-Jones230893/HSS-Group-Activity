@@ -1,4 +1,4 @@
-type ButtonProp = {
+ export type ButtonProp = {
   content: string
   theme: string
   size: string
@@ -35,7 +35,7 @@ const Button = ({content, theme, size}: ButtonProp) => {
 
   return (
     <>
-      <button className={`w-fit ${text} ${bg} ${border} ${dimensions}`}>{content}</button>
+      <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit ${text} ${bg} ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
     </>
   )
 }
