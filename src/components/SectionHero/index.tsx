@@ -1,15 +1,11 @@
 import Image from "next/image";
-import Button from "../Button";
+import Button, { ButtonProp } from "../Button";
 
 type HeroProps = {
   title: string;
   intro: string;
   image?: string;
-  button?: {
-    content: string;
-    theme: string;
-    size: string;
-  };
+  button?: ButtonProp;
 };
 
 const Hero = ({ title, intro, image, button }: HeroProps) => {
