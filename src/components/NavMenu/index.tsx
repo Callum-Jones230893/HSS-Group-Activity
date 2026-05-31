@@ -60,7 +60,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger, t }: DropdownPro
                 <p
                   className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
                   onClick={() => closeHamburger(false)}>
-                  {item.name}
+                  {t[item.id]}
                 </p>
               </Link>
             ))}

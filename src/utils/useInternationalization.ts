@@ -1,11 +1,9 @@
 import { useRouter } from "next/router"
+import sv from "../locales/sv/common.json"
 
-export type Langauges = {
-  welcome: string;
-  country: string;
-}
+export type Languages = typeof sv
 
-const languages: Record<string, Langauges> = {
+const languages: Record<string, Languages> = {
   sv: require('../locales/sv/common.json'),
   en: require('../locales/en/common.json'),
 }
