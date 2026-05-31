@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "becomeScout": "Become a scout",
+    "becomeLeader": "Become a leader",
+    "reserveCabin": "Reserve our cabin",
+    "contact": "Contact",
+    "about": "About us"
+  },
+  "moreMenu": {
+    "activities": "Activities",
+    "history": "History",
+    "safety": "Safety"
+  }
+}

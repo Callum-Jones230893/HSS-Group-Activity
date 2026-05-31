@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "becomeScout": "Bli scout",
+    "becomeLeader": "Bli ledare",
+    "reserveCabin": "Reservera vår stuga",
+    "contact": "Kontakt",
+    "about": "Om oss"
+  },
+  "moreMenu": {
+    "activities": "Aktiviteter",
+    "history": "Historia",
+    "safety": "Säkerhet"
+  }
+}
