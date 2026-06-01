@@ -20,9 +20,7 @@ const FooterLogo = () => {
         Scouterna ger barn och unga från alla delar av samhället chansen att
         uppleva äventyr tillsammans och växa som individer.
       </p>
-     <Link href="/becomeascout">
-     <Button content={"Bli scout"} theme={"yellow"} size={"large"} />
-     </Link>
+     <Button content={"Bli scout"} theme={"yellow"} size={"large"} redirect="becomeascout" />
     </div>
   );
 };

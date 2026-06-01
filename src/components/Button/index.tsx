@@ -1,10 +1,13 @@
+import Link from "next/link"
+
  export type ButtonProp = {
   content: string
   theme: string
   size: string
+  redirect: string
 }
 
-const Button = ({content, theme, size}: ButtonProp) => {
+const Button = ({content, theme, size, redirect}: ButtonProp) => {
   let text = ''
   let bg = ''
   let border = ''
@@ -34,9 +37,9 @@ const Button = ({content, theme, size}: ButtonProp) => {
   }
 
   return (
-    <>
+    <Link href={`/${redirect}`}>
       <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit ${text} ${bg} ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
-    </>
+    </Link>
   )
 }
 
