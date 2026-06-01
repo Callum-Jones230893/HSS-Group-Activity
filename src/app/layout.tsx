@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
-      <body className="flex flex-col">
+    <body className="flex flex-col">
         {children}
       </body>
     </html>

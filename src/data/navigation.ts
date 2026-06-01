@@ -1,13 +1,13 @@
-export const navItems = [
-  { id: "becomeScout", link: "/becomeascout" },
-  { id: "becomeLeader", link: "/becomealeader" },
-  { id: "reserveCabin", link: "/reserveacamp" },
-  { id: "contact", link: "/contactus" },
-  { id: "about", link: "/aboutus" },
+export const navItems: { name: string; link: string }[] = [
+  { name: "Bli scout", link: "/becomeascout" },
+  { name: "Bli ledare", link: "/becomealeader" },
+  { name: "Reservera vår stuga", link: "/reserveacamp" },
+  { name: "Kontakt", link: "/contactus" },
+  { name: "Om oss", link: "/aboutus" },
 ];
 
-export const moreMenu = [
-  { id: "activities", link: "/activities" },
-  { id: "history", link: "/history" },
-  { id: "safety", link: "/safety" },
+export const moreMenu: { name: string; link: string }[] = [
+  { name: "Aktiviteter", link: "/activities" },
+  { name: "Historia", link: "/history" },
+  { name: "Säkerhet", link: "/safety" },
 ];

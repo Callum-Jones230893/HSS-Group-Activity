@@ -7,10 +7,9 @@ import NavMenu from "../NavMenu";
 
 type NavOrderProp = {
   className?: string;
-  t: string
 };
 
-const Navigation = ({ className, t }: NavOrderProp) => {
+const Navigation = ({ className }: NavOrderProp) => {
   const [hamburger, setHamburger] = useState<boolean>(false);
 
   const menuRef = useClickAway<HTMLDivElement>(() => {
@@ -61,7 +60,7 @@ const Navigation = ({ className, t }: NavOrderProp) => {
           lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center
           lg:translate-x-0 lg:opacity-100 lg:pointer-events-auto lg:h-auto lg:w-full lg:gap-1 lg:pb-0 lg:pt-0 lg:overflow-visible
         `}>
-          <NavMenu color={"bg-white"} textColor={"text-primary"} hamburger={hamburger} closeHamburger={setHamburger} t={t} />
+          <NavMenu color={"bg-white"} textColor={"text-primary"} hamburger={hamburger} closeHamburger={setHamburger} />
         </div>
       </div>
     </nav>

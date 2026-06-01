@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import AboutSection from "@/components/AboutSection";
 import ScoutPage from "@/components/ScoutPage";
 
+
 export default function Home() {
   return (
     <>

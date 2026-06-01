@@ -1,20 +1,24 @@
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages, getLocale} from 'next-intl/server';
 import Header from "@/components/Header";
 import GoogleMapLocation from "@/components/Footer-GoogleMap";
 import FooterHero from "@/components/Footer-Hero";
 import FooterCopyright from "@/components/FooterCopyright";
 import FooterLogo from "@/components/FooterLogo";
-import { getTranslations } from "@/utils/getTranslations";
 
-export default async function LocaleLayout({children, params}: {
+type ChildProps = {
   children: React.ReactNode
-  params: Promise<{ locale: string }>
-}) {
-  const {locale} = await params
-  const t = getTranslations(locale)
+  params: Promise<{locale: string}>
+}
 
+export default async function LocaleLayout({children, params}: ChildProps) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
+    
   return (
-    <>
-      <Header t={t.nav} />
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <Header />
       {children}
       <footer>
         <FooterLogo />
@@ -22,6 +26,6 @@ export default async function LocaleLayout({children, params}: {
         <GoogleMapLocation />
         <FooterCopyright />
       </footer>
-    </>
+    </NextIntlClientProvider>
   )
 }

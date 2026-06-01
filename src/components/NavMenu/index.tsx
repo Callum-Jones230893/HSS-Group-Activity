@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { navItems, moreMenu } from "@/data/navigation";
 
 type DropdownProp = {
@@ -10,10 +10,9 @@ type DropdownProp = {
   textColor: string;
   hamburger: boolean;
   closeHamburger: (hamburger: boolean) => void;
-  t: Record<string, string>
 };
 
-const NavMenu = ({ color, textColor, hamburger, closeHamburger, t }: DropdownProp) => {
+const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) => {
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
@@ -28,7 +27,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger, t }: DropdownPro
           key={index}
           className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
           <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger(false)}>
-            {t[item.id]}
+            {item.name}
           </span>
         </Link>
       ))}
@@ -60,7 +59,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger, t }: DropdownPro
                 <p
                   className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
                   onClick={() => closeHamburger(false)}>
-                  {t[item.id]}
+                  {item.name}
                 </p>
               </Link>
             ))}
