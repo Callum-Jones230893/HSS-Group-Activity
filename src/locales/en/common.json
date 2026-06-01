@@ -1,0 +1,132 @@
+{
+  "home": {
+    "becomeascout": {
+      "title": "Become a member",
+      "subtitle": "OF OUR ADVENTURE GROUP OF FRIENDS",
+      "description": "",
+      "button": "Become a scout",
+      "link": "Read more"
+    },
+    "becomealeader": {
+      "title": "Become a leader",
+      "subtitle": "IN SCOUTING TROUPE WITH POWER",
+      "description": "",
+      "button": "Become a leader",
+      "link": "Read more"
+    },
+    "rentacabin": {
+      "title": "Rent a cozy cabin",
+      "subtitle": "TO EXPLORE THE FREEDOM OF NATURE",
+      "description": "",
+      "button": "Rent a cabin",
+      "link": "Read more"
+    },
+    "becomeapartner": {
+      "title": "Become a partner",
+      "subtitle": "WITH OUR PRIDE OF NEXT LEADERS",
+      "description": "",
+      "button": "Become a partner",
+      "link": "Read more"
+    }
+  },
+  "aboutus": {
+    "title": "About us",
+    "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
+    "descriptionTwo": "The goal of our activities is to give children and young people the opportunity to experience nature, boating, seamanship, challenges and - above all - camaraderie. The basic idea is Learning by doing. There is no substitute bench in the scouts!",
+    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin.",
+    "btnText": "See our boats",
+    "safeteam": {
+      "title": "Safe team",
+      "subtitle": "and respect"
+    },
+    "adventure": {
+      "title": "Adventure",
+      "subtitle": "and exploration"
+    },
+    "community": {
+      "title": "Community",
+      "subtitle": "and teamwork"
+    }
+  },
+  "departments": {
+    "sjohumlor": {
+      "title": "Sjöhumlor",
+      "subtitle": "Tracker 8-9 years",
+      "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps"
+    },
+    "kaparna": {
+      "title": "Karpana",
+      "subtitle": "Tracker 10-11 years",
+      "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases."
+    },
+    "konvojen": {
+      "title": "Konvojen",
+      "subtitle": "Adventurer 12-14 years",
+      "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")"
+    },
+    "utmanare": {
+      "title": "Utmanare",
+      "subtitle": "15+ years",
+      "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")"
+    }
+  },
+  "activities": {
+
+  },
+  "safetyguidelines": {
+    "title": "Safety and general guidelines for scouts",
+    "descriptionOne": "",
+    "descriptionTwo": "",
+    "policyOne": {
+      "title": "HSS life jacket policy",
+      "description": ""
+    },
+    "policyTwo":{
+      "title": "HSS label system",
+      "description": ""
+    },
+    "policyThree": {
+      "title": "HSS safe meeting policy",
+      "description": ""
+    },
+    "policyFour": { 
+      "title": "Our photo policy",
+      "description": ""
+    }
+  },
+  "contactus": {
+    "title": "Contact us",
+    "subtitle": "Here's how to get in touch with us",
+    "fieldOne": "Full name",
+    "fieldTwo": "Message to us",
+    "fieldThree": "Email",
+    "button": "Submit"
+  },
+  "becomeascout": {
+
+  },
+  "becomealeader": {
+
+  },
+  "reserveacamp": {
+
+  },
+  "becomeapartner": {
+    
+  },
+  "navbar": {
+    "becomeascout": "Become a scout",
+    "becomealeader": "Become a leader",
+    "reserveacamp": "Reserve a camp",
+    "contactus": "Contact us",
+    "aboutus": "About us",
+    "moreMenu": {
+      "activies": "Activities",
+      "history": "History of HSS",
+      "safety": "Safety of HSS"
+    }
+  },
+  "footer": {
+
+  }
+}
