@@ -30,6 +30,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           </span>
         </Link>
       ))}
+      
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
         <button
           type="button"
@@ -46,6 +47,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="currentColor" />
           </svg>
         </button>
+
         {openMore && (
           <div
             className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-6 justify-center items-center w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
