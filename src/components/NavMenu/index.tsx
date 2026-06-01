@@ -48,7 +48,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
         </button>
         {openMore && (
           <div
-            className={`${color} ${textColor} flex flex-col gap-8 top-8 justify-center items-center w-full absolute lg:min-w-fit lg:p-10 lg:-left-12`}>
+            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-6 justify-center items-center w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
             {moreMenu.map((item, index) => (
               <Link
                 href={item.link}
