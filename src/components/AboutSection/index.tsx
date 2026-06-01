@@ -3,8 +3,8 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <section className="w-full max-w-[1730px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-20 mb-16 lg:mb-[94px]">
-        <div className="w-full lg:w-[45%]   aspect-3/4  lg:h-[1020px] relative  rounded-lg overflow-none">
+      <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-20 mb-16 lg:mb-[94px] lg:items-stretch">
+        <div className="w-full lg:w-[45%] aspect-3/4 lg:aspect-auto lg:self-stretch relative rounded-lg overflow-none">
           <Image
             src="/images/image43.png"
             alt="about us"
@@ -14,7 +14,7 @@ const AboutSection = () => {
           />
         </div>
 
-        <div className="flex-1 flex flex-col justify-center items-between max-w-[750px]">
+        <div className="flex-1 flex flex-col justify-center justify-between max-w-[750px]">
           <p className="text-primary text-5xl font-normal">Om HSS</p>
 
           <div className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
