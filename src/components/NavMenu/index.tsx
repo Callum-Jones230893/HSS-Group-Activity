@@ -8,11 +8,10 @@ import { navItems, moreMenu } from "@/data/navigation";
 type DropdownProp = {
   color: string;
   textColor: string;
-  hamburger: boolean;
-  closeHamburger: (hamburger: boolean) => void;
+  closeHamburger?: (hamburger: boolean) => void;
 };
 
-const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) => {
+const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
@@ -26,7 +25,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
           href={item.link}
           key={index}
           className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger(false)}>
+          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger?.(false)}>
             {item.name}
           </span>
         </Link>
@@ -49,7 +48,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
         </button>
         {openMore && (
           <div
-            className={`${color} ${textColor} flex flex-col gap-8 top-8 justify-center items-center lg:absolute lg:p-10 lg:-left-12`}>
+            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-6 justify-center items-center w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
             {moreMenu.map((item, index) => (
               <Link
                 href={item.link}
@@ -58,7 +57,7 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
                 onClick={() => setOpenMore(false)}>
                 <p
                   className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
-                  onClick={() => closeHamburger(false)}>
+                  onClick={() => closeHamburger?.(false)}>
                   {item.name}
                 </p>
               </Link>
