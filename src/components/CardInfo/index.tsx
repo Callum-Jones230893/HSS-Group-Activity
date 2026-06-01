@@ -21,7 +21,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
         width={326}
         height={217}
         loading="eager"
-        className="flex object-cover md:h-auto md:w-[400] lg:flex-col rounded-t-lg"
+        className="flex object-cover md:h-auto w-screen lg:flex-col place-self-center rounded-t-lg"
       />
       <div className="flex-col lg:flex-col pt-[16] pl-[16] pr-[16] w-full">
         <h2 className="font-semibold text-primary py-[7]">{title}</h2>
