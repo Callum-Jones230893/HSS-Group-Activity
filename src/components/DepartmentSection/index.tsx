@@ -4,7 +4,7 @@ type DepartmentSectionProps = {
   title: string;
   subtitle: string;
   image: string;
-  description: string;
+  fullDescription: string;
   text: string;
 };
 
@@ -12,7 +12,7 @@ const DepartmentSection = ({
   title,
   subtitle,
   image,
-  description,
+  fullDescription,
   text,
 }: DepartmentSectionProps) => {
   return (
@@ -41,7 +41,7 @@ const DepartmentSection = ({
               </div>
 
               <p className="text-[18px] font-light md:text-[24px]">
-                {description}
+                {fullDescription}
               </p>
             </div>
           </div>
