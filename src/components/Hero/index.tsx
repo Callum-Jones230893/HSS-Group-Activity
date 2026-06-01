@@ -17,10 +17,10 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       bg-center
       h-170
       md:bg-[url('/images/hero_background.png')]
-      md:bg-position-[center_center]
-      md:min-h-170
-      2xl:min-h-210">
-      <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-15 md:w-188 mx-auto">
+      md:bg-position-[center_55%]
+      md:h-160
+      2xl:h-190">
+      <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-10 md:w-188 mx-auto">
         <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
         <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">{title}</h1>
         <div className="flex flex-col font-primary gap-4 my-4 md:flex-row md:my-8 md:gap-8">
