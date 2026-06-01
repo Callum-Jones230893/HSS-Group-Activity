@@ -30,7 +30,6 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           </span>
         </Link>
       ))}
-
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
         <button
           type="button"
