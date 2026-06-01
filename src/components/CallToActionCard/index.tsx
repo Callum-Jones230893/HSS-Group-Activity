@@ -1,33 +1,28 @@
 import Link from "next/link"
 import Image from "next/image"
 import Button from "@/components/Button"
-
-type CallToAction = {
-  title: string
-  subtitle: string
-  description: string
-  image: string
-  button: string
-  link: string
-}
+import { useTranslations } from "next-intl"
+import { CallToAction } from "@/data/intro"
 
 type CallToActionProps = {
   item: CallToAction
 }
 
 const CallToActionCard = ({item}: CallToActionProps) => {
+  const t = useTranslations('home')
+  
   return (
     <div className="flex flex-col max-w-9/10 mx-auto h-fit text-primary font-primary p-2 lg:mb-10 xl:flex-row 
         xl:mx-14.75 xl:mt-5 lg:justify-center lg:item-center xl:even:flex-row-reverse xl:gap-28"
     >
       <div className="flex flex-col min-h-0 xl:w-163.25 gap-4">
-        <h4 className="text-[24px] font-semibold lg:text-[36px]">{item.title}</h4>
-        <h2 className="text-black text-[28px] lg:text-[44px]">{item.subtitle}</h2>
-        <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
+        <h4 className="text-[24px] font-semibold lg:text-[36px]">{t(`${item.id}.title`)}</h4>
+        <h2 className="text-black text-[28px] lg:text-[44px]">{t(`${item.id}.subtitle`)}</h2>
+        <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{t(`${item.id}.description`)}</p>
         <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
-          <Button content={item.button} theme="yellow" size="large" />
+          <Button content={t(`${item.id}.button`)} theme="yellow" size="large" />
           <div>
-            <Link href="" className="w-37 h-16.25">{item.link}</Link>
+            <Link href="" className="w-37 h-16.25">{t(`${item.id}.link`)}</Link>
           </div>
         </div>
       </div>
