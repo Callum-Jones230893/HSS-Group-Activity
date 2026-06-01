@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <section className="w-full max-w-[1730px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-20 mb-16 lg:mb-[94px] lg:items-stretch">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-[94px] lg:items-stretch justify-center items-center ">
         <div className="w-full lg:w-[45%] aspect-3/4 lg:aspect-auto lg:self-stretch relative rounded-lg overflow-none">
           <Image
             src="/images/image43.png"
