@@ -2,31 +2,14 @@ import Link from "next/link"
 
  export type ButtonProp = {
   content: string
-  theme: string
   size: string
   redirect: string
+  type: string
 }
 
-const Button = ({content, theme, size, redirect}: ButtonProp) => {
-  let text = ''
-  let bg = ''
+const Button = ({content, size, redirect, type}: ButtonProp) => {
   let border = ''
   let dimensions = ''
-
-  if (theme === 'blue') {
-    text = 'text-secondary'
-    bg = 'bg-primary'
-  }
-
-  if (theme === 'yellow') {
-    text = 'text-primary'
-    bg = 'bg-secondary'
-  }
-
-  if (theme === 'transparent') {
-    text = 'text-secondary'
-    border = 'border-secondary border border-solid'
-  }
 
   if (size === 'large') {
     dimensions = 'h-[53px] px-[29px] py-[12px] rounded-[30px]'
@@ -37,8 +20,17 @@ const Button = ({content, theme, size, redirect}: ButtonProp) => {
   }
 
   return (
+    type === 'mail' ?
+    <a href="mailto:testest@hotmail.com.com">
+      <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
+    </a>
+    : type === 'external' ?
+    <a href="https://www.scouterna.se/">
+      <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
+    </a>
+    :
     <Link href={`/${redirect}`}>
-      <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit ${text} ${bg} ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
+      <button className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${border} ${dimensions} hover:scale-105 transition-transform duration-300`}>{content}</button>
     </Link>
   )
 }
