@@ -17,7 +17,7 @@ const scout: CallToAction = {
   image: "/images/001.jpg",
   button: "Bli scout",
   redirect: "becomeascout",
-  readMore: "Read more"
+  readMore: "Läs mer"
 }
 
 const leader: CallToAction = {

@@ -8,6 +8,7 @@ type CallToAction = {
   description: string
   image: string
   button: string
+  redirect: string
   readMore: string
 }
 
@@ -27,7 +28,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         </div>
         <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
         <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
-          <Button content={item.button} theme="yellow" size="large" />
+          <Button content={item.button} size="large" redirect={item.redirect} type="" />
           <div>
             <Link href="" className="w-37 h-16.25">{item.readMore}</Link>
           </div>
