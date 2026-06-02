@@ -19,16 +19,16 @@ const DepartmentSection = ({
     <section className="w-full font-primary">
       <div className="bg-primary/5">
         <div className="max-w-432 mx-auto px-4 lg:px-36.75 py-10 lg:py-20">
-          <div className="bg-[#fff] rounded-2xl p-4 flex flex-col lg:flex-row gap-4 lg:gap-2.5 max-w-347.75 mx-auto">
+          <div className="bg-[#fff] rounded-2xl p-4 lg:py-8 lg:px-12 flex flex-col lg:flex-row gap-4 lg:gap-8 max-w-347.75 mx-auto">
             <Image
               src={image}
               alt={title}
               width={244}
               height={244}
-              className="object-contain w-29.5 h-29.5 lg:h-56 lg:w-56"
+              className="object-contain w-29.5 h-29.5 md:h-56 md:w-56"
             />
 
-            <div className="flex-1 flex flex-col lg:max-w-225">
+            <div className="flex-1 flex flex-col">
               <div className="flex items-center gap-1.5 mb-4">
                 <h2 className="text-primary font-extralight text-[20px] md:text-[24px]">
                   {title}
