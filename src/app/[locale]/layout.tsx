@@ -9,8 +9,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
 
-import Butoooon from '@/components/buttooooon';
-
 const manrope = localFont({
   src: "../../../public/fonts/Manrope-VariableFont_wght.woff2",
   variable: "--font-manrope",
@@ -35,7 +33,6 @@ export default async function LocaleLayout({children, params}: {children: React.
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
         <Header />
-        <Butoooon />
         {children}
         <footer>
           <FooterLogo />
