@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
+import FooterNav from '@/components/FooterNav';
 import GoogleMapLocation from "@/components/Footer-GoogleMap";
 import FooterHero from "@/components/Footer-Hero";
 import FooterLogo from "@/components/FooterLogo";
@@ -43,6 +44,7 @@ export default function RootLayout({
           <FooterLogo />
           <FooterHero />
           <GoogleMapLocation />
+          <FooterNav />
           <FooterCopyright />
         </footer>
       </body>

@@ -58,9 +58,9 @@ const Navigation = ({ className }: NavOrderProp) => {
           transition-all duration-500 ease-in-out
           ${hamburger ? "translate-x-0 opacity-100" : "translate-x-full opacity-0 pointer-events-none"}
           lg:static lg:flex lg:flex-row lg:justify-evenly lg:items-center
-          lg:translate-x-0 lg:opacity-100 lg:pointer-events-auto lg:h-auto lg:w-full lg:gap-1 lg:pb-0 lg:pt-0 lg:overflow-visible
+          lg:translate-x-0 lg:opacity-100 lg:pointer-events-auto lg:h-auto lg:w-full lg:pb-0 lg:pt-0 lg:overflow-visible
         `}>
-          <NavMenu color={"bg-white"} textColor={"text-primary"} hamburger={hamburger} closeHamburger={setHamburger} />
+          <NavMenu color={"bg-white"} textColor={"text-primary"} closeHamburger={setHamburger} />
         </div>
       </div>
     </nav>
