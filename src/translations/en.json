@@ -68,6 +68,11 @@
       "title": "Utmanare",
       "subtitle": "15+ years",
       "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")"
+    },
+    "familjescouting": {
+      "title": "Familjescouting",
+      "subtitle": "",
+      "description": "Through Family Scouting, children under the age of eight, together with one or more adults, get to experience scouting in a fun and playful way. Family Scouting is also an excellent way to get more adults involved in the corps."
     }
   },
   "activities": {
@@ -83,15 +88,18 @@
     },
     "policyTwo":{
       "title": "HSS label system",
-      "description": ""
+      "description": "",
+      "link": ""
     },
     "policyThree": {
       "title": "HSS safe meeting policy",
-      "description": ""
+      "description": "",
+      "link": ""
     },
     "policyFour": { 
       "title": "Our photo policy",
-      "description": ""
+      "description": "",
+      "link": ""
     }
   },
   "contactus": {
@@ -121,7 +129,7 @@
     "contactus": "Contact us",
     "aboutus": "About us",
     "moreMenu": {
-      "activies": "Activities",
+      "activities": "Activities",
       "history": "History of HSS",
       "safety": "Safety of HSS"
     }
