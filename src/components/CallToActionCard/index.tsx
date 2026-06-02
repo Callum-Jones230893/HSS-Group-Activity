@@ -1,16 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Button from "@/components/Button"
-
-type CallToAction = {
-  title: string
-  subtitle: string
-  description: string
-  image: string
-  button: string
-  redirect: string
-  readMore: string
-}
+import { CallToAction } from "@/data/intro"
 
 type CallToActionProps = {
   item: CallToAction
