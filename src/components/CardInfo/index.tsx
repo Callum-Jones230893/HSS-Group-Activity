@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Button from '@/components/Button'
+import Button from "@/components/Button";
 
 type CardInfoProps = {
   title: string;
@@ -13,7 +13,6 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
     description.substring(0, 105) + (description.length > 105 ? "..." : "");
 
   return (
-
     <div className="max-w-100 bg-white rounded-lg">
       <Image
         src="/images/006.png"
@@ -21,7 +20,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
         width={326}
         height={217}
         loading="eager"
-        className="flex object-cover md:h-auto md:w-[400] lg:flex-col rounded-t-lg"
+        className="flex object-cover md:h-auto w-screen lg:flex-col place-self-center rounded-t-lg"
       />
       <div className="flex-col lg:flex-col pt-[16] pl-[16] pr-[16] w-full">
         <h2 className="font-semibold text-primary py-[7]">{title}</h2>
@@ -30,7 +29,12 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
           {maxChar(description)}
         </p>
         <div className="flex lg:flex-start lg:flex-row py-[24] w-full gap-[13]">
-          <Button content="Ansök Här" theme="yellow" size="small"/>
+          <Button
+            content="Ansök Här"
+            size="small"
+            redirect=""
+            type="instagram"
+          />
           <Link
             href={""}
             className="flex lg:flex-start decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2"
