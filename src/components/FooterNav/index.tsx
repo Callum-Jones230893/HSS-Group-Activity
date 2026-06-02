@@ -2,7 +2,7 @@ import NavMenu from "../NavMenu";
 
 const FooterNav = () => {
   return (
-    <div className="bg-primary text-secondary py-10 flex flex-col justify-center items-center gap-4 md:flex-row md:gap-8">
+    <div className="bg-primary text-secondary p-12 grid grid-cols-2 justify-center items-center gap-5 mx-auto md:grid-cols-3 lg:flex lg:flex-row lg:gap-18">
       <NavMenu color={"bg-primary/30"} textColor={"text-secondary"} />
     </div>
   );

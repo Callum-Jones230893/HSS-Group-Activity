@@ -1,7 +1,7 @@
 export const navItems: { name: string; link: string }[] = [
   { name: "Bli scout", link: "/becomeascout" },
   { name: "Bli ledare", link: "/becomealeader" },
-  { name: "Reservera vår stuga", link: "/reserveacamp" },
+  { name: "Vår stuga", link: "/reserveacamp" },
   { name: "Kontakt", link: "/contactus" },
   { name: "Om oss", link: "/aboutus" },
 ];
