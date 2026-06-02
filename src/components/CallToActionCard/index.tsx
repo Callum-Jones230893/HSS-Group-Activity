@@ -8,7 +8,7 @@ type CallToAction = {
   description: string
   image: string
   button: string
-  link: string
+  readMore: string
 }
 
 type CallToActionProps = {
@@ -27,7 +27,7 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
           <Button content={item.button} theme="yellow" size="large" />
           <div>
-            <Link href="" className="w-37 h-16.25">{item.link}</Link>
+            <Link href="" className="w-37 h-16.25">{item.readMore}</Link>
           </div>
         </div>
       </div>
