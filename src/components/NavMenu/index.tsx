@@ -50,15 +50,15 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
 
         {openMore && (
           <div
-            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-6 justify-center items-center w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
+            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-8 justify-center items-center lg:items-start w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
             {moreMenu.map((item, index) => (
               <Link
                 href={item.link}
                 key={index}
-                className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
+                className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
                 <p
-                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
+                  className="text-[16px] w-full text-center md:text-[20px] lg:text-[16px] md:text-left"
                   onClick={() => closeHamburger?.(false)}>
                   {item.name}
                 </p>
