@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FEATURES_DATA } from "@/data/aboutus";
+import Button from "@/components/Button";
 
 const AboutSection = () => {
   return (
@@ -44,9 +45,7 @@ const AboutSection = () => {
             </p>
 
             <div className=" flex flex-col justify-center items-start gap-10">
-              <button className="w-[248px] h-[59.6px] px-8 py-3.5 bg-secondary text-primary text-xl font-light rounded-[32.93px] leading-7">
-                Se våra båtar
-              </button>
+              <Button content="Se våra båtar" size={"large"} redirect="becomeascout" type="" />
             </div>
           </div>
         </div>
