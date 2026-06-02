@@ -4,7 +4,7 @@ type DepartmentSectionProps = {
   title: string;
   subtitle: string;
   image: string;
-  fullDescription: string;
+  fullDescription: string[];
   text: string;
 };
 
@@ -39,10 +39,14 @@ const DepartmentSection = ({
                   {subtitle}
                 </p>
               </div>
-
-              <p className="text-[18px] font-light md:text-[24px]">
-                {fullDescription}
-              </p>
+              {fullDescription.map((description, index) => (
+                <p
+                  key={index}
+                  className="mb-3 md:mb-4 text-[18px] font-light md:text-[24px]"
+                >
+                  {description}
+                </p>
+              ))}
             </div>
           </div>
         </div>
