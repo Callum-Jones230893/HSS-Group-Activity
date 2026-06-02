@@ -1,5 +1,7 @@
+type DepartmentId = 'sjohumlor' | 'kaparna' | 'konvojen' | 'utmanare' | 'familjescouting'
+
 export type DepartmentItemType = {
-  id: string
+  id: DepartmentId
   image: string
   text: string
   border: string

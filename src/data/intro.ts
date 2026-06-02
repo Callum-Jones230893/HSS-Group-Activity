@@ -1,5 +1,7 @@
+type CtaId = 'becomeascout' | 'becomealeader' | 'rentacabin' | 'becomeapartner'
+
 export type CallToAction = {
-  id: string
+  id: CtaId
   image: string
   redirect: string
 }

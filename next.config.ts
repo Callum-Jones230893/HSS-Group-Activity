@@ -5,5 +5,9 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin({
+    experimental: {
+      createMessagesDeclaration: './src/translations/sv.json'
+  }
+})
 export default withNextIntl(nextConfig);

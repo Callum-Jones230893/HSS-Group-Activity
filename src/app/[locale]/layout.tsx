@@ -1,31 +1,50 @@
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages, getLocale} from 'next-intl/server';
+import {getMessages} from 'next-intl/server';
 import Header from "@/components/Header";
 import GoogleMapLocation from "@/components/Footer-GoogleMap";
 import FooterHero from "@/components/Footer-Hero";
 import FooterCopyright from "@/components/FooterCopyright";
 import FooterLogo from "@/components/FooterLogo";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import "../globals.css";
 
-type ChildProps = {
-  children: React.ReactNode
-  params: Promise<{locale: string}>
-}
+import Butoooon from '@/components/buttooooon';
 
-export default async function LocaleLayout({children, params}: ChildProps) {
-  const locale = await getLocale();
+const manrope = localFont({
+  src: "../../../public/fonts/Manrope-VariableFont_wght.woff2",
+  variable: "--font-manrope",
+});
+
+const yesevaOne = localFont({
+  src: "../../../public/fonts/YesevaOne-Regular.woff2",
+  variable: "--font-yeseva",
+});
+
+export const metadata: Metadata = {
+  title: "HSS Scouterna",
+  description: "HSS Scouts page",
+};
+
+export default async function LocaleLayout({children, params}: {children: React.ReactNode; params: Promise<{ locale: string }>;}) {
+  const { locale } = await params;
   const messages = await getMessages();
 
-    
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
-      {children}
-      <footer>
-        <FooterLogo />
-        <FooterHero />
-        <GoogleMapLocation />
-        <FooterCopyright />
-      </footer>
-    </NextIntlClientProvider>
+    <html lang={locale}>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <body>
+        <Header />
+        <Butoooon />
+        {children}
+        <footer>
+          <FooterLogo />
+          <FooterHero />
+          <GoogleMapLocation />
+          <FooterCopyright />
+        </footer>
+        </body>
+      </NextIntlClientProvider>
+    </html>
   )
 }
