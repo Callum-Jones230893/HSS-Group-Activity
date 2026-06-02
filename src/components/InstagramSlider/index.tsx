@@ -4,12 +4,12 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 
-interface InstagramPost {
+type InstagramPost = {
   id: string;
   image: string;
   link: string;
   date: string;
-}
+};
 
 const PLACEHOLDER_POSTS: InstagramPost[] = [
   {
