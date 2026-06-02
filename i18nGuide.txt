@@ -43,4 +43,4 @@ returns either the english title, or swedish title.
    import { Link } from "@/i18n/navigation"
 
 If you want to refer to code, "DepartmentCards" component has the translations done, and if you want to check if yours is working prior to the toggle being implimented,
-src/i18n/navigation.ts has "default locale" change it to "en" and reload your page (please remember to switch it back to sv).
+src/i18n/routing.ts has "default locale" change it to "en" and reload your page (please remember to switch it back to sv).
