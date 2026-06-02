@@ -35,7 +35,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110 duration-300 ease-in-out">
+          className="flex items-center justify-center w-full lg:w-auto cursor-pointer md:hover:scale-110 duration-300 ease-in-out">
           <span className="text-[16px] md:text-[20px] lg:text-[16px]">Mer</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
