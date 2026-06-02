@@ -24,7 +24,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
         <Link
           href={item.link}
           key={index}
-          className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
+          className="w-full lg:w-auto text-center lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
           <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger?.(false)}>
             {item.name}
           </span>
@@ -34,7 +34,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110 duration-300 ease-in-out">
+          className="flex items-center justify-center w-full lg:w-auto  cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
           <span className="text-[16px] md:text-[20px] lg:text-[16px]">Mer</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,15 +49,15 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
         
         {openMore && (
           <div
-            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-6 justify-center items-center w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
+            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-8 justify-center items-center lg:items-start w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-12`}>
             {moreMenu.map((item, index) => (
               <Link
                 href={item.link}
                 key={index}
-                className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
+                className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
                 <p
-                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
+                  className="text-[16px] w-full text-center md:text-[20px] lg:text-[16px] md:text-left"
                   onClick={() => closeHamburger?.(false)}>
                   {item.name}
                 </p>

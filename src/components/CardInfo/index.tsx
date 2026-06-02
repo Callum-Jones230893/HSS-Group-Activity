@@ -30,7 +30,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
           {maxChar(description)}
         </p>
         <div className="flex lg:flex-start lg:flex-row py-[24] w-full gap-[13]">
-          <Button content="Ansök Här" theme="yellow" size="small"/>
+          <Button content="Ansök Här" size="small" redirect="" type="redirect" />
           <Link
             href={""}
             className="flex lg:flex-start decoration-1 px-[10] py-[7] text-primary text-center underline underline-offset-2"
