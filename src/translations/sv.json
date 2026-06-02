@@ -5,28 +5,28 @@
       "subtitle": "AV VÅR ÄVENTYRSGRUPP AV VÄNNER",
       "description": "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
       "button": "Bli scout",
-      "link": "Läs mer"
+      "readMore": "Läs mer"
     },
     "becomealeader": {
       "title": "Bli en ledare",
       "subtitle": "I SCOUTINGTRUPP MED KRAFT",
       "description": "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
       "button": "Bli en ledare",
-      "link": "Läs mer"
+      "readMore": "Läs mer"
     },
     "rentacabin": {
       "title": "Hyr en mysig stuga",
       "subtitle": "ATT UTFORSKA NATURENS FRIHET",
-      "description": "",
+      "description": "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
       "button": "Hyr en stuga",
-      "link": "Läs mer"
+      "readMore": "Läs mer"
     },
     "becomeapartner": {
       "title": "Bli en partner",
       "subtitle": "ATT UTFORSKA TEMA VÅR STOLTHET ÖVER NÄSTA LEDARE NATURFRIHET",
-      "description": "",
+      "description": "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
       "button": "Bli en partner",
-      "link": "Läs mer"
+      "readMore": "Läs mer"
     }
   },
   "aboutus": {
