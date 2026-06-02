@@ -8,6 +8,7 @@ export type ButtonProp = {
 };
 
 const Button = ({ content, size, redirect, type }: ButtonProp) => {
+  let border = "";
   let dimensions = "";
 
   if (size === "large") {
