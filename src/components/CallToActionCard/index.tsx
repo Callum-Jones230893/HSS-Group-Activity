@@ -27,9 +27,6 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{item.description}</p>
         <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
           <Button content={item.button} size="large" redirect={item.redirect} type="" />
-          <div>
-            <Link href="" className="w-37 h-16.25">{item.readMore}</Link>
-          </div>
         </div>
       </div>
       <div className="flex justify-center mx-auto mt-10 lg:mx-auto w-full lg:w-7/10 xl:w-4/10 lg:min-w-150 max-w-150 aspect-4/3">
