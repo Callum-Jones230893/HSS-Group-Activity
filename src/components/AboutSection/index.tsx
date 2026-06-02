@@ -14,7 +14,7 @@ const AboutSection = () => {
           />
         </div>
 
-        <div className="flex-1 flex flex-col justify-center justify-between max-w-[750px]">
+        <div className="flex-1 flex flex-col justify-center  max-w-187.5">
           <p className="text-primary text-5xl font-normal">Om HSS</p>
 
           <div className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
