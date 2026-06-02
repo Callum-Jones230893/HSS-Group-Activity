@@ -20,6 +20,10 @@ const yesevaOne = localFont({
 export const metadata: Metadata = {
   title: "HSS Scouterna",
   description: "HSS Scouts page",
+  icons: {
+    icon: "/images/icon.png",
+    apple: "/images/apple-icon.png"
+  }
 };
 
 export default function RootLayout({
