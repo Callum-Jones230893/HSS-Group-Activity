@@ -68,7 +68,13 @@
       "title": "Utmanare",
       "subtitle": "15+ år",
       "description": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”)"
+    },
+    "familjescouting": {
+      "title": "Familjescouting",
+      "subtitle": "",
+      "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren."
     }
+
   },
   "activities": {
 
@@ -122,7 +128,7 @@
     "contactus": "Kontakta oss",
     "aboutus": "Om oss",
     "moreMenu": {
-      "activies": "Aktiviteter",
+      "activities": "Aktiviteter",
       "history": "HSS historia",
       "safety": "Säkerhet för HSS"
     }
