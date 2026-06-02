@@ -11,6 +11,17 @@ export type DepartmentItemType = {
 }
 
 export const DepartmentData: DepartmentItemType[] = [
+    {
+    id: "familjescouting",
+    title: "Familjescouting",
+    subtitle: "",
+    description: "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
+    image: "/images/department5.png",
+    text: "text-[#652482]",
+    border: "lg:border-[#652482]",
+    outline: "outline-[#652482]",
+    shadow: "hover:shadow-[#652482]"
+  },
   {
     id: "sjohumlor",
     title: "Sjöhumlor - ",
@@ -25,7 +36,7 @@ export const DepartmentData: DepartmentItemType[] = [
   {
     id: "kaparna",
     title: "Kaparna - ",
-    subtitle: "Spårare 10-11 år",
+    subtitle: "Upptäckare 10-11 år",
     description: "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.",
     image: "/images/department2.png",
     text: "text-sky-500",
@@ -55,15 +66,4 @@ export const DepartmentData: DepartmentItemType[] = [
     outline: "outline-pink-700",
     shadow: "hover:shadow-pink-700"
   },
-  {
-    id: "familjescouting",
-    title: "Familjescouting",
-    subtitle: "",
-    description: "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
-    image: "/images/department5.png",
-    text: "text-[#652482]",
-    border: "lg:border-[#652482]",
-    outline: "outline-[#652482]",
-    shadow: "hover:shadow-[#652482]"
-  }
 ] 
