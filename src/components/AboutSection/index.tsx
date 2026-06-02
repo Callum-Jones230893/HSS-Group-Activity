@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FEATURES_DATA } from "@/data/aboutus";
 import Button from "@/components/Button";
 
 const AboutSection = () => {
@@ -49,28 +48,6 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className=" w-full grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-20 items-center justify-center mt-12">
-        {FEATURES_DATA.map((card, index) => (
-          <div
-            key={index}
-            className="max-w-[500px] w-full  h-[208px] lg:h-[319px] px-3.5 lg:px-6 py-4 lg:py-6 bg-primary/10 rounded-[10.43px] lg:rounded-2xl flex flex-col justify-center items-center gap-1.5 lg:gap-2.5 transition-all"
-          >
-            <div className="size-24 lg:size-36 flex justify-center items-center">
-              {card.icon}
-            </div>
-
-            <div className="text-center flex flex-col justify-center items-center">
-              <p className="text-primary text-xl lg:text-3xl font-bold tracking-tight leading-tight">
-                {card.title}
-              </p>
-              <p className="text-primary text-xl lg:text-3xl font-extralight tracking-tight leading-tight">
-                {card.subtitle}
-              </p>
-            </div>
-          </div>
-        ))}
       </div>
     </section>
   );
