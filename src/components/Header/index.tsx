@@ -5,7 +5,7 @@ import Navigation from "../Navigation";
 
 const Header = () => {
   return (
-    <header className=" bg-white w-full flex items-center justify-center z-999 sticky top-0 pt-10 md:py-6 lg:w-full lg:mx-auto lg:pt-4">
+    <header className=" border-b-2 shadow-md border-secondary bg-white w-full flex items-center justify-center z-999 sticky top-0 pt-10 md:py-6 lg:w-full lg:mx-auto lg:pt-4">
       <Link href="/" className="shrink-0 pl-4 lg:pl-30">
         <Image
           src="/images/hss_logo.png"
