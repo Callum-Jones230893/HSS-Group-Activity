@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FEATURES_DATA } from "@/data/aboutus";
 import Button from "@/components/Button";
 
 const AboutSection = () => {
