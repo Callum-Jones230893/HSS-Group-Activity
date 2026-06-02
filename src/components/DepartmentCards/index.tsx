@@ -1,18 +1,8 @@
 import Image from "next/image"
-
-type DepartmentItem = {
-  title: string
-  subtitle: string
-  description: string
-  image: string
-  text: string
-  border: string
-  outline: string
-  shadow: string
-}
+import { DepartmentItemType } from "@/data/department"
 
 type DepartmentItemProps = {
-  item: DepartmentItem
+  item: DepartmentItemType
 }
 
 const DepartmentCards = ({item}: DepartmentItemProps) => {
