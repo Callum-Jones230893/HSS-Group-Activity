@@ -1,0 +1,46 @@
+1. Add data from the external data file into en.json AND sv.json following the same structure (name it after your own data, but use an id if its nested).
+
+2. Add the following to your component, import at the top
+    import { useTranslations } from "next-intl"
+
+  And add the following inside the function, t is just a placeholder, and a standard.
+    const t = useTranslations('departments')
+
+    "departments" is the nested object name (page name) so this example is targetting the "departments" page in the json file, id is targetting the nested object inside of that.
+
+3. Where you call your props from the data, or map over them, instead of writing {item.title} or {title}
+   We will need to use something like {t(`${item.id}.title`)}
+
+   This is targetting the nested object that we are mapping over by the id (i.e) sjohumlor and then targetting it's title data.
+   So it is saying t(translate) from the 'departments' section of the json, each nested object based on it's id's title.
+
+en.json
+{
+  "departments": {
+    "sjohumlor": {
+      "title": "Sjöhumlor"
+      "description": "This is english description"
+    }
+  }
+}
+
+sv.json
+{
+  "departments": {
+    "sjohumlor": {
+      "title": "Sjöhumlor"
+      "description": "Har är Svensk beskrivning"
+    }
+  }
+}
+
+if mapped {t(`${item.id}.description`)}
+or if not mapping, t("sjohumlor.description")
+
+returns either the english title, or swedish title.
+
+4. Links imported from Next, should be replaced with:
+   import { Link } from "@/i18n/navigation"
+
+If you want to refer to code, "DepartmentCards" component has the translations done, and if you want to check if yours is working prior to the toggle being implimented,
+src/i18n/routing.ts has "default locale" change it to "en" and reload your page (please remember to switch it back to sv).
