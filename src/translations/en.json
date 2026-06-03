@@ -1,4 +1,8 @@
 {
+  "hero": {
+    "title": "Adventure and friends!",
+    "subtitle": "Welcome to Hässelby Strands Sjöscoutkår. True adventures await!"
+  },
   "home": {
     "becomeascout": {
       "title": "Become a member",
@@ -75,9 +79,7 @@
       "description": ""
     }
   },
-  "activities": {
-
-  },
+  "activities": {},
   "safetyguidelines": {
     "title": "Safety and general guidelines for scouts",
     "descriptionOne": "",
@@ -87,7 +89,7 @@
       "description": "",
       "link": ""
     },
-    "policyTwo":{
+    "policyTwo": {
       "title": "HSS label system",
       "description": "",
       "link": ""
@@ -97,7 +99,7 @@
       "description": "",
       "link": ""
     },
-    "policyFour": { 
+    "policyFour": {
       "title": "Our photo policy",
       "description": "",
       "link": ""
@@ -111,18 +113,10 @@
     "fieldThree": "Email",
     "button": "Submit"
   },
-  "becomeascout": {
-
-  },
-  "becomealeader": {
-
-  },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "becomeascout": {},
+  "becomealeader": {},
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
@@ -135,7 +129,5 @@
       "safety": "Safety of HSS"
     }
   },
-  "footer": {
-
-  }
+  "footer": {}
 }

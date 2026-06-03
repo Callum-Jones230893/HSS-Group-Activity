@@ -1,13 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "../Button";
+import { useTranslations } from "next-intl";
 
-type HeroProps = {
-  title: string;
-  subtitle: string;
-};
-
-const Hero = ({ subtitle, title }: HeroProps) => {
+const Hero = () => {
+  const t = useTranslations("hero");
+  const tNav = useTranslations("navbar");
   return (
     <div
       className="flex flex-col items-center justify-between
@@ -21,10 +18,10 @@ const Hero = ({ subtitle, title }: HeroProps) => {
       md:h-160
       2xl:h-190">
       <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-10 md:w-188 mx-auto">
-        <h3 className="text-secondary font-primary md:text-[28px]">{subtitle}</h3>
-        <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">{title}</h1>
+        <h3 className="text-secondary font-primary md:text-[28px]">{t("title")}</h3>
+        <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">{t("subtitle")}</h1>
         <div className="flex flex-col font-primary gap-4 my-4 md:flex-row md:my-8 md:gap-8">
-          <Button content={"Bli scout"} size={"large"} redirect="becomeascout" type="" />
+          <Button content={tNav("becomeascout")} size={"large"} redirect="becomeascout" type="" />
         </div>
       </div>
       <Image
