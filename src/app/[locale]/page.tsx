@@ -14,7 +14,6 @@ export default function Home() {
       />
       <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
-
       <ScoutPage />
 
       {/* <AboutUsSection /> */}

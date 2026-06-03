@@ -42,6 +42,16 @@ const AboutSection = () => {
               optimistjollar, två 2-kronor, snabb följebåt och en stor
               scoutstuga.
             </p>
+
+            <div className=" flex flex-col justify-center items-start gap-10">
+              <Button
+                content="Se våra båtar"
+                size={"large"}
+                redirect="becomeascout"
+                type=""
+                url=""
+              />
+            </div>
           </div>
         </div>
       </div>
