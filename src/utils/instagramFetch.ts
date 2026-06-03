@@ -20,12 +20,10 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
         }
       }
     )
-    
     if (!response.ok) {
       throw new Error("Error, please try again")
     }
     const data = await response.json()
-    console.log(data.timestamp)
     const feed: InstagramType[] = data.posts ?? []
 
     return feed
