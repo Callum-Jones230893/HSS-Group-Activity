@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { AboutDataType, AboutSectionData } from "@/data/about";
 
 type AboutSectionProps = {
-  item: AboutDataType;
+  item?: AboutDataType;
 };
 
 const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
