@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FEATURES_DATA } from "@/data/aboutus";
 
 const AboutSection = () => {
   return (
