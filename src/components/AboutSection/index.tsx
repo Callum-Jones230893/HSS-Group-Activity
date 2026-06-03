@@ -10,8 +10,8 @@ const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
   const t = useTranslations();
 
   return (
-    <section className="w-full max-w-[1730px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-[94px] lg:items-stretch justify-center items-center ">
+    <section className="w-full max-w-432.5 mx-auto bg-white lg:bg-white py-10 lg:py-18.5 px-4 lg:px-20 xl:px-37.75 mt-3.75 justify-start items-start font-primary overflow-none">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-23.5 lg:items-stretch justify-center items-center ">
         <div className="w-full lg:w-[45%] aspect-3/4 lg:aspect-auto lg:self-stretch relative rounded-lg overflow-none">
           <Image
             src={item.image}
@@ -32,7 +32,7 @@ const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
             <p>{t(`${item.id}.descriptionTwo`)}</p>
           </div>
 
-          <div className="w-full max-w-[750px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
+          <div className="w-full max-w-187.5 p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
             <p className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
               {t(`${item.id}.descriptionThree`)}
             </p>
