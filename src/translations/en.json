@@ -136,6 +136,10 @@
     }
   },
   "footer": {
+    "logo": {
+      "title": "Together we can do more!",
+      "description": "The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals."
+    }
 
   }
 }
