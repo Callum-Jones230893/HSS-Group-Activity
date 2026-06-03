@@ -5,9 +5,10 @@ export type ButtonProp = {
   size: string;
   redirect: string;
   type: string;
+  url: string;
 };
 
-const Button = ({ content, size, redirect, type }: ButtonProp) => {
+const Button = ({ content, size, redirect, type, url }: ButtonProp) => {
   let dimensions = "";
 
   if (size === "large") {
@@ -26,14 +27,7 @@ const Button = ({ content, size, redirect, type }: ButtonProp) => {
       </button>
     </a>
   ) : type === "external" ? (
-    <a href="https://www.scouterna.se/">
-      <button
-        className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}>
-        {content}
-      </button>
-    </a>
-  ) : type === "instagram" ? (
-    <a href="https://www.instagram.com/hss_scout/">
+    <a href={url}>
       <button
         className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}>
         {content}

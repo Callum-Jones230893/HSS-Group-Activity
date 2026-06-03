@@ -2,12 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
 import { InstagramType } from "@/utils/instagramFetch";
+import { useTranslations } from "next-intl";
 
 type CardInfoProps = {
   item: InstagramType
 };
 
 const CardInfo = ({ item }: CardInfoProps) => {
+  const t = useTranslations('cards')
+
   const maxChar = (description: string) =>
     description.substring(0, 105) + (description.length > 105 ? "..." : "");
 
@@ -32,10 +35,11 @@ const CardInfo = ({ item }: CardInfoProps) => {
       </div>
       <div className="flex flex-col pt-[24] mb-5 w-full gap-[5] ml-5">
         <Button
-          content="Ansök Här"
+          content={t('button')}
           size="small"
-          redirect={item.permalink}
-          type="instagram"
+          redirect=""
+          type="external"
+          url={item.permalink}
         />
       </div>
     </div>
