@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
-import QRCode from "@/components/Footer-QRCode";
+import GoogleMapLocation from "@/components/Footer-GoogleMap";
+import FooterHero from "@/components/Footer-Hero";
+import FooterCopyright from "@/components/FooterCopyright";
+import FooterLogo from "@/components/FooterLogo";
 
 const manrope = localFont({
   src: "../../public/fonts/Manrope-VariableFont_wght.woff2",
@@ -17,6 +20,10 @@ const yesevaOne = localFont({
 export const metadata: Metadata = {
   title: "HSS Scouterna",
   description: "HSS Scouts page",
+  icons: {
+    icon: "/images/icon.png",
+    apple: "/images/apple-icon.png"
+  }
 };
 
 export default function RootLayout({
@@ -29,11 +36,14 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex flex-col">
         <Header />
         {children}
         <footer>
-          <QRCode />
+          <FooterLogo />
+          <FooterHero />
+          <GoogleMapLocation />
+          <FooterCopyright />
         </footer>
       </body>
     </html>
