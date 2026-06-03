@@ -31,7 +31,7 @@ const Hero = ({ subtitle, title }: HeroProps) => {
         src="/images/hss_brand.png"
         alt="HSS branding"
         width={380}
-        height={109}
+        height={90}
         className="opacity-65 hidden md:block pb-6"
       />
     </div>
