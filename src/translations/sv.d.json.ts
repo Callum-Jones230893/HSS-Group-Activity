@@ -36,23 +36,10 @@ declare const messages: {
     "button": "Gå till"
   },
   "aboutus": {
-    "title": "Omm oss",
+    "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
     "descriptionTwo": "Målet med vår verksamhet är att ge barn och ungdomar möjligheten att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och - framförallt - kamratskapet. Grundidén är Learning by doing. Inom scouterna finns ingen avbytarbänk!",
-    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
-    "btnText": "Se våra båtar",
-    "safeteam": {
-      "title": "Tryggt team",
-      "subtitle": "och respekt"
-    },
-    "adventure": {
-      "title": "Äventyr",
-      "subtitle": "och utforskning"
-    },
-    "community": {
-      "title": "Gemenskap",
-      "subtitle": "och lagarbete"
-    }
+    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
   },
   "departments": {
     "sjohumlor": {
@@ -81,9 +68,7 @@ declare const messages: {
       "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren."
     }
   },
-  "activities": {
-
-  },
+  "activities": {},
   "safetyguidelines": {
     "title": "Säkerhet och allmänna riktlinjer för scouter",
     "descriptionOne": "Självklart får det aldrig bli farligt - men vi kan inte ta bort alla riskmoment. Istället behöver vi använda vår fantasi för att tänka till innan vi genomför olika aktiviteter.",
@@ -93,7 +78,7 @@ declare const messages: {
       "description": "Koppling till HSS Krisplan och Scouternas riktlinjer i “Säker Scout”. För att kunna ge alla scouter, och deras vårdnadshavare, tydliga direktiv i vilken typ av flytväst HSS rekommenderar, har HSS styrelse tagit fram denna policy.",
       "link": "Ladda ner den här (pdf)"
     },
-    "policyTwo":{
+    "policyTwo": {
       "title": "HSS märkessystem",
       "description": "För att alla scouter i HSS ska få möjlighet att ta märken på rätt termin har styrelsen beslutat om följande märkessystem den 14 januari 2025. Avdelningarna får självklart bestämma annorlunda, men tänk på att det kan bli krångligt för nästa gäng ...",
       "link": "Ladda ner den här (pdf)"
@@ -103,7 +88,7 @@ declare const messages: {
       "description": "Scouterna centralt initierade arbetet med Trygga Möten 2005 för att stärka ledare i att agera när barn och unga far illa. Målet är att ha en bred kunskap om potentiella risker för att förebygga diskriminering och övergrepp.",
       "link": "Ladda ner den här (pdf)"
     },
-    "policyFour": { 
+    "policyFour": {
       "title": "Vår fotopolicy",
       "description": "Vi fotograferar våra aktiviteter och använder bilderna på vår hemsida och i sociala medier för att göra reklam för vår verksamhet. Vi publicerar aldrig namn på våra scouter. Genom att vara medlem i HSS samtycker man till detta.",
       "link": "Ladda ner den här (pdf)"
@@ -117,18 +102,10 @@ declare const messages: {
     "fieldThree": "E-postadress",
     "button": "Skicka"
   },
-  "becomeascout": {
-
-  },
-  "becomealeader": {
-
-  },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "becomeascout": {},
+  "becomealeader": {},
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
@@ -141,8 +118,6 @@ declare const messages: {
       "safety": "Säkerhet för HSS"
     }
   },
-  "footer": {
-
-  }
+  "footer": {}
 };
 export default messages;

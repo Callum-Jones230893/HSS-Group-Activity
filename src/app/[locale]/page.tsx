@@ -1,9 +1,11 @@
+import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
+import Cards from "@/components/Cards";
 import Hero from "@/components/Hero";
 import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
 import InstagramSlider from "@/components/InstagramSlider";
-
+import { AboutSectionData } from "@/data/about";
 
 export default function Home() {
   return (
@@ -27,7 +29,7 @@ export default function Home() {
       {/* <ContactUsSection /> */}
       <Cards />
 
-      <AboutSection />
+      <AboutSection item={AboutSectionData} />
       <InstagramSlider />
     </>
   );
