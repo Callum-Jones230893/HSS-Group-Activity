@@ -2,6 +2,7 @@
 
 import { Link, usePathname } from "@/i18n/navigation";
 import { useState } from "react";
+import { useClickAway } from "@uidotdev/usehooks";
 
 type LocaleProps = {
   locale: string;
@@ -9,9 +10,13 @@ type LocaleProps = {
 };
 
 export default function LanguageButton() {
+  const pathname = usePathname();
+
   const [openLocale, setOpenLocale] = useState<boolean>(false);
 
-  const pathname = usePathname();
+  const localeRef = useClickAway<HTMLDivElement>(() => {
+    setOpenLocale(false);
+  });
 
   const localeOptions: LocaleProps[] = [
     { locale: "en", content: "EN" },
@@ -19,7 +24,7 @@ export default function LanguageButton() {
   ];
 
   return (
-    <div className="relative flex justify-end items-center lg:justify-center w-full lg:w-auto ">
+    <div ref={localeRef} className="relative flex justify-end items-center lg:justify-center w-full lg:w-auto ">
       <button type="button" onClick={() => setOpenLocale(prev => !prev)} className="cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +46,8 @@ export default function LanguageButton() {
               key={index}
               href={pathname}
               locale={item.locale}
-              className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out">
+              className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
+              onClick={() => setOpenLocale(false)}>
               {item.content}
             </Link>
           ))}
