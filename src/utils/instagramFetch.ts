@@ -29,7 +29,7 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
     return feed
     
   } catch (error) {
-    console.log("Error, please try again")
+    console.log("Error, please try again", error)
     
     return []
   }
