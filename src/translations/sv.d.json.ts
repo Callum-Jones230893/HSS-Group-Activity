@@ -59,7 +59,7 @@ declare const messages: {
     },
     "kaparna": {
       "title": "Kaparna",
-      "subtitle": "Spårare 10-11 år",
+      "subtitle": "Upptäckare 10-11 år",
       "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna."
     },
     "konvojen": {

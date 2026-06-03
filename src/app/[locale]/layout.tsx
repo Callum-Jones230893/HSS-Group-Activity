@@ -8,6 +8,7 @@ import FooterLogo from "@/components/FooterLogo";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../globals.css";
+import FooterCopyright from '@/components/FooterCopyright';
 
 const manrope = localFont({
   src: "../../../public/fonts/Manrope-VariableFont_wght.woff2",
