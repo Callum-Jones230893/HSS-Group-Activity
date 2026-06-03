@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import Navigation from "../Navigation";
+import LanguageButton from "../LanguageButton";
 
 const Header = () => {
   return (
@@ -16,7 +17,9 @@ const Header = () => {
         />
       </Link>
       <Navigation className="order-3 lg:order-2" />
-      <div className="order-2 lg:order-3 lg:pr-35 grow text-right lg:grow-0">LANG</div>
+      <div className="order-2 lg:order-3 lg:pr-35 grow text-right lg:grow-0">
+        <LanguageButton />
+      </div>
       <a
         href="https://www.scouterna.se/"
         target="_blank"
