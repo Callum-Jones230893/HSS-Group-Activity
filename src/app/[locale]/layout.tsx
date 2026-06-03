@@ -29,7 +29,10 @@ export default async function LocaleLayout({children, params}: {children: React.
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html 
+      lang={locale}
+      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}  
+    >
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
         <Header />

@@ -51,17 +51,17 @@
   "departments": {
     "sjohumlor": {
       "title": "Sjöhumlor",
-      "subtitle": "Tracker 8-9 years",
+      "subtitle": "Spårare 8-9 years",
       "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps"
     },
     "kaparna": {
       "title": "Karpana",
-      "subtitle": "Tracker 10-11 years",
+      "subtitle": "Upptäckare 10-11 years",
       "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases."
     },
     "konvojen": {
       "title": "Konvojen",
-      "subtitle": "Adventurer 12-14 years",
+      "subtitle": "Äventyrare 12-14 years",
       "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")"
     },
     "utmanare": {
