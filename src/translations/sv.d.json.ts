@@ -55,27 +55,32 @@ declare const messages: {
     "sjohumlor": {
       "title": "Sjöhumlor",
       "subtitle": "Spårare 8-9 år",
-      "description": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”) Vi har möten varje vecka samt övernattningar, både hajker och längre läger"
+      "description": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”) Vi har möten varje vecka samt övernattningar, både hajker och längre läger",
+       "fullDescription": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)\n\nVi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.\n\nDu lär dig något nytt nästan varje dag i Scouterna, det är alltid roliga saker men ibland är de också väldigt bra att kunna. Som att tälja med kniv eller lägga bandage på någon som gjort sig illa. Till skillnad från hur man gör i skolan läser vi inga böcker om knivar och bandage, vi lär oss genom att göra, genom att prova på allt på riktigt istället. Medan vi gör det samarbetar vi i patruller, små grupper där alla är med och bestämmer. Det är smart, för tillsammans kan man alltid hjälps åt att hitta på ännu roligare saker.\n\nVi seglar optimistjollar och 2-kronor.\n\nSjöhumlorna har möten på måndagar i vår fina lokal Ruffen vid Hässelby Strandbad.\n\nNär man är scout gör man alltid sitt bästa och det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
     },
     "kaparna": {
       "title": "Kaparna",
       "subtitle": "Upptäckare 10-11 år",
-      "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna."
+      "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.",
+        "fullDescription": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.\n\nScouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt.\n\nEn färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder, segla optimist själv samt grundläggande sjukvård och sjösäkerhet.\n\nAvdelningen Kaparna har möten på tisdagar i vår lokal Ruffen vid Hässelby Strandbad.\n\nNär man är scout gör man alltid sitt bästa men det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
     },
     "konvojen": {
       "title": "Konvojen",
       "subtitle": "Äventyrare 12-14 år",
-      "description": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”)"
+      "description": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”)",
+      "fullDescription": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”).\n\nHär börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter.\n\nPå vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält. En annan höjdare är det traditionella isvaksbadet som ingen patrullscout slipper ifrån…\n\nKonvojen har möten på torsdagar."
     },
     "utmanare": {
       "title": "Utmanare",
       "subtitle": "15+ år",
-      "description": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”)"
+      "description": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”)",
+      "fullDescription": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”).\n\nNär man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbetar man mot att lära sig nya saker och anta svårare utmaningar för att öka sammanhållningen.\n\nUnder de första åren har man ledare med sig och allt eftersom man utvecklas blir man själv ledare på de andra avdelningarna.\n\nUtmanarscouterna seglar själva i skärgården när de uppnått tillräcklig kunskapsnivå.\n\nVarje utmanarscoutlag hittar på sitt eget namn (av tradition slutar de på -arne och laget kallas ”fjantarne” till dess att de kommit på ett eget namn).\n\nMötena sker på tisdagar eller onsdagar."
     },
     "familjescouting": {
       "title": "Familjescouting",
       "subtitle": "",
-      "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren."
+      "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
+      "fullDescription": "Familjescouting är till för barn under åtta år och en vuxen som barnet känner sig trygg med. Tillsammans upptäcker ni scouting genom lek, äventyr och roliga aktiviteter.\n\nBarn och vuxna är med sida vid sida och hjälps åt i aktiviteterna. Den vuxna ansvarar för barnet, men är också en viktig del av gemenskapen och deltar lika mycket som barnen.\n\nDen vuxna kan vara en förälder, mor- eller farförälder, släkting eller någon annan nära person.\n\nFokus i Familjescouting är att barn och vuxna får uppleva saker tillsammans och stärka sin relation."
     }
   },
   "activities": {
@@ -140,6 +145,10 @@ declare const messages: {
   },
   "footer": {
 
-  }
+  },
+  "DepartmentHero": {
+    "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
+  },
+  "back": "Tillbaka"
 };
 export default messages;

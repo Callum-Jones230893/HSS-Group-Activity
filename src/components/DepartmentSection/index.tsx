@@ -1,31 +1,24 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { DepartmentItemType } from "@/data/department";
+import { useTranslations } from "next-intl";
 
-type DepartmentSectionProps = {
-  title: string;
-  subtitle: string;
-  image: string;
-  fullDescription: string[];
-  text: string;
-  bg: string;
+type DepartmentItemProps = {
+  item: DepartmentItemType;
 };
 
-const DepartmentSection = ({
-  title,
-  subtitle,
-  image,
-  fullDescription,
-  text,
-  bg,
-}: DepartmentSectionProps) => {
+const DepartmentSection = ({ item }: DepartmentItemProps) => {
+  const t = useTranslations("departments");
+  const tBack = useTranslations()
+
   return (
     <section className="w-full font-primary">
       <div className="bg-primary/5">
-        <div className="max-w-432 mx-auto px-6 lg:px-30 py-6 lg:py-20">
+        <div className="max-w-432 mx-auto px-6 lg:px-20 py-6 lg:py-20">
           <div className="bg-[#fff] rounded-2xl py-4 px-6 flex flex-col lg:flex-row gap-2 lg:gap-4 max-w-347.75 mx-auto">
             <Image
-              src={image}
-              alt={title}
+              src={item.image}
+              alt={t(`${item.id}.title`)}
               width={244}
               height={244}
               className="w-29.5 h-29.5 lg:h-56 lg:w-56"
@@ -34,27 +27,21 @@ const DepartmentSection = ({
             <div className="flex-1 flex flex-col lg:max-w-225">
               <div className="flex items-center gap-2 mb-4">
                 <h2 className="text-primary font-extralight text-[20px] lg:text-[24px]">
-                  {title}
+                  {t(`${item.id}.title`)}
                 </h2>
                 <p
-                  className={`font-extralight text-[20px] lg:text-[24px] ${text}`}
+                  className={`font-extralight text-[20px] lg:text-[24px] ${item.text}`}
                 >
-                  {subtitle}
+                  {t(`${item.id}.subtitle`)}
                 </p>
               </div>
-
-              {fullDescription.map((description, index) => (
-                <p
-                  key={index}
-                  className="mb-3 md:mb-4 text-[18px] font-light lg:text-[24px]"
-                >
-                  {description}
-                </p>
-              ))}
+              <p className="mb-4 whitespace-pre-line text-[18px] font-light lg:text-[24px]">
+                {t(`${item.id}.fullDescription`)}
+              </p>
               <div className="mb-4">
                 <Link
                   href="/becomeascout"
-                  className={`inline-flex rounded-2xl px-3 py-2 gap-2 text-white ${bg} lg: hover:scale-110 duration-300 ease-in-out`}
+                  className={`inline-flex rounded-2xl px-3 py-2 gap-2 text-white ${item.bg} lg:hover:scale-110 duration-300 ease-in-out`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +55,7 @@ const DepartmentSection = ({
                       clipRule="evenodd"
                     />
                   </svg>
-                  <span>Tillbaka</span>
+                  <span>{tBack("back")}</span>
                 </Link>
               </div>
             </div>
