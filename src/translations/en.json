@@ -129,13 +129,14 @@
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
-    "reserveacamp": "Reserve a camp",
+    "reserveacamp": "Our cabin",
     "contactus": "Contact us",
     "aboutus": "About us",
+    "menulabel": "More",
     "moreMenu": {
       "activities": "Activities",
-      "history": "History of HSS",
-      "safety": "Safety of HSS"
+      "history": "History",
+      "safety": "Safety"
     }
   },
   "footer": {

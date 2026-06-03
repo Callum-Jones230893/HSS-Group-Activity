@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
 import { Link } from "@/i18n/navigation";
 import { navItems, moreMenu } from "@/data/navigation";
+import { useTranslations } from "next-intl";
 
 type DropdownProp = {
   color: string;
@@ -12,12 +13,15 @@ type DropdownProp = {
 };
 
 const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
+  const t = useTranslations("navbar")
+  
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
     setOpenMore(false);
   });
 
+  console.log(moreMenu)
   return (
     <>
       {navItems.map((item, index) => (
@@ -26,17 +30,17 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           key={index}
           className="w-full lg:w-auto text-center lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
           <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger?.(false)}>
-            {item.name}
+            {t(item.name)}
           </span>
         </Link>
       ))}
-      
+
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full lg:w-auto  cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
-          <span className="text-[16px] md:text-[20px] lg:text-[16px]">Mer</span>
+          <span className="text-[16px] md:text-[20px] lg:text-[16px]">{t("menulabel")}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -60,7 +64,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
                 <p
                   className="text-[16px] w-full text-center md:text-[20px] lg:text-[16px] md:text-left"
                   onClick={() => closeHamburger?.(false)}>
-                  {item.name}
+                  {t(item.name)}
                 </p>
               </Link>
             ))}
