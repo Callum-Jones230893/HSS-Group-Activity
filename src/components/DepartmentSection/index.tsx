@@ -35,7 +35,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                   {t(`${item.id}.subtitle`)}
                 </p>
               </div>
-              <p className="mb-4 whitespace-pre-line text-[18px] font-light lg:text-[24px]">
+              <p className="mb-4 whitespace-pre-line text-[18px] leading-relaxed font-light lg:text-[24px]">
                 {t(`${item.id}.fullDescription`)}
               </p>
               <div className="mb-4">
