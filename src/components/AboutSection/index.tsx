@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FEATURES_DATA } from "@/data/aboutus";
-import Button from "@/components/Button";
 
 const AboutSection = () => {
   return (
@@ -43,10 +42,6 @@ const AboutSection = () => {
               optimistjollar, två 2-kronor, snabb följebåt och en stor
               scoutstuga.
             </p>
-
-            <div className=" flex flex-col justify-center items-start gap-10">
-              <Button content="Se våra båtar" size={"large"} redirect="becomeascout" type="" />
-            </div>
           </div>
         </div>
       </div>
