@@ -49,6 +49,7 @@ const AboutSection = () => {
                 size={"large"}
                 redirect="becomeascout"
                 type=""
+                url=""
               />
             </div>
           </div>
