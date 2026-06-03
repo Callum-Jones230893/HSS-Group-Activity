@@ -4,6 +4,7 @@ import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
 import InstagramSlider from "@/components/InstagramSlider";
 
+
 export default function Home() {
   return (
     <>

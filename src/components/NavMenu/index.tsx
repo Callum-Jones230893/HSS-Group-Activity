@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { navItems, moreMenu } from "@/data/navigation";
 
 type DropdownProp = {
