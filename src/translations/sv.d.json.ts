@@ -2,6 +2,10 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
+  "hero":{
+    "title": "Äventyr och kompisar!",
+    "subtitle": "Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
+  },
   "home": {
     "becomeascout": {
       "title": "Bli scout",
@@ -109,7 +113,7 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Boka ett läger",
+    "reserveacamp": "Vår stuga",
     "contactus": "Kontakta oss",
     "aboutus": "Om oss",
     "menulabel": "Mer",
