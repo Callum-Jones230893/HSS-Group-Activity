@@ -33,46 +33,33 @@ declare const messages: {
     }
   },
   "cards": {
-    "button": "Gå till",
+    "button": "Visa inlägget",
     "title": "Tidigare händelser inom HSS"
   },
   "aboutus": {
-    "title": "Omm oss",
+    "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
     "descriptionTwo": "Målet med vår verksamhet är att ge barn och ungdomar möjligheten att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och - framförallt - kamratskapet. Grundidén är Learning by doing. Inom scouterna finns ingen avbytarbänk!",
-    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
-    "btnText": "Se våra båtar",
-    "safeteam": {
-      "title": "Tryggt team",
-      "subtitle": "och respekt"
-    },
-    "adventure": {
-      "title": "Äventyr",
-      "subtitle": "och utforskning"
-    },
-    "community": {
-      "title": "Gemenskap",
-      "subtitle": "och lagarbete"
-    }
+    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
   },
   "departments": {
     "sjohumlor": {
-      "title": "Sjöhumlor",
+      "title": "Sjöhumlor - ",
       "subtitle": "Spårare 8-9 år",
       "description": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”) Vi har möten varje vecka samt övernattningar, både hajker och längre läger"
     },
     "kaparna": {
-      "title": "Kaparna",
+      "title": "Kaparna - ",
       "subtitle": "Upptäckare 10-11 år",
       "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna."
     },
     "konvojen": {
-      "title": "Konvojen",
+      "title": "Konvojen - ",
       "subtitle": "Äventyrare 12-14 år",
       "description": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”)"
     },
     "utmanare": {
-      "title": "Utmanare",
+      "title": "Utmanare - ",
       "subtitle": "15+ år",
       "description": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”)"
     },
@@ -82,9 +69,7 @@ declare const messages: {
       "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren."
     }
   },
-  "activities": {
-
-  },
+  "activities": {},
   "safetyguidelines": {
     "title": "Säkerhet och allmänna riktlinjer för scouter",
     "descriptionOne": "Självklart får det aldrig bli farligt - men vi kan inte ta bort alla riskmoment. Istället behöver vi använda vår fantasi för att tänka till innan vi genomför olika aktiviteter.",
@@ -94,7 +79,7 @@ declare const messages: {
       "description": "Koppling till HSS Krisplan och Scouternas riktlinjer i “Säker Scout”. För att kunna ge alla scouter, och deras vårdnadshavare, tydliga direktiv i vilken typ av flytväst HSS rekommenderar, har HSS styrelse tagit fram denna policy.",
       "link": "Ladda ner den här (pdf)"
     },
-    "policyTwo":{
+    "policyTwo": {
       "title": "HSS märkessystem",
       "description": "För att alla scouter i HSS ska få möjlighet att ta märken på rätt termin har styrelsen beslutat om följande märkessystem den 14 januari 2025. Avdelningarna får självklart bestämma annorlunda, men tänk på att det kan bli krångligt för nästa gäng ...",
       "link": "Ladda ner den här (pdf)"
@@ -104,7 +89,7 @@ declare const messages: {
       "description": "Scouterna centralt initierade arbetet med Trygga Möten 2005 för att stärka ledare i att agera när barn och unga far illa. Målet är att ha en bred kunskap om potentiella risker för att förebygga diskriminering och övergrepp.",
       "link": "Ladda ner den här (pdf)"
     },
-    "policyFour": { 
+    "policyFour": {
       "title": "Vår fotopolicy",
       "description": "Vi fotograferar våra aktiviteter och använder bilderna på vår hemsida och i sociala medier för att göra reklam för vår verksamhet. Vi publicerar aldrig namn på våra scouter. Genom att vara medlem i HSS samtycker man till detta.",
       "link": "Ladda ner den här (pdf)"
@@ -118,18 +103,10 @@ declare const messages: {
     "fieldThree": "E-postadress",
     "button": "Skicka"
   },
-  "becomeascout": {
-
-  },
-  "becomealeader": {
-
-  },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "becomeascout": {},
+  "becomealeader": {},
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
@@ -142,8 +119,28 @@ declare const messages: {
       "safety": "Säkerhet för HSS"
     }
   },
-  "footer": {
-
-  }
+  "googlemap": {
+    "emailLabel": "Epost",
+    "findUsLabel": "Hitta till oss",
+    "locations": {
+      "myset": {
+        "title": "Hajkstugan Myset",
+        "description": "Vår mysiga stuga i skogen som används för övernattningar, hajk och landbaserade aktiviteter."
+      },
+      "ruffen": {
+        "title": "Studentkårsrummet",
+        "description": "Detta är vår huvudsakliga plats vid vattnet, där vi håller våra veckomöten."
+      },
+      "shipyard": {
+        "title": "Varvet",
+        "description": "Detta är vårt båtvarv där vi utför underhåll, reparationer och vinterförvaring. "
+      },
+      "boat-club": {
+        "title": "Båtklubben",
+        "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
+      }
+    }
+  },
+  "footer": {}
 };
 export default messages;
