@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Button from "@/components/Button";
+import Button from "@/components/Button"
 
 type CardInfoProps = {
   title: string;
@@ -34,6 +34,7 @@ const CardInfo = ({ title, date, description }: CardInfoProps) => {
             size="small"
             redirect=""
             type="instagram"
+            url=""
           />
           <Link
             href={""}
