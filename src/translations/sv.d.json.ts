@@ -112,10 +112,11 @@ declare const messages: {
     "reserveacamp": "Boka ett läger",
     "contactus": "Kontakta oss",
     "aboutus": "Om oss",
+    "menulabel": "Mer",
     "moreMenu": {
       "activities": "Aktiviteter",
-      "history": "HSS historia",
-      "safety": "Säkerhet för HSS"
+      "history": "Historia",
+      "safety": "Säkerhet"
     }
   },
   "googlemap": {
