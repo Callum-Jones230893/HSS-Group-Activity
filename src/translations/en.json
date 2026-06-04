@@ -34,7 +34,8 @@
     }
   },
   "cards": {
-    "button": "Go to"
+    "button": "View post",
+    "title": "Previous events within HSS"
   },
   "aboutus": {
     "title": "About us",
