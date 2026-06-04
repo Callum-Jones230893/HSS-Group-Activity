@@ -12,6 +12,7 @@ export default function Home() {
         title="Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
       />
       <h1 className="text-yellow font-yeseva"></h1>
+      <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
       <ScoutPage />
 
