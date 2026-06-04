@@ -3,10 +3,12 @@ export const BecomeALeaderData: {
   subtitle: string;
   image: string;
   descriptionOne: string;
-  descriptionTwo: string,
-  descriptionThree: string,
-  descriptionFour: string,
-  descriptionFive: string,
+  descriptionTwo: string;
+  descriptionThree: string;
+  descriptionFour: string;
+  descriptionFive: string;
+  quoteTwo: string;
+  quoteOne: string;
 } = {
   title: "Vill du bli en av oss?",
   subtitle:
@@ -18,7 +20,11 @@ export const BecomeALeaderData: {
 
   descriptionThree: `”Scouterna har varit min bästa ledarskola. Där kan man bara leda med idéns kraft och förmågan att övertyga.”   [Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]`,
 
-  descriptionFour: `”Inom scoutrörelsen finns ingen avbytarbänk.”   [Anonym ledare i HSS]`,
-  
+  quoteOne:
+    "[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]",
+
+  descriptionFour: `”Inom scoutrörelsen finns ingen avbytarbänk.” `,
+  quoteTwo: " [Anonym ledare i HSS]",
+
   descriptionFive: `Välkommen!`,
 };
