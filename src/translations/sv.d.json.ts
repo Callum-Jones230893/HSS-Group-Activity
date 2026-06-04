@@ -124,7 +124,6 @@ declare const messages: {
       "safety": "Säkerhet för HSS"
     }
   },
-<<<<<<< HEAD
   "googlemap": {
     "emailLabel": "Epost",
     "findUsLabel": "Hitta till oss",
@@ -145,21 +144,17 @@ declare const messages: {
         "title": "Båtklubben",
         "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
       }
+    }
     },
-  "footer": {}
-},
+  "footer": {
+    "logo": {
+      "title": "Tillsammans kan vi göra mer!",
+      "description": "Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer."
+    }
+  },
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
   "back": "Tillbaka"
-=======
-  "footer": {
-     "logo": {
-      "title": "Tillsammans kan vi göra mer!",
-      "description": "Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer."
-    }
-
-  }
->>>>>>> fix/023-translate-footer-logo
 };
 export default messages;
