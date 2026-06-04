@@ -108,7 +108,7 @@ declare const messages: {
   },
   "contactus": {
     "title": "Kontakta oss",
-    "subtitle": "Så här gör du för att komma i kontakt med oss",
+    "subtitle": "Har du frågor? Hör gärna av dig!",
     "fieldOne": "Fullständigt namn",
     "fieldTwo": "Meddelande till oss",
     "fieldThree": "E-postadress",

@@ -105,10 +105,10 @@
   },
   "contactus": {
     "title": "Contact us",
-    "subtitle": "Here's how to get in touch with us",
-    "fieldOne": "Full name",
-    "fieldTwo": "Message to us",
-    "fieldThree": "Email",
+    "subtitle": "Have a question? We'd love to hear from you!",
+    "fieldOne": "Full Name",
+    "fieldTwo": "Message",
+    "fieldThree": "Email Address",
     "button": "Submit"
   },
   "becomeascout": {

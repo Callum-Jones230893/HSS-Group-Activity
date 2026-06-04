@@ -1,6 +1,8 @@
+import ContactUsForm from '@/components/ContactUsForm'
+
 const ContactUs = () => {
   return (
-    <p className="text-4xl text-primary">Coming soon...</p>
+    <ContactUsForm />
   )
 }
 
