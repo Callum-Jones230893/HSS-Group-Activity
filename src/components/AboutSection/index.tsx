@@ -44,12 +44,6 @@ const AboutSection = () => {
             </p>
 
             <div className=" flex flex-col justify-center items-start gap-10">
-              <Button
-                content="Se våra båtar"
-                size={"large"}
-                redirect="becomeascout"
-                type=""
-              />
             </div>
           </div>
         </div>
