@@ -1,15 +1,18 @@
+import { useTranslations } from "next-intl";
 import CardInfo from "../CardInfo";
 import { instagramApi } from "@/utils/instagramFetch";
 
 const feed = await instagramApi()
 
 const Cards = () => {
+  const t = useTranslations('cards')
+
   return (
     <div className="flex justify-center">
     <section className="items-center xl:w-357  lg:mx-20 font-primary bg-[#0036600F] px-8 py-10.5 mx-3.5 rounded-lg  place-items-center xl:mx-37.5">
         <h2 className=" text-primary lg:text-[36px] md:text-[32px] text-[28px] text-center pb-9.5 lg:pb-10.5">Tidigare händelser inom HSS</h2>
         <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7">
-          {feed.map((item, index) => (
+          {feed.slice(0, 3).map((item, index) => (
             <CardInfo
               key={index}
               item={item}

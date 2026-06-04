@@ -30,26 +30,14 @@
     }
   },
   "cards": {
-    "button": "Go to"
+    "button": "View post",
+    "title": "Previous events within HSS"
   },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
     "descriptionTwo": "The goal of our activities is to give children and young people the opportunity to experience nature, boating, seamanship, challenges and - above all - camaraderie. The basic idea is Learning by doing. There is no substitute bench in the scouts!",
-    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin.",
-    "btnText": "See our boats",
-    "safeteam": {
-      "title": "Safe team",
-      "subtitle": "and respect"
-    },
-    "adventure": {
-      "title": "Adventure",
-      "subtitle": "and exploration"
-    },
-    "community": {
-      "title": "Community",
-      "subtitle": "and teamwork"
-    }
+    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin."
   },
   "departments": {
     "sjohumlor": {
@@ -78,9 +66,7 @@
       "description": ""
     }
   },
-  "activities": {
-
-  },
+  "activities": {},
   "safetyguidelines": {
     "title": "Safety and general guidelines for scouts",
     "descriptionOne": "",
@@ -90,7 +76,7 @@
       "description": "",
       "link": ""
     },
-    "policyTwo":{
+    "policyTwo": {
       "title": "HSS label system",
       "description": "",
       "link": ""
@@ -100,7 +86,7 @@
       "description": "",
       "link": ""
     },
-    "policyFour": { 
+    "policyFour": {
       "title": "Our photo policy",
       "description": "",
       "link": ""
@@ -114,18 +100,10 @@
     "fieldThree": "Email",
     "button": "Submit"
   },
-  "becomeascout": {
-
-  },
-  "becomealeader": {
-
-  },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "becomeascout": {},
+  "becomealeader": {},
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
@@ -139,7 +117,27 @@
       "safety": "Safety"
     }
   },
-  "footer": {
-
-  }
+  "googlemap": {
+    "emailLabel": "Email",
+    "findUsLabel": "Find us",
+    "locations": {
+      "myset": {
+        "title": "Myset Scout Cabin",
+        "description": "Our cozy cabin in the forest used for overnight stays, hikes, and land-based activities."
+      },
+      "ruffen": {
+        "title": "The Scout Room",
+        "description": "This is our main location by the water, where we hold our weekly meetings."
+      },
+      "shipyard": {
+        "title": "The Shipyard",
+        "description": "This is our boatyard where we perform maintenance, repairs, and winter storage."
+      },
+      "boat-club": {
+        "title": "The Boat Club",
+        "description": "This is where we have our harbor berths for the corps' larger boats during the summer season."
+      }
+    }
+  },
+  "footer": {}
 }
