@@ -13,6 +13,7 @@ const BecomeALeader = () => {
           title={t("sectionHero.title")}
           intro={t("sectionHero.intro")}
           button={{
+            url: "",
             content: t("button.content"),
             size: "large",
             redirect: "",
