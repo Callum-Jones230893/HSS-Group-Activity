@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button, { ButtonProp } from "../Button";
+import Button, { ButtonProp } from "@/components/Button";
 
 type HeroProps = {
   title: string;
