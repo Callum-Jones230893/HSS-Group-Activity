@@ -115,5 +115,27 @@
       "safety": "Safety of HSS"
     }
   },
+  "googlemap": {
+    "emailLabel": "Email",
+    "findUsLabel": "Find us",
+    "locations": {
+      "myset": {
+        "title": "Myset Scout Cabin",
+        "description": "Our cozy cabin in the forest used for overnight stays, hikes, and land-based activities."
+      },
+      "ruffen": {
+        "title": "The Scout Room",
+        "description": "This is our main location by the water, where we hold our weekly meetings."
+      },
+      "shipyard": {
+        "title": "The Shipyard",
+        "description": "This is our boatyard where we perform maintenance, repairs, and winter storage."
+      },
+      "boat-club": {
+        "title": "The Boat Club",
+        "description": "This is where we have our harbor berths for the corps' larger boats during the summer season."
+      }
+    }
+  },
   "footer": {}
 }
