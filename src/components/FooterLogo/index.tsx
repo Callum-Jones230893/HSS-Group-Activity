@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Button from "../Button";
-import Link from "next/link";
 
 const FooterLogo = () => {
   return (
@@ -20,7 +19,7 @@ const FooterLogo = () => {
         Scouterna ger barn och unga från alla delar av samhället chansen att
         uppleva äventyr tillsammans och växa som individer.
       </p>
-     <Button content="Bli scout" size={"large"} redirect="becomeascout" type="" />
+     <Button content="Bli scout" size={"large"} redirect="becomeascout" type="" url="" />
     </div>
   );
 };

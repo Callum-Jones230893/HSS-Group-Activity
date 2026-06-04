@@ -17,6 +17,7 @@ const Sjohumlor = () => {
           size: "large",
           redirect: "/becomeascout",
           type: "external",
+          url: "https://www.scoutnet.se/register/in/group/764",
         }}
       />
       <DepartmentSection item={DepartmentData[0]} />

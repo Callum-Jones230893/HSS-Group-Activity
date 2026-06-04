@@ -4,7 +4,7 @@ import { DepartmentData } from "@/data/department";
 import { useTranslations } from "next-intl";
 
 const Utmanare = () => {
-const t = useTranslations("DepartmentHero");
+  const t = useTranslations("DepartmentHero");
   const tNav = useTranslations("navbar");
   return (
     <>
@@ -17,11 +17,12 @@ const t = useTranslations("DepartmentHero");
           size: "large",
           redirect: "/becomeascout",
           type: "external",
+          url: "https://www.scoutnet.se/register/in/group/764",
         }}
       />
-    <DepartmentSection item={DepartmentData[3]} />
+      <DepartmentSection item={DepartmentData[3]} />
     </>
-  )
-}
+  );
+};
 
-export default Utmanare
+export default Utmanare;
