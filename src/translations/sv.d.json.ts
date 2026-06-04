@@ -34,7 +34,7 @@ declare const messages: {
   },
   "cards": {
     "button": "Visa inlägget",
-    "title": "Tidigare händelser inom HSS"
+    "title": "Se våra äventyr på Instagram"
   },
   "aboutus": {
     "title": "Om oss",
