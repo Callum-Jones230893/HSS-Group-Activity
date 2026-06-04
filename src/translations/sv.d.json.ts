@@ -37,7 +37,7 @@ declare const messages: {
     }
   },
   "cards": {
-    "button": "Gå till",
+    "button": "Visa inlägget",
     "title": "Tidigare händelser inom HSS"
   },
   "aboutus": {
@@ -154,7 +154,6 @@ declare const messages: {
   "footer": {
      "logo": {
       "title": "Tillsammans kan vi göra mer!",
-      "description": "Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer."
     }
   },
     "DepartmentHero": {
@@ -162,4 +161,3 @@ declare const messages: {
   },
   "back": "Tillbaka"
 };
-export default messages;
