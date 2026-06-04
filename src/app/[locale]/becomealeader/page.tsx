@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl"
 import Image from "next/image";
 
 const BecomeALeader = () => {
-  // t("sjohumlor.description")
   const data = BecomeALeaderData;
   const t = useTranslations('becomealeader')
   return (
