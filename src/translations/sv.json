@@ -116,5 +116,27 @@
       "safety": "Säkerhet för HSS"
     }
   },
+  "googlemap": {
+    "emailLabel": "Epost",
+    "findUsLabel": "Hitta till oss",
+    "locations": {
+      "myset": {
+        "title": "Hajkstugan Myset",
+        "description": "Vår mysiga stuga i skogen som används för övernattningar, hajk och landbaserade aktiviteter."
+      },
+      "ruffen": {
+        "title": "Studentkårsrummet",
+        "description": "Detta är vår huvudsakliga plats vid vattnet, där vi håller våra veckomöten."
+      },
+      "shipyard": {
+        "title": "Varvet",
+        "description": "Detta är vårt båtvarv där vi utför underhåll, reparationer och vinterförvaring. "
+      },
+      "boat-club": {
+        "title": "Båtklubben",
+        "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
+      }
+    }
+  },
   "footer": {}
 }
