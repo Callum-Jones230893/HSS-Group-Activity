@@ -57,7 +57,7 @@ const Cards = () => {
     <section className="items-center xl:w-[1428px]  lg:mx-[80px] font-primary bg-[#0036600F] px-8 py-10.5 mx-[14px] rounded-lg  place-items-center xl:mx-[150px]">
         <h2 className=" text-primary lg:text-[36px] md:text-[32px] text-[28px] text-center pb-9.5 lg:pb-10.5">Tidigare händelser inom HSS</h2>
         <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7">
-          {data.map((dataItem, index) => (
+          {data.slice(0, 3).map((dataItem, index) => (
             <CardInfo
               key={index}
               title={dataItem.title}
