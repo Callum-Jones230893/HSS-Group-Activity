@@ -37,16 +37,6 @@ const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
             <p className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
               {t(`${item.id}.descriptionThree`)}
             </p>
-
-            <div className=" flex flex-col justify-center items-start gap-10">
-              <Button
-                content="Se våra båtar"
-                size={"large"}
-                redirect="becomeascout"
-                type=""
-                url=""
-              />
-            </div>
           </div>
         </div>
       </div>
