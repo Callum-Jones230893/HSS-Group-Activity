@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Hero />
       <h1 className="text-yellow font-yeseva"></h1>
+      <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
       <ScoutPage />
 
