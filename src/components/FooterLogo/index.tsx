@@ -21,7 +21,7 @@ const FooterLogo = () => {
       <p className="max-w-162 font-primary text-[18px] text-white font-light">
         {t("description")}
       </p>
-     <Button content={tNav("becomeascout")} size={"large"} redirect="becomeascout" type="" />
+     <Button content={tNav("becomeascout")} size={"large"} redirect="becomeascout" type="" url="" />
     </div>
   );
 };
