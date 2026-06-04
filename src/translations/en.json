@@ -1,4 +1,8 @@
 {
+  "hero": {
+    "title": "Adventure and friends!",
+    "subtitle": "Welcome to Hässelby Strands Sjöscoutkår. True adventures await!"
+  },
   "home": {
     "becomeascout": {
       "title": "Become a member",

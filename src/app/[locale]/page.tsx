@@ -8,10 +8,7 @@ import { AboutSectionData } from "@/data/about";
 export default function Home() {
   return (
     <>
-      <Hero
-        subtitle="Äventyr och kompisar!"
-        title="Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
-      />
+      <Hero />
       <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
       <ScoutPage />
