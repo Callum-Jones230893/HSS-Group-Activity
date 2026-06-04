@@ -20,13 +20,13 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         <h2 className="text-black text-[28px] lg:text-[44px]">{t(`${item.id}.subtitle`)}</h2>
         <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{t(`${item.id}.description`)}</p>
         <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
-          <Button content={t(`${item.id}.button`)} size="large" redirect={item.redirect} type="" />
+          <Button content={t(`${item.id}.button`)} size="large" redirect={item.redirect} type="" url="" />
           <div>
             <Link href="" className="w-37 h-16.25">{t(`${item.id}.readMore`)}</Link>
           </div>
         </div>
       </div>
-      <div className="flex justify-center mx-auto mt-10 lg:mx-auto w-full lg:w-7/10 xl:w-4/10 max-w-150 aspect-square">
+      <div className="flex justify-center items-center mx-auto mt-10 lg:my-auto w-full lg:w-7/10 xl:w-4/10 lg:min-w-150 max-w-150 aspect-square">
         <Image src={item.image} alt={t(`${item.id}.title`)} width="400" height="300" 
           className="w-full max-h-137.5 xl:h-137.5 object-cover rounded-lg"
         />
