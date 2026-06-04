@@ -110,8 +110,8 @@ declare const messages: {
     "title": "Kontakta oss",
     "subtitle": "Har du frågor? Hör gärna av dig!",
     "fieldOne": "Fullständigt namn",
-    "fieldTwo": "Meddelande till oss",
-    "fieldThree": "E-postadress",
+    "fieldTwo": "E-postadress",
+    "fieldThree": "Meddelande",
     "button": "Skicka"
   },
   "becomeascout": {
