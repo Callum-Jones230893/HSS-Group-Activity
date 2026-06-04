@@ -42,27 +42,33 @@
     "sjohumlor": {
       "title": "Sjöhumlor - ",
       "subtitle": "Spårare 8-9 years",
-      "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps"
+      "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps",
+      "fullDescription": "You can start at HSS at the age of 8, that is, when you begin school year 2. You then become a Tracker Scout and a member of the Sjöhumlorna ('Sea Bumblebees') section. (Tracker Scout was previously called 'Minior Scout'.)\nWe have meetings every week as well as overnight stays, both hikes and longer camps. Here the children get to learn knots, basic nature knowledge and seamanship in a playful way.\nYou learn something new almost every day in the Scouts. It's always fun things, but sometimes they're also really useful to know — like whittling with a knife or putting a bandage on someone who's hurt themselves. Unlike how it's done in school, we don't read any books about knives and bandages; we learn by doing, by trying everything out for real instead. While we do it, we work together in patrols, small groups where everyone gets a say. That's clever, because together you can always help each other come up with even more fun things to do.\nWe sail Optimist dinghies and 2-Crowns (tvåkronor).\nSjöhumlorna meet on Mondays in our lovely premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, and it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
+     
     },
     "kaparna": {
       "title": "Karpana - ",
       "subtitle": "Upptäckare 10-11 years",
-      "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases."
+      "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases.",
+      "fullDescription": "At Kaparna you start at the age of 10 and stay for two years until it's time for the next step. (Discoverer Scout was previously called 'Junior Scout'.) At Kaparna the difficulty of the tasks increases.\nThe scouts get to learn to sail an Optimist as well as try sailing a 2-Crown (tvåkrona) and a keelboat.\nA fully trained Discoverer Scout can, among other things, handle a knife, light fires and put out small fires, sail an Optimist on their own, as well as basic first aid and water safety.\nThe Kaparna section meets on Tuesdays in our premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, but it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
     },
     "konvojen": {
       "title": "Konvojen - ",
       "subtitle": "Äventyrare 12-14 years",
-      "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")"
+      "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")",
+      "fullDescription": "At the age of 12 the doors to the Adventurer Scouts open. For three exciting years you get to learn useful things within seamanship and nature. (Adventurer Scout was previously called 'Patrol Scout'.)\nThis is where the sailing begins in earnest, and it takes us out into the archipelago in the summer. When we're not sailing we practise navigation and also do traditional land scouting activities.\nIn winter, when it's at its coldest, we have a proper winter hike where we live in tents. Another highlight is the traditional ice-hole dip that no Patrol Scout gets out of…\nKonvojen meets on Thursdays."
     },
     "utmanare": {
       "title": "Utmanare - ",
       "subtitle": "15+ years",
-      "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")"
+      "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")",
+      "fullDescription": "An HSS Challenger Scout team never ceases to exist! After the time as a Challenger Scout you're a tightly knit bunch. It's not uncommon to stay in touch for life. (This section was previously called 'Senior Scout'.)\nWhen you come up from the Adventurer Scouts you form a team together with your year group. Then you work towards learning new things and taking on harder challenges to strengthen the team spirit.\nDuring the first years you have leaders with you, and as you develop you become a leader yourself on the other sections.\nThe Challenger Scouts sail on their own in the archipelago once they've reached a sufficient level of knowledge.\nEach Challenger Scout team comes up with its own name (by tradition they end in -arne, and the team is called 'fjantarne' until they've come up with a name of their own).\nMeetings take place on Tuesdays or Wednesdays."
     },
     "familjescouting": {
       "title": "Familjescouting",
       "subtitle": "",
-      "description": ""
+      "description": "Through Family Scouting, children under the age of eight, together with one or more adults, get to encounter scouting in a fun and playful way. Family Scouting is also an excellent way to bring more adults into the troop.",
+      "fullDescription": "Family Scouting is for children under the age of eight and an adult the child feels safe with. Together you discover scouting through play, adventure and fun activities.\nChildren and adults take part side by side and help each other with the activities. The adult is responsible for the child, but is also an important part of the community and takes part just as much as the children.\nThe adult can be a parent, grandparent, relative or another close person.\nThe focus in Family Scouting is for children and adults to experience things together and strengthen their relationship."
     }
   },
   "activities": {},
@@ -115,5 +121,11 @@
       "safety": "Safety of HSS"
     }
   },
-  "footer": {}
+  "footer": {
+
+  },
+  "DepartmentHero": {
+    "intro": "To join our scout corps you can submit an expression of interest that goes straight to our membership register. Fill in the details below and we'll get back to you shortly."
+  },
+  "back": "Back"
 }
