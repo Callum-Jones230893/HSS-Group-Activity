@@ -3,90 +3,80 @@
     "becomeascout": {
       "title": "Become a member",
       "subtitle": "OF OUR ADVENTURE GROUP OF FRIENDS",
-      "description": "",
+      "description": "In Scouterna you will find both challenges and new friends, no matter where you live or how old you are. Here you can experience adventures in nature, discover new ways to solve problems or just have fun together while we explore the world. And of course you are involved in deciding what we will come up with.",
       "button": "Become a scout",
-      "link": "Read more"
+      "readMore": "Read more"
     },
     "becomealeader": {
       "title": "Become a leader",
       "subtitle": "IN SCOUTING TROUPE WITH POWER",
-      "description": "",
+      "description": "As an adult, there are excellent opportunities to develop as a leader with us. You don't have to be an experienced sailor to participate in our activities. You don't have to be an old scout to become a leader either. The only requirement is that you have a genuine interest in working with young people and that you are interested in working voluntarily in a well-functioning scout corps. The corps pays for the training you need to function well as a scout leader.",
       "button": "Become a leader",
-      "link": "Read more"
+      "readMore": "Read more"
     },
     "rentacabin": {
       "title": "Rent a cozy cabin",
       "subtitle": "TO EXPLORE THE FREEDOM OF NATURE",
-      "description": "",
+      "description": "In Scouterna you will find both challenges and new friends, no matter where you live or how old you are. Here you can experience adventures in nature, discover new ways to solve problems or just have fun together while we explore the world. And of course you are involved in deciding what we will come up with.",
       "button": "Rent a cabin",
-      "link": "Read more"
+      "readMore": "Read more"
     },
     "becomeapartner": {
       "title": "Become a partner",
       "subtitle": "WITH OUR PRIDE OF NEXT LEADERS",
-      "description": "",
+      "description": "As an adult, there are excellent opportunities to develop as a leader with us. You don't have to be an experienced sailor to participate in our activities. You don't have to be an old scout to become a leader either. The only requirement is that you have a genuine interest in working with young people and that you are interested in working voluntarily in a well-functioning scout corps. The corps pays for the training you need to function well as a scout leader.",
       "button": "Become a partner",
-      "link": "Read more"
+      "readMore": "Read more"
     }
+  },
+  "cards": {
+    "button": "View post",
+    "title": "Previous events within HSS"
   },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
     "descriptionTwo": "The goal of our activities is to give children and young people the opportunity to experience nature, boating, seamanship, challenges and - above all - camaraderie. The basic idea is Learning by doing. There is no substitute bench in the scouts!",
-    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin.",
-    "btnText": "See our boats",
-    "safeteam": {
-      "title": "Safe team",
-      "subtitle": "and respect"
-    },
-    "adventure": {
-      "title": "Adventure",
-      "subtitle": "and exploration"
-    },
-    "community": {
-      "title": "Community",
-      "subtitle": "and teamwork"
-    }
+    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin."
   },
   "departments": {
     "sjohumlor": {
-      "title": "Sjöhumlor",
-      "subtitle": "Tracker 8-9 years",
+      "title": "Sjöhumlor - ",
+      "subtitle": "Spårare 8-9 years",
       "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps"
     },
     "kaparna": {
-      "title": "Karpana",
-      "subtitle": "Tracker 10-11 years",
+      "title": "Karpana - ",
+      "subtitle": "Upptäckare 10-11 years",
       "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases."
     },
     "konvojen": {
-      "title": "Konvojen",
-      "subtitle": "Adventurer 12-14 years",
+      "title": "Konvojen - ",
+      "subtitle": "Äventyrare 12-14 years",
       "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")"
     },
     "utmanare": {
-      "title": "Utmanare",
+      "title": "Utmanare - ",
       "subtitle": "15+ years",
       "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")"
     },
     "familjescouting": {
       "title": "Familjescouting",
       "subtitle": "",
-      "description": "Through Family Scouting, children under the age of eight, together with one or more adults, get to experience scouting in a fun and playful way. Family Scouting is also an excellent way to get more adults involved in the corps."
+      "description": ""
     }
   },
-  "activities": {
-
-  },
+  "activities": {},
   "safetyguidelines": {
     "title": "Safety and general guidelines for scouts",
     "descriptionOne": "",
     "descriptionTwo": "",
     "policyOne": {
       "title": "HSS life jacket policy",
-      "description": ""
+      "description": "",
+      "link": ""
     },
-    "policyTwo":{
+    "policyTwo": {
       "title": "HSS label system",
       "description": "",
       "link": ""
@@ -96,7 +86,7 @@
       "description": "",
       "link": ""
     },
-    "policyFour": { 
+    "policyFour": {
       "title": "Our photo policy",
       "description": "",
       "link": ""
@@ -110,18 +100,10 @@
     "fieldThree": "Email",
     "button": "Submit"
   },
-  "becomeascout": {
-
-  },
-  "becomealeader": {
-
-  },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "becomeascout": {},
+  "becomealeader": {},
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
@@ -134,7 +116,27 @@
       "safety": "Safety of HSS"
     }
   },
-  "footer": {
-
-  }
+  "googlemap": {
+    "emailLabel": "Email",
+    "findUsLabel": "Find us",
+    "locations": {
+      "myset": {
+        "title": "Myset Scout Cabin",
+        "description": "Our cozy cabin in the forest used for overnight stays, hikes, and land-based activities."
+      },
+      "ruffen": {
+        "title": "The Scout Room",
+        "description": "This is our main location by the water, where we hold our weekly meetings."
+      },
+      "shipyard": {
+        "title": "The Shipyard",
+        "description": "This is our boatyard where we perform maintenance, repairs, and winter storage."
+      },
+      "boat-club": {
+        "title": "The Boat Club",
+        "description": "This is where we have our harbor berths for the corps' larger boats during the summer season."
+      }
+    }
+  },
+  "footer": {}
 }
