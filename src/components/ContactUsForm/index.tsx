@@ -1,22 +1,22 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Button from "../Button";
 
 const ContactUsForm = () => {
   const t = useTranslations("contactus");
   return (
-    <div className="bg-primary relative font-primary border py-8">
-      <Image
-        src="/images/background_shell1.png"
-        height={300}
-        width={300}
-        alt="seashell graphic background image"
-        className="absolute -top-12 -left-12 rotate-135 opacity-35"
+    <div className="bg-primary relative font-primary py-8 overflow-hidden">
+      <div className="hidden lg:block absolute -top-12 -left-12 w-75 h-75
+      bg-[url('/images/background_shell1.png')] bg-no-repeat bg-contain
+      rotate-135
+      opacity-35
+      pointer-events-none
+      z-0
+    "
       />
-      <div className="mx-auto w-357">
-        <h2 className="text-secondary text-[53px]">{t("title")}</h2>
-        <h3 className="text-white text-[36px]">{t("subtitle")}</h3>
-        <div className="w-1/2 py-10 mx-auto">
+      <div className="mx-auto w-full p-6 md:w-200 relative z-10">
+        <h2 className="text-secondary text-[44px] md:text-[53px]">{t("title")}</h2>
+        <h3 className="text-white text-[22px] md:text-[32px]">{t("subtitle")}</h3>
+        <div className="w-full py-10 mx-auto">
           <form action="mailto:" method="POST" encType="text/plain" className="text-white">
             <fieldset>
               <div className="flex flex-col mb-8">
