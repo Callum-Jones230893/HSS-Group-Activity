@@ -1,14 +1,21 @@
 import Image from "next/image";
-import Button from "@/components/Button";
+import { useTranslations } from "next-intl";
+import { AboutDataType, AboutSectionData } from "@/data/about";
 
-const AboutSection = () => {
+type AboutSectionProps = {
+  item?: AboutDataType;
+};
+
+const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
+  const t = useTranslations();
+
   return (
-    <section className="w-full max-w-[1730px] mx-auto bg-white lg:bg-white py-10 lg:py-[74px] px-4 lg:px-[80px] xl:px-[151px] mt-[15px] justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-[94px] lg:items-stretch justify-center items-center ">
+    <section className="w-full max-w-432.5 mx-auto bg-white lg:bg-white py-10 lg:py-18.5 px-4 lg:px-20 xl:px-37.75 mt-3.75 justify-start items-start font-primary overflow-none">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-23.5 lg:items-stretch justify-center items-center ">
         <div className="w-full lg:w-[45%] aspect-3/4 lg:aspect-auto lg:self-stretch relative rounded-lg overflow-none">
           <Image
-            src="/images/image43.png"
-            alt="about us"
+            src={item.image}
+            alt={t(`${item.id}.title`)}
             fill
             sizes="(max-width:1024px) 100vw, 50vw"
             className="object-cover object-center rounded-lg"
@@ -16,31 +23,18 @@ const AboutSection = () => {
         </div>
 
         <div className="flex-1 flex flex-col justify-center  max-w-187.5">
-          <p className="text-primary text-5xl font-normal">Om HSS</p>
+          <p className=" text-primary text-5xl font-normal">
+            {t(`${item.id}.title`)}
+          </p>
 
           <div className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
-            <p>
-              Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell
-              ungdomsverksamhet med fokus på scouting och båtliv. Vi är
-              religiöst och politisk obundna, och medlem i Svenska
-              Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges
-              största ungdomsorganisationer.
-            </p>
-            <p>
-              Målet med vår verksamhet är att ge barn och ungdomar möjligheten
-              att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och -
-              framförallt - kamratskapet. Grundidén är Learning by doing. Inom
-              scouterna finns ingen avbytarbänk!
-            </p>
+            <p>{t(`${item.id}.descriptionOne`)}</p>
+            <p>{t(`${item.id}.descriptionTwo`)}</p>
           </div>
 
-          <div className="w-full max-w-[750px] p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
-            <p className="text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
-              Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig
-              lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har
-              omkring 130 glada medlemmar, äger fem segelbåtar, tio
-              optimistjollar, två 2-kronor, snabb följebåt och en stor
-              scoutstuga.
+          <div className="w-full max-w-187.5 p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
+            <p className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
+              {t(`${item.id}.descriptionThree`)}
             </p>
           </div>
         </div>
