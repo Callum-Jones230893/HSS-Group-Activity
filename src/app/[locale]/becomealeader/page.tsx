@@ -10,10 +10,10 @@ const BecomeALeader = () => {
     <div className="flex flex-col bg-primary ">
       <div className="flex flex-start flex-col px-4  lg:px-36.5 lg:py-12">
         <SectionHero
-          title="Vill du bli en av oss?"
-          intro="Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+          title={t("sectionHero.title")}
+          intro={t("sectionHero.intro")}
           button={{
-            content: "BLi ledare",
+            content: t("button.content"),
             size: "large",
             redirect: "",
             type: "external",
@@ -45,18 +45,3 @@ const BecomeALeader = () => {
 };
 
 export default BecomeALeader;
-
-{
-  /* <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5">
-<p className="pb-6">{t("descriptionOne")}</p>
-<p className="pb-6">{t("descriptionTwo")}</p>
-</section>
-
-  <div className="font-primary text-left text-white text-[18px] lg:text-[24px] lg:leading-11 pb-10 pt-4 px-4 lg:px-36.5">
-    <p>{t("descriptionThree")}</p>
-      <p className="py-2 pb-10 lg:pb-6">{t("quoteOne")}</p>
-    <p>{t("descriptionFour")}</p>
-      <p className="py-2 lg:pb-6">{t("quoteTwo")}</p>
-    <p className="pt-4">{t("descriptionFive")}</p>
-  </div> */
-}

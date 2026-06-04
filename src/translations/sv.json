@@ -123,7 +123,15 @@
     "quoteOne":"[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]",
     "descriptionFour": "”Inom scoutrörelsen finns ingen avbytarbänk.”",
     "quoteTwo":"[Anonym ledare i HSS]",
-    "descriptionFive": "Välkommen!"
+    "descriptionFive": "Välkommen!",
+    "sectionHero": {
+      "title": "Vill du bli en av oss?",
+      "intro":"Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+    },
+    "button": {
+    "content": "Bli ledare"
+
+    }
 
   },
   "reserveacamp": {
