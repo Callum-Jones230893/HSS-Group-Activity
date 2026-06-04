@@ -124,12 +124,36 @@ declare const messages: {
     "menulabel": "Mer",
     "moreMenu": {
       "activities": "Aktiviteter",
-      "history": "HSS historia",
-      "safety": "Säkerhet för HSS"
+      "history": "Historia",
+      "safety": "Säkerhet"
     }
   },
-  "footer": {
-
-  }
+  "googlemap": {
+    "emailLabel": "Epost",
+    "findUsLabel": "Hitta till oss",
+    "locations": {
+      "myset": {
+        "title": "Hajkstugan Myset",
+        "description": "Vår mysiga stuga i skogen som används för övernattningar, hajk och landbaserade aktiviteter."
+      },
+      "ruffen": {
+        "title": "Studentkårsrummet",
+        "description": "Detta är vår huvudsakliga plats vid vattnet, där vi håller våra veckomöten."
+      },
+      "shipyard": {
+        "title": "Varvet",
+        "description": "Detta är vårt båtvarv där vi utför underhåll, reparationer och vinterförvaring. "
+      },
+      "boat-club": {
+        "title": "Båtklubben",
+        "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
+      }
+    }
+  },
+  "footer": {},
+    "DepartmentHero": {
+    "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
+  },
+  "back": "Tillbaka"
 };
 export default messages;
