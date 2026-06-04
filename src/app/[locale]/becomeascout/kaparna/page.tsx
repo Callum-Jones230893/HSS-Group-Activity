@@ -17,11 +17,12 @@ const Kaparna = () => {
           size: "large",
           redirect: "/becomeascout",
           type: "external",
+          url: "https://www.scoutnet.se/register/in/group/764",
         }}
       />
-    <DepartmentSection item={DepartmentData[1]} />
+      <DepartmentSection item={DepartmentData[1]} />
     </>
-  )
-}
+  );
+};
 
-export default Kaparna
+export default Kaparna;
