@@ -12,11 +12,11 @@ const ContactUsForm = () => {
           <fieldset>
             <div className="flex flex-col mb-8">
               <label htmlFor="name">{t("fieldOne")}*</label>
-              <input type="text" name="name" id="name" required className="border-b my-1 p-1" />
+              <input type="text" name="name" id="name" required className="border-b my-1 p-1 bg-transparent text-white outline-none" />
             </div>
             <div className="flex flex-col mb-8">
               <label htmlFor="email">{t("fieldTwo")}*</label>
-              <input type="email" name="email" id="email" required className="border-b my-1 p-1" />
+              <input type="email" name="email" id="email" required className="border-b my-1 p-1 text-white outline-none" />
             </div>
             <div className="flex flex-col mb-8 my-1">
               <label htmlFor="message">{t("fieldThree")}*</label>
@@ -24,7 +24,7 @@ const ContactUsForm = () => {
                 name="message"
                 id="message"
                 required
-                className="border-b h-25 overflow-y-auto resize-none p-1"></textarea>
+                className="border-b h-25 overflow-y-auto resize-none p-1 text-white outline-none"></textarea>
             </div>
             <Button content={t("button")} size="large" type="mail" redirect="" url="" />
           </fieldset>
