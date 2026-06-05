@@ -35,7 +35,7 @@ const ContactUsForm = () => {
                   required
                   className="border-b h-25 overflow-y-auto resize-none p-1"></textarea>
               </div>
-              <Button content={t("button")} size="large" type="mail" redirect="" />
+              <Button content={t("button")} size="large" type="mail" redirect="" url="" />
             </fieldset>
           </form>
         </div>
