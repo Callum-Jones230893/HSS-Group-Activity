@@ -12,11 +12,11 @@ const ContactUs = () => {
       z-0
     "
       />
-      <div className=" flex flex-col justify-center items-center xl:mx-auto xl:w-4/5 xl:flex-row">
-        <div className="xl:w-1/2">
+      <div className=" flex flex-col justify-center items-center xl:gap-8 xl:mx-auto xl:w-4/5 xl:flex-row">
+        <div className="w-full xl:w-1/2">
           <ContactUsForm />
         </div>
-        <div className="xl:w-1/2">other stuff</div>
+        <div className="w-full p-6 xl:w-1/2">other stuff</div>
       </div>
     </div>
   );
