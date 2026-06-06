@@ -108,7 +108,10 @@
     "fieldOne": "Full Name",
     "fieldTwo": "Email Address",
     "fieldThree": "Message",
-    "button": "Submit"
+    "button": "Submit",
+    "linksTitle" : "Important links",
+    "memberTitle": "Would you like to join us?",
+    "formButton" : "Register"
   },
   "becomeascout": {},
   "becomealeader": {},

@@ -110,7 +110,10 @@ declare const messages: {
     "fieldOne": "Fullständigt namn",
     "fieldTwo": "E-postadress",
     "fieldThree": "Meddelande",
-    "button": "Skicka"
+    "button": "Skicka",
+    "linksTitle": "Viktiga länkar",
+    "memberTitle": "Vill du bli en av oss?",
+    "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
   "becomealeader": {},
