@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ScoutPage = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <div className="absolute inset-0 lg:-top-14 -z-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1728 245" fill="none">
           <path
@@ -43,16 +43,16 @@ const ScoutPage = () => {
           className="md:h-70 md:w-83 lg:h-85 lg:w-100.75 2xl:h-97.5 2xl:w-115.5"
         />
       </div>
-      <div className="absolute -z-10 opacity-35">
+      <div className="absolute -z-10 opacity-30 bottom-0 -right-10 md:top-[50%] md:-left-10">
         <Image
           src="/images/background_shell3.png"
           height={522}
           width={384}
           alt="background seashell graphic"
-          className="-rotate-129"
+          className="h-56.5 w-41.5 md:h-77.5 md:w-57.25 lg:h-100 lg:w-73.75 2xl:h-130.5 2xl:w-[384px] -rotate-129"
         />
       </div>
-      <div className="w-full flex flex-col items-center gap-10 lg:gap-0 pt-20 lg:pt-40">
+      <div className="w-full flex flex-col items-center gap-10 pb-40 md:pb-15 lg:gap-0 pt-20 lg:pt-40">
         {callToActionData.map((item, index) => (
           <CallToActionCard key={index} item={item} />
         ))}
