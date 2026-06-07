@@ -29,7 +29,7 @@ const ContactUs = () => {
           <ContactUsForm />
         </div>
         <div className="w-full p-6 xl:w-1/2">
-          <div>
+          <div className='font-primary'>
             <h4 className="text-[44px] text-secondary mb-4">{t("linksTitle")}</h4>
             <div>
               {links.map(link => (
