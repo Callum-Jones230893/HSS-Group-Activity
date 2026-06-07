@@ -117,12 +117,14 @@
     "intro": {
       "date": "1950s",
       "title": "BÖRJAN",
-      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
+      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+      "descriptionTwo": ""
     },
     "boatHistory": {
       "date": "",
       "title": "VÅR BÅTHISTORIA",
-      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
+      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+      "descriptionTwo": ""
     },
     "buildingMyset": {
       "date": "1970's",
@@ -133,12 +135,14 @@
     "expanding": {
       "date": "1990's",
       "title": "UTVIDGADE PROGRAM",
-      "description": "Betydande utökning av verksamheten med nya åldersgrupper och specialiserade aktiviteter. Vi började erbjuda fler vattenbaserade aktiviteter och förblev trogna vårt sjöscoutarv."
+      "description": "Betydande utökning av verksamheten med nya åldersgrupper och specialiserade aktiviteter. Vi började erbjuda fler vattenbaserade aktiviteter och förblev trogna vårt sjöscoutarv.",
+      "descriptionTwo": ""
     },
     "today": {
       "date": "Today",
       "title": "UTVIDGADE PROGRAM",
-      "description": "Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom."
+      "description": "Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom.",
+      "descriptionTwo": ""
     }
   },
   "navbar": {

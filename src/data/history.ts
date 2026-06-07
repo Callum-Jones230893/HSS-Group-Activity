@@ -1,27 +1,29 @@
+type HistoryId = 'intro' | 'boatHistory' | 'buildingMyset' | 'expanding' | 'today'
+
 export type HistoryType = {
-  id: string
+  id: HistoryId
   image: string
 }
 
 export const HistoryData: HistoryType[] = [
   {
     id: "intro",
-    image: ""
+    image: "/images/hss_logo.png"
   },
   {
     id: "boatHistory",
-    image: ""
+    image: "/images/020.png"
   },
   {
     id: "buildingMyset",
-    image: ""
+    image: "/images/021.png"
   },
   {
     id: "expanding",
-    image: ""
+    image: "/images/022.png"
   },
   {
     id: "today",
-    image: ""
+    image: "/images/023.png"
   }
 ]
