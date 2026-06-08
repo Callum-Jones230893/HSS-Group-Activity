@@ -39,7 +39,7 @@ export default async function LocaleLayout({children, params}: {children: React.
       className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}  
     >
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body>
+        <body className="font-primary">
         <Header />
         {children}
         <footer>
