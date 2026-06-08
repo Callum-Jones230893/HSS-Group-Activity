@@ -77,7 +77,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
               <Link
                 href={item.link}
                 key={index}
-                className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
+                className={`justify-center items-center ${pathname.startsWith(item.link) ? "text-secondary" : "md:hover:scale-110 duration-300 ease-in-out"}`}
                 onClick={() => setOpenMore(false)}
               >
                 <p
