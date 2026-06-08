@@ -31,7 +31,7 @@ const History = () => {
           height={411}
           width={400}
           alt="background seashell graphic"
-          className="w-73.75 md:w-75 lg:w-200 2xl:w-227.75 rotate-44 lg:rotate-69 aspect-square"
+          className="w-73.75 md:w-105 lg:w-200 2xl:w-227.75 rotate-44 lg:rotate-69 aspect-square"
         />
       </div>
       <div className="block absolute -z-10 opacity-25 md:-right-35 top-182 md:top-282">
@@ -40,7 +40,7 @@ const History = () => {
           height={390}
           width={462}
           alt="background seashell graphic"
-          className="md:w-83 lg:w-200.75 2xl:w-215.5 aspect-square"
+          className="w-71 md:w-133 lg:w-200.75 2xl:w-215.5 aspect-square"
         />
       </div>
       <div className="absolute -z-10 opacity-20 bottom-0 -right-10 md:top-[70%] md:-left-10">
@@ -49,7 +49,7 @@ const History = () => {
           height={522}
           width={384}
           alt="background seashell graphic"
-          className="w-61.5 md:w-87.25 lg:w-173.75 2xl:w-196 -rotate-129 aspect-square"
+          className="w-71.5 md:w-107.25 lg:w-173.75 2xl:w-196 -rotate-129 aspect-square"
         />
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
