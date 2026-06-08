@@ -19,14 +19,12 @@ const Button = ({ content, size, redirect, type, url }: ButtonProp) => {
     dimensions = "h-[35px] px-[25px] py-[7px] rounded-[25px]";
   }
 
-  return type === "mail" ? (
-    <a href="info@hss-scout.org">
+  return type === "submit" ? (
       <button
         className={`flex flex-col items-center justify-center cursor-pointer text-[16px] md:text-[18px] w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}
       >
         {content}
       </button>
-    </a>
   ) : type === "external" ? (
     <a href={url}>
       <button

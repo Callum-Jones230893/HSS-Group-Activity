@@ -4,6 +4,7 @@ import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
 import InstagramSlider from "@/components/InstagramSlider";
 import { AboutSectionData } from "@/data/about";
+import ContactUsContainer from '@/components/ContactUsContainer';
 
 export default function Home() {
   return (
@@ -21,8 +22,9 @@ export default function Home() {
 
       {/* <RentCampSection /> */}
 
-      {/* <ContactUsSection /> */}
-      <Cards />
+      <ContactUsContainer />
+      
+      <Cards/>
 
       <AboutSection item={AboutSectionData} />
       <InstagramSlider />
