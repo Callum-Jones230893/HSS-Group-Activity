@@ -20,7 +20,7 @@ const HistoryCards = ({item, first}: HistoryItemProps) => {
       </div>
       <div className="flex justify-center md:items-center mx-auto w-full lg:w-7/10 xl:w-4/10 lg:min-w-150 max-w-150">
       <Image src={item.image} width="400" height="400" alt={t(`${item.id}.title`)} loading="eager" 
-        className={`${first ? "w-75 aspect-square object-contain" : "w-150 aspect-3/2"}`}
+        className={`${first ? "w-50 md:w-75 aspect-square object-contain" : "w-150 aspect-3/2"}`}
       />
       </div>
     </div>
