@@ -1,6 +1,16 @@
+import Hero from "@/components/SectionHero"
+import { useTranslations } from "next-intl"
+
 const Safety = () => {
+const t = useTranslations("safetyguidelines")
   return (
-    <p className="text-4xl text-primary">Coming soon...</p>
+    <>
+    <Hero
+        title={t("title")}
+        intro={`${t("descriptionOne")}  ${t("descriptionTwo")}`}
+        image="/images/028.jpg"
+      />
+    </>
   )
 }
 
