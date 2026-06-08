@@ -49,7 +49,6 @@
       "subtitle": "Spårare 8-9 years",
       "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps",
       "fullDescription": "You can start at HSS at the age of 8, that is, when you begin school year 2. You then become a Tracker Scout and a member of the Sjöhumlorna ('Sea Bumblebees') section. (Tracker Scout was previously called 'Minior Scout'.)\nWe have meetings every week as well as overnight stays, both hikes and longer camps. Here the children get to learn knots, basic nature knowledge and seamanship in a playful way.\nYou learn something new almost every day in the Scouts. It's always fun things, but sometimes they're also really useful to know — like whittling with a knife or putting a bandage on someone who's hurt themselves. Unlike how it's done in school, we don't read any books about knives and bandages; we learn by doing, by trying everything out for real instead. While we do it, we work together in patrols, small groups where everyone gets a say. That's clever, because together you can always help each other come up with even more fun things to do.\nWe sail Optimist dinghies and 2-Crowns (tvåkronor).\nSjöhumlorna meet on Mondays in our lovely premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, and it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
-     
     },
     "kaparna": {
       "title": "Karpana - ",
@@ -110,26 +109,21 @@
     "fieldThree": "Email",
     "button": "Submit"
   },
-  "becomeascout": {
-
-  },
+  "becomeascout": {},
   "becomealeader": {
     "title": "Do you want to become a part of HSS?",
     "subtitle": "Your next big adventure could start right here. HSS offers exciting challenges for all ages!",
-    "descriptionOne": "Are you interested in scouting and sailing? Don't hesitate to reach out—we'd love to have you join us at HSS! Whether you're 8 or 100 years old, everyone is welcome. To join our waiting list, simply fill out the interest form below. We will contact you as soon as a space becomes available.",
-    "descriptionTwo": "As an adult, joining us is a brilliant opportunity to develop your own leadership skills. Our volunteer team is always evolving, and right now, we have an urgent need for leaders to step up for Kaparna. No sailing experience? No problem! Never been a scout? That’s completely fine too. The only requirement is a genuine interest in working with young people and a willingness to volunteer in a well-organized scout group. We pay for all the training you need to become a great scout leader. We always need parents to help out with both big and small things. It's as simple as this: without parents, we have no scout group!",
-    "descriptionThree":"”The Scouts have been my best leadership school. There one can only lead with the power of the idea and the ability to convince.” ",
-    "quoteOne": "[Carl-Henrik Svanberg, former CEO at Ericsson, Expressen 2003-02-07]",
-    "descriptionFour": "”Within the scout movement, there is no substitute bench.”",
-    "quoteTwo":"[Anonymous HSS Leader]",
-    "descriptionFive": "Welcome!"
+    "description": "Are you interested in scouting and sailing? Don't hesitate to reach out—we'd love to have you join us at HSS! Whether you're 8 or 100 years old, everyone is welcome. To join our waiting list, simply fill out the interest form below. We will contact you as soon as a space becomes available.\nAs an adult, joining us is a brilliant opportunity to develop your own leadership skills. Our volunteer team is always evolving, and right now, we have an urgent need for leaders to step up for Kaparna. No sailing experience? No problem! Never been a scout? That’s completely fine too. The only requirement is a genuine interest in working with young people and a willingness to volunteer in a well-organized scout group. We pay for all the training you need to become a great scout leader. We always need parents to help out with both big and small things. It's as simple as this: without parents, we have no scout group!\n”The Scouts have been my best leadership school. There one can only lead with the power of the idea and the ability to convince.”\n[Carl-Henrik Svanberg, former CEO at Ericsson, Expressen 2003-02-07]\n”Within the scout movement, there is no substitute bench.\n[Anonymous HSS Leader]\nWelcome!",
+    "sectionHero": {
+      "title": "Would you like to join us?",
+      "intro": "This could be where the adventure of a lifetime begins. At HSS, exciting challenges and experiences await adventurers of all ages."
+    },
+    "button": {
+      "content": "Become a leader"
+    }
   },
-  "reserveacamp": {
-
-  },
-  "becomeapartner": {
-    
-  },
+  "reserveacamp": {},
+  "becomeapartner": {},
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
@@ -164,9 +158,9 @@
         "description": "This is where we have our harbor berths for the corps' larger boats during the summer season."
       }
     }
-    },
+  },
   "footer": {
-     "logo": {
+    "logo": {
       "title": "Together we can do more!",
       "description": "The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals."
     }
@@ -176,4 +170,3 @@
   },
   "back": "Back"
 }
-
