@@ -25,7 +25,7 @@ const ScoutPage = () => {
           </defs>
         </svg>
       </div>
-      <div className="absolute -z-10 opacity-35 -right-8 -top-8 md:-left-15 md:-top-2">
+      <div className="absolute -z-10 opacity-27 -right-8 -top-8 md:-left-15 md:-top-2">
         <Image
           src="/images/background_shell1.png"
           height={411}
@@ -34,7 +34,7 @@ const ScoutPage = () => {
           className="h-50 w-48.75 md:h-77 md:w-75 lg:h-102.75 lg:w-100 2xl:h-131.25 2xl:w-127.75 rotate-44 lg:rotate-69"
         />
       </div>
-      <div className="hidden md:block absolute -z-10 opacity-35 md:-right-35 md:top-182">
+      <div className="hidden md:block absolute -z-10 opacity-22 md:-right-35 md:top-182">
         <Image
           src="/images/background_shell2.png"
           height={390}
@@ -43,7 +43,7 @@ const ScoutPage = () => {
           className="md:h-70 md:w-83 lg:h-85 lg:w-100.75 2xl:h-97.5 2xl:w-115.5"
         />
       </div>
-      <div className="absolute -z-10 opacity-30 bottom-0 -right-10 md:top-[50%] md:-left-10">
+      <div className="absolute -z-10 opacity-16 bottom-0 -right-10 md:top-[50%] md:-left-10">
         <Image
           src="/images/background_shell3.png"
           height={522}
