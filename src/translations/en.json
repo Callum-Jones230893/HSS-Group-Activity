@@ -103,11 +103,14 @@
   },
   "contactus": {
     "title": "Contact us",
-    "subtitle": "Here's how to get in touch with us",
-    "fieldOne": "Full name",
-    "fieldTwo": "Message to us",
-    "fieldThree": "Email",
-    "button": "Submit"
+    "subtitle": "Have a question? We'd love to hear from you!",
+    "fieldOne": "Full Name",
+    "fieldTwo": "Email Address",
+    "fieldThree": "Message",
+    "button": "Submit",
+    "linksTitle" : "Important links",
+    "memberTitle": "Would you like to join us?",
+    "formButton" : "Register"
   },
   "becomeascout": {},
   "becomealeader": {},

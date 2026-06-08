@@ -106,11 +106,14 @@ declare const messages: {
   },
   "contactus": {
     "title": "Kontakta oss",
-    "subtitle": "Så här gör du för att komma i kontakt med oss",
+    "subtitle": "Har du frågor? Hör gärna av dig!",
     "fieldOne": "Fullständigt namn",
-    "fieldTwo": "Meddelande till oss",
-    "fieldThree": "E-postadress",
-    "button": "Skicka"
+    "fieldTwo": "E-postadress",
+    "fieldThree": "Meddelande",
+    "button": "Skicka",
+    "linksTitle": "Viktiga länkar",
+    "memberTitle": "Vill du bli en av oss?",
+    "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
   "becomealeader": {},
