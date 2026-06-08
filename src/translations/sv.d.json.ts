@@ -44,7 +44,9 @@ declare const messages: {
     "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
     "descriptionTwo": "Målet med vår verksamhet är att ge barn och ungdomar möjligheten att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och - framförallt - kamratskapet. Grundidén är Learning by doing. Inom scouterna finns ingen avbytarbänk!",
-    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
+    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+    "linkTitle": "Upptäck våra scoutavdelningar",
+    "button": "Till avdelningarna"
   },
   "departments": {
     "sjohumlor": {
