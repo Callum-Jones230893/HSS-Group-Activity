@@ -28,9 +28,8 @@ const ContactUs = () => {
         <div className="w-full xl:w-1/2">
           <ContactUsForm />
         </div>
-        <div className="w-full p-6 xl:w-1/2">
-          <div className='font-primary'>
-            <h4 className="text-[44px] text-secondary mb-4">{t("linksTitle")}</h4>
+        <div className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
+            <h4 className="text-secondary text-[44px] md:text-[53px]">{t("linksTitle")}</h4>
             <div>
               {links.map(link => (
                 <a
@@ -56,7 +55,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
