@@ -56,6 +56,9 @@ const InstagramSlider = () => {
     align: "start",
     containScroll: "keepSnaps",
     dragFree: true,
+    breakpoints: {
+      "(max-w: 639px)": { active: false },
+    },
   });
 
   const scrollPrev = useCallback(() => {
@@ -77,7 +80,7 @@ const InstagramSlider = () => {
       <div className=" relative group px-2">
         <button
           onClick={scrollPrev}
-          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-10 h-10 rounded-full bg-primary/80 hover:bg-primary text-secondary flex items-center justify-center border border-slate-700/80 shadow-2xl transition duration-200 active:scale-90 opacity-0 group-hover:opacity-100 focus:opacity-100 text-2xl font-mono pb-1"
+          className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-10 h-10 rounded-full bg-primary/80 hover:bg-primary text-secondary items-center justify-center border border-slate-700/80 shadow-2xl transition duration-200 active:scale-90 opacity-0 group-hover:opacity-100 focus:opacity-100 text-2xl font-mono pb-1"
           aria-label="Previous slide"
         >
           ‹
@@ -85,23 +88,23 @@ const InstagramSlider = () => {
 
         <button
           onClick={scrollNext}
-          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-10 h-10 rounded-full bg-primary/80 hover:bg-primary text-secondary flex items-center justify-center border border-slate-700/80 shadow-2xl transition duration-200 active:scale-90 opacity-0 group-hover:opacity-100 focus:opacity-100 text-2xl font-mono pb-1"
+          className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-10 h-10 rounded-full bg-primary/80 hover:bg-primary text-secondary items-center justify-center border border-slate-700/80 shadow-2xl transition duration-200 active:scale-90 opacity-0 group-hover:opacity-100 focus:opacity-100 text-2xl font-mono pb-1"
           aria-label="Next slide"
         >
           ›
         </button>
 
         <div
-          className=" overflow-hidden cursor-grab active:cursor-grabbing"
+          className=" overflow-hidden sm:cursor-grab sm:active:cursor-grabbing"
           ref={emblaRef}
         >
-          <div className="flex gap-6">
+          <div className="flex flex-col sm:flex-row gap-6 items-stretch sm:items-center justify-center">
             {PLACEHOLDER_POSTS.map((post) => (
               <div
                 key={post.id}
-                className="flex-[0_0_280px] sm:flex-[0_0_320px]   border border-primary rounded-2xl overflow-hidden  flex flex-col justify-between"
+                className="w-[300px] mx-auto sm:mx-0 sm:w-auto sm:flex-[0_0_320px] shrink-0 border border-primary rounded-2xl overflow-hidden  flex flex-col justify-between"
               >
-                <div className="relative h-60 bg-primary overflow-hidden">
+                <div className="relative w-full aspect-square bg-primary overflow-hidden ">
                   <div className="absolute inset-0 flex items-center justify-center z-0">
                     <div className="animate-spin rounded-full h-12 w-12 border-2 border-secondary/20 border-t-secondary"></div>
                   </div>
@@ -109,7 +112,7 @@ const InstagramSlider = () => {
                     src={post.image}
                     alt="Instagram Post"
                     fill
-                    sizes="(max-w-780px) 280px, 320px"
+                    sizes="(max-w-640px) 100vw, 320px"
                     className="object-cover z-10"
                   />
                 </div>
