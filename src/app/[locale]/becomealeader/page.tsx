@@ -27,7 +27,7 @@ const BecomeALeader = () => {
         className=" py-9 lg:w-screen lg:max-h-120  object-cover object-[60%_75%] place-self-center rounded-2xl"
       />
       <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5">
-        <p className="pb-6 white-space-preline">{t("description")}</p>
+        <p className="pb-6 whitespace-pre-line ">{t("description")}</p>
       </section>
     </div>
   );
