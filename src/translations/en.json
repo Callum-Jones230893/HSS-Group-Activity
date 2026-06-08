@@ -118,6 +118,38 @@
   "becomealeader": {},
   "reserveacamp": {},
   "becomeapartner": {},
+  "history": {
+    "intro": {
+      "date": "1950s",
+      "title": "THE BEGINNING",
+      "description": "The Scout troop was founded in 1959 and operates from a welcoming facility (called Ruffen) on the shore of Lake Mälaren in Hässelby. The troop has around 130 happy members, owns five sailboats, ten Optimist dinghies, two Two Kronor sailboats, a fast support boat, and a large scout cabin.",
+      "descriptionTwo": ""
+    },
+    "boatHistory": {
+      "date": "",
+      "title": "OUR BOAT HISTORY",
+      "description": "Founded in 1959, the Scout troop operates from a welcoming clubhouse known as Ruffen, located on the shores of Lake Mälaren in Hässelby. The troop has around 130 active members and owns five sailboats, ten Optimist dinghies, two Two Kronor sailboats, a fast support boat, and a large scout cabin.",
+      "descriptionTwo": ""
+    },
+    "buildingMyset": {
+      "date": "1970's",
+      "title": "BUILDING MYSET",
+      "description": "Myset is our cabin in Lövsta. On Sunday, January 28, 1968, Myset was officially inaugurated. By that time, HSS's Parents Association had spent three years building and developing the cabin. The project cost nearly SEK 50,000, funds that were raised through bazaars and lotteries. Nearly 400 eager scouts and parents attended the inauguration ceremony. They witnessed the formal handover of the key from the Chair of the Parents Association, Agne Stavegren, to the Chair of HSS, Lennart Carlbom.",
+      "descriptionTwo": "Here we have managed to find a few photos from a bygone era."
+    },
+    "expanding": {
+      "date": "1990's",
+      "title": "EXPANDING PROGRAMS",
+      "description": "Significant expansion of programs with new age groups and specialized activities. We began offering more water-based activities, staying true to our sjöscout heritage.",
+      "descriptionTwo": ""
+    },
+    "today": {
+      "date": "Today",
+      "title": "EXPANDING PROGRAMS",
+      "description": "On Sunday, January 28, 1968, Myset was officially inaugurated. By then, the HSS Parents Association had spent three years working on the cabin. The construction cost nearly SEK 50,000, which had been raised through bazaars and lotteries. On the day of the inauguration, nearly 400 excited scouts and parents attended. They witnessed the formal handover of the key from the Chair of the Parents Association, Agne Stavegren, to the Chair of HSS, Lennart Carlbom.",
+      "descriptionTwo": ""
+    }
+  },
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
