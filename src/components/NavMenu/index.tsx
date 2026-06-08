@@ -24,7 +24,6 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
     setOpenMore(false);
   });
 
-  console.log(moreMenu);
   return (
     <>
       {navItems.map((item, index) => (
