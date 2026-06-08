@@ -38,7 +38,11 @@ declare const messages: {
   },
   "cards": {
     "button": "Visa inlägget",
+<<<<<<< HEAD
     "title": "Tidigare händelser inom HSS"
+=======
+    "title": "Se våra äventyr på Instagram"
+>>>>>>> feature/050-active-navbar
   },
   "aboutus": {
     "title": "Om oss",
@@ -150,13 +154,23 @@ declare const messages: {
         "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
       }
     }
+    },
+  "footer": {
+    "logo": {
+      "title": "Tillsammans kan vi göra mer!",
+      "description": "Scouterna ger barn och unga från alla delar av samhället chansen att uppleva äventyr tillsammans och växa som individer."
+    }
   },
+<<<<<<< HEAD
   "footer": {
      "logo": {
       "title": "Tillsammans kan vi göra mer!",
     }
   },
     "DepartmentHero": {
+=======
+  "DepartmentHero": {
+>>>>>>> feature/050-active-navbar
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
   "back": "Tillbaka"
