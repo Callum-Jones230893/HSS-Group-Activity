@@ -11,15 +11,6 @@ export type DepartmentItemType = {
 }
 
 export const DepartmentData: DepartmentItemType[] = [
-    {
-    id: "familjescouting",
-    image: "/images/department5.png",
-    text: "text-[#652482]",
-    bg: "bg-[#652482]",
-    border: "lg:border-[#652482]",
-    outline: "outline-[#652482]",
-    shadow: "hover:shadow-[#652482]"
-  },
   {
     id: "sjohumlor",
     image: "/images/department1.png",
@@ -56,4 +47,13 @@ export const DepartmentData: DepartmentItemType[] = [
     outline: "outline-pink-700",
     shadow: "hover:shadow-pink-700",
   },
-] 
+  {
+    id: "familjescouting",
+    image: "/images/department5.png",
+    text: "text-[#652482]",
+    bg: "bg-[#652482]",
+    border: "lg:border-[#652482]",
+    outline: "outline-[#652482]",
+    shadow: "hover:shadow-[#652482]",
+  },
+];
