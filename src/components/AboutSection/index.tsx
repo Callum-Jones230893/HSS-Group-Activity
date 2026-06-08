@@ -12,7 +12,7 @@ const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
 
   return (
     <section className="w-full max-w-432.5 mx-auto bg-white lg:bg-white py-10 lg:py-18.5 px-4 lg:px-20 xl:px-37.75 mt-3.75 justify-start items-start font-primary overflow-none">
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-16 lg:mb-23.5 lg:items-stretch justify-center items-center ">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 mb-2 lg:mb-4 lg:items-stretch justify-center items-center ">
         <div className="w-full lg:w-[45%] aspect-3/4 lg:aspect-auto lg:self-stretch relative rounded-lg overflow-none">
           <Image
             src={item.image}
