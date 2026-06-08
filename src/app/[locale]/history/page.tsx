@@ -25,31 +25,31 @@ const History = () => {
           </defs>
         </svg>
       </div>
-      <div className="absolute -z-10 opacity-35 -right-8 -top-8 md:-left-15 md:-top-2">
+      <div className="absolute -z-10 opacity-25 -right-8 -top-8 md:-left-15 md-top-0">
         <Image
           src="/images/background_shell1.png"
           height={411}
           width={400}
           alt="background seashell graphic"
-          className="h-50 w-48.75 md:h-77 md:w-75 lg:h-102.75 lg:w-100 2xl:h-131.25 2xl:w-127.75 rotate-44 lg:rotate-69"
+          className="w-73.75 md:w-75 lg:w-200 2xl:w-227.75 rotate-44 lg:rotate-69 aspect-square"
         />
       </div>
-      <div className="hidden md:block absolute -z-10 opacity-35 md:-right-35 md:top-182">
+      <div className="block absolute -z-10 opacity-25 md:-right-35 top-182 md:top-282">
         <Image
           src="/images/background_shell2.png"
           height={390}
           width={462}
           alt="background seashell graphic"
-          className="md:h-70 md:w-83 lg:h-85 lg:w-100.75 2xl:h-97.5 2xl:w-115.5"
+          className="md:w-83 lg:w-200.75 2xl:w-215.5 aspect-square"
         />
       </div>
-      <div className="absolute -z-10 opacity-30 bottom-0 -right-10 md:top-[50%] md:-left-10">
+      <div className="absolute -z-10 opacity-20 bottom-0 -right-10 md:top-[70%] md:-left-10">
         <Image
           src="/images/background_shell3.png"
           height={522}
           width={384}
           alt="background seashell graphic"
-          className="h-56.5 w-41.5 md:h-77.5 md:w-57.25 lg:h-100 lg:w-73.75 2xl:h-130.5 2xl:w-[384px] -rotate-129"
+          className="w-61.5 md:w-87.25 lg:w-173.75 2xl:w-196 -rotate-129 aspect-square"
         />
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
