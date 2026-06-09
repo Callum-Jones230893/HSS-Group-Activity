@@ -57,3 +57,7 @@ export const DepartmentData: DepartmentItemType[] = [
     shadow: "hover:shadow-[#652482]",
   },
 ];
+
+export function getDepartment(id: string) {
+  return DepartmentData.find(department => department.id === id)
+}
