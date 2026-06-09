@@ -115,7 +115,16 @@
     "formButton" : "Register"
   },
   "becomeascout": {},
-  "becomealeader": {},
+  "becomealeader": {
+    "description": "Are you interested in scouting and sailing? Don't hesitate to reach out—we'd love to have you join us at HSS! Whether you're 8 or 100 years old, everyone is welcome. To join our waiting list, simply fill out the interest form below. We will contact you as soon as a space becomes available.\n\nAs an adult, joining us is a brilliant opportunity to develop your own leadership skills. Our volunteer team is always evolving, and right now, we have an urgent need for leaders to step up for Kaparna. No sailing experience? No problem! Never been a scout? That’s completely fine too. The only requirement is a genuine interest in working with young people and a willingness to volunteer in a well-organized scout group. We pay for all the training you need to become a great scout leader. We always need parents to help out with both big and small things. It's as simple as this: without parents, we have no scout group!\n\n”The Scouts have been my best leadership school. There one can only lead with the power of the idea and the ability to convince.”\n[Carl-Henrik Svanberg, former CEO at Ericsson, Expressen 2003-02-07]\n\n”Within the scout movement, there is no substitute bench.\n[Anonymous HSS Leader]\n\nWelcome!",
+    "sectionHero": {
+      "title": "Would you like to join us?",
+      "intro": "This could be where the adventure of a lifetime begins. At HSS, exciting challenges and experiences await adventurers of all ages."
+    },
+    "button": {
+      "content": "Become a leader"
+    }
+  },
   "reserveacamp": {},
   "becomeapartner": {},
   "history": {
