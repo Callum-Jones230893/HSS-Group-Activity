@@ -19,12 +19,12 @@ const BecomeALeader = () => {
         }}
       />
       <Image
-        src="/images/030.jpg"
-        height={1779}
-        width={1152}
+        src="/images/member_background.png"
+        height={3000}
+        width={2000}
         loading="eager"
-        alt="A group of members gathering in a forest"
-        className=" py-9 lg:w-screen lg:max-h-120  object-cover object-[60%_75%] place-self-center rounded-2xl"
+        alt="Scout members sailing on a boat"
+        className="mb-8"
       />
       <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5">
         <p className="pb-6 whitespace-pre-line ">{t("description")}</p>
