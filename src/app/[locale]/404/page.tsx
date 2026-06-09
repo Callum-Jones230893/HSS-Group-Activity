@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Button from "@/components/Button";
 
 export const metadata = {
@@ -8,6 +9,8 @@ export const metadata = {
 };
 
 const NotFound = () => {
+  const t = useTranslations("404");
+
   return (
     <div className="flex flex-col justify-center items-center max-w-9/10 mx-auto my-20 gap-2 text-primary">
       <svg viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-30 h-30">
@@ -18,11 +21,9 @@ const NotFound = () => {
           fill="#FDB714"
         />
       </svg>
-      <h2 className="font-secondary text-4xl">We’ve drifted off course</h2>
-      <p className='text-[20px]'>This page isn’t on our charts. It may have been moved, or never mapped in the first place.</p>
-      <p className='text-[20px]'>Let’s set a new course back home.</p>
-
-      <Button content="Return to harbour" size="large" type="redirect" redirect="/" url="" />
+      <h2 className="font-secondary text-4xl mb-8">{t("title")}</h2>
+      <p className="text-[20px] text-center mb-8 whitespace-pre-line">{t("subtitle")}</p>
+      <Button content={t("button")} size="large" type="redirect" redirect="/" url="" />
     </div>
   );
 };
