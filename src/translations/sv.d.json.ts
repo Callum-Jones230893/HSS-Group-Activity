@@ -44,7 +44,9 @@ declare const messages: {
     "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
     "descriptionTwo": "Målet med vår verksamhet är att ge barn och ungdomar möjligheten att uppleva naturen, båtlivet, sjömanskapet, utmaningarna och - framförallt - kamratskapet. Grundidén är Learning by doing. Inom scouterna finns ingen avbytarbänk!",
-    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga."
+    "descriptionThree": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+    "linkTitle": "Upptäck våra scoutavdelningar",
+    "button": "Till avdelningarna"
   },
   "departments": {
     "sjohumlor": {
@@ -106,16 +108,51 @@ declare const messages: {
   },
   "contactus": {
     "title": "Kontakta oss",
-    "subtitle": "Så här gör du för att komma i kontakt med oss",
+    "subtitle": "Har du frågor? Hör gärna av dig!",
     "fieldOne": "Fullständigt namn",
-    "fieldTwo": "Meddelande till oss",
-    "fieldThree": "E-postadress",
-    "button": "Skicka"
+    "fieldTwo": "E-postadress",
+    "fieldThree": "Meddelande",
+    "button": "Skicka",
+    "linksTitle": "Viktiga länkar",
+    "memberTitle": "Vill du bli en av oss?",
+    "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
   "becomealeader": {},
   "reserveacamp": {},
   "becomeapartner": {},
+  "history": {
+    "intro": {
+      "date": "1950s",
+      "title": "BÖRJAN",
+      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+      "descriptionTwo": ""
+    },
+    "boatHistory": {
+      "date": "",
+      "title": "VÅR BÅTHISTORIA",
+      "description": "Scoutkåren bildades 1959 och bedriver verksamheten i en trevlig lokal (kallad Ruffen) vid Mälarens strand i Hässelby. Kåren har omkring 130 glada medlemmar, äger fem segelbåtar, tio optimistjollar, två 2-kronor, snabb följebåt och en stor scoutstuga.",
+      "descriptionTwo": ""
+    },
+    "buildingMyset": {
+      "date": "1970's",
+      "title": "BYGGA MYSET",
+      "description": "Myset är vår stuga i Lövsta. Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom.",
+      "descriptionTwo": "Här har vi lyckats hitta några bilder från en svunnen tid."
+    },
+    "expanding": {
+      "date": "1990's",
+      "title": "UTVIDGADE PROGRAM",
+      "description": "Betydande utökning av verksamheten med nya åldersgrupper och specialiserade aktiviteter. Vi började erbjuda fler vattenbaserade aktiviteter och förblev trogna vårt sjöscoutarv.",
+      "descriptionTwo": ""
+    },
+    "today": {
+      "date": "Today",
+      "title": "UTVIDGADE PROGRAM",
+      "description": "Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom.",
+      "descriptionTwo": ""
+    }
+  },
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
