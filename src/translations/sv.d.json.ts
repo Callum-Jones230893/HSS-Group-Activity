@@ -128,7 +128,7 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Boka ett läger",
+    "reserveacamp": "Vår stuga",
     "contactus": "Kontakta oss",
     "aboutus": "Om oss",
     "menulabel": "Mer",
