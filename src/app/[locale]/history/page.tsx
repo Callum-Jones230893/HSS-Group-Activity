@@ -77,10 +77,10 @@ const History = () => {
         <div className={`fixed inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
           ${image
             ? "bg-primary/70 backdrop-blur-sm opacity-100" 
-            : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none"} 
+            : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "} 
           `}>
           {image && 
-            <Image src={image} width="400" height="400" alt="" className="lg:w-135 xl:w-150 2xl:w-200 z-11"/>
+            <Image src={image} width="400" height="400" alt="" className="lg:w-135 xl:w-150 2xl:w-200 z-11 border border-solid border-white"/>
           }
         </div>
         {HistoryData.map((item, index) => 
