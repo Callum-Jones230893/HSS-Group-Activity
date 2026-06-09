@@ -4,13 +4,14 @@ import { getDepartment } from "@/data/department";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-type Props = {
+const DepartmentPage = async ({
+  params,
+}: {
   params: Promise<{ department: string }>;
-};
-
-const DepartmentPage = async ({ params }: Props) => {
+}) => {
   const { department } = await params;
   const departmentData = getDepartment(department);
+
   if (!departmentData) notFound();
 
   const t = await getTranslations("DepartmentHero");
