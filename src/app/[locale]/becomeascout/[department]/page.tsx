@@ -1,6 +1,6 @@
 import Hero from "@/components/SectionHero";
 import DepartmentSection from "@/components/DepartmentSection";
-import { getDepartment } from "@/data/department";
+import { DepartmentData, getDepartment } from "@/data/department";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 
@@ -35,5 +35,12 @@ const DepartmentPage = async ({
     </>
   );
 };
+
+export function generateStaticParams() {
+  const departments = DepartmentData;
+  return departments.map((department) => ({
+    department: department.id,
+  }));
+}
 
 export default DepartmentPage;
