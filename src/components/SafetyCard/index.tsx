@@ -31,7 +31,7 @@ const SafetyCard = ({ item }: SafetyCardProps) => {
                   <h3 className="text-primary font-extralight text-3xl lg:text-[24px] mb-9">
                     {t(`${item.id}.title`)}
                   </h3>
-                  <p className="mb-9 whitespace-pre-line text-[16px] leading-relaxed font-light lg:text-[18px] text-gray-600">
+                  <p className="min-h-27.5 mb-4 whitespace-pre-line text-[16px] leading-relaxed font-light lg:text-[18px] text-gray-600">
                     {t(`${item.id}.description`)}
                   </p>
 
