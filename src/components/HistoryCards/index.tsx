@@ -11,7 +11,7 @@ const HistoryCards = ({item, first}: HistoryItemProps) => {
   const t = useTranslations('history')
 
   return (
-    <div className="flex flex-col md:flex-row p-8">
+    <div className="flex flex-col lg:flex-row p-8 2xl:w-8/10">
       <div className="flex flex-col md:mx-8 lg:pr-12 xl:w-8/10 text-[18px] md:text-[24px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
         <h2 className="text-[20px] md:text-[36px] text-black">{t(`${item.id}.date`)}</h2>
         <h1 className="text-[24px] md:text-[44px] font-light">{t(`${item.id}.title`)}</h1>
