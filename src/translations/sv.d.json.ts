@@ -197,6 +197,11 @@ declare const messages: {
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
-  "back": "Tillbaka"
+  "back": "Tillbaka",
+  "comingsoon": {
+    "title": "Snart lättar vi ankare!",
+    "subtitle": "Sidan är under uppbyggnad och vi förbereder nästa del av resan.\nTitta gärna tillbaka lite senare.",
+    "button": "Till startsidan"
+  }
 };
 export default messages;

@@ -194,5 +194,10 @@
   "DepartmentHero": {
     "intro": "To join our scout corps you can submit an expression of interest that goes straight to our membership register. Fill in the details below and we'll get back to you shortly."
   },
-  "back": "Back"
+  "back": "Back",
+  "comingsoon": {
+    "title": "Soon we set sail!",
+    "subtitle": "This page is still under construction as we prepare the next part of the journey.\nPlease check back a little later.",
+    "button": "Back to homepage"
+  }
 }
