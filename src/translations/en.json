@@ -83,24 +83,24 @@
     "descriptionOne": "It must never be allowed to become dangerous — but we can't eliminate every element of risk. Instead, we need to use our imagination to think things through before we carry out different activities.",
     "descriptionTwo": "No safety rules in the world will help once the accident has already happened. That's why it's important that you, as a leader responsible for activities in the Scouts, have prepared yourself and your group well before you set off on adventures.",
     "policyOne": {
-      "title": "HSS life jacket policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Life Jacket Policy",
+      "description": "Linked to the HSS Crisis Plan and the Guides and Scouts of Sweden's guidelines in “Säker Scout” (Safe Scouting). In order to provide all scouts and their guardians with clear directives on the type of life jacket HSS recommends, the HSS board has developed this policy.",
+      "link": "Download it here (pdf)"
     },
     "policyTwo": {
-      "title": "HSS label system",
-      "description": "",
-      "link": ""
+      "title": "HSS Badge System",
+      "description": "To ensure that all scouts in HSS have the opportunity to earn badges during the correct term, the board approved the following badge system on January 14, 2025. Units are, of course, welcome to decide otherwise, but please keep in mind that it may complicate things for the next group...",
+      "link": "Download it here (pdf)"
     },
     "policyThree": {
-      "title": "HSS safe meeting policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Safe Meetings Policy",
+      "description": "The national Scouting organization initiated the Safe Meetings (Trygga Möten) program in 2005 to empower leaders to take action when children and young people are at risk. The goal is to establish a broad understanding of potential risks in order to prevent discrimination and abuse.",
+      "link": "Download it here (pdf)"
     },
     "policyFour": {
-      "title": "Our photo policy",
-      "description": "",
-      "link": ""
+      "title": "Our Photo Policy",
+      "description": "We photograph our activities and use the images on our website and social media to promote our organization. We never publish the names of our scouts. By being a member of HSS, you consent to this.",
+      "link": "Download it here (pdf)"
     }
   },
   "contactus": {
@@ -110,9 +110,9 @@
     "fieldTwo": "Email Address",
     "fieldThree": "Message",
     "button": "Submit",
-    "linksTitle" : "Important links",
+    "linksTitle": "Important links",
     "memberTitle": "Would you like to join us?",
-    "formButton" : "Register"
+    "formButton": "Register"
   },
   "becomeascout": {},
   "becomealeader": {},
@@ -185,6 +185,7 @@
       }
     }
   },
+
   "footer": {
     "logo": {
       "title": "Together we can do more!",
