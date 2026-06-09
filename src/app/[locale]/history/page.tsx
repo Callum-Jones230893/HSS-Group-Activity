@@ -1,8 +1,29 @@
+"use client"
+
 import Image from "next/image"
 import { HistoryData } from "@/data/history"
 import HistoryCards from "@/components/HistoryCards"
+import { useEffect, useState } from "react"
+import { useClickAway } from "@uidotdev/usehooks"
 
 const History = () => {
+  const [expanded, setExpanded] = useState<boolean>(false)
+  const [image, setImage] = useState<string | null>(null)
+
+  console.log(expanded, image)
+
+  const closeOverlay = useClickAway<HTMLDivElement>(() => {
+    setExpanded(false)
+    setImage(null)
+  })
+
+  useEffect(() => {
+    document.body.style.overflow = expanded ? "hidden" : "unset";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [expanded])
+  
   return (
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 lg:-top-14 -z-10">
@@ -53,8 +74,24 @@ const History = () => {
         />
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
+        <div className={`fixed inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
+          ${image
+            ? "bg-primary/70 backdrop-blur-sm opacity-100" 
+            : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none"} 
+          `}>
+          {image && 
+            <Image src={image} width="400" height="400" alt="" className="lg:w-135 xl:w-150 2xl:w-200 z-11"/>
+          }
+        </div>
         {HistoryData.map((item, index) => 
-          <HistoryCards key={index} item={item} first={index === 0}/>
+          <HistoryCards 
+            key={index}
+            item={item} 
+            first={index === 0} 
+            expanded={expanded}
+            updateExpanded={setExpanded}
+            updateImage={setImage}
+            closeOverlay={closeOverlay} />
         )}
       </section>
     </div>

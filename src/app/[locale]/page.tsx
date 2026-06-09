@@ -6,6 +6,7 @@ import { AboutSectionData } from "@/data/about";
 import ContactUsContainer from '@/components/ContactUsContainer';
 
 export default function Home() {
+  
   return (
     <>
       <Hero />

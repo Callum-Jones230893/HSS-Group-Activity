@@ -1,14 +1,26 @@
+"use client"
+
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { HistoryType } from "@/data/history"
+import { useClickAway } from "@uidotdev/usehooks"
 
 type HistoryItemProps = {
   item: HistoryType
   first?: boolean
+  expanded: boolean
+  updateExpanded: (expanded: boolean) => void
+  updateImage: (image: string | null) => void
+  closeOverlay: ReturnType<typeof useClickAway>
 }
 
-const HistoryCards = ({item, first}: HistoryItemProps) => {
+const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, closeOverlay}: HistoryItemProps) => {
   const t = useTranslations('history')
+
+  const imagehelper = () => {
+    expanded ? updateExpanded(false) : updateExpanded(true)
+    updateImage(item.image)
+  }
 
   return (
     <div className="flex flex-col lg:flex-row p-8 2xl:w-8/10">
@@ -18,7 +30,10 @@ const HistoryCards = ({item, first}: HistoryItemProps) => {
         <p>{t(`${item.id}.description`)}</p>
         <p>{t(`${item.id}.descriptionTwo`)}</p>
       </div>
-      <div className={`${first ? "justify-center" : "" } flex items-start mx-auto w-full lg:min-w-100 max-w-150`}>
+      <div className={`${first ? "justify-center" : "" } flex items-start mx-auto w-full lg:min-w-100 max-w-150 cursor-pointer`} 
+        ref={closeOverlay as React.RefObject<HTMLDivElement>}
+        onClick={imagehelper}
+      >
         <Image src={item.image} width="400" height="400" alt={t(`${item.id}.title`)} loading="eager" 
           className={`${first ? "w-50 md:w-75 aspect-square object-contain" : "w-150 aspect-3/2"}`}
         />
