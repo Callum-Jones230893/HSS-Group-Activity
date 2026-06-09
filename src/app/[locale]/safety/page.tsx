@@ -1,7 +1,11 @@
+import SafetyCard from "@/components/SafetyCard";
+
 const Safety = () => {
   return (
-    <p className="text-4xl text-primary">Coming soon...</p>
-  )
-}
+    <>
+      <SafetyCard item={{ id: "", image: "", pdfPath: "" }} />
+    </>
+  );
+};
 
-export default Safety
+export default Safety;
