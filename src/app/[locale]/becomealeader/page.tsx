@@ -26,7 +26,7 @@ const BecomeALeader = () => {
         alt="Scout members sailing on a boat"
         className="mb-8"
       />
-      <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5">
+      <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5 2xl:px-64">
         <p className="pb-6 whitespace-pre-line ">{t("description")}</p>
       </section>
     </div>
