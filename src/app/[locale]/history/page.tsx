@@ -80,7 +80,7 @@ const History = () => {
             : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "} 
           `}>
           {image && 
-            <Image src={image} width="400" height="400" alt="" className="lg:w-135 xl:w-150 2xl:w-200 z-11 border border-solid border-white"/>
+            <Image src={image} width="400" height="400" alt="" className="lg:w-135 xl:max-w-150 xl:max-h-150 2xl:w-200 z-11 border border-solid border-white"/>
           }
         </div>
         {HistoryData.map((item, index) => 

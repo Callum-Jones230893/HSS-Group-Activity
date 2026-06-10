@@ -30,14 +30,12 @@ const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, close
         <p>{t(`${item.id}.description`)}</p>
         <p>{t(`${item.id}.descriptionTwo`)}</p>
       </div>
-      <div className={`${first ? "justify-center" : "flex-col" } flex items-start mx-auto w-full lg:min-w-100 max-w-150`} 
-
-      >
+      <div className={`${first ? "justify-center" : "flex-col" } flex items-start mx-auto w-full lg:min-w-100 max-w-150`}>
         <Image src={item.image} width="400" height="400" alt={t(`${item.id}.title`)} loading="eager" 
           className={`${first ? "w-50 md:w-75 aspect-square object-contain" : "w-150 aspect-3/2"}`}
         />
         {!first &&
-          <div className="mx-auto cursor-pointer"
+          <div className="mx-auto cursor-pointer fill-primary hover:scale-112 hover:fill-secondary transition duration-300"
             ref={closeOverlay as React.RefObject<HTMLDivElement>}
             onClick={!first ? imagehelper : undefined}
           >
