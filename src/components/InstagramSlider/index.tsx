@@ -102,7 +102,7 @@ const InstagramSlider = () => {
             {PLACEHOLDER_POSTS.map((post) => (
               <div
                 key={post.id}
-                className="w-[300px] mx-auto sm:mx-0 sm:w-auto sm:flex-[0_0_320px] shrink-0 border border-primary rounded-2xl overflow-hidden  flex flex-col justify-between"
+                className="w-75 mx-auto sm:mx-0 sm:w-auto sm:flex-[0_0_320px] shrink-0 border border-primary rounded-2xl overflow-hidden  flex flex-col justify-between"
               >
                 <div className="relative w-full aspect-square bg-primary overflow-hidden ">
                   <div className="absolute inset-0 flex items-center justify-center z-0">
