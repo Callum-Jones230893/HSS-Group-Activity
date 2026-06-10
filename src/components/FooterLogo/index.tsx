@@ -1,8 +1,10 @@
 import Image from "next/image";
-import Button from "../Button";
-import Link from "next/link";
+import Button from "@/components/Button";
+import { useTranslations } from "next-intl";
 
 const FooterLogo = () => {
+  const t = useTranslations("footer.logo")
+  const tNav = useTranslations("navbar")
   return (
     <div className="bg-primary flex flex-col text-center items-center pt-5 pb-10 gap-8 lg:pt-20 lg:pb-20 px-7">
       <Image
@@ -14,15 +16,12 @@ const FooterLogo = () => {
         className="w-19 h-19 lg:w-25.75 lg:h-25.75"
       />
       <h3 className="font-secondary text-secondary text-[28px] lg:text-[32px]">
-        Tillsammans kan vi göra mer!
+        {t("title")}
       </h3>
       <p className="max-w-162 font-primary text-[18px] text-white font-light">
-        Scouterna ger barn och unga från alla delar av samhället chansen att
-        uppleva äventyr tillsammans och växa som individer.
+        {t("description")}
       </p>
-     <Link href="/becomeascout">
-     <Button content={"Bli scout"} theme={"yellow"} size={"large"} />
-     </Link>
+     <Button content={tNav("becomeascout")} size={"large"} redirect="becomeascout" type="" url="" />
     </div>
   );
 };

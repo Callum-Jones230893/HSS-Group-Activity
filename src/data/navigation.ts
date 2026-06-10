@@ -1,13 +1,19 @@
 export const navItems: { name: string; link: string }[] = [
-  { name: "Bli scout", link: "/becomeascout" },
-  { name: "Bli ledare", link: "/becomealeader" },
-  { name: "Reservera vår stuga", link: "/reserveacamp" },
-  { name: "Kontakt", link: "/contactus" },
-  { name: "Om oss", link: "/aboutus" },
+  { name: "becomeascout", link: "/becomeascout" },
+  { name: "becomealeader", link: "/becomealeader" },
+  { name: "reserveacamp", link: "/reserveacamp" },
+  { name: "contactus", link: "/contactus" },
+  { name: "aboutus", link: "/aboutus" },
 ];
 
+export const menuLabel: { name: string } = {
+  name: "more",
+};
+
 export const moreMenu: { name: string; link: string }[] = [
-  { name: "Aktiviteter", link: "/activities" },
-  { name: "Historia", link: "/history" },
-  { name: "Säkerhet", link: "/safety" },
+  { name: "moreMenu.activities", link: "/activities" },
+  { name: "moreMenu.history", link: "/history" },
+  { name: "moreMenu.safety", link: "/safety" },
 ];
+
+// change names to match .json

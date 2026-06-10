@@ -2,17 +2,19 @@
 
 import { useState } from "react";
 import { useClickAway } from "@uidotdev/usehooks";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { navItems, moreMenu } from "@/data/navigation";
+import { useTranslations } from "next-intl";
 
 type DropdownProp = {
   color: string;
   textColor: string;
-  hamburger: boolean;
-  closeHamburger: (hamburger: boolean) => void;
+  closeHamburger?: (hamburger: boolean) => void;
 };
 
-const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) => {
+const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
+  const t = useTranslations("navbar")
+  
   const [openMore, setOpenMore] = useState<boolean>(false);
 
   const moreMenuRef = useClickAway<HTMLDivElement>(() => {
@@ -25,18 +27,19 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
         <Link
           href={item.link}
           key={index}
-          className="w-full lg:w-auto text-center md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger(false)}>
-            {item.name}
+          className="w-full lg:w-auto text-center lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
+          <span className="text-[16px] md:text-[20px] lg:text-[16px] w-full" onClick={() => closeHamburger?.(false)}>
+            {t(item.name)}
           </span>
         </Link>
       ))}
+
       <div ref={moreMenuRef} className="relative flex flex-col w-full lg:w-auto">
         <button
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
-          className="flex items-center justify-center w-full mb-4 lg:w-auto lg:mb-0 cursor-pointer md:hover:scale-110 duration-300 ease-in-out">
-          <span className="text-[16px] md:text-[20px] lg:text-[16px]">Mer</span>
+          className="flex items-center justify-center w-full lg:w-auto  cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
+          <span className="text-[16px] md:text-[20px] lg:text-[16px]">{t("menulabel")}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -47,19 +50,20 @@ const NavMenu = ({ color, textColor, hamburger, closeHamburger }: DropdownProp) 
             <path d="M14.771 18.4615L8.61719 12.3076H20.9249L14.771 18.4615Z" fill="currentColor" />
           </svg>
         </button>
+
         {openMore && (
           <div
-            className={`${color} ${textColor} flex flex-col gap-8 top-8 justify-center items-center lg:absolute lg:p-10 lg:-left-12`}>
+            className={`${color} ${textColor} backdrop-blur-xs flex flex-col gap-6 top-8 justify-center items-center lg:items-start w-full absolute p-5 lg:min-w-fit lg:p-8 lg:-left-9`}>
             {moreMenu.map((item, index) => (
               <Link
                 href={item.link}
                 key={index}
-                className="w-26 justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
+                className="justify-center items-center md:hover:scale-110 duration-300 ease-in-out"
                 onClick={() => setOpenMore(false)}>
                 <p
-                  className="text-[16px] md:text-[20px] lg:text-[16px] w-full text-center lg:text-left"
-                  onClick={() => closeHamburger(false)}>
-                  {item.name}
+                  className="text-[16px] w-full text-center md:text-[20px] lg:text-[16px] md:text-left"
+                  onClick={() => closeHamburger?.(false)}>
+                  {t(item.name)}
                 </p>
               </Link>
             ))}

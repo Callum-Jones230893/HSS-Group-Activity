@@ -1,18 +1,16 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
+import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
+import { AboutSectionData } from "@/data/about";
 import InstagramSlider from "@/components/InstagramSlider";
 
 export default function Home() {
   return (
     <>
-      <Hero
-        subtitle="Äventyr och kompisar!"
-        title="Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
-      />
+      <Hero />
       <h1 className="text-yellow font-yeseva"></h1>
       {/* <HeroMain /> */}
-
       <ScoutPage />
 
       {/* <AboutUsSection /> */}
@@ -24,8 +22,9 @@ export default function Home() {
       {/* <RentCampSection /> */}
 
       {/* <ContactUsSection /> */}
+      <Cards />
 
-      <AboutSection />
+      <AboutSection item={AboutSectionData} />
       <InstagramSlider />
     </>
   );
