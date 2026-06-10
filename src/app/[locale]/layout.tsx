@@ -2,9 +2,6 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import Header from "@/components/Header";
 import FooterNav from '@/components/FooterNav';
-import GoogleMapLocation from "@/components/Footer-GoogleMap";
-import FooterHero from "@/components/Footer-Hero";
-import FooterLogo from "@/components/FooterLogo";
 import FooterCopyright from "@/components/FooterCopyright";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -43,9 +40,6 @@ export default async function LocaleLayout({children, params}: {children: React.
         <Header />
         {children}
         <footer>
-          <FooterLogo />
-          <FooterHero />
-          <GoogleMapLocation />
           <FooterNav />
           <FooterCopyright />
         </footer>
