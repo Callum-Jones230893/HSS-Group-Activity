@@ -153,14 +153,14 @@
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
-    "reserveacamp": "Our cabin",
-    "contactus": "Contact us",
+    "ourcabin": "Our cabin",
+    "ourboats": "Our boats",
     "aboutus": "About us",
     "menulabel": "More",
     "moreMenu": {
-      "activities": "Activities",
       "history": "History",
-      "safety": "Safety"
+      "safety": "Safety",
+      "contactus": "Contact"
     }
   },
   "googlemap": {

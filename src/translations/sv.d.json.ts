@@ -156,14 +156,14 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Vår stuga",
-    "contactus": "Kontakta oss",
+    "ourcabin": "Vår stuga",
+    "ourboats": "Våra båtar",
     "aboutus": "Om oss",
     "menulabel": "Mer",
     "moreMenu": {
-      "activities": "Aktiviteter",
       "history": "Historia",
-      "safety": "Säkerhet"
+      "safety": "Säkerhet",
+      "contactus": "Kontakt"
     }
   },
   "googlemap": {
