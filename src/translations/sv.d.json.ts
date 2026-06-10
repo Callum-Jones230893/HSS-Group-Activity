@@ -113,7 +113,7 @@ declare const messages: {
     "fieldTwo": "E-postadress",
     "fieldThree": "Meddelande",
     "button": "Skicka",
-    "linksTitle": "Viktiga länkar",
+    "linksTitle": "Relaterade länkar",
     "memberTitle": "Vill du bli en av oss?",
     "formButton": "Intresseanmälan"
   },
