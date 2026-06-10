@@ -15,7 +15,7 @@ const ReserveACamp = () => {
         />
       </svg>
 
-      <h2 className="font-secondary text-4xl mb-8">{t("title")}</h2>
+      <h2 className="font-secondary text-center text-4xl mb-8">{t("title")}</h2>
       <p className="text-[20px] text-center mb-8 whitespace-pre-line">{t("subtitle")}</p>
       <Button content={t("button")} size="large" type="redirect" redirect="/" url="" />
     </div>
