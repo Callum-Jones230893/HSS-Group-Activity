@@ -1,10 +1,10 @@
-import { useTranslations } from "next-intl";
 import CardInfo from "../CardInfo";
 import { instagramApi } from "@/utils/instagramFetch";
+import { getTranslations } from "next-intl/server";
 
 const Cards = async () => {
   const feed = await instagramApi()
-  const t = useTranslations('cards')
+  const t = await getTranslations('cards')
 
   return (
     <div className="flex justify-center">
