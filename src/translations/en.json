@@ -208,5 +208,10 @@
     "title": "We’ve drifted off course!",
     "subtitle": "This page isn’t on our charts. It may have been moved, or never mapped in the first place.\nLet’s set a new course.",
     "button": "Return to harbour"
+  },
+  "comingsoon": {
+    "title": "Soon we set sail!",
+    "subtitle": "This page is still under construction as we prepare the next part of the journey.\nPlease check back a little later.",
+    "button": "Back to homepage"
   }
 }

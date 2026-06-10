@@ -1,7 +1,25 @@
-const ReserveACamp = () => {
-  return (
-    <p className="text-4xl text-primary">Coming soon...</p>
-  )
-}
+import { useTranslations } from "next-intl";
+import Button from "@/components/Button";
 
-export default ReserveACamp
+const ReserveACamp = () => {
+  const t = useTranslations("comingsoon");
+
+  return (
+    <div className="flex flex-col justify-center items-center max-w-9/10 mx-auto my-20 gap-2 text-primary">
+      <svg width="139" height="139" viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="139" height="139" rx="69.5" fill="white" />
+        <rect x="19" y="19" width="102" height="102" rx="51" fill="#003660" />
+        <path
+          d="M102.516 44.0852C100.184 38.4092 94.992 36.5172 85.576 39.3772C75.676 42.1932 37 53.9852 37 53.9852V69.0772L45.976 66.2172L54.424 63.8852C53.984 64.8092 53.984 65.2932 54.424 65.7772L57.724 69.0772C58.208 70.0012 58.692 70.0012 59.616 70.0012L64.808 69.5172C64.808 70.4852 64.324 71.4092 64.324 72.8172L61.992 91.2092L57.724 100.185C57.724 100.625 57.284 101.109 57.284 101.593C57.284 103.001 58.692 104.409 60.1 104.409C61.024 104.409 61.992 103.925 62.476 103.001L67.184 93.1012C67.184 92.6172 67.624 92.1772 67.624 91.6932L68.108 86.9852L72.816 102.517C73.3 103.485 74.224 104.409 75.676 104.409C77.084 104.409 78.492 103.001 78.492 101.593V101.109L71.892 79.4172L72.816 73.3012C73.3 71.4092 73.3 70.0012 73.3 68.5932L79.9 64.3252C79.416 64.8092 79.9 64.3252 79.9 63.8852L81.792 58.2092L77.084 59.6172L76.116 61.9932L70.924 65.2932L60.1 65.7772L59.176 64.8092L57.284 62.9172L60.584 61.9932L86.5 54.4252C86.5 54.4252 91.692 53.0172 94.508 57.7252L95.916 57.2852C101.108 55.8772 104.408 50.2012 102.516 44.0852ZM69.076 64.3252C70.924 64.3252 72.816 62.9172 72.816 60.5852L65.776 62.9172C66.7 63.8852 67.624 64.3252 69.076 64.3252Z"
+          fill="#FDB714"
+        />
+      </svg>
+
+      <h2 className="font-secondary text-center text-4xl mb-8">{t("title")}</h2>
+      <p className="text-[20px] text-center mb-8 whitespace-pre-line">{t("subtitle")}</p>
+      <Button content={t("button")} size="large" type="redirect" redirect="/" url="" />
+    </div>
+  );
+};
+
+export default ReserveACamp;
