@@ -5,6 +5,8 @@ import ScoutPage from "@/components/ScoutPage";
 import { AboutSectionData } from "@/data/about";
 import ContactUsContainer from '@/components/ContactUsContainer';
 
+export const revalidate = 3600
+
 export default function Home() {
   return (
     <>

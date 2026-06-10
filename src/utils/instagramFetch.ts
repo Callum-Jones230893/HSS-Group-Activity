@@ -14,12 +14,7 @@ export type InstagramType = {
 
 export const instagramApi = async (): Promise<InstagramType[]> => {
   try {
-    const response = await fetch(`https://feeds.behold.so/bL8BpV4aqEvuArQToGd0`, { 
-      next: {
-          revalidate: 3600
-        }
-      }
-    )
+    const response = await fetch(`https://feeds.behold.so/bL8BpV4aqEvuArQToGd0`)
     if (!response.ok) {
       throw new Error("Error, please try again")
     }

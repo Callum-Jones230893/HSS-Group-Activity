@@ -2,9 +2,8 @@ import { useTranslations } from "next-intl";
 import CardInfo from "../CardInfo";
 import { instagramApi } from "@/utils/instagramFetch";
 
-const feed = await instagramApi()
-
-const Cards = () => {
+const Cards = async () => {
+  const feed = await instagramApi()
   const t = useTranslations('cards')
 
   return (
