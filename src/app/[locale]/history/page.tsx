@@ -72,13 +72,13 @@ const History = () => {
         />
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
-        <div className={`fixed inset-0 top-27.5 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
+        <div className={`fixed inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
           ${image
             ? "bg-primary/70 backdrop-blur-sm opacity-100" 
             : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "} 
           `}>
           {image && 
-            <div className="p-10 h-auto w-150 md:w-200">
+            <div className="p-5 h-auto w-150 md:w-200 lg:w-200">
               <Image src={image} width="400" height="400" alt="" className="w-full z-11 border border-solid border-white"/>
             </div>
           }

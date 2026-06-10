@@ -24,14 +24,14 @@ const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, close
 
   return (
     <section className="flex flex-col lg:flex-row p-8 2xl:w-8/10">
-      <article className="flex flex-col md:mx-8 lg:pr-12 xl:w-8/10 text-[18px] md:text-[24px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
-        <h2 className="text-[20px] md:text-[36px] text-black">{t(`${item.id}.date`)}</h2>
-        <h1 className="text-[24px] md:text-[44px] font-light">{t(`${item.id}.title`)}</h1>
+      <article className="flex flex-col md:px-8 lg:pr-12 xl:w-8/10 text-[18px] lg:text-[22px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
+        <h2 className="text-[20px] lg:text-[30px] text-black">{t(`${item.id}.date`)}</h2>
+        <h1 className="text-[24px] lg:text-[36px] font-light">{t(`${item.id}.title`)}</h1>
         <p>{t(`${item.id}.description`)}</p>
         <p>{t(`${item.id}.descriptionTwo`)}</p>
       </article>
       <div>
-        <div className={`${first ? "justify-center" : "" } flex items-center w-full sm:h-100 lg:w-200 lg:h-100 object-contain overflow-hidden max-w-150`}>
+        <div className={`${first ? "justify-center" : "" } mx-auto flex items-center w-full h-75 md:h-100 lg:w-125 lg:h-100 xl:w-150 xl:max-h-150 object-contain overflow-hidden max-w-150`}>
           <Image src={item.image} width="400" height="400" alt={t(`${item.id}.title`)} loading="eager"
             className={`${first ? "w-50 md:w-75 aspect-square object-contain" : "w-150"}`}
           />
