@@ -203,5 +203,10 @@
   "DepartmentHero": {
     "intro": "To join our scout corps you can submit an expression of interest that goes straight to our membership register. Fill in the details below and we'll get back to you shortly."
   },
-  "back": "Back"
+  "back": "Back",
+  "404": {
+    "title": "We’ve drifted off course!",
+    "subtitle": "This page isn’t on our charts. It may have been moved, or never mapped in the first place.\nLet’s set a new course.",
+    "button": "Return to harbour"
+  }
 }
