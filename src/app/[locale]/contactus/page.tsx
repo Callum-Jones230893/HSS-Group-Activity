@@ -31,7 +31,7 @@ const ContactUs = () => {
         </article>
         <section className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
           <h4 className="text-secondary text-[44px] 2xl:text-[53px] mb-2">{t("linksTitle")}</h4>
-          <nav className="mb-8">
+          <section className="mb-8">
             {links.map(link => (
               <a
                 key={link.href}
@@ -42,7 +42,7 @@ const ContactUs = () => {
                 {link.name}
               </a>
             ))}
-          </nav>
+          </section>
           <section>
             <h1 className="text-secondary text-[44px] 2xl:text-[53px] mb-2">{t("memberTitle")}</h1>
             <Button
