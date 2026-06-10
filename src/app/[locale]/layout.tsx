@@ -36,7 +36,7 @@ export default async function LocaleLayout({children, params}: {children: React.
   return (
     <html 
       lang={locale}
-      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}  
+      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased scrollbar-none`}
     >
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body className="font-primary">
