@@ -1,13 +1,6 @@
 import { useTranslations } from "next-intl";
 import Button from "@/components/Button";
 
-export const metadata = {
-  robots: {
-    index: false,
-    follow: false,
-  },
-};
-
 const NotFound = () => {
   const t = useTranslations("404");
 
