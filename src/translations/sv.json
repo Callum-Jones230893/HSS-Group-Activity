@@ -209,5 +209,10 @@
     "title": "Vi har drivit ur kurs!",
     "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
     "button": "Tillbaka till hamnen"
+  },
+  "comingsoon": {
+    "title": "Snart lättar vi ankare!",
+    "subtitle": "Sidan är under uppbyggnad och vi förbereder nästa del av resan.\nTitta gärna tillbaka lite senare.",
+    "button": "Till startsidan"
   }
 }
