@@ -26,15 +26,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function LocaleLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  const messages = await getMessages();
+  export default async function LocaleLayout({
+    children,
+    params,
+  }: {
+    children: React.ReactNode;
+    params: Promise<{ locale: string }>;
+  }) {
+    const { locale } = await params;
+    const messages = await getMessages();
 
   return (
     <html 
