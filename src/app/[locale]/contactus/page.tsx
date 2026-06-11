@@ -44,7 +44,7 @@ const ContactUs = () => {
             ))}
           </section>
           <section>
-            <h1 className="text-secondary text-[44px] 2xl:text-[53px] mb-2">{t("memberTitle")}</h1>
+            <h1 className="text-secondary text-[44px] 2xl:text-[53px] mb-4">{t("memberTitle")}</h1>
             <Button
               content={t("formButton")}
               size="large"
