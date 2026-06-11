@@ -36,11 +36,11 @@ export default function LanguageButton() {
       <div
         onClick={() => setOpenLocale(prev => !prev)}
         className="cursor-pointer flex justify-center items-center gap-1">
-        <div className="text-[19px] md:hover:scale-110 duration-300 ease-in-out">{currentLocale.icon}</div>
-        <div className="text-[12px]">{currentLocale.content}</div>
+        <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">{currentLocale.icon}</p>
+        <p className="text-[14px] md:text-[16px] text-primary">{currentLocale.content}</p>
       </div>
       {openLocale && (
-        <div className="bg-white flex flex-col gap-4 top-8 p-5 justify-center items-center w-20 -right-5.25 absolute">
+        <div className="bg-white flex flex-col gap-4 top-8 p-5 justify-center items-center w-22 -right-7 md:-right-5.75 absolute">
           {remainingLocales.map((item, index) => (
             <Link
               key={index}
@@ -49,8 +49,8 @@ export default function LanguageButton() {
               className="w-full"
               onClick={() => setOpenLocale(false)}>
               <div className="flex items-center justify-start gap-1 w-full">
-                <div className="text-[19px] md:hover:scale-110 duration-300 ease-in-out">{item.icon}</div>
-                <div className="text-primary text-[12px]">{item.content}</div>
+                <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">{item.icon}</p>
+                <p className="text-[14px] md:text-[16px] text-primary">{item.content}</p>
               </div>
             </Link>
           ))}
