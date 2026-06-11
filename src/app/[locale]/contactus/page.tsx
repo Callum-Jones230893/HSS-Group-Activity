@@ -55,7 +55,7 @@ const ContactUs = () => {
           </section>
         </section>
       </div>
-      <div className="absolute opacity-16 bottom-0 -right-5">
+      <div className="absolute opacity-16 bottom-0 right-15">
         <Image
           src="/images/background_shell3.png"
           height={522}
