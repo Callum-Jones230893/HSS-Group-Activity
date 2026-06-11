@@ -76,7 +76,7 @@ const History = () => {
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center gap-14 lg:gap-28 my-10 lg:my-22">
         <h1 className="text-left text-primary text-5xl w-[80%]">{t("title")}</h1>
-        <div className={`fixed w-full h-full px-10 pb-30 pt-40 inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out scrollbar-none
+        <div className={`fixed w-full h-full px-10 pb-30 pt-40 inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
           ${image
             ? "bg-primary/70 backdrop-blur-sm opacity-100" 
             : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "} 
