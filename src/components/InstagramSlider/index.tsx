@@ -3,54 +3,13 @@
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-
-type InstagramPost = {
-  id: string;
-  image: string;
-  link: string;
-  date: string;
-};
-
-const PLACEHOLDER_POSTS: InstagramPost[] = [
-  {
-    id: "001",
-    image: "/images/002.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-  {
-    id: "002",
-    image: "/images/018.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-  {
-    id: "003",
-    image: "/images/003.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-  {
-    id: "004",
-    image: "/images/019.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-  {
-    id: "005",
-    image: "/images/006.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-  {
-    id: "006",
-    image: "/images/016.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
-  },
-];
+import { useTranslations, useFormatter } from "next-intl";
+import { PLACEHOLDER_POSTS, InstagramPost } from "@/data/instagram";
 
 const InstagramSlider = () => {
+  const t = useTranslations("InstagramSlider");
+  const format = useFormatter();
+
   const [emblaRef, emblaApi] = useEmblaCarousel({
     direction: "ltr",
     align: "start",
@@ -72,8 +31,8 @@ const InstagramSlider = () => {
   return (
     <div className="w-full max-w-360 justify-between mx-auto px-4 py-8">
       <div className=" flex items-center justify-start mb-8 border-b border-primary pb-3">
-        <h2 className="text-2xl  text-primary font-primary">
-          Senaste Instagram-inläggen
+        <h2 className="text-2xl sm:text-3xl font-primary font-extrabold tracking-tight bg-linear-to-r from-primary via-[#e1306c] to-secondary bg-clip-text text-transparent ">
+          {t("title")}{" "}
         </h2>
       </div>
 
@@ -98,7 +57,7 @@ const InstagramSlider = () => {
           className=" overflow-hidden sm:cursor-grab sm:active:cursor-grabbing"
           ref={emblaRef}
         >
-          <div className="flex flex-col sm:flex-row gap-6 items-stretch sm:items-center justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 items-stretch sm:items-center ">
             {PLACEHOLDER_POSTS.map((post) => (
               <div
                 key={post.id}
@@ -120,7 +79,7 @@ const InstagramSlider = () => {
                 <div className="p-3 grow flex flex-col justify-between bg-primary">
                   <div className="flex items-center justify-between text-xs text-secondary">
                     <span>
-                      {new Date(post.date).toLocaleDateString("sv-SE", {
+                      {format.dateTime(new Date(post.date), {
                         month: "short",
                         day: "numeric",
                         year: "numeric",
@@ -132,7 +91,7 @@ const InstagramSlider = () => {
                       rel="noopener noreferrer"
                       className="text-secondary/50 hover:text-secondary font-bold flex"
                     >
-                      Visa inlägg
+                      {t("viewPost")}
                     </a>
                   </div>
                 </div>

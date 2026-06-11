@@ -37,6 +37,10 @@
     "button": "View post",
     "title": "See our adventures on Instagram"
   },
+  "InstagramSlider": {
+    "title": "Latest Instagram Posts",
+    "viewPost": "View post"
+  },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
@@ -49,7 +53,6 @@
       "subtitle": "Spårare 8-9 years",
       "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps",
       "fullDescription": "You can start at HSS at the age of 8, that is, when you begin school year 2. You then become a Tracker Scout and a member of the Sjöhumlorna ('Sea Bumblebees') section. (Tracker Scout was previously called 'Minior Scout'.)\nWe have meetings every week as well as overnight stays, both hikes and longer camps. Here the children get to learn knots, basic nature knowledge and seamanship in a playful way.\nYou learn something new almost every day in the Scouts. It's always fun things, but sometimes they're also really useful to know — like whittling with a knife or putting a bandage on someone who's hurt themselves. Unlike how it's done in school, we don't read any books about knives and bandages; we learn by doing, by trying everything out for real instead. While we do it, we work together in patrols, small groups where everyone gets a say. That's clever, because together you can always help each other come up with even more fun things to do.\nWe sail Optimist dinghies and 2-Crowns (tvåkronor).\nSjöhumlorna meet on Mondays in our lovely premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, and it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
-     
     },
     "kaparna": {
       "title": "Karpana - ",
@@ -148,9 +151,9 @@
         "description": "This is where we have our harbor berths for the corps' larger boats during the summer season."
       }
     }
-    },
+  },
   "footer": {
-     "logo": {
+    "logo": {
       "title": "Together we can do more!",
       "description": "The Scouts give children and young people from all parts of society the chance to experience adventures together and grow as individuals."
     }
@@ -160,4 +163,3 @@
   },
   "back": "Back"
 }
-
