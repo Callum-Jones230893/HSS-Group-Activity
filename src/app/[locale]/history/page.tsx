@@ -81,7 +81,7 @@ const History = () => {
           ${
             image
               ? "bg-primary/70 backdrop-blur-sm opacity-100"
-              : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "
+              : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none"
           } 
           `}>
           {image && (
