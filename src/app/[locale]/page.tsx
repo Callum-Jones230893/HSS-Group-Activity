@@ -12,26 +12,17 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <h1 className="text-yellow font-yeseva"></h1>
-      {/* <HeroMain /> */}
+
       <ScoutPage />
 
-      {/* <AboutUsSection /> */}
-
-      {/* <ActivitySection /> */}
-
-      {/* <BecomeLeaderSection /> */}
-
-      {/* <RentCampSection /> */}
-
       <ContactUsContainer />
-
-      <Cards />
 
       <AboutSection item={AboutSectionData} />
 
       <FooterLogo />
+
       <FooterHero />
+      
       <GoogleMapLocation />
     </>
   );

@@ -2,7 +2,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Header from "@/components/Header";
 import FooterNav from "@/components/FooterNav";
-import FooterHero from "@/components/Footer-Hero";
 import FooterCopyright from "@/components/FooterCopyright";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -47,7 +46,6 @@ export default async function LocaleLayout({
           <Header />
           {children}
           <footer>
-            <FooterHero />
             <FooterNav />
             <FooterCopyright />
           </footer>
