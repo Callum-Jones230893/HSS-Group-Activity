@@ -9,7 +9,7 @@ const ReserveACamp = () => {
   return (
     <>
       <Hero title={t("hero.title")} intro={t("hero.intro")} />
-      <section className="bg-white w-full md:pb-10 lg:w-4/5 mx-auto text-primary">
+      <section className="bg-white w-full lg:w-4/5 mx-auto text-primary">
         <CabinCard />
       </section>
         <CabinBookingForm />
