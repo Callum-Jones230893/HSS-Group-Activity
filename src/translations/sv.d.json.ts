@@ -139,10 +139,11 @@ declare const messages: {
   },
   "reserveacamp": {
     "title": "Hajkstugan Myset",
-    "description": "I skogen mellan Lövsta och Gåseborg ligger Myset, vår stora och fina scoutstuga. På Myset har kåren en mängd aktiviteter, bl.a. lägeråterträff och KårMästerskapen (KM). Det är också väldigt populärt att ha avdelningsövernattningar, hajker, i stugan.",
+    "description": "I skogen mellan Lövsta och Gåseborg ligger Myset, vår stora och fina scoutstuga. På Myset har kåren en mängd aktiviteter, bl.a. lägeråterträff och KårMästerskapen (KM). Det är också väldigt populärt att ha avdelningsövernattningar, hajker, i stugan.\nDet är en trevlig och fräsch scoutstuga som har stora möjligheter. Med element och ett alldeles nytt ventilationssystem blir det riktigt varmt och hemtrevligt.\nStugan består av ett stort samlingsrum med mysig brasa och ett väl tilltaget kök och två mindre ledarrum. Köket är väl utrustat med både  el- och vedspis, diskmaskin, mikrovågsugn och ett stort kylskåp. Det är ett komplett kök som utan vidare kan serva mat upp till 30 personer.",
     "subtitle": "Plats",
     "locationDescription": "Lövstaskogarna nära Kyrkhamn, Hässelby, nära Viksjö",
     "coordinates": "GPS: N 59°23.816′ E 017°46.230′",
+    "button": "Visa planlösing",
     "hero": {
       "title": "Hajkstugan Myset",
       "intro": "Vi hyr gärna ut stugan till scoutkårer, skolklasser och andra grupper som vill prova på nya omgivningar."
