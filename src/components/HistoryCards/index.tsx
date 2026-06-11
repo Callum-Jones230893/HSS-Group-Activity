@@ -23,10 +23,10 @@ const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, close
   }
 
   return (
-    <section className="flex flex-col lg:flex-row p-8 2xl:w-8/10">
-      <article className="flex flex-col md:px-8 lg:pr-12 xl:w-8/10 text-[18px] lg:text-[22px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
-        <h2 className="text-[20px] lg:text-[30px] text-black">{t(`${item.id}.date`)}</h2>
-        <h1 className="text-[24px] lg:text-[36px] font-light">{t(`${item.id}.title`)}</h1>
+    <section className="flex flex-col lg:flex-row 2xl:w-8/10 lg:gap-12">
+      <article className="flex flex-col xl:w-8/10 text-[18px] lg:text-[22px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
+        <h3 className="text-[20px] lg:text-[30px] text-black">{t(`${item.id}.date`)}</h3>
+        <h2 className="text-[24px] lg:text-[36px] font-light">{t(`${item.id}.title`)}</h2>
         <p>{t(`${item.id}.description`)}</p>
         <p>{t(`${item.id}.descriptionTwo`)}</p>
       </article>
@@ -41,7 +41,7 @@ const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, close
               ref={closeOverlay as React.RefObject<HTMLDivElement>}
               onClick={!first ? imagehelper : undefined}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="w-7.5 aspect-square mx-auto mt-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="hidden md:block md:w-7.5 md:aspect-square mdmx-auto md:mt-5">
                 <path d="
                   M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 
                   554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9
