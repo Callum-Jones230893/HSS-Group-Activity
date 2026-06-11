@@ -136,6 +136,7 @@ declare const messages: {
   "reserveacamp": {},
   "becomeapartner": {},
   "history": {
+    "title": "Vår historia",
     "intro": {
       "date": "1950s",
       "title": "BÖRJAN",
@@ -161,7 +162,7 @@ declare const messages: {
       "descriptionTwo": ""
     },
     "today": {
-      "date": "Today",
+      "date": "Idag",
       "title": "UTVIDGADE PROGRAM",
       "description": "Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom.",
       "descriptionTwo": ""
