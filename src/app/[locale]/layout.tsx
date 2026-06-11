@@ -37,15 +37,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html
-      lang={locale}
-      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
-    >
+    <html lang={locale} className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}>
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className="font-primary">
+        <body className="flex flex-col font-primary h-full">
           <Header />
-          {children}
+          <main className="flex-1">{children}</main>
           <footer>
+
             <FooterNav />
             <FooterCopyright />
           </footer>
