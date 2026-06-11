@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
       <ScoutPage />
 
       <ContactUsContainer />
@@ -25,7 +24,7 @@ export default function Home() {
       <FooterLogo />
 
       <FooterHero />
-      
+
       <GoogleMapLocation />
     </>
   );

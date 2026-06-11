@@ -40,6 +40,10 @@ declare const messages: {
     "button": "Visa inlägget",
     "title": "Se våra äventyr på Instagram"
   },
+  "InstagramSlider": {
+    "title": "Senaste inläggen på Instagram",
+    "viewPost": "Visa inlägg"
+  },
   "aboutus": {
     "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
