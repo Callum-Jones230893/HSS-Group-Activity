@@ -39,10 +39,10 @@ export default async function LocaleLayout({
   return (
     <html 
       lang={locale}
-      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased scrollbar-none`}
+      className={`${manrope.variable} ${yesevaOne.variable} antialiased scrollbar-none`}
     >
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className="flex flex-col font-primary h-full">
+        <body className="flex flex-col font-primary min-h-screen">
           <Header />
           <main className="flex-1">{children}</main>
           <footer>

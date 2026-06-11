@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
-import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
 import InstagramSlider from "@/components/InstagramSlider";
 import { AboutSectionData } from "@/data/about";
@@ -14,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      
       <ScoutPage />
 
       <ContactUsContainer />
