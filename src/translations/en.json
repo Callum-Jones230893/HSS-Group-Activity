@@ -37,6 +37,10 @@
     "button": "View post",
     "title": "See our adventures on Instagram"
   },
+  "InstagramSlider": {
+    "title": "Latest Instagram Posts",
+    "viewPost": "View post"
+  },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
@@ -194,7 +198,6 @@
       }
     }
   },
-
   "footer": {
     "logo": {
       "title": "Together we can do more!",
