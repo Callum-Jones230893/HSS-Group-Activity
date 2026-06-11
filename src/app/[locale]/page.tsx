@@ -10,6 +10,7 @@ import FooterHero from "@/components/Footer-Hero";
 import FooterLogo from "@/components/FooterLogo";
 
 export default function Home() {
+  
   return (
     <>
       <Hero />
