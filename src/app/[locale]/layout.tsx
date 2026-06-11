@@ -37,12 +37,10 @@ export const metadata: Metadata = {
     const messages = await getMessages();
 
     return (
-      <html
-        lang={locale}
-        className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}
-      >
+    <html lang={locale} className={`${manrope.variable} ${yesevaOne.variable} antialiased`}>
+
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <body className="flex flex-col font-primary h-full">
+          <body className="flex flex-col font-primary min-h-screen">
             <Header />
             <main className="flex-1">{children}</main>
             <footer>
@@ -54,4 +52,3 @@ export const metadata: Metadata = {
       </html>
     );
   }
-
