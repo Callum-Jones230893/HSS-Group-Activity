@@ -110,13 +110,19 @@
     "fieldTwo": "Email Address",
     "fieldThree": "Message",
     "button": "Submit",
-    "linksTitle" : "Important links",
+    "linksTitle": "Important links",
     "memberTitle": "Would you like to join us?",
-    "formButton" : "Register"
+    "formButton": "Register"
   },
   "becomeascout": {},
   "becomealeader": {},
-  "reserveacamp": {},
+  "reserveacamp": {
+    "title": "Myset Scout Cabin",
+    "description": "In the forest between Lövsta and Gåseborg lies Myset, our large and beautiful scout cabin. At Myset, the troop hosts a variety of activities, including camp reunions and the Troop Championships (KM). It is also very popular to hold section overnight stays and hikes in the cabin.",
+    "subtitle": "Location",
+    "locationDescription": "Lövstaskogarna near Kyrkhamn, Hässelby, near Viksjö",
+    "coordinates": "GPS: N 59°23.816′ E 017°46.230′"
+  },
   "becomeapartner": {},
   "history": {
     "intro": {
