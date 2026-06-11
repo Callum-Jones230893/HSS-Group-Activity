@@ -31,12 +31,11 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
+html, body {
+  height: 100vh;
 }
 
 body {
   background-color: #f6f6f6;
-  height: fit-content;
   margin: 0;
 }
