@@ -23,7 +23,7 @@ const Header = () => {
       <a
         href="https://www.scouterna.se/"
         target="_blank"
-        className="flex items-center gap-2.5 p-2.5 bg-[#EAEAEA] rounded-bl-[10px] absolute top-0 right-0">
+        className="flex items-center gap-2.5 p-2.5 bg-[#EAEAEA] rounded-bl-[10px] absolute top-0 right-0 z-9999">
         <Image
           src="/images/scouterna_logo.png"
           alt="scouterna logo"

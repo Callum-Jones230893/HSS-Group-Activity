@@ -37,77 +37,91 @@
     "button": "View post",
     "title": "See our adventures on Instagram"
   },
+  "InstagramSlider": {
+    "title": "Latest Instagram Posts",
+    "viewPost": "View post"
+  },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
     "descriptionTwo": "The goal of our activities is to give children and young people the opportunity to experience nature, boating, seamanship, challenges and - above all - camaraderie. The basic idea is Learning by doing. There is no substitute bench in the scouts!",
-    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin."
+    "descriptionThree": "The Scout Corps was formed in 1959 and operates in a pleasant premises (called Ruffen) on the shores of Lake Mälaren in Hässelby. The Corps has around 130 happy members, owns five sailboats, ten optimist dinghies, two 2-krona boats, a fast escort boat and a large scout cabin.",
+    "linkTitle": "Discover our scout sections",
+    "button": "Go to sections"
   },
   "departments": {
     "sjohumlor": {
       "title": "Sjöhumlor - ",
       "subtitle": "Spårare 8-9 years",
       "description": "At the age of 8 you can start in HSS, i.e. when you start in grade 2. You then become a Scout Scout and a member of the Sjöhumlorna department. (Previously Scout Scout was called \"mini scout\") We have meetings every week and overnight stays, both hikes and longer camps",
-      "fullDescription": "You can start at HSS at the age of 8, that is, when you begin school year 2. You then become a Tracker Scout and a member of the Sjöhumlorna ('Sea Bumblebees') section. (Tracker Scout was previously called 'Minior Scout'.)\nWe have meetings every week as well as overnight stays, both hikes and longer camps. Here the children get to learn knots, basic nature knowledge and seamanship in a playful way.\nYou learn something new almost every day in the Scouts. It's always fun things, but sometimes they're also really useful to know — like whittling with a knife or putting a bandage on someone who's hurt themselves. Unlike how it's done in school, we don't read any books about knives and bandages; we learn by doing, by trying everything out for real instead. While we do it, we work together in patrols, small groups where everyone gets a say. That's clever, because together you can always help each other come up with even more fun things to do.\nWe sail Optimist dinghies and 2-Crowns (tvåkronor).\nSjöhumlorna meet on Mondays in our lovely premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, and it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
+      "fullDescription": "You can start at HSS at the age of 8, that is, when you begin school year 2. You then become a Tracker Scout and a member of the Sjöhumlorna ('Sea Bumblebees') section. (Tracker Scout was previously called 'Minior Scout'.)\nWe have meetings every week as well as overnight stays, both hikes and longer camps. Here the children get to learn knots, basic nature knowledge and seamanship in a playful way.\nYou learn something new almost every day in the Scouts. It's always fun things, but sometimes they're also really useful to know — like whittling with a knife or putting a bandage on someone who's hurt themselves. Unlike how it's done in school, we don't read any books about knives and bandages; we learn by doing, by trying everything out for real instead. While we do it, we work together in patrols, small groups where everyone gets a say. That's clever, because together you can always help each other come up with even more fun things to do.\nWe sail Optimist dinghies and 2-Crowns (tvåkronor).\nSjöhumlorna meet on Mondays in our lovely premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, and it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time.",
+      "heroTitle": "Sjöhumlor"
     },
     "kaparna": {
       "title": "Karpana - ",
       "subtitle": "Upptäckare 10-11 years",
       "description": "At Kaparna, you start at the age of 10 and stay for two years until it's time for the next step. (Previously, scout scouts were called \"junior scouts\") At Kaparna, the difficulty of the tasks increases.",
-      "fullDescription": "At Kaparna you start at the age of 10 and stay for two years until it's time for the next step. (Discoverer Scout was previously called 'Junior Scout'.) At Kaparna the difficulty of the tasks increases.\nThe scouts get to learn to sail an Optimist as well as try sailing a 2-Crown (tvåkrona) and a keelboat.\nA fully trained Discoverer Scout can, among other things, handle a knife, light fires and put out small fires, sail an Optimist on their own, as well as basic first aid and water safety.\nThe Kaparna section meets on Tuesdays in our premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, but it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time."
+      "fullDescription": "At Kaparna you start at the age of 10 and stay for two years until it's time for the next step. (Discoverer Scout was previously called 'Junior Scout'.) At Kaparna the difficulty of the tasks increases.\nThe scouts get to learn to sail an Optimist as well as try sailing a 2-Crown (tvåkrona) and a keelboat.\nA fully trained Discoverer Scout can, among other things, handle a knife, light fires and put out small fires, sail an Optimist on their own, as well as basic first aid and water safety.\nThe Kaparna section meets on Tuesdays in our premises, Ruffen, by Hässelby Strandbad.\nWhen you're a scout you always do your best, but it doesn't matter if something happens to go wrong — that's why we usually reflect a little on how everything went, so that we get better for next time.",
+      "heroTitle": "Karpana"
     },
     "konvojen": {
       "title": "Konvojen - ",
       "subtitle": "Äventyrare 12-14 years",
       "description": "At the age of 12, the doors to the Adventure Scouts open. For three exciting years, you get to learn useful things in seamanship and nature. (Previously, Adventure Scouts were called \"Patrol Scouts\")",
-      "fullDescription": "At the age of 12 the doors to the Adventurer Scouts open. For three exciting years you get to learn useful things within seamanship and nature. (Adventurer Scout was previously called 'Patrol Scout'.)\nThis is where the sailing begins in earnest, and it takes us out into the archipelago in the summer. When we're not sailing we practise navigation and also do traditional land scouting activities.\nIn winter, when it's at its coldest, we have a proper winter hike where we live in tents. Another highlight is the traditional ice-hole dip that no Patrol Scout gets out of…\nKonvojen meets on Thursdays."
+      "fullDescription": "At the age of 12 the doors to the Adventurer Scouts open. For three exciting years you get to learn useful things within seamanship and nature. (Adventurer Scout was previously called 'Patrol Scout'.)\nThis is where the sailing begins in earnest, and it takes us out into the archipelago in the summer. When we're not sailing we practise navigation and also do traditional land scouting activities.\nIn winter, when it's at its coldest, we have a proper winter hike where we live in tents. Another highlight is the traditional ice-hole dip that no Patrol Scout gets out of…\nKonvojen meets on Thursdays.",
+      "heroTitle": "Konvojen"
     },
     "utmanare": {
       "title": "Utmanare - ",
       "subtitle": "15+ years",
       "description": "HSS challenger scout team never ceases to exist! After your time as challenger scout, you are a close-knit group. It is not unusual for you to stay in touch for life. (Previously, this department was called \"senior scout\")",
-      "fullDescription": "An HSS Challenger Scout team never ceases to exist! After the time as a Challenger Scout you're a tightly knit bunch. It's not uncommon to stay in touch for life. (This section was previously called 'Senior Scout'.)\nWhen you come up from the Adventurer Scouts you form a team together with your year group. Then you work towards learning new things and taking on harder challenges to strengthen the team spirit.\nDuring the first years you have leaders with you, and as you develop you become a leader yourself on the other sections.\nThe Challenger Scouts sail on their own in the archipelago once they've reached a sufficient level of knowledge.\nEach Challenger Scout team comes up with its own name (by tradition they end in -arne, and the team is called 'fjantarne' until they've come up with a name of their own).\nMeetings take place on Tuesdays or Wednesdays."
+      "fullDescription": "An HSS Challenger Scout team never ceases to exist! After the time as a Challenger Scout you're a tightly knit bunch. It's not uncommon to stay in touch for life. (This section was previously called 'Senior Scout'.)\nWhen you come up from the Adventurer Scouts you form a team together with your year group. Then you work towards learning new things and taking on harder challenges to strengthen the team spirit.\nDuring the first years you have leaders with you, and as you develop you become a leader yourself on the other sections.\nThe Challenger Scouts sail on their own in the archipelago once they've reached a sufficient level of knowledge.\nEach Challenger Scout team comes up with its own name (by tradition they end in -arne, and the team is called 'fjantarne' until they've come up with a name of their own).\nMeetings take place on Tuesdays or Wednesdays.",
+      "heroTitle": "Utmanare"
     },
     "familjescouting": {
       "title": "Familjescouting",
       "subtitle": "",
       "description": "Through Family Scouting, children under the age of eight, together with one or more adults, get to encounter scouting in a fun and playful way. Family Scouting is also an excellent way to bring more adults into the troop.",
-      "fullDescription": "Family Scouting is for children under the age of eight and an adult the child feels safe with. Together you discover scouting through play, adventure and fun activities.\nChildren and adults take part side by side and help each other with the activities. The adult is responsible for the child, but is also an important part of the community and takes part just as much as the children.\nThe adult can be a parent, grandparent, relative or another close person.\nThe focus in Family Scouting is for children and adults to experience things together and strengthen their relationship."
+      "fullDescription": "Family Scouting is for children under the age of eight and an adult the child feels safe with. Together you discover scouting through play, adventure and fun activities.\nChildren and adults take part side by side and help each other with the activities. The adult is responsible for the child, but is also an important part of the community and takes part just as much as the children.\nThe adult can be a parent, grandparent, relative or another close person.\nThe focus in Family Scouting is for children and adults to experience things together and strengthen their relationship.",
+      "heroTitle": "Familjescouting"
     }
   },
   "activities": {},
   "safetyguidelines": {
     "title": "Safety and general guidelines for scouts",
-    "descriptionOne": "",
-    "descriptionTwo": "",
+    "descriptionOne": "It must never be allowed to become dangerous — but we can't eliminate every element of risk. Instead, we need to use our imagination to think things through before we carry out different activities.",
+    "descriptionTwo": "No safety rules in the world will help once the accident has already happened. That's why it's important that you, as a leader responsible for activities in the Scouts, have prepared yourself and your group well before you set off on adventures.",
     "policyOne": {
-      "title": "HSS life jacket policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Life Jacket Policy",
+      "description": "Linked to the HSS Crisis Plan and the Guides and Scouts of Sweden's guidelines in “Säker Scout” (Safe Scouting). In order to provide all scouts and their guardians with clear directives on the type of life jacket HSS recommends, the HSS board has developed this policy.",
+      "link": "Download it here (pdf)"
     },
     "policyTwo": {
-      "title": "HSS label system",
-      "description": "",
-      "link": ""
+      "title": "HSS Badge System",
+      "description": "To ensure that all scouts in HSS have the opportunity to earn badges during the correct term, the board approved the following badge system on January 14, 2025. Units are, of course, welcome to decide otherwise, but please keep in mind that it may complicate things for the next group...",
+      "link": "Download it here (pdf)"
     },
     "policyThree": {
-      "title": "HSS safe meeting policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Safe Meetings Policy",
+      "description": "The national Scouting organization initiated the Safe Meetings (Trygga Möten) program in 2005 to empower leaders to take action when children and young people are at risk. The goal is to establish a broad understanding of potential risks in order to prevent discrimination and abuse.",
+      "link": "Download it here (pdf)"
     },
     "policyFour": {
-      "title": "Our photo policy",
-      "description": "",
-      "link": ""
+      "title": "Our Photo Policy",
+      "description": "We photograph our activities and use the images on our website and social media to promote our organization. We never publish the names of our scouts. By being a member of HSS, you consent to this.",
+      "link": "Download it here (pdf)"
     }
   },
   "contactus": {
     "title": "Contact us",
-    "subtitle": "Here's how to get in touch with us",
-    "fieldOne": "Full name",
-    "fieldTwo": "Message to us",
-    "fieldThree": "Email",
-    "button": "Submit"
+    "subtitle": "Have a question? We'd love to hear from you!",
+    "fieldOne": "Full Name",
+    "fieldTwo": "Email Address",
+    "fieldThree": "Message",
+    "button": "Submit",
+    "linksTitle" : "Useful links",
+    "memberTitle": "Would you like to join us?",
+    "formButton": "Register"
   },
   "becomeascout": {},
   "becomealeader": {
@@ -122,6 +136,39 @@
   },
   "reserveacamp": {},
   "becomeapartner": {},
+  "history": {
+    "title": "Our history",
+    "intro": {
+      "date": "1950s",
+      "title": "THE BEGINNING",
+      "description": "The Scout troop was founded in 1959 and operates from a welcoming facility (called Ruffen) on the shore of Lake Mälaren in Hässelby. The troop has around 130 happy members, owns five sailboats, ten Optimist dinghies, two Two Kronor sailboats, a fast support boat, and a large scout cabin.",
+      "descriptionTwo": ""
+    },
+    "boatHistory": {
+      "date": "",
+      "title": "OUR BOAT HISTORY",
+      "description": "Founded in 1959, the Scout troop operates from a welcoming clubhouse known as Ruffen, located on the shores of Lake Mälaren in Hässelby. The troop has around 130 active members and owns five sailboats, ten Optimist dinghies, two Two Kronor sailboats, a fast support boat, and a large scout cabin.",
+      "descriptionTwo": ""
+    },
+    "buildingMyset": {
+      "date": "1970's",
+      "title": "BUILDING MYSET",
+      "description": "Myset is our cabin in Lövsta. On Sunday, January 28, 1968, Myset was officially inaugurated. By that time, HSS's Parents Association had spent three years building and developing the cabin. The project cost nearly SEK 50,000, funds that were raised through bazaars and lotteries. Nearly 400 eager scouts and parents attended the inauguration ceremony. They witnessed the formal handover of the key from the Chair of the Parents Association, Agne Stavegren, to the Chair of HSS, Lennart Carlbom.",
+      "descriptionTwo": "Here we have managed to find a few photos from a bygone era."
+    },
+    "expanding": {
+      "date": "1990's",
+      "title": "EXPANDING PROGRAMS",
+      "description": "Significant expansion of programs with new age groups and specialized activities. We began offering more water-based activities, staying true to our sjöscout heritage.",
+      "descriptionTwo": ""
+    },
+    "today": {
+      "date": "Today",
+      "title": "EXPANDING PROGRAMS",
+      "description": "On Sunday, January 28, 1968, Myset was officially inaugurated. By then, the HSS Parents Association had spent three years working on the cabin. The construction cost nearly SEK 50,000, which had been raised through bazaars and lotteries. On the day of the inauguration, nearly 400 excited scouts and parents attended. They witnessed the formal handover of the key from the Chair of the Parents Association, Agne Stavegren, to the Chair of HSS, Lennart Carlbom.",
+      "descriptionTwo": ""
+    }
+  },
   "navbar": {
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
@@ -166,5 +213,10 @@
   "DepartmentHero": {
     "intro": "To join our scout corps you can submit an expression of interest that goes straight to our membership register. Fill in the details below and we'll get back to you shortly."
   },
-  "back": "Back"
+  "back": "Back",
+  "404": {
+    "title": "We’ve drifted off course!",
+    "subtitle": "This page isn’t on our charts. It may have been moved, or never mapped in the first place.\nLet’s set a new course.",
+    "button": "Return to harbour"
+  }
 }

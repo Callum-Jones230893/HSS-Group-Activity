@@ -1,7 +1,20 @@
-const Safety = () => {
-  return (
-    <p className="text-4xl text-primary">Coming soon...</p>
-  )
-}
+import Hero from "@/components/SectionHero";
+import { useTranslations } from "next-intl";
 
-export default Safety
+import SafetyCard from "@/components/SafetyCard";
+
+const Safety = () => {
+  const t = useTranslations("safetyguidelines");
+  return (
+    <>
+      <Hero
+        title={t("title")}
+        intro={`${t("descriptionOne")}  ${t("descriptionTwo")}`}
+        image="/images/028.jpg"
+      />
+      <SafetyCard item={{ id: "", image: "", pdfPath: "" }} />
+    </>
+  );
+};
+
+export default Safety;
