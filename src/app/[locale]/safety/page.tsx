@@ -1,5 +1,6 @@
 import Hero from "@/components/SectionHero";
 import { useTranslations } from "next-intl";
+
 import SafetyCard from "@/components/SafetyCard";
 
 const Safety = () => {
