@@ -37,6 +37,10 @@
     "button": "View post",
     "title": "See our adventures on Instagram"
   },
+  "InstagramSlider": {
+    "title": "Latest Instagram Posts",
+    "viewPost": "View post"
+  },
   "aboutus": {
     "title": "About us",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) is a traditional non-profit youth organization with a focus on scouting and boating. We are religiously and politically independent, and a member of the Swedish Scout Association, which with approximately 65,000 members is one of Sweden's largest youth organizations.",
@@ -80,27 +84,27 @@
   "activities": {},
   "safetyguidelines": {
     "title": "Safety and general guidelines for scouts",
-    "descriptionOne": "",
-    "descriptionTwo": "",
+    "descriptionOne": "It must never be allowed to become dangerous — but we can't eliminate every element of risk. Instead, we need to use our imagination to think things through before we carry out different activities.",
+    "descriptionTwo": "No safety rules in the world will help once the accident has already happened. That's why it's important that you, as a leader responsible for activities in the Scouts, have prepared yourself and your group well before you set off on adventures.",
     "policyOne": {
-      "title": "HSS life jacket policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Life Jacket Policy",
+      "description": "Linked to the HSS Crisis Plan and the Guides and Scouts of Sweden's guidelines in “Säker Scout” (Safe Scouting). In order to provide all scouts and their guardians with clear directives on the type of life jacket HSS recommends, the HSS board has developed this policy.",
+      "link": "Download it here (pdf)"
     },
     "policyTwo": {
-      "title": "HSS label system",
-      "description": "",
-      "link": ""
+      "title": "HSS Badge System",
+      "description": "To ensure that all scouts in HSS have the opportunity to earn badges during the correct term, the board approved the following badge system on January 14, 2025. Units are, of course, welcome to decide otherwise, but please keep in mind that it may complicate things for the next group...",
+      "link": "Download it here (pdf)"
     },
     "policyThree": {
-      "title": "HSS safe meeting policy",
-      "description": "",
-      "link": ""
+      "title": "HSS Safe Meetings Policy",
+      "description": "The national Scouting organization initiated the Safe Meetings (Trygga Möten) program in 2005 to empower leaders to take action when children and young people are at risk. The goal is to establish a broad understanding of potential risks in order to prevent discrimination and abuse.",
+      "link": "Download it here (pdf)"
     },
     "policyFour": {
-      "title": "Our photo policy",
-      "description": "",
-      "link": ""
+      "title": "Our Photo Policy",
+      "description": "We photograph our activities and use the images on our website and social media to promote our organization. We never publish the names of our scouts. By being a member of HSS, you consent to this.",
+      "link": "Download it here (pdf)"
     }
   },
   "contactus": {
@@ -110,12 +114,21 @@
     "fieldTwo": "Email Address",
     "fieldThree": "Message",
     "button": "Submit",
-    "linksTitle" : "Important links",
+    "linksTitle": "Important links",
     "memberTitle": "Would you like to join us?",
-    "formButton" : "Register"
+    "formButton": "Register"
   },
   "becomeascout": {},
-  "becomealeader": {},
+  "becomealeader": {
+    "description": "Are you interested in scouting and sailing? Don't hesitate to reach out—we'd love to have you join us at HSS! Whether you're 8 or 100 years old, everyone is welcome. To join our waiting list, simply fill out the interest form below. We will contact you as soon as a space becomes available.\n\nAs an adult, joining us is a brilliant opportunity to develop your own leadership skills. Our volunteer team is always evolving, and right now, we have an urgent need for leaders to step up for Kaparna. No sailing experience? No problem! Never been a scout? That’s completely fine too. The only requirement is a genuine interest in working with young people and a willingness to volunteer in a well-organized scout group. We pay for all the training you need to become a great scout leader. We always need parents to help out with both big and small things. It's as simple as this: without parents, we have no scout group!\n\n”The Scouts have been my best leadership school. There one can only lead with the power of the idea and the ability to convince.”\n[Carl-Henrik Svanberg, former CEO at Ericsson, Expressen 2003-02-07]\n\n”Within the scout movement, there is no substitute bench.\n[Anonymous HSS Leader]\n\nWelcome!",
+    "sectionHero": {
+      "title": "Would you like to join us?",
+      "intro": "This could be where the adventure of a lifetime begins. At HSS, exciting challenges and experiences await adventurers of all ages."
+    },
+    "button": {
+      "content": "Become a leader"
+    }
+  },
   "reserveacamp": {},
   "becomeapartner": {},
   "history": {
@@ -195,5 +208,10 @@
   "DepartmentHero": {
     "intro": "To join our scout corps you can submit an expression of interest that goes straight to our membership register. Fill in the details below and we'll get back to you shortly."
   },
-  "back": "Back"
+  "back": "Back",
+  "404": {
+    "title": "We’ve drifted off course!",
+    "subtitle": "This page isn’t on our charts. It may have been moved, or never mapped in the first place.\nLet’s set a new course.",
+    "button": "Return to harbour"
+  }
 }
