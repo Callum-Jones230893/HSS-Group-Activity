@@ -40,6 +40,10 @@ declare const messages: {
     "button": "Visa inlägget",
     "title": "Se våra äventyr på Instagram"
   },
+  "InstagramSlider": {
+    "title": "Senaste inläggen på Instagram",
+    "viewPost": "Visa inlägg"
+  },
   "aboutus": {
     "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
@@ -53,15 +57,23 @@ declare const messages: {
       "title": "Sjöhumlor - ",
       "subtitle": "Spårare 8-9 år",
       "description": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”) Vi har möten varje vecka samt övernattningar, både hajker och längre läger",
+<<<<<<< HEAD
       "fullDescription": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)\nVi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.\nDu lär dig något nytt nästan varje dag i Scouterna, det är alltid roliga saker men ibland är de också väldigt bra att kunna. Som att tälja med kniv eller lägga bandage på någon som gjort sig illa. Till skillnad från hur man gör i skolan läser vi inga böcker om knivar och bandage, vi lär oss genom att göra, genom att prova på allt på riktigt istället. Medan vi gör det samarbetar vi i patruller, små grupper där alla är med och bestämmer. Det är smart, för tillsammans kan man alltid hjälps åt att hitta på ännu roligare saker.\nVi seglar optimistjollar och 2-kronor.\nSjöhumlorna har möten på måndagar i vår fina lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa och det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång.",
       "heroTitle": "Sjöhumlor"
+=======
+      "fullDescription": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)\nVi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.\nDu lär dig något nytt nästan varje dag i Scouterna, det är alltid roliga saker men ibland är de också väldigt bra att kunna. Som att tälja med kniv eller lägga bandage på någon som gjort sig illa. Till skillnad från hur man gör i skolan läser vi inga böcker om knivar och bandage, vi lär oss genom att göra, genom att prova på allt på riktigt istället. Medan vi gör det samarbetar vi i patruller, små grupper där alla är med och bestämmer. Det är smart, för tillsammans kan man alltid hjälps åt att hitta på ännu roligare saker.\nVi seglar optimistjollar och 2-kronor.\nSjöhumlorna har möten på måndagar i vår fina lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa och det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
+>>>>>>> 9b09f2efd20792785bbbc7ee9764f1ab8efc9287
     },
     "kaparna": {
       "title": "Kaparna - ",
       "subtitle": "Upptäckare 10-11 år",
       "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.",
+<<<<<<< HEAD
       "fullDescription": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.\nScouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt.\nEn färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder, segla optimist själv samt grundläggande sjukvård och sjösäkerhet.\nAvdelningen Kaparna har möten på tisdagar i vår lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa men det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång.",
       "heroTitle": "Kaparna"
+=======
+      "fullDescription": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.\nScouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt.\nEn färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder, segla optimist själv samt grundläggande sjukvård och sjösäkerhet.\nAvdelningen Kaparna har möten på tisdagar i vår lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa men det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
+>>>>>>> 9b09f2efd20792785bbbc7ee9764f1ab8efc9287
     },
     "konvojen": {
       "title": "Konvojen - ",
@@ -86,6 +98,7 @@ declare const messages: {
     }
   },
   "activities": {},
+
   "safetyguidelines": {
     "title": "Säkerhet och allmänna riktlinjer för scouter",
     "descriptionOne": "Självklart får det aldrig bli farligt - men vi kan inte ta bort alla riskmoment. Istället behöver vi använda vår fantasi för att tänka till innan vi genomför olika aktiviteter.",
@@ -123,7 +136,16 @@ declare const messages: {
     "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
-  "becomealeader": {},
+  "becomealeader": {
+    "description": "Är du sugen på scouting och segling? Tveka inte, då ska du anmäla ditt intresse till HSS. Oavsett om du är 8 eller 100 år är du välkommen. För att anmäla dig till kölistan fyller du in en intresseanmälan nedan. Vi kontaktar dig när det blir en plats ledig.\n\nSom vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Ledarsituationen i kåren varierar, nu är vi i akut behov av ledare till Kaparna. Du behöver inte vara en erfaren seglare för att delta i vår verksamhet. Du behöver inte heller vara gammal scout för att bli ledare. Enda kravet är att du har ett genuint intresse av att jobba med ungdomar och att du är sugen på att arbeta ideellt i en välfungerande scoutkår. Kåren betalar för den utbildning du behöver för att fungera bra som scoutledare. Vi behöver alltid föräldrar som kan hjälpa till med stort som smått. Utan föräldrar ingen kår, så enkelt är det!\n\n”Scouterna har varit min bästa ledarskola. Där kan man bara leda med idéns kraft och förmågan att övertyga.”\n[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]\n\n”Inom scoutrörelsen finns ingen avbytarbänk.”\n[Anonym ledare i HSS]\n\n Välkommen!",
+    "sectionHero": {
+      "title": "Vill du bli en av oss?",
+      "intro": "Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+    },
+    "button": {
+      "content": "Bli ledare"
+    }
+  },
   "reserveacamp": {},
   "becomeapartner": {},
   "history": {
@@ -202,6 +224,11 @@ declare const messages: {
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
-  "back": "Tillbaka"
+  "back": "Tillbaka",
+  "404": {
+    "title": "Vi har drivit ur kurs!",
+    "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
+    "button": "Tillbaka till hamnen"
+  }
 };
 export default messages;

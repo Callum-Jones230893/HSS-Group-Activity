@@ -37,6 +37,10 @@
     "button": "Visa inlägget",
     "title": "Se våra äventyr på Instagram"
   },
+  "InstagramSlider": {
+    "title": "Senaste inläggen på Instagram",
+    "viewPost": "Visa inlägg"
+  },
   "aboutus": {
     "title": "Om oss",
     "descriptionOne": "Hässelby Strands Sjöscoutkår (HSS) är en traditionsrik ideell ungdomsverksamhet med fokus på scouting och båtliv. Vi är religiöst och politisk obundna, och medlem i Svenska Scoutförbundet, som med ca 65.000 medlemmar är en av Sveriges största ungdomsorganisationer.",
@@ -83,6 +87,7 @@
     }
   },
   "activities": {},
+
   "safetyguidelines": {
     "title": "Säkerhet och allmänna riktlinjer för scouter",
     "descriptionOne": "Självklart får det aldrig bli farligt - men vi kan inte ta bort alla riskmoment. Istället behöver vi använda vår fantasi för att tänka till innan vi genomför olika aktiviteter.",
@@ -120,7 +125,16 @@
     "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
-  "becomealeader": {},
+  "becomealeader": {
+    "description": "Är du sugen på scouting och segling? Tveka inte, då ska du anmäla ditt intresse till HSS. Oavsett om du är 8 eller 100 år är du välkommen. För att anmäla dig till kölistan fyller du in en intresseanmälan nedan. Vi kontaktar dig när det blir en plats ledig.\n\nSom vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Ledarsituationen i kåren varierar, nu är vi i akut behov av ledare till Kaparna. Du behöver inte vara en erfaren seglare för att delta i vår verksamhet. Du behöver inte heller vara gammal scout för att bli ledare. Enda kravet är att du har ett genuint intresse av att jobba med ungdomar och att du är sugen på att arbeta ideellt i en välfungerande scoutkår. Kåren betalar för den utbildning du behöver för att fungera bra som scoutledare. Vi behöver alltid föräldrar som kan hjälpa till med stort som smått. Utan föräldrar ingen kår, så enkelt är det!\n\n”Scouterna har varit min bästa ledarskola. Där kan man bara leda med idéns kraft och förmågan att övertyga.”\n[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]\n\n”Inom scoutrörelsen finns ingen avbytarbänk.”\n[Anonym ledare i HSS]\n\n Välkommen!",
+    "sectionHero": {
+      "title": "Vill du bli en av oss?",
+      "intro": "Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+    },
+    "button": {
+      "content": "Bli ledare"
+    }
+  },
   "reserveacamp": {},
   "becomeapartner": {},
   "history": {
@@ -199,5 +213,10 @@
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
-  "back": "Tillbaka"
+  "back": "Tillbaka",
+  "404": {
+    "title": "Vi har drivit ur kurs!",
+    "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
+    "button": "Tillbaka till hamnen"
+  }
 }
