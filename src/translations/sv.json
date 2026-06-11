@@ -115,13 +115,36 @@
     "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
-  "becomealeader": {},
+  "becomealeader": {
+    "description": "Är du sugen på scouting och segling? Tveka inte, då ska du anmäla ditt intresse till HSS. Oavsett om du är 8 eller 100 år är du välkommen. För att anmäla dig till kölistan fyller du in en intresseanmälan nedan. Vi kontaktar dig när det blir en plats ledig.\n\nSom vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Ledarsituationen i kåren varierar, nu är vi i akut behov av ledare till Kaparna. Du behöver inte vara en erfaren seglare för att delta i vår verksamhet. Du behöver inte heller vara gammal scout för att bli ledare. Enda kravet är att du har ett genuint intresse av att jobba med ungdomar och att du är sugen på att arbeta ideellt i en välfungerande scoutkår. Kåren betalar för den utbildning du behöver för att fungera bra som scoutledare. Vi behöver alltid föräldrar som kan hjälpa till med stort som smått. Utan föräldrar ingen kår, så enkelt är det!\n\n”Scouterna har varit min bästa ledarskola. Där kan man bara leda med idéns kraft och förmågan att övertyga.”\n[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]\n\n”Inom scoutrörelsen finns ingen avbytarbänk.”\n[Anonym ledare i HSS]\n\n Välkommen!",
+    "sectionHero": {
+      "title": "Vill du bli en av oss?",
+      "intro": "Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+    },
+    "button": {
+      "content": "Bli ledare"
+    }
+  },
   "reserveacamp": {
     "title": "Hajkstugan Myset",
     "description": "I skogen mellan Lövsta och Gåseborg ligger Myset, vår stora och fina scoutstuga. På Myset har kåren en mängd aktiviteter, bl.a. lägeråterträff och KårMästerskapen (KM). Det är också väldigt populärt att ha avdelningsövernattningar, hajker, i stugan.",
-    "subtitle": "Läge",
+    "subtitle": "Plats",
     "locationDescription": "Lövstaskogarna nära Kyrkhamn, Hässelby, nära Viksjö",
-    "coordinates": "GPS: N 59°23.816′ E 017°46.230′"
+    "coordinates": "GPS: N 59°23.816′ E 017°46.230′",
+    "hero": {
+      "title": "Hajkstugan Myset",
+      "intro": "Vi hyr gärna ut stugan till scoutkårer, skolklasser och andra grupper som vill prova på nya omgivningar."
+    },
+    "form": {
+      "title": "Boka Myset",
+      "subtitle": "Är du intresserad av att boka vår stuga?",
+      "fieldOne": "Fullständigt namn",
+      "fieldTwo": "E-postadress",
+      "fieldThree": "Meddelande",
+      "inDate": "Ankomstdatum",
+      "outDate": "Avresedatum",
+      "button": "Skicka en bokningsförfrågan"
+    }
   },
   "becomeapartner": {},
   "history": {
@@ -200,5 +223,10 @@
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
-  "back": "Tillbaka"
+  "back": "Tillbaka",
+  "404": {
+    "title": "Vi har drivit ur kurs!",
+    "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
+    "button": "Tillbaka till hamnen"
+  }
 }
