@@ -15,12 +15,13 @@ const DepartmentPage = async ({
   if (!departmentData) notFound();
 
   const t = await getTranslations("DepartmentHero");
+  const tDept = await getTranslations("departments")
   const tNav = await getTranslations("navbar");
 
   return (
     <>
       <Hero
-        title="Hässelby Strands Sjöscoutkår"
+        title={tDept(`${department}.heroTitle`)}
         intro={t("intro")}
         image="/images/005.jpg"
         button={{
