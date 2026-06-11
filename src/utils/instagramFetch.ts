@@ -14,7 +14,7 @@ export type InstagramType = {
 
 export const instagramApi = async (): Promise<InstagramType[]> => {
   try {
-    const response = await fetch(``, { 
+    const response = await fetch(`process.env.`, { 
       next: {
           revalidate: 3600
         }
