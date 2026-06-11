@@ -1,8 +1,30 @@
+"use client"
+
 import Image from "next/image"
 import { HistoryData } from "@/data/history"
 import HistoryCards from "@/components/HistoryCards"
+import { useEffect, useState } from "react"
+import { useClickAway } from "@uidotdev/usehooks"
+import { useTranslations } from "next-intl"
 
 const History = () => {
+  const [expanded, setExpanded] = useState<boolean>(false)
+  const [image, setImage] = useState<string | null>(null)
+
+  const t = useTranslations('history')
+
+  const closeOverlay = useClickAway<HTMLDivElement>(() => {
+    setExpanded(false)
+    setImage(null)
+  })
+
+  useEffect(() => {
+    document.body.style.overflow = expanded ? "hidden" : "unset";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [expanded])
+  
   return (
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 lg:-top-14 -z-10">
@@ -52,9 +74,28 @@ const History = () => {
           className="w-71.5 md:w-107.25 lg:w-173.75 2xl:w-196 -rotate-129 aspect-square"
         />
       </div>
-      <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
+      <section className="flex flex-col w-9/10 mx-auto items-center justify-center gap-14 lg:gap-28 my-10 lg:my-22">
+        <h1 className="text-left text-primary text-5xl w-[80%]">{t("title")}</h1>
+        <div className={`fixed w-full h-full px-10 pb-30 pt-40 inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
+          ${image
+            ? "bg-primary/70 backdrop-blur-sm opacity-100" 
+            : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none "} 
+          `}>
+          {image && 
+            <div className="p-5 w-full h-full">
+              <Image src={image} width="1000" height="1000" alt="" className="w-auto h-full mx-auto z-11 border border-solid border-white"/>
+            </div>
+          }
+        </div>
         {HistoryData.map((item, index) => 
-          <HistoryCards key={index} item={item} first={index === 0}/>
+          <HistoryCards 
+            key={index}
+            item={item} 
+            first={index === 0} 
+            expanded={expanded}
+            updateExpanded={setExpanded}
+            updateImage={setImage}
+            closeOverlay={closeOverlay} />
         )}
       </section>
     </div>
