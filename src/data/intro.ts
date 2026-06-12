@@ -20,11 +20,6 @@ export const callToActionData: CallToAction[] = [
   {
     id: "rentacabin",
     image: "/images/003.png",
-    redirect: "reserveacamp",
-  },
-  {
-    id: "becomeapartner",
-    image: "/images/004.png",
-    redirect: "becomeapartner",
+    redirect: "ourcabin",
   }
 ]
