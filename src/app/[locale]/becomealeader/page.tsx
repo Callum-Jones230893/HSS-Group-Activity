@@ -19,12 +19,12 @@ const BecomeALeader = () => {
         }}
       />
       <Image
-        src="/images/member_background.png"
+        src="/images/member_background.JPEG"
         height={3000}
-        width={2000}
+        width={1688}
         loading="eager"
-        alt="Scout members sailing on a boat"
-        className="w-screen mb-8 h-auto"
+        alt="A group of members gathering on a beach"
+        className="w-screen lg:h-110 2xl:h-140 object-cover object-[center_60%] mb-8"
       />
       <section className="font-primary text-left text-white text-[18px] lg:text-[24px] leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5 2xl:px-64">
         <p className="pb-6 whitespace-pre-line ">{t("description")}</p>
