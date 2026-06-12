@@ -90,7 +90,6 @@ declare const messages: {
     }
   },
   "activities": {},
-
   "safetyguidelines": {
     "title": "Säkerhet och allmänna riktlinjer för scouter",
     "descriptionOne": "Självklart får det aldrig bli farligt - men vi kan inte ta bort alla riskmoment. Istället behöver vi använda vår fantasi för att tänka till innan vi genomför olika aktiviteter.",
@@ -176,14 +175,13 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Vår stuga",
-    "contactus": "Kontakta oss",
-    "aboutus": "Om oss",
+    "ourcabin": "Vår stuga",
+    "history": "Historia",
+    "safety": "Säkerhet",
     "menulabel": "Mer",
     "moreMenu": {
-      "activities": "Aktiviteter",
-      "history": "Historia",
-      "safety": "Säkerhet"
+      "aboutus": "Om oss",
+      "contactus": "Kontakt"
     }
   },
   "googlemap": {
