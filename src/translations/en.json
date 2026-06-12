@@ -119,7 +119,7 @@
     "fieldTwo": "Email Address",
     "fieldThree": "Message",
     "button": "Submit",
-    "linksTitle" : "Useful links",
+    "linksTitle": "Useful links",
     "memberTitle": "Would you like to join us?",
     "formButton": "Register"
   },
@@ -173,12 +173,11 @@
     "becomeascout": "Become a scout",
     "becomealeader": "Become a leader",
     "ourcabin": "Our cabin",
-    "ourboats": "Our boats",
-    "aboutus": "About us",
+    "history": "History",
+    "safety": "Safety",
     "menulabel": "More",
     "moreMenu": {
-      "history": "History",
-      "safety": "Safety",
+      "aboutus": "About us",
       "contactus": "Contact"
     }
   },
