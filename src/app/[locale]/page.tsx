@@ -1,12 +1,15 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
-import Cards from "@/components/Cards";
 import ScoutPage from "@/components/ScoutPage";
 import { AboutSectionData } from "@/data/about";
-import InstagramSlider from "@/components/InstagramSlider";
-import ContactUsContainer from '@/components/ContactUsContainer';
+import ContactUsContainer from "@/components/ContactUsContainer";
+import GoogleMapLocation from "@/components/Footer-GoogleMap";
+import FooterHero from "@/components/Footer-Hero";
+import FooterLogo from "@/components/FooterLogo";
+import InstagramContainer from "@/components/InstagramContainer";
 
 export default function Home() {
+  
   return (
     <>
       <Hero />
@@ -16,7 +19,14 @@ export default function Home() {
       <ContactUsContainer />
 
       <AboutSection item={AboutSectionData} />
-      <InstagramSlider />
+      
+      <InstagramContainer />
+
+      <FooterLogo />
+
+      <FooterHero />
+      
+      <GoogleMapLocation />
     </>
   );
 }
