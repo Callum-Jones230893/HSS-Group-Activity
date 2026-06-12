@@ -2,6 +2,12 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { DepartmentItemType } from "@/data/department";
 import { useTranslations } from "next-intl";
+import {
+  UserIcon,
+  CalendarDaysIcon,
+  MapPinIcon,
+  LightBulbIcon,
+} from "@heroicons/react/16/solid";
 
 type DepartmentItemProps = {
   item: DepartmentItemType;
@@ -10,6 +16,7 @@ type DepartmentItemProps = {
 const DepartmentSection = ({ item }: DepartmentItemProps) => {
   const t = useTranslations("departments");
   const tBack = useTranslations();
+  const tFacts = useTranslations("departmentFacts");
 
   return (
     <section className="w-full font-primary">
@@ -36,6 +43,44 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
               <p className="mb-4 whitespace-pre-line text-[18px] leading-relaxed font-light lg:text-[24px]">
                 {t(`${item.id}.fullDescription`)}
               </p>
+              <div className="bg-primary/5 text-primary rounded-2xl p-6 mb-6 grid grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                  <UserIcon className={`size-6 mb-1 ${item.text}`} />
+                  <p className="text-[12px] mb-1 font-medium">
+                    {tFacts("age")}
+                  </p>
+                  <p className="text-[16px] font-medium">
+                    {t(`${item.id}.age`)}
+                  </p>
+                </div>
+                <div>
+                  <CalendarDaysIcon className={`size-6 mb-1 ${item.text}`} />
+                  <p className="text-[12px] mb-1 font-medium">
+                    {tFacts("meetings")}
+                  </p>
+                  <p className="text-[16px] font-medium">
+                    {t(`${item.id}.meetings`)}
+                  </p>
+                </div>
+                <div>
+                  <MapPinIcon className={`size-6 mb-1 ${item.text}`} />
+                  <p className="text-[12px] mb-1 font-medium">
+                    {tFacts("place")}
+                  </p>
+                  <p className="text-[16px] font-medium">
+                    {t(`${item.id}.location`)}
+                  </p>
+                </div>
+                <div>
+                  <LightBulbIcon className={`size-6 mb-1 ${item.text}`} />
+                  <p className="text-[12px] mb-1 font-medium">
+                    {tFacts("learn")}
+                  </p>
+                  <p className="text-[16px] font-medium">
+                    {t(`${item.id}.learn`)}
+                  </p>
+                </div>
+              </div>
               <div className="mb-4">
                 <Link
                   href="/becomeascout"
