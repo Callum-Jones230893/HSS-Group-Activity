@@ -196,14 +196,13 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Vår stuga",
-    "contactus": "Kontakta oss",
-    "aboutus": "Om oss",
+    "ourcabin": "Vår stuga",
+    "history": "Historia",
+    "safety": "Säkerhet",
     "menulabel": "Mer",
     "moreMenu": {
-      "activities": "Aktiviteter",
-      "history": "Historia",
-      "safety": "Säkerhet"
+      "aboutus": "Om oss",
+      "contactus": "Kontakt"
     }
   },
   "googlemap": {

@@ -23,7 +23,7 @@ const HistoryCards = ({item, first, expanded, updateExpanded, updateImage, close
   }
 
   return (
-    <section className="flex flex-col lg:flex-row 2xl:w-8/10 lg:gap-12">
+    <section className="flex flex-col lg:flex-row 2xl:w-8/10 lg:mb-12 lg:gap-12">
       <article className="flex flex-col xl:w-8/10 text-[18px] lg:text-[22px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
         <h3 className="text-[20px] lg:text-[30px] text-black">{t(`${item.id}.date`)}</h3>
         <h2 className="text-[24px] lg:text-[36px] font-light">{t(`${item.id}.title`)}</h2>
