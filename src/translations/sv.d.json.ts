@@ -262,18 +262,11 @@ declare const messages: {
     "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
     "button": "Tillbaka till hamnen"
   },
-<<<<<<< HEAD
-  "comingsoon": {
-    "title": "Snart lättar vi ankare!",
-    "subtitle": "Sidan är under uppbyggnad och vi förbereder nästa del av resan.\nTitta gärna tillbaka lite senare.",
-    "button": "Till startsidan"
-=======
   "departmentFacts": {
     "age": "Ålder",
     "meetings": "Möten",
     "place": "Plats",
     "learn": "Lär dig"
->>>>>>> feature/055-department-info-box
   }
 };
 export default messages;
