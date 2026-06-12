@@ -6,7 +6,7 @@ const BecomeALeader = () => {
   const t = useTranslations("becomealeader");
 
   return (
-    <div className="flex flex-col bg-primary ">
+    <div className="flex flex-col bg-primary pb-20">
       <SectionHero
         title={t("sectionHero.title")}
         intro={t("sectionHero.intro")}
