@@ -1,14 +1,17 @@
-"use client";
+"use client"
 
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import { useTranslations, useFormatter } from "next-intl";
-import { PLACEHOLDER_POSTS, InstagramPost } from "@/data/instagram";
+import { useTranslations } from "next-intl";
+import { InstagramType } from "@/utils/instagramFetch";
 
-const InstagramSlider = () => {
+type InstagramProps = {
+  feed: InstagramType[]
+};
+
+const InstagramSlider = ({feed}: InstagramProps) => {
   const t = useTranslations("InstagramSlider");
-  const format = useFormatter();
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
     direction: "ltr",
@@ -27,6 +30,9 @@ const InstagramSlider = () => {
   const scrollNext = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
+
+  const date = ((date: string) => 
+    date.substring(0,10) + (date.length > 10 ? "" : ""))
 
   return (
     <div className="w-full max-w-360 justify-between mx-auto px-4 py-8">
@@ -58,9 +64,9 @@ const InstagramSlider = () => {
           ref={emblaRef}
         >
           <div className="flex flex-col sm:flex-row gap-6 items-stretch sm:items-center ">
-            {PLACEHOLDER_POSTS.map((post) => (
+            {feed.map((post, index) => (
               <div
-                key={post.id}
+                key={index}
                 className="w-75 mx-auto sm:mx-0 sm:w-auto sm:flex-[0_0_320px] shrink-0 border border-primary rounded-2xl overflow-hidden  flex flex-col justify-between"
               >
                 <div className="relative w-full aspect-square bg-primary overflow-hidden ">
@@ -68,7 +74,7 @@ const InstagramSlider = () => {
                     <div className="animate-spin rounded-full h-12 w-12 border-2 border-secondary/20 border-t-secondary"></div>
                   </div>
                   <Image
-                    src={post.image}
+                    src={post.sizes.small.mediaUrl}
                     alt="Instagram Post"
                     fill
                     sizes="(max-w-640px) 100vw, 320px"
@@ -79,14 +85,10 @@ const InstagramSlider = () => {
                 <div className="p-3 grow flex flex-col justify-between bg-primary">
                   <div className="flex items-center justify-between text-xs text-secondary">
                     <span>
-                      {format.dateTime(new Date(post.date), {
-                        month: "short",
-                        day: "numeric",
-                        year: "numeric",
-                      })}
+                      {date(post.timestamp)}
                     </span>
                     <a
-                      href={post.link}
+                      href={post.permalink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-secondary/50 hover:text-secondary font-bold flex"

@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['behold.pictures'],
   },
+  logging: {
+    fetches: {
+      fullUrl: true
+    }
+  }
 };
 
 const withNextIntl = createNextIntlPlugin({
