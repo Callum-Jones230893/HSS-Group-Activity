@@ -2,8 +2,8 @@ export const navItems: { name: string; link: string }[] = [
   { name: "becomeascout", link: "/becomeascout" },
   { name: "becomealeader", link: "/becomealeader" },
   { name: "ourcabin", link: "/ourcabin" },
-  { name: "ourboats", link: "/ourboats" },
-  { name: "aboutus", link: "/aboutus" },
+  { name: "history", link: "/history" },
+  { name: "safety", link: "/safety" },
 ];
 
 export const menuLabel: { name: string } = {
@@ -11,7 +11,6 @@ export const menuLabel: { name: string } = {
 };
 
 export const moreMenu: { name: string; link: string }[] = [
-  { name: "moreMenu.history", link: "/history" },
-  { name: "moreMenu.safety", link: "/safety" },
+  { name: "moreMenu.aboutus", link: "/aboutus" },
   { name: "moreMenu.contactus", link: "/contactus" },
 ];
