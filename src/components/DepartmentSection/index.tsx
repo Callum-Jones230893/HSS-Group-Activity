@@ -9,7 +9,7 @@ type DepartmentItemProps = {
 
 const DepartmentSection = ({ item }: DepartmentItemProps) => {
   const t = useTranslations("departments");
-  const tBack = useTranslations()
+  const tBack = useTranslations();
 
   return (
     <section className="w-full font-primary">
@@ -26,12 +26,10 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
 
             <div className="flex-1 flex flex-col lg:max-w-225">
               <div className="flex items-center gap-2 mb-4">
-                <h2 className="text-primary font-extralight text-[20px] lg:text-[24px]">
+                <h2 className="font-extralight text-xl xl:text-3xl text-sky-900">
                   {t(`${item.id}.title`)}
                 </h2>
-                <p
-                  className={`font-extralight text-[20px] lg:text-[24px] ${item.text}`}
-                >
+                <p className={`font-bold text-xl xl:text-2xl ${item.text}`}>
                   {t(`${item.id}.subtitle`)}
                 </p>
               </div>
