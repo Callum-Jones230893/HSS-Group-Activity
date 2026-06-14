@@ -1,12 +1,11 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Button from "../Button";
 
 const CabinBookingForm = () => {
   const t = useTranslations("reserveacamp.form");
 
   return (
-    <div className="bg-primary relative font-primary px-4 pt-8 pb-36 md:pb-40 2xl:pb-55 md:px-30 xl:px-80 2xl:px-120 overflow-hidden">
+    <div className="bg-primary relative font-primary px-4 pt-8 pb-36 md:pb-20 2xl:pb-55 md:px-30 xl:px-80 2xl:px-120 overflow-hidden">
       <div className="relative z-20">
         <h2 className="text-secondary text-[26px] md:text-[36px] xl:text-[44px]">{t("title")}</h2>
         <h3 className="text-white text-[19px] md:text-[21px] xl:text-[28px]">{t("subtitle")}</h3>
@@ -66,15 +65,6 @@ const CabinBookingForm = () => {
             </fieldset>
           </form>
         </div>
-      </div>
-      <div className="absolute opacity-22 -right-25 md:right-[15%] bottom-0 z-10 pointer-events-none">
-        <Image
-          src="/images/background_shell2.png"
-          height={390}
-          width={462}
-          alt="background seashell graphic"
-          className="h-70 w-83 lg:h-85 lg:w-100.75 2xl:h-97.5 2xl:w-115.5"
-        />
       </div>
     </div>
   );
