@@ -1,45 +1,82 @@
-export type InstagramPost = {
-  id: string;
-  image: string;
-  link: string;
-  date: string;
-};
+import { InstagramType } from "@/utils/instagramFetch";
 
-export const PLACEHOLDER_POSTS: InstagramPost[] = [
+export const PLACEHOLDER_POSTS: InstagramType[] = [
   {
-    id: "001",
-    image: "/images/002.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/002.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/002.png"
+      }
+    }
   },
   {
-    id: "002",
-    image: "/images/018.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/018.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/018.png"
+      }
+    }
   },
   {
-    id: "003",
-    image: "/images/003.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/003.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/003.png"
+      }
+    }
   },
   {
-    id: "004",
-    image: "/images/019.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/019.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/019.png"
+      }
+    }
   },
   {
-    id: "005",
-    image: "/images/006.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/006.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/006.png"
+      }
+    }
   },
   {
-    id: "006",
-    image: "/images/016.png",
-    link: "https://www.instagram.com/hss_scout/",
-    date: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
+    permalink: "https://www.instagram.com/hss_scout/",
+    mediaUrl: "/images/016.png",
+    caption: "",
+    prunedCaption: "",
+    mentions: [],
+    sizes: {
+      small: {
+        mediaUrl: "/images/016.png"
+      }
+    }
   },
 ];
