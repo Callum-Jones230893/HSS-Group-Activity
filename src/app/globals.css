@@ -22,7 +22,6 @@
   --text-title: 2rem;
   --text-subtitle: 1.25rem;
   --text-paragraph: 1rem;
-  --text-link: 0.875rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,7 +36,6 @@
     --text-title: 2.25rem;
     --text-subtitle: 1.375rem;
     --text-paragraph: 1.0625rem;
-    --text-link: 0.9rem;
   }
 }
 
@@ -46,7 +44,6 @@
     --text-title: 2.25rem;
     --text-subtitle: 1.5rem;
     --text-paragraph: 1.125rem;
-    --text-link: 1.1rem;
   }
 }
 
