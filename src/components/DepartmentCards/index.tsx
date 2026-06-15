@@ -37,7 +37,7 @@ const DepartmentCards = ({ item }: DepartmentItemProps) => {
               {t(`${item.id}.subtitle`)}
             </p>
           </div>
-          <div className="flex justify-start pt-4.5 xl:pr-20 font-light text-slate-900 self-stretch leading-8 xl:leading-10 tracking-tight">
+          <div className="flex justify-start pt-4.5 xl:pr-20 text-paragraph text-slate-900 self-stretch leading-8 xl:leading-10 tracking-tight">
             <p>{t(`${item.id}.description`)}</p>
           </div>
         </div>

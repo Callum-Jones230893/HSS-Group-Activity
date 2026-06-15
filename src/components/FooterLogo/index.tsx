@@ -15,10 +15,10 @@ const FooterLogo = () => {
         loading="eager"
         className="w-19 h-19 lg:w-25.75 lg:h-25.75"
       />
-      <h3 className="font-secondary text-secondary text-[28px] lg:text-[32px]">
+      <h3 className="font-secondary text-secondary text-title">
         {t("title")}
       </h3>
-      <p className="max-w-162 font-primary text-[18px] text-white font-light">
+      <p className="max-w-162 font-primary text-paragraph text-white font-light">
         {t("description")}
       </p>
       <Button

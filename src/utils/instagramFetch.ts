@@ -39,7 +39,7 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
         access: "public",
         addRandomSuffix: false,
         allowOverwrite: true,
-      });
+      })
     }
     return feed;
   } catch (error) {

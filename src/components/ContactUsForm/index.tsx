@@ -6,10 +6,10 @@ const ContactUsForm = () => {
 
   return (
     <section className="mx-auto w-full p-6 relative z-10">
-      <h2 className="text-secondary text-[32px] lg:text-[53px]">
+      <h2 className="text-secondary text-title lg:text-[53px]">
         {t("title")}
       </h2>
-      <h3 className="text-white text-[22px] md:text-[32px] mb-5">
+      <h3 className="text-white text-[22px] md:text-title mb-5">
         {t("subtitle")}
       </h3>
       <div className="w-full mx-auto">

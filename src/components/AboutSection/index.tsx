@@ -23,17 +23,17 @@ const AboutSection = ({ item = AboutSectionData }: AboutSectionProps) => {
         </div>
 
         <div className="flex-1 flex flex-col justify-center  max-w-187.5">
-          <p className=" text-primary text-5xl font-normal">
+          <p className=" text-primary text-title font-normal">
             {t(`${item.id}.title`)}
           </p>
 
-          <div className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] pb-9">
+          <div className=" text-primary text-paragraph tracking-[1%] pb-9">
             <p>{t(`${item.id}.descriptionOne`)}</p>
             <p>{t(`${item.id}.descriptionTwo`)}</p>
           </div>
 
           <div className="w-full max-w-187.5 p-6 bg-secondary/24 rounded-2xl flex flex-col justify-center  items-start ">
-            <p className=" text-primary text-[18px] lg:text-[24px] tracking-[1%] ">
+            <p className=" text-primary text-paragraph tracking-[1%] ">
               {t(`${item.id}.descriptionThree`)}
             </p>
           </div>
