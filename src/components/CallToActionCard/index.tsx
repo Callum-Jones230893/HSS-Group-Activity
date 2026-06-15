@@ -25,7 +25,7 @@ const CallToActionCard = ({ item }: CallToActionProps) => {
         <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">
           {t(`${item.id}.description`)}
         </p>
-        <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
+        <div className="flex gap-10 items-center md:pb-3 text-paragraph lg:text-[18px]">
           <Button
             content={t(`${item.id}.button`)}
             size="large"
