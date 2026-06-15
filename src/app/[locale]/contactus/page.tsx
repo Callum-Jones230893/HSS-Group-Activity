@@ -40,7 +40,7 @@ const ContactUs = () => {
               url="https://www.scoutnet.se/register/in/group/764"
             />
           </section>
-          <h4 className="text-secondary text-title lg:text-[53px] mb-2">
+          <h4 className="text-secondary text-title mb-2">
             {t("linksTitle")}
           </h4>
           <section>
