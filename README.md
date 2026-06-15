@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Design by Buddhi Thotawaththage**
 
-## Getting Started
+**Tech Stack**
 
-First, run the development server:
+For this project, we chose the following main technologies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Next.js**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We used Next.js because it scales well and works nicely for multi-page applications. It also makes features like internationalization and caching easier to implement and manage.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**TypeScript (TSX)**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+TypeScript was required for the project. Even if it wasn’t, we would still have chosen it since it helps with structure and safety, and we wanted more practice with it.
 
-## Learn More
+**Tailwind CSS**
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind was chosen because it speeds up development and makes styling more straightforward. It also helps reduce the number of separate CSS files we need to maintain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**External Libraries & Services**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We also used a few external libraries and services to support specific features:
 
-## Deploy on Vercel
+**Embla Carousel** – https://www.embla-carousel.com/
+Used for the Instagram carousel component.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**UseHooks** – https://usehooks.com/
+Used for utility hooks, mainly click-away functionality (e.g. closing modals and overlays).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Heroicons**– https://heroicons.com/
+**Flag Icons** – https://flagicons.lipis.dev/
+Used for icons and flag assets across different pages in the project.
+
+**next-intl** – https://next-intl.dev
+Used to implement internationalization (multi-language support).
+
+**Behold.so** – https://behold.so/
+Used to retrieve Instagram data for customers.
+
+**Vercel Blob** – https://vercel.com/docs/vercel-blob
+Used for handling file storage and setting up fallback logic for fetch requests.
