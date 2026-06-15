@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
@@ -7,10 +7,10 @@ import { useTranslations } from "next-intl";
 import { InstagramType } from "@/utils/instagramFetch";
 
 type InstagramProps = {
-  feed: InstagramType[]
+  feed: InstagramType[];
 };
 
-const InstagramSlider = ({feed}: InstagramProps) => {
+const InstagramSlider = ({ feed }: InstagramProps) => {
   const t = useTranslations("InstagramSlider");
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -31,8 +31,8 @@ const InstagramSlider = ({feed}: InstagramProps) => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
-  const date = ((date: string) => 
-    date.substring(0,10) + (date.length > 10 ? "" : ""))
+  const date = (date: string) =>
+    date.substring(0, 10) + (date.length > 10 ? "" : "");
 
   return (
     <div className="w-full max-w-360 justify-between mx-auto px-4 py-8">
@@ -83,10 +83,8 @@ const InstagramSlider = ({feed}: InstagramProps) => {
                 </div>
 
                 <div className="p-3 grow flex flex-col justify-between bg-primary">
-                  <div className="flex items-center justify-between text-sm text-secondary">
-                    <span>
-                      {date(post.timestamp)}
-                    </span>
+                  <div className="flex items-center justify-between text-xs text-secondary">
+                    <span>{date(post.timestamp)}</span>
                     <a
                       href={post.permalink}
                       target="_blank"

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { DepartmentItemType } from "@/data/department";
 import { useTranslations } from "next-intl";
-import {
+import { 
   UserIcon,
   CalendarDaysIcon,
   MapPinIcon,

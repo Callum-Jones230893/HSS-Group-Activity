@@ -10,9 +10,9 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/002.png"
-      }
-    }
+        mediaUrl: "/images/002.png",
+      },
+    },
   },
   {
     timestamp: new Date().toISOString(),
@@ -23,9 +23,9 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/018.png"
-      }
-    }
+        mediaUrl: "/images/018.png",
+      },
+    },
   },
   {
     timestamp: new Date().toISOString(),
@@ -36,9 +36,9 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/003.png"
-      }
-    }
+        mediaUrl: "/images/003.png",
+      },
+    },
   },
   {
     timestamp: new Date().toISOString(),
@@ -49,9 +49,9 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/019.png"
-      }
-    }
+        mediaUrl: "/images/019.png",
+      },
+    },
   },
   {
     timestamp: new Date().toISOString(),
@@ -62,9 +62,9 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/006.png"
-      }
-    }
+        mediaUrl: "/images/006.png",
+      },
+    },
   },
   {
     timestamp: new Date().toISOString(),
@@ -75,8 +75,8 @@ export const PLACEHOLDER_POSTS: InstagramType[] = [
     mentions: [],
     sizes: {
       small: {
-        mediaUrl: "/images/016.png"
-      }
-    }
+        mediaUrl: "/images/016.png",
+      },
+    },
   },
 ];

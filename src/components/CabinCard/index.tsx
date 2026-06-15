@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import Button from '../Button';
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+import Button from "../Button";
 
 const CabinCard = () => {
   const t = useTranslations("reserveacamp");
@@ -17,17 +17,27 @@ const CabinCard = () => {
         />
       </div>
       <div className="flex flex-col gap-3 w-full lg:w-1/2 pb-4">
-        <h2 className="text-title">{t("title")}</h2>
-        <p className="text-paragraph leading-relaxed whitespace-pre-line">{t("description")}</p>
-        <div className="text-paragraph leading-relaxed mb-4">
-          <h5 className='font-bold'>{t("subtitle")}:</h5>
+        <h2 className="text-[24px] lg:text-[36px] 2xl:text-[40px]">
+          {t("title")}
+        </h2>
+        <p className="text-paragraph lg:text-[18px] 2xl:text-[22px] leading-relaxed whitespace-pre-line">
+          {t("description")}
+        </p>
+        <div className="text-paragraph lg:text-[18px] 2xl:text-[22px] leading-relaxed mb-4">
+          <h5 className="font-bold">{t("subtitle")}:</h5>
           <p>{t("locationDescription")}</p>
           <p>{t("coordinates")}</p>
         </div>
-        <Button content={t("button")} size="large" type="external" redirect='' url="/pdf/mysetplanlosning.pdf" />
+        <Button
+          content={t("button")}
+          size="large"
+          type="external"
+          redirect=""
+          url="/pdf/mysetplanlosning.pdf"
+        />
       </div>
     </article>
   );
 };
 
-export default CabinCard
+export default CabinCard;

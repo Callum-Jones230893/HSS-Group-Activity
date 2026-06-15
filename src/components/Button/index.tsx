@@ -20,20 +20,21 @@ const Button = ({ content, size, redirect, type, url }: ButtonProp) => {
   }
 
   return type === "submit" ? (
+    <button
+      className={`flex flex-col items-center justify-center cursor-pointer text-paragraph md:text-[18px] w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}
+    >
+      {content}
+    </button>
+  ) : type === "external" ? (
+    <a href={url} target="_blank" className="w-fit">
       <button
         className={`flex flex-col items-center justify-center cursor-pointer text-paragraph w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}
       >
         {content}
       </button>
-  ) : type === "external" ? (
-    <a href={url} target="_blank" className='w-fit'>
-      <button
-        className={`flex flex-col items-center justify-center cursor-pointer text-paragraph w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}>
-        {content}
-      </button>
     </a>
   ) : (
-    <Link href={`/${redirect}`} className='w-fit'>
+    <Link href={`/${redirect}`} className="w-fit">
       <button
         className={`flex flex-col items-center justify-center cursor-pointer text-paragraph w-fit text-primary bg-secondary ${dimensions} hover:bg-primary hover:text-secondary cursor-pointer transition-colors duration-300 ease-in-out border border-solid border-secondary hover:border-secondary`}
       >

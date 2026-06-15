@@ -3,8 +3,8 @@ import Button from "@/components/Button";
 import { useTranslations } from "next-intl";
 
 const FooterLogo = () => {
-  const t = useTranslations("footer.logo")
-  const tNav = useTranslations("navbar")
+  const t = useTranslations("footer.logo");
+  const tNav = useTranslations("navbar");
   return (
     <div className="bg-primary flex flex-col text-center items-center pt-5 pb-10 gap-8 lg:pt-20 lg:pb-20 px-7">
       <Image
@@ -21,7 +21,13 @@ const FooterLogo = () => {
       <p className="max-w-162 font-primary text-paragraph text-white font-light">
         {t("description")}
       </p>
-     <Button content={tNav("becomeascout")} size={"large"} redirect="becomeascout" type="" url="" />
+      <Button
+        content={tNav("becomeascout")}
+        size={"large"}
+        redirect="becomeascout"
+        type=""
+        url=""
+      />
     </div>
   );
 };

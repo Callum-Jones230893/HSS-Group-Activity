@@ -1,10 +1,10 @@
-import DepartmentSelection from "@/components/DepartmentSelection"
-import Hero from "@/components/SectionHero"
-import { useTranslations } from "next-intl"
+import DepartmentSelection from "@/components/DepartmentSelection";
+import Hero from "@/components/SectionHero";
+import { useTranslations } from "next-intl";
 
 const BecomeAScout = () => {
-  const t = useTranslations("DepartmentHero")
-  const tNav = useTranslations("navbar")
+  const t = useTranslations("DepartmentHero");
+  const tNav = useTranslations("navbar");
   return (
     <>
       <Hero
@@ -19,9 +19,9 @@ const BecomeAScout = () => {
           url: "https://www.scoutnet.se/register/in/group/764",
         }}
       />
-    <DepartmentSelection />
+      <DepartmentSelection />
     </>
-  )
-}
+  );
+};
 
-export default BecomeAScout
+export default BecomeAScout;

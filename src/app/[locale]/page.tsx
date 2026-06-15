@@ -9,7 +9,6 @@ import FooterLogo from "@/components/FooterLogo";
 import InstagramContainer from "@/components/InstagramContainer";
 
 export default function Home() {
-  
   return (
     <>
       <Hero />
@@ -19,7 +18,7 @@ export default function Home() {
       <ContactUsContainer />
 
       <AboutSection item={AboutSectionData} />
-      
+
       <InstagramContainer />
 
       <FooterLogo />

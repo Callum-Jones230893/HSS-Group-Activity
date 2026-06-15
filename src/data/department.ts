@@ -1,14 +1,19 @@
-type DepartmentId = 'sjohumlor' | 'kaparna' | 'konvojen' | 'utmanare' | 'familjescouting'
+type DepartmentId =
+  | "sjohumlor"
+  | "kaparna"
+  | "konvojen"
+  | "utmanare"
+  | "familjescouting";
 
 export type DepartmentItemType = {
-  id: DepartmentId
-  image: string
-  text: string
-  bg: string
-  border: string
-  outline: string
-  shadow: string
-}
+  id: DepartmentId;
+  image: string;
+  text: string;
+  bg: string;
+  border: string;
+  outline: string;
+  shadow: string;
+};
 
 export const DepartmentData: DepartmentItemType[] = [
   {
@@ -59,5 +64,5 @@ export const DepartmentData: DepartmentItemType[] = [
 ];
 
 export function getDepartment(id: string) {
-  return DepartmentData.find(department => department.id === id)
+  return DepartmentData.find((department) => department.id === id);
 }
