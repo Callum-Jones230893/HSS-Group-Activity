@@ -55,7 +55,7 @@ export default function LanguageButton() {
         <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">
           {currentLocale.icon}
         </p>
-        <p className="md:text-paragraph text-primary">
+        <p className="text-[14px] md:text-paragraph text-primary">
           {currentLocale.content}
         </p>
       </div>
@@ -73,7 +73,7 @@ export default function LanguageButton() {
                 <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">
                   {item.icon}
                 </p>
-                <p className="text-paragraph text-primary">
+                <p className="text-[14px] md:text-paragraph text-primary">
                   {item.content}
                 </p>
               </div>
