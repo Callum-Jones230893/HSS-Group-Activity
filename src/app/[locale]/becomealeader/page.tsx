@@ -26,7 +26,7 @@ const BecomeALeader = () => {
         alt="A group of members gathering on a beach"
         className="w-screen lg:h-110 2xl:h-140 object-cover object-[center_60%] mb-8"
       />
-      <section className="font-primary text-left text-white text-paragraph leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 lg:px-36.5 2xl:px-64">
+      <section className="font-primary text-left text-white text-paragraph leading-[31.5px] lg:leading-10.5 tracking-[0.18px] lg:tracking-[0.24px] px-4 md:px-8 lg:px-36.5 2xl:px-64">
         <p className="pb-6 whitespace-pre-line ">{t("description")}</p>
       </section>
     </div>

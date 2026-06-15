@@ -20,14 +20,11 @@ const instagramStaticData = PLACEHOLDER_POSTS;
 
 export const instagramApi = async (): Promise<InstagramType[]> => {
   try {
-    const response = await fetch(
-      `https://feeds.behold.so/au47cEddhn57lA49VlAe`,
-      {
-        next: {
-          revalidate: 86400,
-        },
+    const response = await fetch(process.env.Behold_API!, {
+      next: {
+        revalidate: 86400,
       },
-    );
+    });
     if (!response.ok) {
       throw new Error("Error, please try again");
     }
@@ -39,7 +36,7 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
         access: "public",
         addRandomSuffix: false,
         allowOverwrite: true,
-      })
+      });
     }
     return feed;
   } catch (error) {

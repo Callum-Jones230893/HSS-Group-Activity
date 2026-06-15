@@ -33,7 +33,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           className={`w-full lg:w-auto text-center lg:border-b-[3px] duration-300 ${pathname.startsWith(item.link) ? "lg:border-secondary" : "lg:border-transparent lg:hover:border-secondary"}`}
         >
           <span
-            className="text-paragraph md:text-[18px] 2xl:text-[21px] w-full"
+            className="text-paragraph w-full"
             onClick={() => closeHamburger?.(false)}
           >
             {t(item.name)}
@@ -50,9 +50,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           onClick={() => setOpenMore((prev) => !prev)}
           className="flex items-center justify-center w-full lg:w-auto  cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300"
         >
-          <span className="text-paragraph md:text-[18px] 2xl:text-[21px]">
-            {t("menulabel")}
-          </span>
+          <span className="text-paragraph">{t("menulabel")}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -80,7 +78,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
                 onClick={() => setOpenMore(false)}
               >
                 <p
-                  className="text-paragraph md:text-[18px] 2xl:text-[21px] w-full text-center md:text-left"
+                  className="text-paragraph w-full text-center md:text-left"
                   onClick={() => closeHamburger?.(false)}
                 >
                   {t(item.name)}
