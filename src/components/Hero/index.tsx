@@ -19,7 +19,7 @@ const Hero = () => {
       2xl:h-190"
     >
       <div className="flex flex-col items-center justify-center mt-8 w-65.75 md:mt-10 md:w-188 mx-auto">
-        <h3 className="text-secondary font-primary md:text-[28px]">
+        <h3 className="text-secondary font-primary text-subtitle md:text-[28px]">
           {t("title")}
         </h3>
         <h1 className="text-white font-secondary text-[22px] md:text-[40px] mt-4 text-center">
