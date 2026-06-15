@@ -1,10 +1,10 @@
-type CtaId = 'becomeascout' | 'becomealeader' | 'rentacabin' | 'becomeapartner'
+type CtaId = "becomeascout" | "becomealeader" | "rentacabin" | "becomeapartner";
 
 export type CallToAction = {
-  id: CtaId
-  image: string
-  redirect: string
-}
+  id: CtaId;
+  image: string;
+  redirect: string;
+};
 
 export const callToActionData: CallToAction[] = [
   {
@@ -21,5 +21,5 @@ export const callToActionData: CallToAction[] = [
     id: "rentacabin",
     image: "/images/003.png",
     redirect: "ourcabin",
-  }
-]
+  },
+];

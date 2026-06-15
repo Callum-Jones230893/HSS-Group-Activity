@@ -10,7 +10,10 @@ type LinkItem = {
 
 const links: LinkItem[] = [
   { name: "Scouterna", href: "https://www.scouterna.se/" },
-  { name: "Scouternas Folkhögskola", href: "https://www.scouternasfolkhogskola.se/" },
+  {
+    name: "Scouternas Folkhögskola",
+    href: "https://www.scouternasfolkhogskola.se/",
+  },
   { name: "Scoutnet", href: "https://www.scoutnet.se/f/login" },
   { name: "Scoutshop", href: "https://www.scoutshop.se/" },
 ];
@@ -26,7 +29,9 @@ const ContactUs = () => {
         </article>
         <section className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
           <section className="mb-8">
-            <h1 className="text-secondary text-title mb-4">{t("memberTitle")}</h1>
+            <h1 className="text-secondary text-title mb-4">
+              {t("memberTitle")}
+            </h1>
             <Button
               content={t("formButton")}
               size="large"
@@ -37,13 +42,14 @@ const ContactUs = () => {
           </section>
           <h4 className="text-secondary text-title mb-2">{t("linksTitle")}</h4>
           <section>
-            {links.map(link => (
+            {links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-fit block text-white text-paragraph mb-3 lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300">
+                className="w-fit block text-white text-paragraph mb-3 lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300"
+              >
                 {link.name}
               </a>
             ))}

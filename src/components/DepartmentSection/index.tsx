@@ -49,7 +49,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("age")}
                   </p>
-                  <p className="text-[16px] font-medium">
+                  <p className="text-paragraph font-medium">
                     {t(`${item.id}.age`)}
                   </p>
                 </div>
@@ -58,7 +58,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("meetings")}
                   </p>
-                  <p className="text-[16px] font-medium">
+                  <p className="text-paragraph font-medium">
                     {t(`${item.id}.meetings`)}
                   </p>
                 </div>
@@ -67,7 +67,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("place")}
                   </p>
-                  <p className="text-[16px] font-medium">
+                  <p className="text-paragraph font-medium">
                     {t(`${item.id}.location`)}
                   </p>
                 </div>
@@ -76,7 +76,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("learn")}
                   </p>
-                  <p className="text-[16px] font-medium">
+                  <p className="text-paragraph font-medium">
                     {t(`${item.id}.learn`)}
                   </p>
                 </div>

@@ -14,7 +14,14 @@ type HistoryItemProps = {
   closeOverlay: ReturnType<typeof useClickAway>;
 };
 
-const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, closeOverlay }: HistoryItemProps) => {
+const HistoryCards = ({
+  item,
+  first,
+  expanded,
+  updateExpanded,
+  updateImage,
+  closeOverlay,
+}: HistoryItemProps) => {
   const t = useTranslations("history");
 
   const imagehelper = () => {
@@ -32,7 +39,8 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
       </article>
       <div>
         <div
-          className={`${first ? "justify-center" : ""} mx-auto flex items-center w-full h-75 md:h-100 lg:w-125 lg:h-100 xl:w-150 xl:max-h-150 object-contain overflow-hidden max-w-150`}>
+          className={`${first ? "justify-center" : ""} mx-auto flex items-center w-full h-75 md:h-100 lg:w-125 lg:h-100 xl:w-150 xl:max-h-150 object-contain overflow-hidden max-w-150`}
+        >
           <Image
             src={item.image}
             width="400"
@@ -46,11 +54,13 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
           <div
             className="mx-auto cursor-pointer fill-primary hover:scale-112 hover:fill-secondary transition duration-300 w-fit"
             ref={closeOverlay as React.RefObject<HTMLDivElement>}
-            onClick={!first ? imagehelper : undefined}>
+            onClick={!first ? imagehelper : undefined}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 640"
-              className="hidden md:block md:w-7.5 md:aspect-square md:mx-auto md:mt-5">
+              className="hidden md:block md:w-7.5 md:aspect-square md:mx-auto md:mt-5"
+            >
               <path
                 d="
                   M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 

@@ -9,7 +9,12 @@ const ContactUsForm = () => {
       <h2 className="text-secondary text-title">{t("title")}</h2>
       <h3 className="text-white text-subtitle mb-5">{t("subtitle")}</h3>
       <div className="w-full mx-auto text-paragraph">
-        <form action="mailto:info@hss-scout.org" method="POST" encType="text/plain" className="text-white">
+        <form
+          action="mailto:info@hss-scout.org"
+          method="POST"
+          encType="text/plain"
+          className="text-white"
+        >
           <fieldset>
             <div className="flex flex-col mb-8">
               <label htmlFor="name">{t("fieldOne")}*</label>
@@ -37,9 +42,16 @@ const ContactUsForm = () => {
                 name="Message"
                 id="message"
                 required
-                className="border-b h-25 overflow-y-auto resize-none p-1 text-white outline-none"></textarea>
+                className="border-b h-25 overflow-y-auto resize-none p-1 text-white outline-none"
+              ></textarea>
             </div>
-            <Button content={t("button")} size="large" type="submit" redirect="" url="" />
+            <Button
+              content={t("button")}
+              size="large"
+              type="submit"
+              redirect=""
+              url=""
+            />
           </fieldset>
         </form>
       </div>

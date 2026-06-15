@@ -10,7 +10,12 @@ const CabinBookingForm = () => {
         <h2 className="text-secondary text-title">{t("title")}</h2>
         <h3 className="text-white text-subtitle">{t("subtitle")}</h3>
         <div className="w-full pt-3 mx-auto text-paragraph">
-          <form action="mailto:myset.hss.scout@gmail.com" method="POST" encType="text/plain" className="text-white">
+          <form
+            action="mailto:myset.hss.scout@gmail.com"
+            method="POST"
+            encType="text/plain"
+            className="text-white"
+          >
             <fieldset>
               <div className="flex flex-col mb-8">
                 <label htmlFor="name">{t("fieldOne")}*</label>
@@ -59,9 +64,16 @@ const CabinBookingForm = () => {
                 <textarea
                   name="Message"
                   id="message"
-                  className="border-b h-10 overflow-y-auto resize-none p-1 text-white outline-none"></textarea>
+                  className="border-b h-10 overflow-y-auto resize-none p-1 text-white outline-none"
+                ></textarea>
               </div>
-              <Button content={t("button")} size="large" type="submit" redirect="" url="" />
+              <Button
+                content={t("button")}
+                size="large"
+                type="submit"
+                redirect=""
+                url=""
+              />
             </fieldset>
           </form>
         </div>
