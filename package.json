@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@next/env": "^16.2.9",
     "@uidotdev/usehooks": "^2.4.1",
     "@vercel/blob": "^2.4.0",
     "embla-carousel": "^8.6.0",

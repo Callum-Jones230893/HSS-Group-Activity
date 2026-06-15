@@ -20,7 +20,7 @@ const instagramStaticData = PLACEHOLDER_POSTS
 
 export const instagramApi = async (): Promise<InstagramType[]> => {
   try {
-    const response = await fetch(``, { 
+    const response = await fetch(process.env.Behold_API!, { 
       next: {
           revalidate: 86400
         }
@@ -36,6 +36,7 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
       await put(vercelKey, JSON.stringify(feed), {
         access: 'public',
         addRandomSuffix: false,
+        allowOverwrite: true,
       })
     }
     return feed
