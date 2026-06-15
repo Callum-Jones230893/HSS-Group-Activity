@@ -15,7 +15,7 @@ const DepartmentPage = async ({
   if (!departmentData) notFound();
 
   const t = await getTranslations("DepartmentHero");
-  const tDept = await getTranslations("departments")
+  const tDept = await getTranslations("departments");
   const tNav = await getTranslations("navbar");
 
   return (

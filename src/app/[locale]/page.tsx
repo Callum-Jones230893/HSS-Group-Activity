@@ -18,7 +18,7 @@ export default function Home() {
       <ContactUsContainer />
 
       <AboutSection item={AboutSectionData} />
-      
+
       <InstagramContainer />
 
       <FooterLogo />

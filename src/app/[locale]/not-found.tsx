@@ -6,7 +6,12 @@ const NotFound = () => {
 
   return (
     <div className="flex flex-col justify-center items-center max-w-9/10 mx-auto my-20 gap-2 text-primary">
-      <svg viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-30 h-30">
+      <svg
+        viewBox="0 0 139 139"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-30 h-30"
+      >
         <rect width="139" height="139" rx="69.5" fill="white" />
         <rect x="19" y="19" width="102" height="102" rx="51" fill="#003660" />
         <path
@@ -15,8 +20,16 @@ const NotFound = () => {
         />
       </svg>
       <h2 className="font-secondary text-center text-4xl mb-8">{t("title")}</h2>
-      <p className="text-[20px] text-center mb-8 whitespace-pre-line">{t("subtitle")}</p>
-      <Button content={t("button")} size="large" type="redirect" redirect="/" url="" />
+      <p className="text-[20px] text-center mb-8 whitespace-pre-line">
+        {t("subtitle")}
+      </p>
+      <Button
+        content={t("button")}
+        size="large"
+        type="redirect"
+        redirect="/"
+        url=""
+      />
     </div>
   );
 };

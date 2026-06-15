@@ -252,7 +252,7 @@
     "subtitle": "This page isn’t on our charts. It may have been moved, or never mapped in the first place.\nLet’s set a new course.",
     "button": "Return to harbour"
   },
-   "departmentFacts": {
+  "departmentFacts": {
     "age": "Age",
     "meetings": "Meetings",
     "place": "Place",

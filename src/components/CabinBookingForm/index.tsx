@@ -7,10 +7,19 @@ const CabinBookingForm = () => {
   return (
     <div className="bg-primary relative font-primary px-4 pt-8 pb-36 md:pb-20 2xl:pb-55 md:px-30 xl:px-80 2xl:px-120 overflow-hidden">
       <div className="relative z-20">
-        <h2 className="text-secondary text-[26px] md:text-[36px] xl:text-[44px]">{t("title")}</h2>
-        <h3 className="text-white text-[19px] md:text-[21px] xl:text-[28px]">{t("subtitle")}</h3>
+        <h2 className="text-secondary text-[26px] md:text-[36px] xl:text-[44px]">
+          {t("title")}
+        </h2>
+        <h3 className="text-white text-[19px] md:text-[21px] xl:text-[28px]">
+          {t("subtitle")}
+        </h3>
         <div className="w-full pt-3 mx-auto">
-          <form action="mailto:myset.hss.scout@gmail.com" method="POST" encType="text/plain" className="text-white">
+          <form
+            action="mailto:myset.hss.scout@gmail.com"
+            method="POST"
+            encType="text/plain"
+            className="text-white"
+          >
             <fieldset>
               <div className="flex flex-col mb-8">
                 <label htmlFor="name">{t("fieldOne")}*</label>
@@ -59,9 +68,16 @@ const CabinBookingForm = () => {
                 <textarea
                   name="Message"
                   id="message"
-                  className="border-b h-10 overflow-y-auto resize-none p-1 text-white outline-none"></textarea>
+                  className="border-b h-10 overflow-y-auto resize-none p-1 text-white outline-none"
+                ></textarea>
               </div>
-              <Button content={t("button")} size="large" type="submit" redirect="" url="" />
+              <Button
+                content={t("button")}
+                size="large"
+                type="submit"
+                redirect=""
+                url=""
+              />
             </fieldset>
           </form>
         </div>
