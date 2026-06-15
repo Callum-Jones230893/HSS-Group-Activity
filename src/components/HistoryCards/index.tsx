@@ -14,7 +14,6 @@ type HistoryItemProps = {
   closeOverlay: ReturnType<typeof useClickAway>;
 };
 
-<<<<<<< HEAD
 const HistoryCards = ({
   item,
   first,
@@ -23,9 +22,6 @@ const HistoryCards = ({
   updateImage,
   closeOverlay,
 }: HistoryItemProps) => {
-=======
-const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, closeOverlay }: HistoryItemProps) => {
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
   const t = useTranslations("history");
 
   const imagehelper = () => {
@@ -35,7 +31,6 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
 
   return (
     <section className="flex flex-col lg:flex-row 2xl:w-8/10 lg:mb-12 lg:gap-12">
-<<<<<<< HEAD
       <article className="flex flex-col xl:w-8/10 text-[18px] lg:text-[22px] text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
         <h3 className="text-subtitle lg:text-[30px] text-black">
           {t(`${item.id}.date`)}
@@ -50,17 +45,6 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
         <div
           className={`${first ? "justify-center" : ""} mx-auto flex items-center w-full h-75 md:h-100 lg:w-125 lg:h-100 xl:w-150 xl:max-h-150 object-contain overflow-hidden max-w-150`}
         >
-=======
-      <article className="flex flex-col xl:w-8/10 text-parapgrah text-primary tracking-[1%] gap-4.5 leading-[175%] mb-5">
-        <h3 className="text-subtitle text-black">{t(`${item.id}.date`)}</h3>
-        <h2 className="text-title">{t(`${item.id}.title`)}</h2>
-        <p className="text-paragraph">{t(`${item.id}.description`)}</p>
-        <p className="text-paragraph">{t(`${item.id}.descriptionTwo`)}</p>
-      </article>
-      <div>
-        <div
-          className={`${first ? "justify-center" : ""} mx-auto flex items-center w-full h-75 md:h-100 lg:w-125 lg:h-100 xl:w-150 xl:max-h-150 object-contain overflow-hidden max-w-150`}>
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
           <Image
             src={item.image}
             width="400"
@@ -74,7 +58,6 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
           <div
             className="mx-auto cursor-pointer fill-primary hover:scale-112 hover:fill-secondary transition duration-300 w-fit"
             ref={closeOverlay as React.RefObject<HTMLDivElement>}
-<<<<<<< HEAD
             onClick={!first ? imagehelper : undefined}
           >
             <svg
@@ -82,13 +65,6 @@ const HistoryCards = ({ item, first, expanded, updateExpanded, updateImage, clos
               viewBox="0 0 640 640"
               className="hidden md:block md:w-7.5 md:aspect-square mdmx-auto md:mt-5"
             >
-=======
-            onClick={!first ? imagehelper : undefined}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-              className="hidden md:block md:w-7.5 md:aspect-square md:mx-auto md:mt-5">
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
               <path
                 d="
                   M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 

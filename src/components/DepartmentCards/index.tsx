@@ -12,14 +12,9 @@ const DepartmentCards = ({ item }: DepartmentItemProps) => {
 
   return (
     <Link href={`/becomeascout/${item.id}`}>
-<<<<<<< HEAD
       <div
         className={`item-start xl:flex flex-col xl:flex-row xl:items-center rounded-lg xl:rounded-2xl lg:border-l-[3px] 
         lg:border-r-[0.50px] lg:border-t-[0.50px] lg:border-b-[3px] ${item.border} mb-21.75 font-primary text-lg xl:text-2xl p-8
-=======
-      <div className={`item-start xl:flex flex-col xl:flex-row xl:items-center rounded-lg xl:rounded-2xl lg:border-l-[3px] 
-        lg:border-r-[0.50px] lg:border-t-[0.50px] lg:border-b-[3px] ${item.border} mb-21.75 font-primary p-8
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
         outline-[0.50px] outline-offset-[-0.50px] ${item.outline} inline-flex shadow-none transition duration-300 
         hover:shadow-sm ${item.shadow} hover:scale-102 cursor-pointer bg-[#ffffff]`}
       >
@@ -35,17 +30,12 @@ const DepartmentCards = ({ item }: DepartmentItemProps) => {
         </div>
         <div className="flex flex-col my-3 xl:mx-11.5 justify-evenly">
           <div className="flex items-center gap-1.5">
-<<<<<<< HEAD
             <h3 className="font-extralight text-2xl xl:text-3xl text-sky-900">
               {t(`${item.id}.title`)}
             </h3>
             <p className={`font-bold text-1xl ${item.text}`}>
               {t(`${item.id}.subtitle`)}
             </p>
-=======
-            <h3 className="font-extralight text-subtitle text-sky-900">{t(`${item.id}.title`)}</h3>
-            <p className={`font-bold text-paragraph ${item.text}`}>{t(`${item.id}.subtitle`)}</p>
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
           </div>
           <div className="flex justify-start pt-4.5 xl:pr-20 text-paragraph text-slate-900 self-stretch leading-8 xl:leading-10 tracking-tight">
             <p>{t(`${item.id}.description`)}</p>

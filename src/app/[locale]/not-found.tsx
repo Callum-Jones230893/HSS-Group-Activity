@@ -19,9 +19,8 @@ const NotFound = () => {
           fill="#FDB714"
         />
       </svg>
-<<<<<<< HEAD
       <h2 className="font-secondary text-center text-4xl mb-8">{t("title")}</h2>
-      <p className="text-[20px] text-center mb-8 whitespace-pre-line">
+      <p className="text-subtitle text-center mb-8 whitespace-pre-line">
         {t("subtitle")}
       </p>
       <Button
@@ -31,11 +30,6 @@ const NotFound = () => {
         redirect="/"
         url=""
       />
-=======
-      <h2 className="font-secondary text-center text-title mb-8">{t("title")}</h2>
-      <p className="text-paragraph text-center mb-8 whitespace-pre-line">{t("subtitle")}</p>
-      <Button content={t("button")} size="large" type="redirect" redirect="/" url="" />
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
     </div>
   );
 };

@@ -16,7 +16,6 @@ const CallToActionCard = ({ item }: CallToActionProps) => {
         xl:mx-14.75 xl:mt-5 lg:justify-center lg:items-center lg:w-357 xl:even:flex-row-reverse xl:gap-28"
     >
       <div className="flex flex-col min-h-0 xl:w-163.25 gap-4">
-<<<<<<< HEAD
         <h4 className="text-[24px] font-semibold lg:text-[36px]">
           {t(`${item.id}.title`)}
         </h4>
@@ -34,13 +33,6 @@ const CallToActionCard = ({ item }: CallToActionProps) => {
             type=""
             url=""
           />
-=======
-        <h4 className="text-subtitle font-semibold">{t(`${item.id}.title`)}</h4>
-        <h2 className="text-black text-title">{t(`${item.id}.subtitle`)}</h2>
-        <p className=" text-paragraph tracking-[1%] lg:py-15.25">{t(`${item.id}.description`)}</p>
-        <div className="flex gap-10 items-center md:pb-3">
-          <Button content={t(`${item.id}.button`)} size="large" redirect={item.redirect} type="" url="" />
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
         </div>
       </div>
       <div className="flex justify-center md:items-center mx-auto mt-10 lg:my-auto w-full lg:w-7/10 xl:w-4/10 lg:min-w-150 max-w-150 aspect-square">

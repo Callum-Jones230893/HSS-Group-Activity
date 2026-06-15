@@ -7,7 +7,6 @@ const CabinBookingForm = () => {
   return (
     <div className="bg-primary relative font-primary px-4 pt-8 pb-36 md:pb-20 2xl:pb-55 md:px-30 xl:px-80 2xl:px-120 overflow-hidden">
       <div className="relative z-20">
-<<<<<<< HEAD
         <h2 className="text-secondary text-[26px] md:text-[36px] xl:text-[44px]">
           {t("title")}
         </h2>
@@ -21,12 +20,6 @@ const CabinBookingForm = () => {
             encType="text/plain"
             className="text-white"
           >
-=======
-        <h2 className="text-secondary text-title">{t("title")}</h2>
-        <h3 className="text-white text-subtitle">{t("subtitle")}</h3>
-        <div className="w-full pt-3 mx-auto text-paragraph">
-          <form action="mailto:myset.hss.scout@gmail.com" method="POST" encType="text/plain" className="text-white">
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
             <fieldset>
               <div className="flex flex-col mb-8">
                 <label htmlFor="name">{t("fieldOne")}*</label>

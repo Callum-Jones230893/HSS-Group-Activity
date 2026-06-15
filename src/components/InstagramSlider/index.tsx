@@ -83,15 +83,8 @@ const InstagramSlider = ({ feed }: InstagramProps) => {
                 </div>
 
                 <div className="p-3 grow flex flex-col justify-between bg-primary">
-<<<<<<< HEAD
                   <div className="flex items-center justify-between text-xs text-secondary">
                     <span>{date(post.timestamp)}</span>
-=======
-                  <div className="flex items-center justify-between text-sm text-secondary">
-                    <span>
-                      {date(post.timestamp)}
-                    </span>
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
                     <a
                       href={post.permalink}
                       target="_blank"

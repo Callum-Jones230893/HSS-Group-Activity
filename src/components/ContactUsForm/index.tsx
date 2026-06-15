@@ -6,7 +6,6 @@ const ContactUsForm = () => {
 
   return (
     <section className="mx-auto w-full p-6 relative z-10">
-<<<<<<< HEAD
       <h2 className="text-secondary text-title lg:text-[53px]">
         {t("title")}
       </h2>
@@ -20,12 +19,6 @@ const ContactUsForm = () => {
           encType="text/plain"
           className="text-white"
         >
-=======
-      <h2 className="text-secondary text-title">{t("title")}</h2>
-      <h3 className="text-white text-subtitle mb-5">{t("subtitle")}</h3>
-      <div className="w-full mx-auto text-paragraph">
-        <form action="mailto:info@hss-scout.org" method="POST" encType="text/plain" className="text-white">
->>>>>>> cabad0fc261f749cc88fadbd9eb415ea4c273dd2
           <fieldset>
             <div className="flex flex-col mb-8">
               <label htmlFor="name">{t("fieldOne")}*</label>
