@@ -31,7 +31,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           href={item.link}
           key={index}
           className={`w-full lg:w-auto text-center lg:border-b-[3px] duration-300 ${pathname.startsWith(item.link) ? "lg:border-secondary" : "lg:border-transparent lg:hover:border-secondary"}`}>
-          <span className="text-link w-full" onClick={() => closeHamburger?.(false)}>
+          <span className="text-paragraph w-full" onClick={() => closeHamburger?.(false)}>
             {t(item.name)}
           </span>
         </Link>
@@ -42,7 +42,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
           type="button"
           onClick={() => setOpenMore(prev => !prev)}
           className="flex items-center justify-center w-full lg:w-auto  cursor-pointer lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary duration-300">
-          <span className="text-link">{t("menulabel")}</span>
+          <span className="text-paragraph">{t("menulabel")}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -63,9 +63,7 @@ const NavMenu = ({ color, textColor, closeHamburger }: DropdownProp) => {
                 key={index}
                 className={`justify-center items-center ${pathname.startsWith(item.link) ? "text-secondary" : "md:hover:scale-110 duration-300 ease-in-out"}`}
                 onClick={() => setOpenMore(false)}>
-                <p
-                  className="text-link w-full text-center md:text-left"
-                  onClick={() => closeHamburger?.(false)}>
+                <p className="text-paragraph w-full text-center md:text-left" onClick={() => closeHamburger?.(false)}>
                   {t(item.name)}
                 </p>
               </Link>
