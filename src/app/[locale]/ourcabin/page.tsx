@@ -12,7 +12,7 @@ const ReserveACamp = () => {
       <section className="bg-white w-full lg:w-4/5 mx-auto text-primary">
         <CabinCard />
       </section>
-        <CabinBookingForm />
+      <CabinBookingForm />
     </>
   );
 };
