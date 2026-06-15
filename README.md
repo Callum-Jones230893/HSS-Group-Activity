@@ -55,3 +55,6 @@ git clone https://github.com/Callum-Jones230893/HSS-Group-Activity
 cd HSS-Group-Activity  
 npm install  
 npm run dev  
+
+---
+### Special thanks to Hässelby Strands Sjöscoutkår for their collaboration, feedback, and support throughout the project!
