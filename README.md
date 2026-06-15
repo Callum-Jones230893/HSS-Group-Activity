@@ -26,7 +26,7 @@ Used for the Instagram carousel component.<br>
 **UseHooks** – https://usehooks.com/<br>
 Used for utility hooks, mainly click-away functionality (e.g. closing modals and overlays).<br>
 
-**Heroicons**– https://heroicons.com/<br>
+**Heroicons** – https://heroicons.com/<br>
 **Flag Icons** – https://flagicons.lipis.dev/<br>
 Used for icons and flag assets across different pages in the project.<br>
 
