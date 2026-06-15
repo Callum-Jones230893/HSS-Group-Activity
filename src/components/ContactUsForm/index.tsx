@@ -6,9 +6,9 @@ const ContactUsForm = () => {
 
   return (
     <section className="mx-auto w-full p-6 relative z-10">
-      <h2 className="text-secondary text-[32px] lg:text-[53px]">{t("title")}</h2>
-      <h3 className="text-white text-[22px] md:text-[32px] mb-5">{t("subtitle")}</h3>
-      <div className="w-full mx-auto">
+      <h2 className="text-secondary text-title">{t("title")}</h2>
+      <h3 className="text-white text-subtitle mb-5">{t("subtitle")}</h3>
+      <div className="w-full mx-auto text-paragraph">
         <form action="mailto:info@hss-scout.org" method="POST" encType="text/plain" className="text-white">
           <fieldset>
             <div className="flex flex-col mb-8">

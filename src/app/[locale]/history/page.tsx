@@ -48,7 +48,7 @@ const History = () => {
         </svg>
       </div>
       <section className="flex flex-col w-9/10 mx-auto items-center justify-center gap-10 my-10 lg:my-22">
-        <h1 className="text-left text-primary text-5xl w-full 2xl:w-8/10">{t("title")}</h1>
+        <h1 className="text-left text-primary text-title w-full 2xl:w-8/10">{t("title")}</h1>
         <div
           className={`fixed w-full h-full px-10 pb-30 pt-40 inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
           ${
