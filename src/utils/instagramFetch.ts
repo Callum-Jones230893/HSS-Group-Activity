@@ -38,6 +38,7 @@ export const instagramApi = async (): Promise<InstagramType[]> => {
       await put(vercelKey, JSON.stringify(feed), {
         access: "public",
         addRandomSuffix: false,
+        allowOverwrite: true,
       });
     }
     return feed;
