@@ -1,10 +1,7 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import Header from "@/components/Header";
-import FooterNav from '@/components/FooterNav';
-import GoogleMapLocation from "@/components/Footer-GoogleMap";
-import FooterHero from "@/components/Footer-Hero";
-import FooterLogo from "@/components/FooterLogo";
+import FooterNav from "@/components/FooterNav";
 import FooterCopyright from "@/components/FooterCopyright";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
@@ -25,32 +22,35 @@ export const metadata: Metadata = {
   description: "HSS Scouts page",
   icons: {
     icon: "/images/icon.png",
-    apple: "/images/apple-icon.png"
-  }
+    apple: "/images/apple-icon.png",
+  },
 };
 
-export default async function LocaleLayout({children, params}: {children: React.ReactNode; params: Promise<{ locale: string }>;}) {
-  const { locale } = await params;
-  const messages = await getMessages();
+  export default async function LocaleLayout({
+    children,
+    params,
+  }: {
+    children: React.ReactNode;
+    params: Promise<{ locale: string }>;
+  }) {
+    const { locale } = await params;
+    const messages = await getMessages();
 
-  return (
-    <html 
-      lang={locale}
-      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased`}  
-    >
-      <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className="font-primary">
-        <Header />
-        {children}
-        <footer>
-          <FooterLogo />
-          <FooterHero />
-          <GoogleMapLocation />
-          <FooterNav />
-          <FooterCopyright />
-        </footer>
-        </body>
-      </NextIntlClientProvider>
-    </html>
-  )
-}
+    return (
+      <html
+        lang={locale}
+        className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased scrollbar-none`}
+      >
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <body className="flex flex-col font-primary min-h-screen">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <footer>
+              <FooterNav />
+              <FooterCopyright />
+            </footer>
+          </body>
+        </NextIntlClientProvider>
+      </html>
+    );
+  }

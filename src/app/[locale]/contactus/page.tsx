@@ -1,6 +1,7 @@
+import { useTranslations } from "next-intl";
 import Button from "@/components/Button";
 import ContactUsForm from "@/components/ContactUsForm";
-import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 type LinkItem = {
   name: string;
@@ -18,43 +19,38 @@ const ContactUs = () => {
   const t = useTranslations("contactus");
 
   return (
-    <div className="relative bg-primary">
-      <div
-        className="hidden lg:block absolute -top-12 -left-12 w-75 h-75
-      bg-[url('/images/background_shell1.png')] bg-no-repeat bg-contain
-      rotate-135 opacity-35 pointer-events-none z-0"
-      />
-      <div className=" flex flex-col justify-center items-center mx-auto lg:flex-row lg:w-9/10 xl:w-4/5 xl:gap-8 2xl:w-2/3">
-        <div className="w-full xl:w-1/2">
+    <section className="relative bg-primary h-full overflow-hidden">
+      <div className=" flex flex-col justify-center items-center mx-auto pb-20 lg:flex-row lg:w-9/10 xl:w-4/5 xl:gap-8 2xl:w-2/3">
+        <article className="w-full xl:w-1/2">
           <ContactUsForm />
-        </div>
-        <div className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
-            <h4 className="text-secondary text-[44px] md:text-[53px]">{t("linksTitle")}</h4>
-            <div>
-              {links.map(link => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-fit block text-white text-[19px] lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300">
-                  {link.name}
-                </a>
-              ))}
-            </div>
-            <div>
-              <h4 className="text-[28px] text-secondary mb-4 mt-8">{t("memberTitle")}</h4>
-              <Button
-                content={t("formButton")}
-                size="large"
-                type="external"
-                redirect=""
-                url="https://www.scoutnet.se/register/in/group/764"
-              />
-            </div>
-          </div>
-        </div>
+        </article>
+        <section className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
+          <section className="mb-8">
+            <h1 className="text-secondary text-[32px] lg:text-[53px] mb-4">{t("memberTitle")}</h1>
+            <Button
+              content={t("formButton")}
+              size="large"
+              type="external"
+              redirect=""
+              url="https://www.scoutnet.se/register/in/group/764"
+            />
+          </section>
+          <h4 className="text-secondary text-[32px] lg:text-[53px] mb-2">{t("linksTitle")}</h4>
+          <section>
+            {links.map(link => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-fit block text-white text-[19px] mb-3 lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300">
+                {link.name}
+              </a>
+            ))}
+          </section>
+        </section>
       </div>
+    </section>
   );
 };
 

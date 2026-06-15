@@ -5,10 +5,10 @@ const ContactUsForm = () => {
   const t = useTranslations("contactus");
 
   return (
-    <div className="font-primary mx-auto w-full p-6 relative z-10">
-      <h2 className="text-secondary text-[44px] md:text-[53px]">{t("title")}</h2>
-      <h3 className="text-white text-[22px] md:text-[32px]">{t("subtitle")}</h3>
-      <div className="w-full pt-10 mx-auto">
+    <section className="mx-auto w-full p-6 relative z-10">
+      <h2 className="text-secondary text-[32px] lg:text-[53px]">{t("title")}</h2>
+      <h3 className="text-white text-[22px] md:text-[32px] mb-5">{t("subtitle")}</h3>
+      <div className="w-full mx-auto">
         <form action="mailto:info@hss-scout.org" method="POST" encType="text/plain" className="text-white">
           <fieldset>
             <div className="flex flex-col mb-8">
@@ -43,7 +43,7 @@ const ContactUsForm = () => {
           </fieldset>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

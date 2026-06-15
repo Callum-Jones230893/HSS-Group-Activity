@@ -2,7 +2,7 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-  "hero":{
+  "hero": {
     "title": "Äventyr och kompisar!",
     "subtitle": "Välkommen till Hässelby Strands Sjöscoutkår. Äventyr på riktigt!"
   },
@@ -24,21 +24,18 @@ declare const messages: {
     "rentacabin": {
       "title": "Hyr en mysig stuga",
       "subtitle": "ATT UTFORSKA NATURENS FRIHET",
-      "description": "I Scouterna hittar du både utmaningar och nya kompisar, oavsett var du bor eller hur du gammal du är. Här kan du uppleva äventyr i naturen, upptäcka nya sätt att lösa problem eller bara ha kul tillsammans medan vi utforskar världen. Och du är självklart med och bestämmer vad vi ska hitta på.",
-      "button": "Hyr en stuga",
-      "readMore": "Läs mer"
-    },
-    "becomeapartner": {
-      "title": "Bli en partner",
-      "subtitle": "ATT UTFORSKA TEMA VÅR STOLTHET ÖVER NÄSTA LEDARE NATURFRIHET",
-      "description": "Som vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Du behöver inte vara en erfaren seglare för att delta i våra aktiviteter. Du behöver inte heller vara en gammal scout för att bli ledare. Det enda kravet är att du har ett genuint intresse för att arbeta med unga människor och att du är intresserad av att arbeta ideellt i en välfungerande scoutkår. Kåren bekostar den utbildning du behöver för att fungera bra som scoutledare.",
-      "button": "Bli en partner",
+      "description": "Myset är vår stora och trivsamma scoutstuga i skogen mellan Lövsta och Gåseborg, som används för allt från lägeråterträffar till hajker och övernattningar. Här finns samlingsrum med brasa, välutrustat kök och goda möjligheter för både små och stora grupper.",
+      "button": "Hyr vår stuga",
       "readMore": "Läs mer"
     }
   },
   "cards": {
     "button": "Visa inlägget",
     "title": "Se våra äventyr på Instagram"
+  },
+  "InstagramSlider": {
+    "title": "Senaste inläggen på Instagram",
+    "viewPost": "Visa inlägg"
   },
   "aboutus": {
     "title": "Om oss",
@@ -53,31 +50,56 @@ declare const messages: {
       "title": "Sjöhumlor - ",
       "subtitle": "Spårare 8-9 år",
       "description": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”) Vi har möten varje vecka samt övernattningar, både hajker och längre läger",
-       "fullDescription": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”)\nVi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.\nDu lär dig något nytt nästan varje dag i Scouterna, det är alltid roliga saker men ibland är de också väldigt bra att kunna. Som att tälja med kniv eller lägga bandage på någon som gjort sig illa. Till skillnad från hur man gör i skolan läser vi inga böcker om knivar och bandage, vi lär oss genom att göra, genom att prova på allt på riktigt istället. Medan vi gör det samarbetar vi i patruller, små grupper där alla är med och bestämmer. Det är smart, för tillsammans kan man alltid hjälps åt att hitta på ännu roligare saker.\nVi seglar optimistjollar och 2-kronor.\nSjöhumlorna har möten på måndagar i vår fina lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa och det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
+      "fullDescription": "Vid 8 års ålder kan man börja i HSS, dvs när man börjar i årskurs 2. Man blir då Spårarscout och medlem i avdelningen Sjöhumlorna. (Tidigare hette spårarscout ”miniorscout”).Vi har möten varje vecka samt övernattningar, både hajker och längre läger. Här får barnen lära sig knopar, grundläggande naturkunskap och sjömanskap på ett lekfullt sätt.\n\nDu lär dig något nytt nästan varje dag i Scouterna, det är alltid roliga saker men ibland är de också väldigt bra att kunna. Som att tälja med kniv eller lägga bandage på någon som gjort sig illa. Till skillnad från hur man gör i skolan läser vi inga böcker om knivar och bandage, vi lär oss genom att göra, genom att prova på allt på riktigt istället. Medan vi gör det samarbetar vi i patruller, små grupper där alla är med och bestämmer. Det är smart, för tillsammans kan man alltid hjälps åt att hitta på ännu roligare saker.\n\nVi seglar optimistjollar och 2-kronor.",
+      "heroTitle": "Sjöhumlor",
+      "age": "8-9 år",
+      "meetings": "Måndagar i lokalen Ruffen",
+      "location": "Hässelby Strandbad",
+      "learn": "Knopar, naturkunskap & sjömanskap"
     },
     "kaparna": {
       "title": "Kaparna - ",
       "subtitle": "Upptäckare 10-11 år",
       "description": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.",
-        "fullDescription": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.\nScouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt.\nEn färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder, segla optimist själv samt grundläggande sjukvård och sjösäkerhet.\nAvdelningen Kaparna har möten på tisdagar i vår lokal Ruffen vid Hässelby Strandbad.\nNär man är scout gör man alltid sitt bästa men det gör inget om det råkar bli fel, därför brukar vi tänka lite på hur allting gått till så att vi blir bättre till nästa gång."
+      "fullDescription": "På Kaparna börjar man vid 10 års ålder och stannar kvar i två år tills det är dags för nästa steg. (Tidigare hette upptäckarscout ”juniorscout”) På Kaparna stegras svårighetsgraden på uppgifterna.\n\nScouterna får lära sig segla optimist samt prova på att segla 2-krona samt kölbåt.\nEn färdigutbildad upptäckarscout kan bland annat hantera kniv, elda och släcka mindre bränder, segla optimist själv samt grundläggande sjukvård och sjösäkerhet.",
+      "heroTitle": "Kaparna",
+      "age": "10-11 år",
+      "meetings": "Tisdagar i lokalen Ruffen",
+      "location": "Hässelby Strandbad",
+      "learn": "Segling, knivhantering, eldhantering, sjukvård & sjösäkerhet"
     },
     "konvojen": {
       "title": "Konvojen - ",
       "subtitle": "Äventyrare 12-14 år",
       "description": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”)",
-      "fullDescription": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”).\nHär börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter.\nPå vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält. En annan höjdare är det traditionella isvaksbadet som ingen patrullscout slipper ifrån…\nKonvojen har möten på torsdagar."
+      "fullDescription": "Vid 12 års ålder öppnas dörrarna till Äventyrarscouterna. I tre spännande år får man lära sig nyttiga saker inom sjömansskap och natur. (Tidigare hette äventyrarscout ”patrullscout”).\n\nHär börjar seglingen på allvar och det bär ut i skärgården om sommaren. När vi inte seglar tränar vi navigation och gör även traditionella landscoutaktiviteter.\nPå vintern när det är som kallast har vi en rejäl vinterhajk då vi bor i tält. En annan höjdare är det traditionella isvaksbadet som ingen patrullscout slipper ifrån…",
+      "heroTitle": "Konvojen",
+      "age": "12-14 år",
+      "meetings": "Torsdagar i lokalen Ruffen",
+      "location": "Hässelby Strandbad",
+      "learn": "Segling, navigation, vinterhajk & läger"
     },
     "utmanare": {
       "title": "Utmanare - ",
       "subtitle": "15+ år",
       "description": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”)",
-      "fullDescription": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”).\nNär man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbetar man mot att lära sig nya saker och anta svårare utmaningar för att öka sammanhållningen.\nUnder de första åren har man ledare med sig och allt eftersom man utvecklas blir man själv ledare på de andra avdelningarna.\nUtmanarscouterna seglar själva i skärgården när de uppnått tillräcklig kunskapsnivå.\nVarje utmanarscoutlag hittar på sitt eget namn (av tradition slutar de på -arne och laget kallas ”fjantarne” till dess att de kommit på ett eget namn).\nMötena sker på tisdagar eller onsdagar."
+      "fullDescription": "HSS utmanarscoutlag upphör aldrig att existera! Efter tiden som utmanarscout är man ett tätt sammansvetsat gäng. Det är inte ovanligt att man håller kontakten livet ut. (Tidigare hette denna avdelning ”seniorscout”).\n\nNär man kommer upp från äventyrarscouterna bildar man ett lag tillsammans med kullkamraterna. Sedan arbetar man mot att lära sig nya saker och anta svårare utmaningar för att öka sammanhållningen.\n\nUnder de första åren har man ledare med sig och allt eftersom man utvecklas blir man själv ledare på de andra avdelningarna.\nUtmanarscouterna seglar själva i skärgården när de uppnått tillräcklig kunskapsnivå. Varje utmanarscoutlag hittar på sitt eget namn (av tradition slutar de på -arne och laget kallas ”fjantarne” till dess att de kommit på ett eget namn).",
+      "heroTitle": "Utmanare",
+      "age": "15+ år",
+      "meetings": "Tisdagar eller onsdagar i lokalen Ruffen",
+      "location": "Hässelby Strandbad",
+      "learn": "Självständig segling, ledarskap & samarbete"
     },
     "familjescouting": {
       "title": "Familjescouting",
       "subtitle": "",
       "description": "Genom Familjescouting får barn under åtta år tillsammans med en eller flera vuxna på ett roligt och lekfullt sätt möta scouting. Familjescouting är dessutom ett utmärkt sätt att få in fler vuxna i kåren.",
-      "fullDescription": "Familjescouting är till för barn under åtta år och en vuxen som barnet känner sig trygg med. Tillsammans upptäcker ni scouting genom lek, äventyr och roliga aktiviteter.\nBarn och vuxna är med sida vid sida och hjälps åt i aktiviteterna. Den vuxna ansvarar för barnet, men är också en viktig del av gemenskapen och deltar lika mycket som barnen.\nDen vuxna kan vara en förälder, mor- eller farförälder, släkting eller någon annan nära person.\nFokus i Familjescouting är att barn och vuxna får uppleva saker tillsammans och stärka sin relation."
+      "fullDescription": "Familjescouting är till för barn under åtta år och en vuxen som barnet känner sig trygg med. Tillsammans upptäcker ni scouting genom lek, äventyr och roliga aktiviteter.\n\nBarn och vuxna är med sida vid sida och hjälps åt i aktiviteterna. Den vuxna ansvarar för barnet, men är också en viktig del av gemenskapen och deltar lika mycket som barnen. Den vuxna kan vara en förälder, mor- eller farförälder, släkting eller någon annan nära person.\n\nFokus i Familjescouting är att barn och vuxna får uppleva saker tillsammans och stärka sin relation.",
+      "heroTitle": "Familjescouting",
+      "age": "Under 8 år",
+      "meetings": "Tillsammans med en vuxen",
+      "location": "Hässelby Strandbad",
+      "learn": "Lek, äventyr & gemenskap"
     }
   },
   "activities": {},
@@ -113,15 +135,46 @@ declare const messages: {
     "fieldTwo": "E-postadress",
     "fieldThree": "Meddelande",
     "button": "Skicka",
-    "linksTitle": "Viktiga länkar",
+    "linksTitle": "Relaterade länkar",
     "memberTitle": "Vill du bli en av oss?",
     "formButton": "Intresseanmälan"
   },
   "becomeascout": {},
-  "becomealeader": {},
-  "reserveacamp": {},
+  "becomealeader": {
+    "description": "Är du sugen på scouting och segling? Tveka inte, då ska du anmäla ditt intresse till HSS. Oavsett om du är 8 eller 100 år är du välkommen. För att anmäla dig till kölistan fyller du in en intresseanmälan nedan. Vi kontaktar dig när det blir en plats ledig.\n\nSom vuxen finns det utmärkta möjligheter att utvecklas som ledare hos oss. Ledarsituationen i kåren varierar, nu är vi i akut behov av ledare till Kaparna. Du behöver inte vara en erfaren seglare för att delta i vår verksamhet. Du behöver inte heller vara gammal scout för att bli ledare. Enda kravet är att du har ett genuint intresse av att jobba med ungdomar och att du är sugen på att arbeta ideellt i en välfungerande scoutkår. Kåren betalar för den utbildning du behöver för att fungera bra som scoutledare. Vi behöver alltid föräldrar som kan hjälpa till med stort som smått. Utan föräldrar ingen kår, så enkelt är det!\n\n”Scouterna har varit min bästa ledarskola. Där kan man bara leda med idéns kraft och förmågan att övertyga.”\n[Carl-Henrik Svanberg, fd VD för Ericsson, i Expressen 2003-02-07]\n\n”Inom scoutrörelsen finns ingen avbytarbänk.”\n[Anonym ledare i HSS]\n\n Välkommen!",
+    "sectionHero": {
+      "title": "Vill du bli en av oss?",
+      "intro": "Här kanske ditt livs äventyr startar. I HSS finns det spännande utmaningar för stor som liten."
+    },
+    "button": {
+      "content": "Bli ledare"
+    }
+  },
+  "reserveacamp": {
+    "title": "Hajkstugan Myset",
+    "description": "I skogen mellan Lövsta och Gåseborg ligger Myset, vår stora och fina scoutstuga. På Myset har kåren en mängd aktiviteter, bl.a. lägeråterträff och KårMästerskapen (KM). Det är också väldigt populärt att ha avdelningsövernattningar, hajker, i stugan.\nDet är en trevlig och fräsch scoutstuga som har stora möjligheter. Med element och ett alldeles nytt ventilationssystem blir det riktigt varmt och hemtrevligt.\nStugan består av ett stort samlingsrum med mysig brasa och ett väl tilltaget kök och två mindre ledarrum. Köket är väl utrustat med både  el- och vedspis, diskmaskin, mikrovågsugn och ett stort kylskåp. Det är ett komplett kök som utan vidare kan serva mat upp till 30 personer.",
+    "subtitle": "Plats",
+    "locationDescription": "Lövstaskogarna nära Kyrkhamn, Hässelby, nära Viksjö",
+    "coordinates": "GPS: N 59°23.816′ E 017°46.230′",
+    "button": "Visa planlösing",
+    "hero": {
+      "title": "Hajkstugan Myset",
+      "intro": "Vi hyr gärna ut stugan till scoutkårer, skolklasser och andra grupper som vill prova på nya omgivningar."
+    },
+    "form": {
+      "title": "Boka Myset",
+      "subtitle": "Är du intresserad av att boka vår stuga?",
+      "fieldOne": "Fullständigt namn",
+      "fieldTwo": "E-postadress",
+      "fieldThree": "Meddelande",
+      "inDate": "Ankomstdatum",
+      "outDate": "Avresedatum",
+      "button": "Skicka en bokningsförfrågan"
+    }
+  },
   "becomeapartner": {},
   "history": {
+    "title": "Vår historia",
     "intro": {
       "date": "1950s",
       "title": "BÖRJAN",
@@ -147,7 +200,7 @@ declare const messages: {
       "descriptionTwo": ""
     },
     "today": {
-      "date": "Today",
+      "date": "Idag",
       "title": "UTVIDGADE PROGRAM",
       "description": "Söndagen den 28 Januari 1968 invigdes Myset. Under tre år hade då HSS's Föräldraförening arbetat på stugan. Bygget kostade nära 50.000 kr, dessa pengar hade samlats in på basarer och lotterier. På invigningsdagen närvarade nära 400 förväntansfulla scouter och föräldrar. De fick bevittna när FF's ordförande Agne Stavegren formellt lämnade över nyckeln till HSS's ordförande Lennart Carlbom.",
       "descriptionTwo": ""
@@ -156,14 +209,13 @@ declare const messages: {
   "navbar": {
     "becomeascout": "Bli scout",
     "becomealeader": "Bli ledare",
-    "reserveacamp": "Vår stuga",
-    "contactus": "Kontakta oss",
-    "aboutus": "Om oss",
+    "ourcabin": "Vår stuga",
+    "history": "Historia",
+    "safety": "Säkerhet",
     "menulabel": "Mer",
     "moreMenu": {
-      "activities": "Aktiviteter",
-      "history": "Historia",
-      "safety": "Säkerhet"
+      "aboutus": "Om oss",
+      "contactus": "Kontakt"
     }
   },
   "googlemap": {
@@ -187,7 +239,7 @@ declare const messages: {
         "description": "Här har vi våra hamnplatser för kårens större båtar under sommarhalvåret."
       }
     }
-    },
+  },
   "footer": {
     "logo": {
       "title": "Tillsammans kan vi göra mer!",
@@ -197,6 +249,17 @@ declare const messages: {
   "DepartmentHero": {
     "intro": "För att gå med i vår scoutkår kan du göra en intresseanmälan som skickas direkt till vårt medlemsregister. Fyll i uppgifterna nedan så hör vi av oss till dig inom kort."
   },
-  "back": "Tillbaka"
+  "back": "Tillbaka",
+  "404": {
+    "title": "Vi har drivit ur kurs!",
+    "subtitle": "Den här sidan finns inte på våra sjökort. Den kan ha flyttats, eller aldrig blivit utmärkt från början.\nLåt oss sätta en ny kurs.",
+    "button": "Tillbaka till hamnen"
+  },
+  "departmentFacts": {
+    "age": "Ålder",
+    "meetings": "Möten",
+    "place": "Plats",
+    "learn": "Lär dig"
+  }
 };
 export default messages;

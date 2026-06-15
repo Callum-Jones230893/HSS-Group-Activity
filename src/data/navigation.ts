@@ -1,9 +1,9 @@
 export const navItems: { name: string; link: string }[] = [
   { name: "becomeascout", link: "/becomeascout" },
   { name: "becomealeader", link: "/becomealeader" },
-  { name: "reserveacamp", link: "/reserveacamp" },
-  { name: "contactus", link: "/contactus" },
-  { name: "aboutus", link: "/aboutus" },
+  { name: "ourcabin", link: "/ourcabin" },
+  { name: "history", link: "/history" },
+  { name: "safety", link: "/safety" },
 ];
 
 export const menuLabel: { name: string } = {
@@ -11,9 +11,8 @@ export const menuLabel: { name: string } = {
 };
 
 export const moreMenu: { name: string; link: string }[] = [
-  { name: "moreMenu.activities", link: "/activities" },
-  { name: "moreMenu.history", link: "/history" },
-  { name: "moreMenu.safety", link: "/safety" },
+  { name: "moreMenu.aboutus", link: "/aboutus" },
+  { name: "moreMenu.contactus", link: "/contactus" },
 ];
 
 // change names to match .json

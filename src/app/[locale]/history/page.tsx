@@ -1,8 +1,30 @@
-import Image from "next/image"
-import { HistoryData } from "@/data/history"
-import HistoryCards from "@/components/HistoryCards"
+"use client";
+
+import Image from "next/image";
+import { HistoryData } from "@/data/history";
+import HistoryCards from "@/components/HistoryCards";
+import { useEffect, useState } from "react";
+import { useClickAway } from "@uidotdev/usehooks";
+import { useTranslations } from "next-intl";
 
 const History = () => {
+  const [expanded, setExpanded] = useState<boolean>(false);
+  const [image, setImage] = useState<string | null>(null);
+
+  const t = useTranslations("history");
+
+  const closeOverlay = useClickAway<HTMLDivElement>(() => {
+    setExpanded(false);
+    setImage(null);
+  });
+
+  useEffect(() => {
+    document.body.style.overflow = expanded ? "hidden" : "unset";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [expanded]);
+
   return (
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 lg:-top-14 -z-10">
@@ -25,40 +47,42 @@ const History = () => {
           </defs>
         </svg>
       </div>
-      <div className="absolute -z-10 opacity-25 -right-8 -top-8 md:-left-15 md-top-0">
-        <Image
-          src="/images/background_shell1.png"
-          height={411}
-          width={400}
-          alt="background seashell graphic"
-          className="w-73.75 md:w-105 lg:w-200 2xl:w-227.75 rotate-44 lg:rotate-69 aspect-square"
-        />
-      </div>
-      <div className="block absolute -z-10 opacity-25 md:-right-35 top-182 md:top-282">
-        <Image
-          src="/images/background_shell2.png"
-          height={390}
-          width={462}
-          alt="background seashell graphic"
-          className="w-71 md:w-133 lg:w-200.75 2xl:w-215.5 aspect-square"
-        />
-      </div>
-      <div className="absolute -z-10 opacity-20 bottom-0 -right-10 md:top-[70%] md:-left-10">
-        <Image
-          src="/images/background_shell3.png"
-          height={522}
-          width={384}
-          alt="background seashell graphic"
-          className="w-71.5 md:w-107.25 lg:w-173.75 2xl:w-196 -rotate-129 aspect-square"
-        />
-      </div>
-      <section className="flex flex-col w-9/10 mx-auto items-center justify-center lg:gap-28 my-10 lg:my-22">
-        {HistoryData.map((item, index) => 
-          <HistoryCards key={index} item={item} first={index === 0}/>
-        )}
+      <section className="flex flex-col w-9/10 mx-auto items-center justify-center gap-10 my-10 lg:my-22">
+        <h1 className="text-left text-primary text-5xl w-full 2xl:w-8/10">{t("title")}</h1>
+        <div
+          className={`fixed w-full h-full px-10 pb-30 pt-40 inset-0 z-10 flex items-center justify-center bg-primary/70 backdrop-blur-sm transition-all duration-500 ease-in-out
+          ${
+            image
+              ? "bg-primary/70 backdrop-blur-sm opacity-100"
+              : "bg-primary/0 backdrop-blur-[0px] opacity-0 pointer-events-none"
+          } 
+          `}>
+          {image && (
+            <div className="p-5 w-full h-full">
+              <Image
+                src={image}
+                width="1000"
+                height="1000"
+                alt=""
+                className="w-auto h-full mx-auto z-11 border border-solid border-white"
+              />
+            </div>
+          )}
+        </div>
+        {HistoryData.map((item, index) => (
+          <HistoryCards
+            key={index}
+            item={item}
+            first={index === 0}
+            expanded={expanded}
+            updateExpanded={setExpanded}
+            updateImage={setImage}
+            closeOverlay={closeOverlay}
+          />
+        ))}
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default History
+export default History;
