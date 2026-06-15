@@ -26,7 +26,7 @@ const ContactUs = () => {
         </article>
         <section className="font-primary w-full p-6 xl:w-1/2 self-stretch flex flex-col">
           <section className="mb-8">
-            <h1 className="text-secondary text-[32px] lg:text-[53px] mb-4">{t("memberTitle")}</h1>
+            <h1 className="text-secondary text-title mb-4">{t("memberTitle")}</h1>
             <Button
               content={t("formButton")}
               size="large"
@@ -35,7 +35,7 @@ const ContactUs = () => {
               url="https://www.scoutnet.se/register/in/group/764"
             />
           </section>
-          <h4 className="text-secondary text-[32px] lg:text-[53px] mb-2">{t("linksTitle")}</h4>
+          <h4 className="text-secondary text-title mb-2">{t("linksTitle")}</h4>
           <section>
             {links.map(link => (
               <a
@@ -43,7 +43,7 @@ const ContactUs = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-fit block text-white text-[19px] mb-3 lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300">
+                className="w-fit block text-white text-paragraph mb-3 lg:border-b-[3px] lg:border-transparent lg:hover:border-secondary transition-all duration-300">
                 {link.name}
               </a>
             ))}

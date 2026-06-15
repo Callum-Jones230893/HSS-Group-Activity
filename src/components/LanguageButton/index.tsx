@@ -37,7 +37,7 @@ export default function LanguageButton() {
         onClick={() => setOpenLocale(prev => !prev)}
         className="cursor-pointer flex justify-center items-center gap-1">
         <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">{currentLocale.icon}</p>
-        <p className="text-[14px] md:text-[16px] text-primary">{currentLocale.content}</p>
+        <p className="text-link text-primary">{currentLocale.content}</p>
       </div>
       {openLocale && (
         <div className="bg-white flex flex-col gap-4 top-8 p-5 justify-center items-center w-22 -right-7 md:-right-5.75 absolute">
@@ -50,7 +50,7 @@ export default function LanguageButton() {
               onClick={() => setOpenLocale(false)}>
               <div className="flex items-center justify-start gap-1 w-full">
                 <p className="text-[19px] md:text-[21px] md:hover:scale-110 duration-300 ease-in-out">{item.icon}</p>
-                <p className="text-[14px] md:text-[16px] text-primary">{item.content}</p>
+                <p className="text-link text-primary">{item.content}</p>
               </div>
             </Link>
           ))}

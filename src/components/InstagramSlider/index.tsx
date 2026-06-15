@@ -37,8 +37,8 @@ const InstagramSlider = ({feed}: InstagramProps) => {
   return (
     <div className="w-full max-w-360 justify-between mx-auto px-4 py-8">
       <div className=" flex items-center justify-start mb-8 border-b border-primary pb-3">
-        <h2 className="text-2xl sm:text-3xl font-primary font-extrabold tracking-tight bg-linear-to-r from-primary via-[#e1306c] to-secondary bg-clip-text text-transparent ">
-          {t("title")}{" "}
+        <h2 className="text-3xl font-primary font-extrabold tracking-tight bg-linear-to-r from-primary via-[#e1306c] to-secondary bg-clip-text text-transparent ">
+          {t("title")}
         </h2>
       </div>
 
@@ -83,7 +83,7 @@ const InstagramSlider = ({feed}: InstagramProps) => {
                 </div>
 
                 <div className="p-3 grow flex flex-col justify-between bg-primary">
-                  <div className="flex items-center justify-between text-xs text-secondary">
+                  <div className="flex items-center justify-between text-sm text-secondary">
                     <span>
                       {date(post.timestamp)}
                     </span>

@@ -33,14 +33,14 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
 
             <div className="flex-1 flex flex-col lg:max-w-225">
               <div className="flex items-center gap-2 mb-4">
-                <h2 className="font-extralight text-xl xl:text-3xl text-sky-900">
+                <h2 className="font-extralight text-subtitle text-sky-900">
                   {t(`${item.id}.title`)}
                 </h2>
-                <p className={`font-bold text-xl xl:text-2xl ${item.text}`}>
+                <p className={`font-bold text-paragraph ${item.text}`}>
                   {t(`${item.id}.subtitle`)}
                 </p>
               </div>
-              <p className="mb-4 whitespace-pre-line text-[18px] leading-relaxed font-light lg:text-[24px]">
+              <p className="mb-4 whitespace-pre-line text-paragraph leading-relaxed">
                 {t(`${item.id}.fullDescription`)}
               </p>
               <div className="bg-primary/5 text-primary rounded-2xl p-6 mb-6 grid grid-cols-2 lg:grid-cols-4 gap-4">
