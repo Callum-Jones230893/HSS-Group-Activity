@@ -15,10 +15,10 @@ const CallToActionCard = ({item}: CallToActionProps) => {
         xl:mx-14.75 xl:mt-5 lg:justify-center lg:items-center lg:w-357 xl:even:flex-row-reverse xl:gap-28"
     >
       <div className="flex flex-col min-h-0 xl:w-163.25 gap-4">
-        <h4 className="text-[24px] font-semibold lg:text-[36px]">{t(`${item.id}.title`)}</h4>
-        <h2 className="text-black text-[28px] lg:text-[44px]">{t(`${item.id}.subtitle`)}</h2>
-        <p className=" text-[18px] tracking-[1%] lg:py-15.25 lg:text-[24px]">{t(`${item.id}.description`)}</p>
-        <div className="flex gap-10 items-center md:pb-3 text-[16px] lg:text-[18px]">
+        <h4 className="text-subtitle font-semibold">{t(`${item.id}.title`)}</h4>
+        <h2 className="text-black text-title">{t(`${item.id}.subtitle`)}</h2>
+        <p className=" text-paragraph tracking-[1%] lg:py-15.25">{t(`${item.id}.description`)}</p>
+        <div className="flex gap-10 items-center md:pb-3">
           <Button content={t(`${item.id}.button`)} size="large" redirect={item.redirect} type="" url="" />
         </div>
       </div>

@@ -17,19 +17,19 @@ const GoogleMapLocation = () => {
         <div className="w-full lg:w-1/2 flex flex-col justify-between">
           <div>
             <div className="mb-8">
-              <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
+              <h4 className="text-secondary font-primary text-paragraph font-medium tracking-tight  leading-8">
                 {t("emailLabel")}
               </h4>
               <a
                 href="mailto:info@planb.rehab"
-                className="text-primary text-lg  font-primary  leading-8 tracking-tight"
+                className="text-primary text-paragraph font-primary  leading-8 tracking-tight"
               >
                 info@planb.rehab
               </a>
             </div>
 
             <div className="mb-4">
-              <h4 className="text-secondary font-primary text-lg  font-medium tracking-tight  leading-8">
+              <h4 className="text-secondary font-primary text-paragraph font-medium tracking-tight leading-8">
                 {t("findUsLabel")}
               </h4>
             </div>
@@ -44,7 +44,7 @@ const GoogleMapLocation = () => {
                     className="text-left cursor-pointer  h-full "
                   >
                     <div
-                      className={`text-primary text-lg  font-primary leading-8 tracking-tight min-h-40 ${
+                      className={`text-primary text-lg font-primary leading-8 tracking-tight min-h-40 ${
                         isActive
                           ? " font-bold shadow-lg bg-primary/5 rounded-2xl py-2 px-2"
                           : " font-normal"

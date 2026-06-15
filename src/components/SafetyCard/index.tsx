@@ -28,10 +28,10 @@ const SafetyCard = ({ item }: SafetyCardProps) => {
                 />
 
                 <div className="flex-1 text-center sm:text-left">
-                  <h3 className="text-primary font-extralight text-3xl lg:text-[24px] mb-9">
+                  <h3 className="text-primary text-subtitle mb-9">
                     {t(`${item.id}.title`)}
                   </h3>
-                  <p className="min-h-27.5 mb-4 whitespace-pre-line text-[16px] leading-relaxed font-light lg:text-[18px] text-gray-600">
+                  <p className="min-h-27.5 mb-4 whitespace-pre-line text-paragraph leading-relaxed text-gray-600">
                     {t(`${item.id}.description`)}
                   </p>
 
@@ -39,7 +39,7 @@ const SafetyCard = ({ item }: SafetyCardProps) => {
                     <a
                       href={item.pdfPath}
                       download
-                      className="inline-flex items-center gap-2 text-amber-500 font-medium text-[14px] lg:text-[16px] hover:underline"
+                      className="inline-flex items-center gap-2 text-amber-500 font-medium text-sm hover:underline"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -7,23 +7,46 @@
 
 @theme {
   --color-primary: #003660;
-  --color-secondary: #FDB714;
+  --color-secondary: #fdb714;
   --color-black: #000000;
-  --color-white: #F6F6F6;
-  
-  --color-blue: #01A9E2;
-  --color-green: #40AE2A;
-  --color-orange: #EE5200;
-  --color-magenta: #D60058;
+  --color-white: #f6f6f6;
+
+  --color-blue: #01a9e2;
+  --color-green: #40ae2a;
+  --color-orange: #ee5200;
+  --color-magenta: #d60058;
 
   --font-primary: var(--font-manrope);
   --font-secondary: var(--font-yeseva);
+
+  --text-title: 2rem;
+  --text-subtitle: 1.25rem;
+  --text-paragraph: 1rem;
+  --text-link: 0.875rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #f6f6f6;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --text-title: 2.25rem;
+    --text-subtitle: 1.375rem;
+    --text-paragraph: 1.0625rem;
+    --text-link: 0.9rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --text-title: 2.25rem;
+    --text-subtitle: 1.5rem;
+    --text-paragraph: 1.125rem;
+    --text-link: 1.1rem;
   }
 }
 
