@@ -26,31 +26,31 @@ export const metadata: Metadata = {
   },
 };
 
-  export default async function LocaleLayout({
-    children,
-    params,
-  }: {
-    children: React.ReactNode;
-    params: Promise<{ locale: string }>;
-  }) {
-    const { locale } = await params;
-    const messages = await getMessages();
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const messages = await getMessages();
 
-    return (
-      <html
-        lang={locale}
-        className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased scrollbar-none`}
-      >
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <body className="flex flex-col font-primary min-h-screen">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <footer>
-              <FooterNav />
-              <FooterCopyright />
-            </footer>
-          </body>
-        </NextIntlClientProvider>
-      </html>
-    );
-  }
+  return (
+    <html
+      lang={locale}
+      className={`${manrope.variable} ${yesevaOne.variable} h-full antialiased scrollbar-none`}
+    >
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <body className="flex flex-col font-primary min-h-screen">
+          <Header />
+          <main className="flex-1">{children}</main>
+          <footer>
+            <FooterNav />
+            <FooterCopyright />
+          </footer>
+        </body>
+      </NextIntlClientProvider>
+    </html>
+  );
+}
