@@ -44,7 +44,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                 {t(`${item.id}.fullDescription`)}
               </p>
               <div className="bg-primary/5 text-primary rounded-2xl p-6 mb-6 grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <div>
+                <div className="flex flex-col md:text-center md:items-center">
                   <UserIcon className={`size-6 mb-1 ${item.text}`} />
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("age")}
@@ -53,7 +53,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                     {t(`${item.id}.age`)}
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-col md:text-center md:items-center">
                   <CalendarDaysIcon className={`size-6 mb-1 ${item.text}`} />
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("meetings")}
@@ -62,7 +62,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                     {t(`${item.id}.meetings`)}
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-col md:text-center md:items-center">
                   <MapPinIcon className={`size-6 mb-1 ${item.text}`} />
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("place")}
@@ -71,7 +71,7 @@ const DepartmentSection = ({ item }: DepartmentItemProps) => {
                     {t(`${item.id}.location`)}
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-col md:text-center md:items-center">
                   <LightBulbIcon className={`size-6 mb-1 ${item.text}`} />
                   <p className="text-[12px] mb-1 font-medium">
                     {tFacts("learn")}
