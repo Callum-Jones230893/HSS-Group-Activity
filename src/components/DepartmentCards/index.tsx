@@ -14,7 +14,7 @@ const DepartmentCards = ({ item }: DepartmentItemProps) => {
     <Link href={`/becomeascout/${item.id}`}>
       <div
         className={`item-start xl:flex flex-col xl:flex-row xl:items-center rounded-lg xl:rounded-2xl lg:border-l-[3px] 
-        lg:border-r-[0.50px] lg:border-t-[0.50px] lg:border-b-[3px] ${item.border} mb-21.75 font-primary text-lg xl:text-2xl p-8
+        lg:border-r-[0.50px] lg:border-t-[0.50px] lg:border-b-[3px] ${item.border} mb-21.75 font-primary p-8
         outline-[0.50px] outline-offset-[-0.50px] ${item.outline} inline-flex shadow-none transition duration-300 
         hover:shadow-sm ${item.shadow} hover:scale-102 cursor-pointer bg-[#ffffff]`}
       >
@@ -30,10 +30,10 @@ const DepartmentCards = ({ item }: DepartmentItemProps) => {
         </div>
         <div className="flex flex-col my-3 xl:mx-11.5 justify-evenly">
           <div className="flex items-center gap-1.5">
-            <h3 className="font-extralight text-2xl xl:text-3xl text-sky-900">
+            <h3 className="font-extralight text-subtitle text-sky-900">
               {t(`${item.id}.title`)}
             </h3>
-            <p className={`font-bold text-1xl ${item.text}`}>
+            <p className={`font-bold text-paragraph ${item.text}`}>
               {t(`${item.id}.subtitle`)}
             </p>
           </div>

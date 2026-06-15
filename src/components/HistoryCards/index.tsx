@@ -63,7 +63,7 @@ const HistoryCards = ({
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 640"
-              className="hidden md:block md:w-7.5 md:aspect-square mdmx-auto md:mt-5"
+              className="hidden md:block md:w-7.5 md:aspect-square md:mx-auto md:mt-5"
             >
               <path
                 d="

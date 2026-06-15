@@ -19,8 +19,10 @@ const NotFound = () => {
           fill="#FDB714"
         />
       </svg>
-      <h2 className="font-secondary text-center text-4xl mb-8">{t("title")}</h2>
-      <p className="text-subtitle text-center mb-8 whitespace-pre-line">
+      <h2 className="font-secondary text-center text-title mb-8">
+        {t("title")}
+      </h2>
+      <p className="text-paragraph text-center mb-8 whitespace-pre-line">
         {t("subtitle")}
       </p>
       <Button
