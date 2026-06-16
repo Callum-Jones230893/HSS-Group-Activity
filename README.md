@@ -46,6 +46,9 @@ The implementation focuses on clarity, accessibility, and maintainability, with 
 - [UseHooks](https://usehooks.com/) — Reusable React hooks (e.g. click-away handling).
 - [Behold.so](https://behold.so/) — Instagram content retrieval and embedding.
 
+### Maps & Location Services
+- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) — Interactive map integration used to display clinic locations and dynamically update map views based on user-selection.  
+
 ### Backend / Infrastructure
 - [Vercel Blob](https://vercel.com/docs/vercel-blob) — File storage and asset handling.
 - [Vercel](https://vercel.com/) — Deployment and hosting platform with CI/CD integration.
