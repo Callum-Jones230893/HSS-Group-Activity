@@ -257,5 +257,9 @@
     "meetings": "Möten",
     "place": "Plats",
     "learn": "Lär dig"
+  },
+  "footerCopyright": {
+  "org": "Stockholm, Sverige – org.nr 802006-2389",
+  "copy": "© Scouterna 2026. Alla rättigheter förbehålls."
   }
 }

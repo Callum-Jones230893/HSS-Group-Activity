@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛟 Hässelby Strands Sjöscoutkår Website - Frontend Student Project
 
-## Getting Started
+### 🌐 Live Site https://hss-group-activity.vercel.app/  
+<img width="134" height="275" alt="Screen Shot 2026-06-15 at 8 11 46 PM" src="https://github.com/user-attachments/assets/acfdc6e0-8429-4cbd-8686-49e7c4bed5e8" />
+<img width="200" height="275" alt="Screen Shot 2026-06-15 at 8 12 18 PM" src="https://github.com/user-attachments/assets/a051b46c-4d1d-4153-922a-ede2a21542e6" />
+<img width="479" height="275" alt="Screen Shot 2026-06-15 at 8 12 03 PM" src="https://github.com/user-attachments/assets/b37a4f94-5af7-4c91-b687-8bdd0ea3648d" />
 
-First, run the development server:
+This project is a website built for Hässelby Strands Sjöscoutkår, based on a design created by a fellow student at our school. The goal was to translate the provided design into a fully functional and responsive web application while staying true to the original user experience and visual direction.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+During development, we worked iteratively using agile development practices, regularly refining the product based on client feedback and team discussions. This helped ensure the final result aligned better with the client’s real needs and practical use.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The implementation focuses on clarity, accessibility, and maintainability, with an emphasis on responsive layouts and a smooth user experience across devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
+## 📌 Features  
+- Responsive design for all screen sizes
+- Multi-language support
+- Instagram integration
+- Dynamic content handling
+- Accessible and user-friendly UI
+---
+## 🤜🤛 Team Members 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Arash Safarighouzhdi](https://github.com/ArashSafarighouzhdi)
+- [Callum Jones](https://github.com/Callum-Jones230893)
+- [Claudia Pereira Carion](https://github.com/claudiacarion)
+- [Oscar Öjling](https://github.com/oscarojling)
+- Designed by [Buddhi Thotawaththage](https://github.com/Busanz)
+---
+## 🛠️ Tech Stack 
 
-## Learn More
+### Frontend
+- ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js) — React framework for server-side rendering, routing, and performance optimization.
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) — Strongly typed JavaScript for improved scalability and maintainability.
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white) — Utility-first CSS framework for rapid UI development.
 
-To learn more about Next.js, take a look at the following resources:
+### Internationalization
+- [next-intl](https://next-intl.dev) — Multi-language support and localization handling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### UI & Components
+- [Embla Carousel](https://www.embla-carousel.com/) — Lightweight carousel implementation for Instagram feed display.
+- [Heroicons](https://heroicons.com/) — Icon set used across the UI.
+- [Flag Icons](https://flagicons.lipis.dev/) — Country flag assets for language selection.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Utilities
+- [UseHooks](https://usehooks.com/) — Reusable React hooks (e.g. click-away handling).
+- [Behold.so](https://behold.so/) — Instagram content retrieval and embedding.
 
-## Deploy on Vercel
+### Maps & Location Services
+- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) — Interactive map integration used to display clinic locations and dynamically update map views based on user-selection.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend / Infrastructure
+- [Vercel Blob](https://vercel.com/docs/vercel-blob) — File storage and asset handling.
+- [Vercel](https://vercel.com/) — Deployment and hosting platform with CI/CD integration.
+---
+## 🧐 To view locally   
+git clone https://github.com/Callum-Jones230893/HSS-Group-Activity  
+cd HSS-Group-Activity  
+npm install  
+npm run dev  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+### Special thanks to Hässelby Strands Sjöscoutkår for their collaboration, feedback, and support throughout the project!
