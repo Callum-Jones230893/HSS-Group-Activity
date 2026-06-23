@@ -260,6 +260,10 @@ declare const messages: {
     "meetings": "Möten",
     "place": "Plats",
     "learn": "Lär dig"
+  },
+  "footerCopyright": {
+    "org": "Stockholm, Sverige - org.no:802006–2389",
+    "copy": "© Scouterna 2026. Alla rättigheter förbehållna."
   }
 };
 export default messages;
